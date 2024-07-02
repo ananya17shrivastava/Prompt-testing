@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Retail Banking",
+		"description": "Consumer-focused services including checking, savings, and personal loans for individuals and small businesses."
+	},
+	{
+		"name": "Corporate Banking",
+		"description": "Specialized financial services for large corporations, including complex lending, treasury management, and international trade finance."
+	},
+	{
+		"name": "Investment Banking",
+		"description": "Advisory services for mergers, acquisitions, and capital raising activities, along with securities underwriting and trading."
+	},
+	{
+		"name": "Asset Management",
+		"description": "Professional management of various securities and assets to meet specified investment goals for clients."
+	},
+	{
+		"name": "Wealth Management",
+		"description": "Comprehensive financial planning and investment services tailored for high-net-worth individuals and families."
+	},
+	{
+		"name": "Insurance Services",
+		"description": "Provision of various insurance products, often integrated with banking services to offer comprehensive financial protection."
+	},
+	{
+		"name": "Payment Systems",
+		"description": "Infrastructure and services facilitating electronic funds transfers, credit card processing, and emerging digital payment technologies."
+	},
+	{
+		"name": "Mortgage Banking",
+		"description": "Specialized services for originating, selling, and servicing home loans and other real estate-backed financial products."
+	},
+	{
+		"name": "Private Banking",
+		"description": "Exclusive banking services offering personalized financial solutions and preferential treatment for affluent clients."
+	},
+	{
+		"name": "Commercial Real Estate Finance",
+		"description": "Specialized lending and advisory services for large-scale commercial property developments and investments."
+	},
+	{
+		"name": "Treasury Services",
+		"description": "Management of an organization's liquidity, investments, and financial risks, often for corporate and institutional clients."
+	},
+	{
+		"name": "Custodial Services",
+		"description": "Safekeeping and administration of securities and other financial assets on behalf of institutional investors."
+	},
+	{
+		"name": "Brokerage Services",
+		"description": "Facilitation of securities transactions for retail and institutional clients, often including research and advisory components."
+	},
+	{
+		"name": "Credit Services",
+		"description": "Provision and management of various credit products, including credit cards, personal loans, and lines of credit."
+	},
+	{
+		"name": "Islamic Banking",
+		"description": "Sharia-compliant banking services adhering to Islamic principles, offering unique financial products and investment structures."
+	}
+]

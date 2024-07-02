@@ -1,46 +1,141 @@
 import asyncio
 import json
 import os
-from llms.index import invoke_llm, LLM_PROVIDER_CLAUDE,LLM_PROVIDER_GPT,LLM_PROVIDER_PERPLEXITY
+from llms.index import invoke_llm, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT, LLM_PROVIDER_PERPLEXITY
 from llms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from llms.gpt import GPT4_MODEL
 from llms.perplexity import PERPLEXITY_MODEL
 from prompts.industry_category import get_prompt, parser as industry_parser
 from pathlib import Path
-from db.mysql import create_db_connection, find_industries
+from prompts.industry_category_summary import get_prompt as get_prompt_summary
+from db.mysql import insert_industry_category,get_industryid
+
+
+def read_json_file(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            return data
+    except FileNotFoundError:
+        print(f"The file {file_path} does not exist.")
+    except json.JSONDecodeError:
+        print(f"Error decoding JSON from the file {file_path}.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 
 async def main():
 
-   
-    industries=find_industries()
-    # industries=["banking financial services","retail consumer products"]
-    
+    providers = [LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT, LLM_PROVIDER_PERPLEXITY]
+    # industries=find_industries()
+    industries = ["banking financial services", "retail consumer products"]
+
     for industry in industries:
+        industry_id=get_industryid(industry)
 
-        file_path = f"dump/perplexity/{industry.replace(' ', '_')}.json"
-        if Path(file_path).is_file():
+        #if industry is retail
+        if "retail" in industry.lower():
+            print("for retail industry !")
             continue
+            results_by_models = []
 
-        prompt = get_prompt(industry=industry)
+            for provider in providers:
+                print(f"generating for model {provider}")
 
-        result = await invoke_llm(LLM_PROVIDER_PERPLEXITY, PERPLEXITY_MODEL, [{
-            "role": "user",
-            "content": prompt,
-        }], max_tokens=2048, temperature=.2)
+                file_path = f"dump/{provider}/{industry.replace(' ', '_')}.json"
+                if not Path(file_path).is_file() or True:
 
-        json_result = industry_parser(result,industry)
-        
+                    prompt = get_prompt(industry=industry)
 
-        json_result = json.dumps(json_result, indent='\t')
-        print(json_result)
+                    model = PERPLEXITY_MODEL
+                    if (provider == LLM_PROVIDER_CLAUDE):
+                        model = CLAUDE_SONNET_35
+                    elif (provider == LLM_PROVIDER_GPT):
+                        model = GPT4_MODEL
+                    elif (provider == LLM_PROVIDER_PERPLEXITY):
+                        model = PERPLEXITY_MODEL
 
-        # Ensure the 'dump' folder exists
-        if not os.path.exists('dump/perplexity'):
-            os.makedirs('dump/perplexity')
+                    result = await invoke_llm(provider, model, [{
+                        "role": "user",
+                        "content": prompt,
+                    }], max_tokens=2048, temperature=.2)
 
-        # Save the json_result to a file
-        with open(file_path, "w") as file:
-            file.write(json_result)
+                    json_result = industry_parser(result)
+
+                    json_result = json.dumps(json_result, indent='\t')
+                    results_by_models.append(json_result)
+                    print(json_result)
+
+                    # Ensure the 'dump' folder exists
+                    if not os.path.exists(f'dump/{provider}'):
+                        os.makedirs(f'dump/{provider}')
+
+                    # Save the json_result to a file
+                    with open(file_path, "w") as file:
+                        file.write(json_result)
+                else:
+                    data = read_json_file(file_path)
+                    if data:
+                        text = json.dumps(data, indent=4)
+                        results_by_models.append(text)
+
+            print(len(results_by_models))
+            summary_prompt = get_prompt_summary(industry, results_by_models)
+            print(summary_prompt)
+            print("==========")
+
+            result = await invoke_llm(LLM_PROVIDER_CLAUDE, CLAUDE_SONNET_35, [{
+                "role": "user",
+                        "content": summary_prompt,
+            }], max_tokens=4096, temperature=0)
+
+            file_path = f"dump/combined/{industry.replace(' ', '_')}.json"
+            if not os.path.exists(f'dump/combined'):
+                os.makedirs(f'dump/combined')
+
+            with open(file_path, "w") as file:
+                file.write(result)
+
+            print(result)
+        else:
+            print("for non retail industry !")
+            file_path = f"dump/{providers[0]}/{industry.replace(' ', '_')}.json"
+            if not Path(file_path).is_file() or True:
+                prompt = get_prompt(industry=industry)
+                result = await invoke_llm(LLM_PROVIDER_CLAUDE, CLAUDE_SONNET_35, [{
+                    "role": "user",
+                            "content": prompt,
+                }], max_tokens=4096, temperature=0)
+                json_result = industry_parser(result)
+
+                json_result = json.dumps(json_result, indent='\t')
+                parsed_json = json.loads(json_result)
+
+                for item in parsed_json:
+                    name=item['name']
+                    value=item['description']
+                    insert_industry_category(industry_id,name,value)
+
+                print(json_result)
+                # Ensure the 'dump' folder exists
+                if not os.path.exists(f'dump/{providers[0]}'):
+                    os.makedirs(f'dump/{providers[0]}')
+
+                # Save the json_result to a file
+                with open(file_path, "w") as file:
+                    file.write(json_result)
+            else:
+                data = read_json_file(file_path)
+                if data:
+                    text = json.dumps(data, indent=4)
+                    results_by_models.append(text)
+
+
+
+
+
+            
+
 
 
 
