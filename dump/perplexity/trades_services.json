@@ -1,0 +1,70 @@
+[
+	{
+		"name": "Electrical Services",
+		"description": "Providers of electrical installation, maintenance, and repair services for residential, commercial, and industrial clients, including electrical contractors, electricians, and electrical engineers."
+	},
+	{
+		"name": "Plumbing Services",
+		"description": "Companies offering installation, maintenance, and repair services for pipes, fixtures, and appliances, including plumbers, pipefitters, and hydronic heating specialists."
+	},
+	{
+		"name": "HVAC Services",
+		"description": "Providers of heating, ventilation, and air conditioning installation, maintenance, and repair services for residential, commercial, and industrial clients, including HVAC contractors and technicians."
+	},
+	{
+		"name": "Construction Services",
+		"description": "Companies engaged in building, renovating, and repairing structures, including general contractors, builders, and construction managers."
+	},
+	{
+		"name": "Landscaping and Lawn Care Services",
+		"description": "Providers of outdoor maintenance and beautification services, including lawn care, landscaping, tree care, and gardening companies."
+	},
+	{
+		"name": "Pest Control Services",
+		"description": "Companies offering services to control and eliminate pests, including exterminators, pest management professionals, and wildlife control specialists."
+	},
+	{
+		"name": "Locksmith Services",
+		"description": "Providers of lock installation, repair, and maintenance services, including locksmiths, key makers, and security system specialists."
+	},
+	{
+		"name": "Appliance Repair Services",
+		"description": "Companies offering repair and maintenance services for household and commercial appliances, including appliance technicians and repair specialists."
+	},
+	{
+		"name": "Garage Door Services",
+		"description": "Providers of installation, repair, and maintenance services for garage doors and openers, including garage door technicians and installers."
+	},
+	{
+		"name": "Handyman Services",
+		"description": "Companies offering general repair and maintenance services for homes and buildings, including handymen, maintenance technicians, and repair specialists."
+	},
+	{
+		"name": "Masonry Services",
+		"description": "Providers of masonry installation, repair, and restoration services, including masons, bricklayers, and stoneworkers."
+	},
+	{
+		"name": "Roofing Services",
+		"description": "Companies offering installation, repair, and maintenance services for roofs, including roofers, roofing contractors, and roofing specialists."
+	},
+	{
+		"name": "Siding Services",
+		"description": "Providers of siding installation, repair, and maintenance services, including siding contractors, installers, and repair specialists."
+	},
+	{
+		"name": "Window and Door Services",
+		"description": "Companies offering installation, repair, and maintenance services for windows and doors, including window and door installers, repair specialists, and replacement companies."
+	},
+	{
+		"name": "Flooring Services",
+		"description": "Providers of flooring installation, repair, and maintenance services, including flooring contractors, installers, and repair specialists."
+	},
+	{
+		"name": "Painting Services",
+		"description": "Companies offering painting and coating services for residential, commercial, and industrial clients, including painters, painting contractors, and coating specialists."
+	},
+	{
+		"name": "Exterior Cleaning Services",
+		"description": "Providers of exterior cleaning services, including power washing, window cleaning, and gutter cleaning companies."
+	}
+]

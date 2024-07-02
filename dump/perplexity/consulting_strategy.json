@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Management Consulting",
+		"description": "Provides objective advice and guidance to organizations to improve performance, operations, and strategy, often focusing on organizational change, process improvement, and technology implementation."
+	},
+	{
+		"name": "Strategy Consulting",
+		"description": "Helps organizations develop and implement business strategies, often focusing on market analysis, competitive positioning, and long-term planning to drive growth and profitability."
+	},
+	{
+		"name": "Operations Consulting",
+		"description": "Focuses on improving organizational efficiency and effectiveness, often through process re-engineering, supply chain optimization, and cost reduction initiatives."
+	},
+	{
+		"name": "Human Resources Consulting",
+		"description": "Provides expertise on HR-related issues, such as talent management, organizational design, and change management, to improve workforce performance and alignment with business objectives."
+	},
+	{
+		"name": "IT Consulting",
+		"description": "Helps organizations select, implement, and optimize technology solutions to improve business operations, often focusing on system integration, data analytics, and digital transformation."
+	},
+	{
+		"name": "Financial Advisory Consulting",
+		"description": "Provides expertise on financial planning, budgeting, and management, often focusing on mergers and acquisitions, restructuring, and risk management."
+	},
+	{
+		"name": "Risk Management Consulting",
+		"description": "Helps organizations identify, assess, and mitigate risks, often focusing on compliance, governance, and internal controls to ensure business resilience and sustainability."
+	},
+	{
+		"name": "Sustainability Consulting",
+		"description": "Assists organizations in developing and implementing sustainable business practices, often focusing on environmental, social, and governance (ESG) issues to improve brand reputation and long-term viability."
+	},
+	{
+		"name": "Innovation Consulting",
+		"description": "Helps organizations develop and implement innovative solutions, often focusing on design thinking, product development, and business model innovation to drive growth and competitiveness."
+	},
+	{
+		"name": "Change Management Consulting",
+		"description": "Assists organizations in managing and implementing change, often focusing on organizational culture, communication, and training to ensure successful adoption of new strategies and initiatives."
+	},
+	{
+		"name": "Digital Transformation Consulting",
+		"description": "Helps organizations leverage digital technologies to improve business operations, often focusing on cloud computing, artificial intelligence, and data analytics to drive innovation and competitiveness."
+	}
+]

@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Advertising Agencies",
+		"description": "Companies that create and execute advertising campaigns for clients across various media channels, including TV, print, digital, and outdoor."
+	},
+	{
+		"name": "Media Buying and Planning",
+		"description": "Firms that specialize in purchasing and strategizing ad space across media platforms to maximize client reach and ROI."
+	},
+	{
+		"name": "Digital Marketing Agencies",
+		"description": "Agencies that focus on online marketing services, including search engine optimization, pay-per-click advertising, social media management, and email marketing."
+	},
+	{
+		"name": "Content Creation and Production",
+		"description": "Companies that develop and produce engaging content, such as videos, images, and written copy, for use in advertising and marketing campaigns."
+	},
+	{
+		"name": "Public Relations and Communications",
+		"description": "Firms that specialize in managing reputation, building brand awareness, and crafting messaging for clients through media relations, crisis communications, and more."
+	},
+	{
+		"name": "Experiential and Event Marketing",
+		"description": "Agencies that design and execute immersive brand experiences, including events, activations, and sponsorships, to engage target audiences."
+	},
+	{
+		"name": "Market Research and Analytics",
+		"description": "Companies that provide data-driven insights and analysis to help clients understand their target audience, track market trends, and measure campaign effectiveness."
+	},
+	{
+		"name": "Outdoor and Out-of-Home Advertising",
+		"description": "Firms that specialize in creating and executing advertising campaigns in public spaces, including billboards, transit shelters, and mall displays."
+	},
+	{
+		"name": "Print and Publishing",
+		"description": "Companies that produce and distribute printed materials, such as magazines, newspapers, and catalogs, for advertising and marketing purposes."
+	},
+	{
+		"name": "Radio and Audio Advertising",
+		"description": "Firms that create and execute audio-based advertising campaigns, including radio spots, podcasts, and streaming audio ads."
+	},
+	{
+		"name": "Television and Video Advertising",
+		"description": "Companies that produce and air television commercials, as well as create video content for online and social media platforms."
+	},
+	{
+		"name": "Social Media and Influencer Marketing",
+		"description": "Agencies that specialize in creating and executing social media campaigns, including influencer partnerships, content creation, and community management."
+	},
+	{
+		"name": "Search Engine Optimization (SEO) and Search Engine Marketing (SEM)",
+		"description": "Firms that optimize website content and structure to improve search engine rankings and execute paid search advertising campaigns."
+	},
+	{
+		"name": "Email and Mobile Marketing",
+		"description": "Companies that create and execute targeted email and mobile campaigns to reach customers and drive conversions."
+	},
+	{
+		"name": "Branding and Design",
+		"description": "Agencies that develop and refine brand identities, including logos, typography, and visual systems, to create a cohesive brand image."
+	}
+]

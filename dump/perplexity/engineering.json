@@ -1,0 +1,70 @@
+[
+	{
+		"name": "Aerospace Engineering",
+		"description": "Designs, develops, and manufactures aircraft, spacecraft, and missiles, as well as components and systems for the aerospace industry."
+	},
+	{
+		"name": "Automotive Engineering",
+		"description": "Develops and manufactures vehicles, including cars, trucks, buses, and motorcycles, as well as components and systems for the automotive industry."
+	},
+	{
+		"name": "Biomedical Engineering",
+		"description": "Applies engineering principles to medical and biological systems, developing innovative solutions for healthcare, medical devices, and biotechnology."
+	},
+	{
+		"name": "Civil Engineering",
+		"description": "Designs, builds, and maintains infrastructure, including roads, bridges, buildings, and public works, ensuring safe and sustainable development."
+	},
+	{
+		"name": "Computer Hardware Engineering",
+		"description": "Designs, develops, and manufactures computer hardware components, including processors, memory devices, and peripherals."
+	},
+	{
+		"name": "Electrical Engineering",
+		"description": "Develops and applies electrical systems, including electrical circuits, electronics, and electromagnetism, for a wide range of industries."
+	},
+	{
+		"name": "Environmental Engineering",
+		"description": "Applies engineering principles to mitigate the impact of human activity on the environment, developing sustainable solutions for air, water, and land pollution."
+	},
+	{
+		"name": "Industrial Engineering",
+		"description": "Optimizes the performance of complex systems, including manufacturing, logistics, and supply chain management, to improve efficiency and productivity."
+	},
+	{
+		"name": "Materials Science and Engineering",
+		"description": "Develops and applies materials with unique properties, including metals, ceramics, polymers, and composites, for a wide range of industrial applications."
+	},
+	{
+		"name": "Mechanical Engineering",
+		"description": "Designs, develops, and manufactures mechanical systems, including engines, machines, and devices, for a wide range of industries."
+	},
+	{
+		"name": "Nuclear Engineering",
+		"description": "Develops and applies nuclear energy systems, including reactors, fuel cycles, and radiation protection, for power generation and other applications."
+	},
+	{
+		"name": "Oil and Gas Engineering",
+		"description": "Develops and applies technologies for the exploration, production, and transportation of oil and natural gas, including drilling, extraction, and refining."
+	},
+	{
+		"name": "Robotics Engineering",
+		"description": "Designs, develops, and manufactures robots and robotic systems, including autonomous systems, for a wide range of industrial and service applications."
+	},
+	{
+		"name": "Software Engineering",
+		"description": "Develops and applies software solutions, including design, development, testing, and maintenance, for a wide range of industries and applications."
+	},
+	{
+		"name": "Structural Engineering",
+		"description": "Designs, analyzes, and develops structures, including buildings, bridges, and towers, to ensure safety, efficiency, and sustainability."
+	},
+	{
+		"name": "Systems Engineering",
+		"description": "Integrates multiple disciplines to design, develop, and manage complex systems, including aerospace, defense, and industrial applications."
+	},
+	{
+		"name": "Telecommunications Engineering",
+		"description": "Develops and applies telecommunications systems, including networks, protocols, and devices, for voice, data, and video communication."
+	}
+]

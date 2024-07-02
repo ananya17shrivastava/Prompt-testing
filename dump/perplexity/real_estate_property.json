@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Residential Brokerage",
+		"description": "Companies that facilitate buying, selling, and renting of residential properties, including single-family homes, apartments, and condominiums."
+	},
+	{
+		"name": "Commercial Brokerage",
+		"description": "Firms that specialize in buying, selling, and leasing of commercial properties, including office buildings, retail spaces, and industrial facilities."
+	},
+	{
+		"name": "Property Management",
+		"description": "Companies that oversee the daily operations of residential and commercial properties, including rent collection, maintenance, and tenant relations."
+	},
+	{
+		"name": "Real Estate Development",
+		"description": "Companies that acquire land, design, construct, and market new properties, including residential subdivisions, commercial complexes, and mixed-use developments."
+	},
+	{
+		"name": "Real Estate Investment Trusts (REITs)",
+		"description": "Companies that own and operate income-generating properties, providing investors with a way to invest in real estate without directly managing properties."
+	},
+	{
+		"name": "Real Estate Technology (Proptech)",
+		"description": "Companies that develop and provide technology solutions for the real estate industry, including property listing platforms, virtual tours, and transaction management tools."
+	},
+	{
+		"name": "Mortgage Banking",
+		"description": "Institutions that originate, sell, and service mortgage loans, providing financing options for property buyers and owners."
+	},
+	{
+		"name": "Title Insurance and Settlement Services",
+		"description": "Companies that provide title insurance, escrow services, and settlement solutions to facilitate smooth property transactions."
+	},
+	{
+		"name": "Appraisal and Valuation Services",
+		"description": "Firms that provide independent property appraisals and valuations, helping lenders, investors, and property owners determine property values."
+	},
+	{
+		"name": "Real Estate Consulting",
+		"description": "Companies that offer strategic advisory services to real estate investors, developers, and operators, providing market research, feasibility studies, and operational guidance."
+	},
+	{
+		"name": "Property Auction Services",
+		"description": "Companies that facilitate the sale of properties through auction processes, often for distressed or foreclosed properties."
+	},
+	{
+		"name": "Real Estate Education and Training",
+		"description": "Organizations that provide educational programs, certifications, and training for real estate professionals, including agents, brokers, and property managers."
+	}
+]

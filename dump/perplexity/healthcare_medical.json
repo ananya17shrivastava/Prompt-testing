@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Medical Devices and Equipment",
+		"description": "Manufacturers and suppliers of medical devices, equipment, and instruments used for diagnosis, treatment, and patient care."
+	},
+	{
+		"name": "Pharmaceuticals and Biotechnology",
+		"description": "Companies involved in the research, development, and manufacturing of prescription and over-the-counter medications, as well as biotechnology products."
+	},
+	{
+		"name": "Healthcare Services",
+		"description": "Providers of medical services, including hospitals, clinics, medical groups, and healthcare systems that deliver patient care."
+	},
+	{
+		"name": "Health IT and Digital Health",
+		"description": "Companies that develop and provide healthcare information technology, telemedicine, and digital health solutions to improve patient outcomes and healthcare efficiency."
+	},
+	{
+		"name": "Medical Imaging and Diagnostics",
+		"description": "Providers of medical imaging and diagnostic services, including radiology, pathology, and laboratory testing."
+	},
+	{
+		"name": "Home Healthcare and Hospice",
+		"description": "Agencies that provide medical and non-medical care to patients in their homes, as well as hospice care for terminally ill patients."
+	},
+	{
+		"name": "Medical Research and Development",
+		"description": "Organizations that conduct research and development in medical sciences, including clinical trials, and develop new medical treatments and products."
+	},
+	{
+		"name": "Healthcare Consulting and Management",
+		"description": "Companies that provide consulting and management services to healthcare organizations, including strategy, operations, and financial management."
+	},
+	{
+		"name": "Medical Education and Training",
+		"description": "Providers of medical education and training programs for healthcare professionals, including continuing education and certification programs."
+	},
+	{
+		"name": "Healthcare Staffing and Recruitment",
+		"description": "Agencies that provide temporary and permanent staffing solutions to healthcare organizations, including nurse staffing and physician recruitment."
+	},
+	{
+		"name": "Medical Billing and Coding",
+		"description": "Companies that provide medical billing, coding, and revenue cycle management services to healthcare organizations."
+	},
+	{
+		"name": "Healthcare Real Estate and Facilities",
+		"description": "Companies that develop, own, and manage healthcare facilities, including hospitals, medical offices, and senior living communities."
+	},
+	{
+		"name": "Medical Tourism and Travel",
+		"description": "Companies that facilitate medical travel and tourism, connecting patients with healthcare providers and facilities around the world."
+	},
+	{
+		"name": "Health and Wellness",
+		"description": "Providers of health and wellness services, including fitness centers, spas, and nutrition counseling."
+	}
+]

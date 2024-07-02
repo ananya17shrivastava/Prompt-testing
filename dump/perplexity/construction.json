@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Building Construction",
+		"description": "Companies involved in the construction of buildings, including residential, commercial, and industrial projects, from foundation to finish."
+	},
+	{
+		"name": "Heavy Civil Construction",
+		"description": "Firms specializing in large-scale infrastructure projects, such as roads, bridges, airports, and public transportation systems."
+	},
+	{
+		"name": "Specialty Trade Contractors",
+		"description": "Companies providing specialized services, including electrical, plumbing, HVAC, and roofing, to support construction projects."
+	},
+	{
+		"name": "Construction Materials and Supplies",
+		"description": "Manufacturers and distributors of materials and products used in construction, such as lumber, drywall, and building hardware."
+	},
+	{
+		"name": "Construction Equipment and Machinery",
+		"description": "Companies producing and distributing heavy machinery, tools, and equipment used in construction, such as cranes, excavators, and bulldozers."
+	},
+	{
+		"name": "Architecture and Engineering Services",
+		"description": "Firms providing design, planning, and engineering services for construction projects, including architectural design, structural engineering, and project management."
+	},
+	{
+		"name": "Construction Management and Consulting",
+		"description": "Companies offering project management, consulting, and advisory services to construction projects, including cost estimation, scheduling, and risk management."
+	},
+	{
+		"name": "Land Development and Subdivision",
+		"description": "Companies involved in the development of raw land, including site preparation, subdivision, and infrastructure installation."
+	},
+	{
+		"name": "Demolition and Wrecking",
+		"description": "Firms specializing in the safe demolition and removal of existing structures, including buildings, bridges, and other infrastructure."
+	},
+	{
+		"name": "Environmental Remediation and Abatement",
+		"description": "Companies providing services to mitigate environmental hazards, including asbestos removal, lead abatement, and hazardous waste disposal."
+	},
+	{
+		"name": "Construction Technology and Software",
+		"description": "Providers of technology solutions, including software, hardware, and services, to support construction project management, collaboration, and data analysis."
+	}
+]

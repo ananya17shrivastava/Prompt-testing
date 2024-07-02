@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Artificial Intelligence and Machine Learning",
+		"description": "Develops and applies intelligent systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, and decision-making."
+	},
+	{
+		"name": "Biotechnology",
+		"description": "Applies biological systems, living organisms, or derivatives thereof, to develop innovative products, technologies, and services that improve human life and the health of the planet."
+	},
+	{
+		"name": "Cloud Computing and Storage",
+		"description": "Provides on-demand access to a shared pool of computing resources, including servers, storage, databases, software, and applications, over the internet."
+	},
+	{
+		"name": "Cybersecurity",
+		"description": "Protects computer systems, networks, and sensitive information from unauthorized access, theft, damage, or disruption, using various technologies and practices."
+	},
+	{
+		"name": "Data Analytics and Science",
+		"description": "Extracts insights and knowledge from structured and unstructured data using various techniques, including statistics, machine learning, and data mining, to inform business decisions."
+	},
+	{
+		"name": "Internet of Things (IoT)",
+		"description": "Connects and integrates physical devices, sensors, and systems, enabling them to collect and exchange data, and interact with the physical world and other devices."
+	},
+	{
+		"name": "Life Sciences and Diagnostics",
+		"description": "Develops and commercializes products, services, and technologies that improve human health, including medical devices, pharmaceuticals, and diagnostic tools."
+	},
+	{
+		"name": "Materials Science and Nanotechnology",
+		"description": "Develops and applies new materials and nanoscale technologies to create innovative products, devices, and systems with unique properties and applications."
+	},
+	{
+		"name": "Networking and Communications",
+		"description": "Enables the exchange of information between devices, systems, and people, using various technologies, including wireless, wired, and satellite communications."
+	},
+	{
+		"name": "Optics and Photonics",
+		"description": "Develops and applies technologies that manipulate light and its properties to create innovative products, devices, and systems, including lasers, fiber optics, and imaging systems."
+	},
+	{
+		"name": "Robotics and Autonomous Systems",
+		"description": "Designs and develops intelligent systems that can perform tasks autonomously, using sensors, actuators, and control systems, to interact with and adapt to their environment."
+	},
+	{
+		"name": "Software Development and Engineering",
+		"description": "Designs, develops, tests, and maintains software applications, systems, and tools, using various programming languages, frameworks, and methodologies."
+	}
+]

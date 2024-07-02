@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Housing Development",
+		"description": "Companies that develop, construct, and manage residential properties, including affordable housing, senior living, and mixed-use developments."
+	},
+	{
+		"name": "Community Facilities Development",
+		"description": "Organizations that design, build, and operate community facilities, such as recreation centers, libraries, and healthcare facilities, to support local residents."
+	},
+	{
+		"name": "Education and Childcare Services",
+		"description": "Providers of educational programs, childcare services, and youth development initiatives that support the cognitive, social, and emotional growth of children and young adults."
+	},
+	{
+		"name": "Health and Human Services",
+		"description": "Agencies and organizations that offer healthcare, social services, and support programs for vulnerable populations, including the elderly, disabled, and low-income individuals."
+	},
+	{
+		"name": "Food Security and Nutrition",
+		"description": "Initiatives that provide access to nutritious food, meal delivery programs, and nutrition education to promote healthy eating habits and food security in underserved communities."
+	},
+	{
+		"name": "Environmental Conservation and Sustainability",
+		"description": "Organizations that focus on environmental stewardship, conservation, and sustainability initiatives, such as park development, waste management, and green infrastructure projects."
+	},
+	{
+		"name": "Community Arts and Culture",
+		"description": "Entities that promote arts and cultural programs, including public art installations, performances, and exhibitions that enrich community life and foster social cohesion."
+	},
+	{
+		"name": "Economic Development and Workforce Training",
+		"description": "Initiatives that support local economic growth, job creation, and workforce development through training programs, business incubators, and entrepreneurship support services."
+	},
+	{
+		"name": "Disaster Relief and Emergency Services",
+		"description": "Organizations that provide emergency response, disaster relief, and recovery services to communities affected by natural disasters or other crises."
+	},
+	{
+		"name": "Transportation and Infrastructure",
+		"description": "Companies and agencies that develop, maintain, and operate transportation systems, including public transit, roads, and pedestrian infrastructure, to enhance community connectivity."
+	},
+	{
+		"name": "Public Safety and Justice",
+		"description": "Agencies and organizations that work to prevent crime, promote public safety, and provide justice services, including law enforcement, courts, and correctional facilities."
+	}
+]

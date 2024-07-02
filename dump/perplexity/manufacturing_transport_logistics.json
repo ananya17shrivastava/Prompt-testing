@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Air Freight",
+		"description": "Specialized logistics services for transporting goods by air, including cargo handling, customs clearance, and door-to-door delivery."
+	},
+	{
+		"name": "Land Freight",
+		"description": "Ground transportation services for moving goods by truck, rail, or intermodal, including less-than-truckload, truckload, and refrigerated cargo."
+	},
+	{
+		"name": "Sea Freight",
+		"description": "Ocean transportation services for shipping goods by container, bulk, or breakbulk, including port-to-port and door-to-door delivery."
+	},
+	{
+		"name": "Warehousing and Distribution",
+		"description": "Storage and inventory management services for goods, including order fulfillment, packaging, and shipping."
+	},
+	{
+		"name": "Third-Party Logistics (3PL)",
+		"description": "Outsourced logistics services that manage transportation, warehousing, and distribution for companies, providing a single point of contact."
+	},
+	{
+		"name": "Fourth-Party Logistics (4PL)",
+		"description": "Advanced logistics services that integrate multiple 3PL providers, offering a comprehensive, end-to-end supply chain solution."
+	},
+	{
+		"name": "Freight Forwarding",
+		"description": "Specialized services for arranging and coordinating transportation, including customs clearance, insurance, and documentation."
+	},
+	{
+		"name": "Customs Brokerage",
+		"description": "Expert services for navigating complex customs regulations, including tariff classification, compliance, and duty payment."
+	},
+	{
+		"name": "Supply Chain Visibility",
+		"description": "Technology-enabled services providing real-time tracking, monitoring, and analytics for goods in transit, improving supply chain transparency and efficiency."
+	},
+	{
+		"name": "Transportation Management",
+		"description": "Software and services for optimizing transportation operations, including route planning, load optimization, and carrier management."
+	},
+	{
+		"name": "Inventory Management",
+		"description": "Systems and services for tracking, managing, and optimizing inventory levels, including forecasting, replenishment, and order fulfillment."
+	},
+	{
+		"name": "Reverse Logistics",
+		"description": "Specialized services for managing product returns, including inspection, refurbishment, and resale or disposal."
+	},
+	{
+		"name": "Intermodal Transportation",
+		"description": "Services that combine multiple modes of transportation, such as truck, rail, and sea, to provide efficient and cost-effective door-to-door delivery."
+	},
+	{
+		"name": "Refrigerated Logistics",
+		"description": "Specialized services for transporting temperature-sensitive goods, including cold chain management and refrigerated warehousing."
+	},
+	{
+		"name": "Project Logistics",
+		"description": "Customized services for managing complex, large-scale projects, including heavy-lift, oversized, and high-value cargo transportation."
+	},
+	{
+		"name": "Automotive Logistics",
+		"description": "Specialized services for the automotive industry, including vehicle transportation, warehousing, and distribution."
+	},
+	{
+		"name": "Aerospace Logistics",
+		"description": "Highly specialized services for the aerospace industry, including transportation, warehousing, and distribution of sensitive and high-value components."
+	},
+	{
+		"name": "Chemical Logistics",
+		"description": "Specialized services for transporting and storing hazardous and non-hazardous chemicals, including compliance with regulatory requirements."
+	},
+	{
+		"name": "Food and Beverage Logistics",
+		"description": "Services tailored to the food and beverage industry, including temperature-controlled transportation, warehousing, and distribution."
+	},
+	{
+		"name": "Pharmaceutical Logistics",
+		"description": "Highly specialized services for transporting and storing pharmaceutical products, including cold chain management and regulatory compliance."
+	}
+]

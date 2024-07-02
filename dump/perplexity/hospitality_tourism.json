@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Accommodation",
+		"description": "Providers of lodging services, including hotels, resorts, motels, hostels, and bed-and-breakfast establishments, offering guests a place to stay during their travels."
+	},
+	{
+		"name": "Food and Beverage",
+		"description": "Establishments serving meals, snacks, and drinks, including restaurants, cafes, bars, and nightclubs, catering to the culinary needs of tourists and travelers."
+	},
+	{
+		"name": "Travel Agencies",
+		"description": "Companies that plan, organize, and book travel itineraries, including flights, accommodations, and activities, for individuals, groups, and corporate clients."
+	},
+	{
+		"name": "Tour Operators",
+		"description": "Businesses that design, manage, and conduct guided tours, excursions, and activities, such as sightseeing, adventure travel, and cultural experiences, for tourists and travelers."
+	},
+	{
+		"name": "Transportation",
+		"description": "Providers of transportation services, including airlines, car rental companies, taxi services, and shuttle operators, facilitating the movement of tourists and travelers."
+	},
+	{
+		"name": "Recreation and Entertainment",
+		"description": "Businesses offering leisure activities, such as theme parks, museums, theaters, and sporting events, providing tourists and travelers with enjoyable experiences."
+	},
+	{
+		"name": "Event Management",
+		"description": "Companies that plan, coordinate, and execute events, conferences, and meetings, catering to the needs of corporate clients, associations, and social groups."
+	},
+	{
+		"name": "Travel Technology",
+		"description": "Providers of software, platforms, and systems that enable online travel bookings, reservations, and management, supporting the operations of hospitality and tourism businesses."
+	},
+	{
+		"name": "Destination Management",
+		"description": "Organizations that promote, develop, and manage tourist destinations, including convention and visitor bureaus, tourism boards, and local governments."
+	},
+	{
+		"name": "Cruise Lines",
+		"description": "Companies operating passenger ships that offer vacation packages, including accommodations, dining, and onboard activities, for travelers."
+	},
+	{
+		"name": "Timeshare and Vacation Ownership",
+		"description": "Businesses offering shared ownership or membership models for vacation properties, providing customers with access to accommodations and amenities."
+	},
+	{
+		"name": "Wellness and Spa",
+		"description": "Establishments providing health, wellness, and spa services, including fitness centers, yoga studios, and massage therapy, catering to the relaxation and rejuvenation needs of tourists and travelers."
+	},
+	{
+		"name": "Adventure and Outdoor",
+		"description": "Businesses offering outdoor activities, such as hiking, skiing, and water sports, providing tourists and travelers with exciting experiences in natural environments."
+	},
+	{
+		"name": "Educational Travel",
+		"description": "Organizations that design and operate educational tours, field trips, and study abroad programs, combining travel with learning and cultural immersion."
+	}
+]

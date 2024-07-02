@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Life Insurance",
+		"description": "Providers of life insurance policies that offer financial protection to beneficiaries in the event of the policyholder's death, often including term life, whole life, and universal life insurance products."
+	},
+	{
+		"name": "Health Insurance",
+		"description": "Companies that offer health insurance plans, providing financial coverage for medical expenses, including hospital stays, doctor visits, and prescription medications."
+	},
+	{
+		"name": "Property Insurance",
+		"description": "Insurers that provide coverage for damage or loss to physical properties, such as homes, buildings, and personal belongings, due to natural disasters, theft, or other perils."
+	},
+	{
+		"name": "Liability Insurance",
+		"description": "Providers of liability insurance policies that protect individuals and businesses from financial losses resulting from lawsuits, accidents, or other events that may cause harm to others."
+	},
+	{
+		"name": "Auto Insurance",
+		"description": "Insurers that offer policies covering damage or loss to vehicles, as well as liability for accidents or other incidents involving vehicles."
+	},
+	{
+		"name": "Reinsurance",
+		"description": "Companies that provide insurance to other insurance companies, helping to manage risk and provide additional financial protection."
+	},
+	{
+		"name": "Specialty Insurance",
+		"description": "Providers of niche insurance products, such as title insurance, crop insurance, and aviation insurance, that cater to specific industries or risks."
+	},
+	{
+		"name": "Insurance Brokers",
+		"description": "Intermediaries that connect clients with insurance providers, offering expert advice and policy placement services."
+	},
+	{
+		"name": "Insurance Technology",
+		"description": "Companies that develop and provide technology solutions, such as software and data analytics, to support the insurance industry's operations and innovation."
+	},
+	{
+		"name": "Insurance Consulting",
+		"description": "Firms that offer strategic guidance and expertise to insurance companies, helping them to improve operations, manage risk, and optimize performance."
+	},
+	{
+		"name": "Captive Insurance",
+		"description": "Insurance companies that are owned and controlled by their policyholders, often used by businesses to self-insure and manage risk."
+	},
+	{
+		"name": "Microinsurance",
+		"description": "Providers of low-cost, limited-risk insurance products designed for low-income individuals or communities, often in emerging markets."
+	}
+]

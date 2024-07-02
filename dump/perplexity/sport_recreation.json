@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Team Sports",
+		"description": "Includes products and services related to organized team sports, such as equipment, apparel, and facilities for sports like football, basketball, baseball, and soccer."
+	},
+	{
+		"name": "Individual Sports",
+		"description": "Covers products and services for individual sports, including equipment, apparel, and training for activities like tennis, golf, swimming, and running."
+	},
+	{
+		"name": "Outdoor Recreation",
+		"description": "Encompasses products and services for outdoor activities, such as camping, hiking, fishing, and boating, including gear, apparel, and guided tours."
+	},
+	{
+		"name": "Fitness and Wellness",
+		"description": "Includes products and services focused on physical fitness and wellness, such as gym equipment, fitness classes, and personal training."
+	},
+	{
+		"name": "Sports Technology",
+		"description": "Covers companies that develop and provide technology solutions for the sports industry, including data analytics, wearable devices, and virtual reality training tools."
+	},
+	{
+		"name": "Sports Media and Entertainment",
+		"description": "Encompasses companies that produce and distribute sports-related content, including broadcasting, streaming, and publishing."
+	},
+	{
+		"name": "Sports Facilities and Management",
+		"description": "Includes companies that design, build, and manage sports facilities, such as stadiums, arenas, and recreation centers."
+	},
+	{
+		"name": "Sports Education and Training",
+		"description": "Covers companies that provide educational programs, coaching, and training services for athletes, coaches, and sports professionals."
+	},
+	{
+		"name": "Sports Tourism",
+		"description": "Encompasses companies that organize and promote sports-related travel, including event packages, team travel, and sports-themed vacations."
+	},
+	{
+		"name": "Sports Apparel and Footwear",
+		"description": "Includes companies that design, manufacture, and distribute sports-related apparel and footwear."
+	},
+	{
+		"name": "Sports Equipment and Accessories",
+		"description": "Covers companies that design, manufacture, and distribute sports equipment and accessories, such as balls, bats, and protective gear."
+	}
+]

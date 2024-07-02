@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Animal Welfare Organizations",
+		"description": "Non-profit organizations focused on promoting animal welfare, providing rescue and rehabilitation services, and advocating for animal rights."
+	},
+	{
+		"name": "Breeding and Genetics",
+		"description": "Companies specializing in the development and improvement of animal breeds, genetics, and reproduction technologies to enhance farm animal productivity and sustainability."
+	},
+	{
+		"name": "Conservation Agriculture",
+		"description": "Farming practices and technologies that prioritize soil health, biodiversity, and ecosystem services to promote sustainable agriculture and reduce environmental impact."
+	},
+	{
+		"name": "Disease Diagnosis and Management",
+		"description": "Companies providing diagnostic tools, vaccines, and treatment solutions to prevent and control diseases in farm animals, ensuring herd health and reducing antibiotic use."
+	},
+	{
+		"name": "Feed and Nutrition",
+		"description": "Manufacturers and suppliers of animal feed, nutritional supplements, and additives that enhance farm animal health, productivity, and sustainability."
+	},
+	{
+		"name": "Farm Management and Technology",
+		"description": "Providers of farm management software, precision agriculture tools, and automation systems that optimize farm operations, reduce costs, and improve animal welfare."
+	},
+	{
+		"name": " Livestock Insurance and Risk Management",
+		"description": "Insurance providers and risk management specialists that offer financial protection and strategic guidance to farmers and ranchers against animal health, market, and climate-related risks."
+	},
+	{
+		"name": "Sustainable Livestock Production",
+		"description": "Farming systems and practices that prioritize animal welfare, environmental stewardship, and social responsibility, promoting a more sustainable and responsible livestock industry."
+	},
+	{
+		"name": "Veterinary Care and Services",
+		"description": "Veterinary clinics, hospitals, and service providers that offer medical care, advice, and support to farmers and ranchers to ensure animal health and well-being."
+	},
+	{
+		"name": "Wildlife Conservation and Management",
+		"description": "Organizations and companies focused on preserving and managing wildlife populations, habitats, and ecosystems, often in collaboration with farming communities and conservation efforts."
+	}
+]

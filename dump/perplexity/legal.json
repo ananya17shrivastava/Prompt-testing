@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Corporate Law",
+		"description": "Provides legal services and advice to businesses, including corporate governance, mergers and acquisitions, and securities law."
+	},
+	{
+		"name": "Litigation and Dispute Resolution",
+		"description": "Handles legal disputes and lawsuits, including arbitration, mediation, and trial representation for individuals and organizations."
+	},
+	{
+		"name": "Intellectual Property Law",
+		"description": "Focuses on protecting and enforcing intellectual property rights, including patents, trademarks, copyrights, and trade secrets."
+	},
+	{
+		"name": "Employment and Labor Law",
+		"description": "Advises on employment-related issues, including labor laws, employee benefits, and workplace disputes."
+	},
+	{
+		"name": "Real Estate Law",
+		"description": "Handles legal aspects of property transactions, including buying, selling, and developing commercial and residential properties."
+	},
+	{
+		"name": "Bankruptcy and Restructuring",
+		"description": "Assists individuals and businesses with debt restructuring, bankruptcy filings, and creditor rights."
+	},
+	{
+		"name": "Family Law",
+		"description": "Handles legal issues related to family relationships, including divorce, child custody, and estate planning."
+	},
+	{
+		"name": "Criminal Law",
+		"description": "Defends individuals and organizations accused of criminal offenses, including white-collar crimes and regulatory violations."
+	},
+	{
+		"name": "Immigration Law",
+		"description": "Assists individuals and businesses with immigration-related issues, including visa applications, green cards, and deportation defense."
+	},
+	{
+		"name": "Tax Law",
+		"description": "Advises on tax planning, compliance, and disputes, including international tax law and tax litigation."
+	},
+	{
+		"name": "Environmental Law",
+		"description": "Handles legal issues related to environmental regulations, including pollution, land use, and natural resource management."
+	},
+	{
+		"name": "Healthcare Law",
+		"description": "Advises healthcare providers, insurers, and patients on legal issues related to healthcare, including regulatory compliance and medical malpractice."
+	},
+	{
+		"name": "Technology and Data Privacy Law",
+		"description": "Focuses on legal issues related to technology, data privacy, and cybersecurity, including data breaches and regulatory compliance."
+	},
+	{
+		"name": "Government Contracts and Procurement",
+		"description": "Assists businesses with government contracting, including bid protests, contract disputes, and regulatory compliance."
+	},
+	{
+		"name": "Non-Profit and Charitable Organizations",
+		"description": "Advises non-profit organizations on legal issues related to governance, tax exemption, and regulatory compliance."
+	}
+]

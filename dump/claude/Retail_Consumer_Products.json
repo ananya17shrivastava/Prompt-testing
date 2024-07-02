@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Apparel and Accessories",
+		"description": "Encompasses clothing, footwear, and fashion accessories for all demographics, driving fashion trends and seasonal demand."
+	},
+	{
+		"name": "Home Furnishings and Decor",
+		"description": "Covers furniture, home textiles, and decorative items, catering to evolving lifestyle and interior design preferences."
+	},
+	{
+		"name": "Electronics and Appliances",
+		"description": "Includes consumer electronics, household appliances, and smart home devices, reflecting technological advancements and connectivity trends."
+	},
+	{
+		"name": "Beauty and Personal Care",
+		"description": "Encompasses cosmetics, skincare, and grooming products, addressing diverse beauty standards and wellness concerns."
+	},
+	{
+		"name": "Food and Beverage",
+		"description": "Covers packaged foods, beverages, and specialty items, responding to nutritional trends and diverse culinary preferences."
+	},
+	{
+		"name": "Toys and Games",
+		"description": "Includes traditional toys, board games, and electronic gaming products, catering to entertainment and educational needs across age groups."
+	},
+	{
+		"name": "Sporting Goods and Outdoor Equipment",
+		"description": "Encompasses sports gear, fitness equipment, and outdoor recreation products, supporting active lifestyles and adventure pursuits."
+	},
+	{
+		"name": "Health and Wellness Products",
+		"description": "Covers over-the-counter medications, supplements, and fitness trackers, addressing growing health consciousness and self-care trends."
+	},
+	{
+		"name": "Pet Supplies",
+		"description": "Includes pet food, accessories, and care products, reflecting the increasing humanization of pets and premium pet care trends."
+	},
+	{
+		"name": "Stationery and Office Supplies",
+		"description": "Encompasses writing instruments, paper products, and office accessories, serving both personal and professional organizational needs."
+	}
+]

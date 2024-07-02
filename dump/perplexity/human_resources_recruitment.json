@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Recruitment Process Outsourcing (RPO)",
+		"description": "Providers of RPO services manage all or part of a company's recruitment process, from job posting to onboarding, to improve efficiency and reduce costs."
+	},
+	{
+		"name": "Contingent Workforce Management",
+		"description": "Companies that provide contingent workforce management services help organizations manage their temporary, contract, or freelance workers, including sourcing, onboarding, and payroll management."
+	},
+	{
+		"name": "Executive Search",
+		"description": "Executive search firms specialize in recruiting high-level executives and professionals for senior leadership positions, often using a retained search model."
+	},
+	{
+		"name": "Staffing Agencies",
+		"description": "Staffing agencies provide temporary, contract, or permanent staffing solutions to organizations, often specializing in specific industries or job functions."
+	},
+	{
+		"name": "Recruitment Marketing",
+		"description": "Recruitment marketing providers help organizations develop and implement strategies to attract, engage, and hire top talent, often using digital marketing channels."
+	},
+	{
+		"name": "Applicant Tracking Systems (ATS)",
+		"description": "ATS providers offer software solutions that help organizations manage job postings, candidate applications, and resumes, streamlining the recruitment process."
+	},
+	{
+		"name": "Background Screening",
+		"description": "Background screening providers offer services to verify the accuracy of candidate information, including criminal records, education, and employment history."
+	},
+	{
+		"name": "HR Consulting",
+		"description": "HR consulting firms provide strategic guidance and support to organizations on HR-related issues, including recruitment, talent management, and benefits administration."
+	},
+	{
+		"name": "Online Recruitment Platforms",
+		"description": "Online recruitment platforms provide a digital marketplace for job seekers and employers to connect, often featuring job posting, resume database, and applicant management tools."
+	},
+	{
+		"name": "Talent Management",
+		"description": "Talent management providers offer solutions to help organizations develop, engage, and retain their employees, including performance management, succession planning, and leadership development."
+	},
+	{
+		"name": "Payroll and Benefits Administration",
+		"description": "Payroll and benefits administration providers offer services to manage employee compensation, benefits, and compliance, often including payroll processing, tax filing, and benefits enrollment."
+	},
+	{
+		"name": "Outplacement Services",
+		"description": "Outplacement services providers help organizations support employees during restructuring or downsizing, offering career transition support, resume building, and job placement assistance."
+	}
+]
