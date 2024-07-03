@@ -3,7 +3,6 @@ import os
 import certifi
 from datetime import datetime
 import json
-from bson import json_util
 
 def mongo_connection():
     MONGO_URI = os.getenv('MONGO_URI')
@@ -15,18 +14,22 @@ def mongo_connection():
 def feed_data_to_mongodb(prompt: str, response, model: str):
     data_collection = mongo_connection()
     
-    # Convert response to a BSON-serializable format
-    if isinstance(response, str):
-        response_data = response
-    else:
-        try:
-            response_data = json.loads(json_util.dumps(response))
-        except:
-            response_data = str(response)  # Fallback to string representation
+    # Convert response to a JSON-serializable format
+    def convert_to_serializable(obj):
+        if isinstance(obj, (str, int, float, bool, type(None))):
+            return obj
+        elif isinstance(obj, (list, tuple)):
+            return [convert_to_serializable(item) for item in obj]
+        elif isinstance(obj, dict):
+            return {key: convert_to_serializable(value) for key, value in obj.items()}
+        else:
+            return str(obj)
+
+    serializable_response = convert_to_serializable(response)
 
     document = {
         "trigger_prompt_id": prompt,
-        "response_object": response_data,
+        "response_object": serializable_response,
         "ai_machine": model,
         "timestamp": datetime.utcnow()
     }
@@ -40,3 +43,6 @@ def feed_data_to_mongodb(prompt: str, response, model: str):
             print("Failed to insert data")
     except Exception as e:
         print(f"Error inserting data: {str(e)}")
+
+# Example usage:
+# feed_data_to_mongodb("What is the capital of France?", {"answer": "Paris", "confidence": 0.95}, "GPT-3.5")
