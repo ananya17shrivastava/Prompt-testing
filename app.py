@@ -53,12 +53,13 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
 
-            test_result = await invoke_llm(provider, model, [{
+            description_result = await invoke_llm(provider, model, [{
                 "role": "user",
                 "content": prompt,
             }], max_tokens=2048, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
 
-            xml_prompt=get_xmlprompt(test_result)
+            xml_prompt=get_xmlprompt(description_result)
+
             xml_result= await invoke_llm(provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
@@ -94,6 +95,9 @@ async def main():
                     product_services = industry_result["description"]
                     if len(industry_id) > 0:
                         insert_industry_category(industry_id, name, product_services)
+
+
+                        
         # if "retail" in industry_name.lower():
         #     providers = [LLM_PROVIDER_PERPLEXITY, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT]
         #     results_by_models = []

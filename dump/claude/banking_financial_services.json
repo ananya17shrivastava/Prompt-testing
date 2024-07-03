@@ -1,50 +1,62 @@
 [
 	{
 		"name": "Retail Banking",
-		"description": "Consumer-focused services including checking, savings, and personal loans for individuals and small businesses."
+		"description": "The frontline of consumer financial services, catering to individual customers and small businesses. It encompasses everyday banking needs, from savings accounts to personal loans, providing the foundation for customer relationships and revenue streams."
 	},
 	{
-		"name": "Corporate Banking",
-		"description": "Specialized financial services for large corporations, including complex lending, cash management, and trade finance."
+		"name": "Commercial Banking",
+		"description": "Focused on serving medium to large businesses, offering specialized financial products and services tailored to corporate needs. This sector is crucial for facilitating business growth and economic development through lending, cash management, and trade finance solutions."
 	},
 	{
 		"name": "Investment Banking",
-		"description": "Advisory services for mergers, acquisitions, and capital raising activities for institutional clients."
-	},
-	{
-		"name": "Asset Management",
-		"description": "Professional management of various securities and assets to meet specified investment goals for clients."
+		"description": "The strategic arm of finance, advising corporations on mergers, acquisitions, and capital raising activities. It plays a pivotal role in shaping the financial landscape by facilitating large-scale transactions and market operations."
 	},
 	{
 		"name": "Wealth Management",
-		"description": "Comprehensive financial planning and investment services for high-net-worth individuals and families."
+		"description": "Catering to high-net-worth individuals and families, providing personalized financial planning, investment advice, and asset management services. This sector focuses on preserving and growing wealth across generations."
 	},
 	{
-		"name": "Insurance Services",
-		"description": "Provision of various insurance products and risk management solutions within the banking ecosystem."
+		"name": "Asset Management",
+		"description": "Specializing in managing investment portfolios for institutional and retail clients, aiming to maximize returns while managing risk. This sector is critical in channeling capital to various markets and industries."
 	},
 	{
-		"name": "Payment Systems",
-		"description": "Infrastructure and services facilitating electronic funds transfers and digital transactions."
+		"name": "Insurance",
+		"description": "While traditionally separate, many financial institutions now offer insurance products, providing risk management solutions for individuals and businesses. This convergence allows for comprehensive financial protection and planning."
 	},
 	{
-		"name": "Treasury Services",
-		"description": "Management of an organization's liquidity, funding, and financial risk."
+		"name": "Payment Services",
+		"description": "In the digital age, payment services have become a critical component of the financial ecosystem. This sector includes credit card issuers, payment processors, and emerging fintech solutions that facilitate transactions in an increasingly cashless world."
 	},
 	{
 		"name": "Mortgage Banking",
-		"description": "Origination, servicing, and securitization of home loans and other real estate financing products."
+		"description": "Specializing in home loans and refinancing, mortgage banking is a significant driver of the housing market and overall economy. This sector requires expertise in risk assessment and long-term financial planning."
 	},
 	{
 		"name": "Capital Markets",
-		"description": "Facilitation of trading in financial instruments and provision of market-making services."
+		"description": "Encompassing stock exchanges, bond markets, and derivatives trading, capital markets provide the infrastructure for buying and selling financial instruments. This sector is essential for price discovery and capital allocation in the economy."
 	},
 	{
-		"name": "Credit Services",
-		"description": "Evaluation and extension of credit to individuals and businesses, including credit cards and lines of credit."
+		"name": "Fintech",
+		"description": "At the intersection of finance and technology, fintech companies are revolutionizing traditional banking services. From mobile banking to blockchain applications, this sector is driving innovation and challenging established business models."
 	},
 	{
-		"name": "Fintech Solutions",
-		"description": "Innovative technology-driven financial services enhancing traditional banking offerings and operations."
+		"name": "Private Equity and Venture Capital",
+		"description": "These firms invest in private companies or startups, providing capital and expertise to drive growth. This sector plays a crucial role in fostering innovation and creating value across various industries."
+	},
+	{
+		"name": "Microfinance",
+		"description": "Focused on providing financial services to underserved populations, microfinance institutions offer small loans and basic banking services to individuals and small businesses typically excluded from traditional banking."
+	},
+	{
+		"name": "Credit Unions",
+		"description": "Member-owned financial cooperatives, credit unions offer an alternative to traditional banks, often providing more personalized service and competitive rates to their members."
+	},
+	{
+		"name": "Custodian Services",
+		"description": "Specializing in safeguarding financial assets for institutional clients, custodian banks play a critical role in the global financial system by ensuring the security and proper administration of trillions in assets."
+	},
+	{
+		"name": "Islamic Banking",
+		"description": "Adhering to Sharia law, Islamic banking offers financial products and services that comply with Islamic principles, catering to a significant global market with unique financial needs and ethical considerations."
 	}
 ]

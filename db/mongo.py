@@ -15,21 +15,21 @@ def feed_data_to_mongodb(prompt: str, response, model: str):
     data_collection = mongo_connection()
     
     # Convert response to a JSON-serializable format
-    def convert_to_serializable(obj):
-        if isinstance(obj, (str, int, float, bool, type(None))):
-            return obj
-        elif isinstance(obj, (list, tuple)):
-            return [convert_to_serializable(item) for item in obj]
-        elif isinstance(obj, dict):
-            return {key: convert_to_serializable(value) for key, value in obj.items()}
-        else:
-            return str(obj)
+    # def convert_to_serializable(obj):
+    #     if isinstance(obj, (str, int, float, bool, type(None))):
+    #         return obj
+    #     elif isinstance(obj, (list, tuple)):
+    #         return [convert_to_serializable(item) for item in obj]
+    #     elif isinstance(obj, dict):
+    #         return {key: convert_to_serializable(value) for key, value in obj.items()}
+    #     else:
+    #         return str(obj)
 
-    serializable_response = convert_to_serializable(response)
+    # serializable_response = convert_to_serializable(response)
 
     document = {
         "trigger_prompt_id": prompt,
-        "response_object": serializable_response,
+        "response_object": response,
         "ai_machine": model,
         "timestamp": datetime.utcnow()
     }

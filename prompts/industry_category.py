@@ -7,7 +7,7 @@ def get_systemprompt(industry: str):
     Avoid assumptions and use the most acknowledged categorization in expert research"""
     return system_prompt
 
-def get_prompt(industry: str):
+def get_prompt():
 
     base_prompt=f"""
     Provide the answer as a comprehensive list. Describe each of them in a language addressed to C-level or company management user personas.

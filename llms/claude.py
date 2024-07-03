@@ -27,7 +27,5 @@ async def call_llm_claude(messages: List[Dict[str, str]], model: str, max_tokens
     )
     text_block = response.content[0]
     xml_string = text_block.text
-    print("CLAUDE PROMPT !")
-    print(prompt_id)
-    # feed_data_to_mongodb(prompt,response,model=CLAUDE_SONNET_35)
+    feed_data_to_mongodb(prompt_id,xml_string,model=CLAUDE_SONNET_35)
     return xml_string
