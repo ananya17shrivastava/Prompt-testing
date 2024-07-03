@@ -60,7 +60,8 @@ def get_xmlprompt(test_result:str):
     </RESPONSE>
 
     Now, begin your response by presenting the test result in the required XML format. Remember to include all identified industry categories and ensure strict adherence to the XML structure.
-    IMPORTANT: It's crucial to send the response in strict XML format. No additional text should be included outside the XML structure.
+    IMPORTANT: It's crucial to send the response in strict XML format. No additional text should be included outside the XML structure
+    CRITICAL: Do not use any unescaped ampersand (&) character in the file.
     """
 
     return xml_prompt

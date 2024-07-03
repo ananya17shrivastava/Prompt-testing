@@ -29,12 +29,13 @@ async def main():
     industries = find_industries()
 
     for industryObj in industries:
+        
         industry_name = industryObj["name"]
         industry_id = industryObj["id"]
         system_prompt=get_systemprompt(industry=industry_name)
 
-        if len(industry_id) > 0:
-            delete_all_industry_category(industry_id)
+        # if len(industry_id) > 0:
+        #     delete_all_industry_category(industry_id)
 
         print(f"processing for {industry_name} and {industry_id}")
         provider = LLM_PROVIDER_CLAUDE
@@ -42,7 +43,7 @@ async def main():
 
         file_path = f"dump/{provider}/{industry_name.replace(' ', '_')}.json"
         if not Path(file_path).is_file():
-            prompt = get_prompt(industry=industry_name)
+            prompt = get_prompt()
             system_prompt=get_systemprompt(industry=industry_name)
 
             model = PERPLEXITY_MODEL
@@ -56,14 +57,14 @@ async def main():
             description_result = await invoke_llm(provider, model, [{
                 "role": "user",
                 "content": prompt,
-            }], max_tokens=2048, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
+            }], max_tokens=4096, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
 
             xml_prompt=get_xmlprompt(description_result)
 
             xml_result= await invoke_llm(provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
-            }], max_tokens=2048, temperature=.2,prompt_id="industry_category")
+            }], max_tokens=4096, temperature=.2,prompt_id="industry_category")
 
             print(xml_result)
             json_result = industry_parser(xml_result)
@@ -97,7 +98,7 @@ async def main():
                         insert_industry_category(industry_id, name, product_services)
 
 
-                        
+
         # if "retail" in industry_name.lower():
         #     providers = [LLM_PROVIDER_PERPLEXITY, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT]
         #     results_by_models = []
