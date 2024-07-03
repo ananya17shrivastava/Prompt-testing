@@ -65,7 +65,7 @@ async def main():
                     result = await invoke_llm(provider, model, [{
                         "role": "user",
                         "content": prompt,
-                    }], max_tokens=2048, temperature=.2)
+                    }], max_tokens=4096, temperature=.2,prompt="industry_category")
 
                     json_result = industry_parser(result)
 
@@ -94,25 +94,31 @@ async def main():
             result = await invoke_llm(LLM_PROVIDER_CLAUDE, CLAUDE_SONNET_35, [{
                 "role": "user",
                         "content": summary_prompt,
-            }], max_tokens=4096, temperature=0)
+            }], max_tokens=4096, temperature=0,prompt="industry_category_summary")
 
-            file_path = f"dump/combined/{industry_name.replace(' ', '_')}.json"
-            if not os.path.exists(f'dump/combined'):
-                os.makedirs(f'dump/combined')
-
-            with open(file_path, "w") as file:
-                file.write(result)
+            
 
             print(result)
 
             json_result = industry_parser(result)
+
             for industry_result in json_result:
                 name = industry_result["name"]
                 product_services = industry_result["description"]
                 if len(industry_id) > 0:
                     insert_industry_category(industry_id, name, product_services)
 
+            json_result = json.dumps(json_result, indent='\t')
+
+            file_path = f"dump/combined/{industry_name.replace(' ', '_')}.json"
+            if not os.path.exists(f'dump/combined'):
+                os.makedirs(f'dump/combined')
+
+            with open(file_path, "w") as file:
+                file.write(json_result)
+
         else:
+            
             provider = LLM_PROVIDER_CLAUDE
             print(f"generating for model {provider}")
 
@@ -131,7 +137,7 @@ async def main():
                 result = await invoke_llm(provider, model, [{
                     "role": "user",
                     "content": prompt,
-                }], max_tokens=2048, temperature=.2)
+                }], max_tokens=2048, temperature=.2,prompt=prompt)
 
                 json_result = industry_parser(result)
 

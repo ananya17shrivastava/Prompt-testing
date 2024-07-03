@@ -4,8 +4,8 @@ import xml.etree.ElementTree as ET
 
 def get_prompt(industry: str):
     prompt = f"""
-    You are an expert analyst tasked with creating a list of industry categories based on the product or services provided for the {industry} industry.
-    Your goal is to provide a exhaustive and accurate list based on products and services offered in this sector.
+    Acting as an expert analyst please provide me a list of industry categories based on the product or services provided for the {industry} industry.
+    Avoid assumptions and use the most acknowledged categorization in expert research
     Follow these guidelines:
 
     1. Use only widely acknowledged categorizations from expert research.
@@ -21,8 +21,6 @@ def get_prompt(industry: str):
         """
 
     prompt += f"""
-    7. Provide atleast 30 categories or more
-
     Present your answer in the following XML format:
 
     <RESPONSE>
