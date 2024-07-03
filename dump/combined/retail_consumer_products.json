@@ -1,0 +1,118 @@
+<RESPONSE>
+    <INDUSTRY_CATEGORY>
+        <NAME>Apparel and Accessories</NAME>
+        <DESCRIPTION>Encompasses clothing, footwear, and fashion items for all demographics, driving significant retail revenue.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Electronics and Appliances</NAME>
+        <DESCRIPTION>Covers consumer electronics and home appliances, a sector marked by rapid innovation and high consumer demand.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Home Furnishings and Decor</NAME>
+        <DESCRIPTION>Includes furniture, decor, and textiles for residential spaces, catering to evolving lifestyle trends.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Beauty and Personal Care</NAME>
+        <DESCRIPTION>Comprises cosmetics, skincare, and grooming products, a sector with high brand loyalty and recurring purchases.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Food and Beverage</NAME>
+        <DESCRIPTION>Encompasses groceries, specialty foods, and beverages, representing a cornerstone of retail consumer spending.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Sporting Goods and Outdoor Equipment</NAME>
+        <DESCRIPTION>Covers gear for sports and outdoor activities, aligning with growing health and wellness trends.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Toys and Games</NAME>
+        <DESCRIPTION>Includes recreational products for all ages, from traditional toys to board games and puzzles.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Books and Media</NAME>
+        <DESCRIPTION>Encompasses print and digital publications, as well as various forms of entertainment media.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Automotive Accessories</NAME>
+        <DESCRIPTION>Covers aftermarket parts and accessories for vehicles, catering to car enthusiasts and DIY consumers.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Pet Supplies</NAME>
+        <DESCRIPTION>Includes food, accessories, and care products for pets, a sector experiencing consistent growth.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Office and School Supplies</NAME>
+        <DESCRIPTION>Comprises stationery, writing instruments, and organizational products for work and educational environments.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Jewelry and Watches</NAME>
+        <DESCRIPTION>Encompasses fine and costume jewelry, and timepieces, representing a high-value segment of retail.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Health and Wellness Products</NAME>
+        <DESCRIPTION>Covers vitamins, supplements, and fitness equipment, reflecting increased consumer focus on personal health.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Baby and Infant Products</NAME>
+        <DESCRIPTION>Includes essentials and accessories for newborns and young children, a market driven by safety and innovation.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Luggage and Travel Accessories</NAME>
+        <DESCRIPTION>Comprises suitcases and travel-related items, fluctuating with global travel trends and consumer mobility.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Home Improvement and DIY</NAME>
+        <DESCRIPTION>Covers tools, hardware, and materials for home renovation, appealing to both professionals and homeowners.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Outdoor and Garden</NAME>
+        <DESCRIPTION>Includes gardening tools, outdoor furniture, and landscaping products, reflecting trends in outdoor living.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Craft and Hobby Supplies</NAME>
+        <DESCRIPTION>Encompasses materials for various creative activities, catering to both casual and serious hobbyists.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Party and Celebration Supplies</NAME>
+        <DESCRIPTION>Covers decorations and accessories for events, a category with seasonal peaks and consistent demand.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Eyewear</NAME>
+        <DESCRIPTION>Comprises prescription glasses, sunglasses, and related optical products, blending healthcare with fashion.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Musical Instruments</NAME>
+        <DESCRIPTION>Covers instruments and equipment for musicians, ranging from beginners to professionals.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Art Supplies</NAME>
+        <DESCRIPTION>Includes materials for various artistic mediums, serving both professional artists and hobbyists.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Collectibles and Memorabilia</NAME>
+        <DESCRIPTION>Encompasses rare items and limited editions, appealing to collectors and enthusiasts.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Eco-Friendly Products</NAME>
+        <DESCRIPTION>Covers sustainable and environmentally conscious goods, reflecting growing consumer environmental awareness.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Smart Home Devices</NAME>
+        <DESCRIPTION>Includes connected gadgets for home automation and security, a rapidly expanding tech-driven category.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Specialty Beverages</NAME>
+        <DESCRIPTION>Comprises craft drinks and premium non-alcoholic options, catering to evolving consumer tastes.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Seasonal and Holiday Products</NAME>
+        <DESCRIPTION>Covers items for various holidays and seasonal events, driving cyclical retail trends.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Personalized and Custom Products</NAME>
+        <DESCRIPTION>Encompasses goods tailored to individual preferences, leveraging technology for mass customization.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+    <INDUSTRY_CATEGORY>
+        <NAME>Wearable Technology</NAME>
+        <DESCRIPTION>Includes smart watches and fitness trackers, bridging consumer electronics with personal health monitoring.</DESCRIPTION>
+    </INDUSTRY_CATEGORY>
+</RESPONSE>

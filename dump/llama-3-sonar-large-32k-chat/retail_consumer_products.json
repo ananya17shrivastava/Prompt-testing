@@ -1,0 +1,138 @@
+[
+	{
+		"name": "Apparel and Accessories",
+		"description": "Retailers offering clothing, footwear, and fashion accessories for men, women, and children."
+	},
+	{
+		"name": "Beauty and Personal Care",
+		"description": "Companies providing cosmetics, skincare, haircare, fragrances, and personal hygiene products."
+	},
+	{
+		"name": "Home and Housewares",
+		"description": "Retailers offering furniture, home decor, kitchenware, and household appliances."
+	},
+	{
+		"name": "Electronics and Appliances",
+		"description": "Companies selling consumer electronics, gadgets, and home appliances."
+	},
+	{
+		"name": "Furniture and Mattresses",
+		"description": "Retailers specializing in furniture, mattresses, and home furnishings."
+	},
+	{
+		"name": "Food and Beverage",
+		"description": "Companies offering fresh produce, packaged goods, and specialty foods."
+	},
+	{
+		"name": "Health and Wellness",
+		"description": "Retailers providing health supplements, fitness equipment, and wellness products."
+	},
+	{
+		"name": "Jewelry and Watches",
+		"description": "Companies selling fine jewelry, watches, and luxury accessories."
+	},
+	{
+		"name": "Kids and Baby Products",
+		"description": "Retailers offering toys, strollers, car seats, and nursery furniture."
+	},
+	{
+		"name": "Luggage and Travel Accessories",
+		"description": "Companies providing luggage, travel bags, and travel-related accessories."
+	},
+	{
+		"name": "Musical Instruments and Equipment",
+		"description": "Retailers selling musical instruments, equipment, and accessories."
+	},
+	{
+		"name": "Office Supplies and Stationery",
+		"description": "Companies offering office furniture, stationery, and business supplies."
+	},
+	{
+		"name": "Pet Food and Supplies",
+		"description": "Retailers providing pet food, toys, and pet care products."
+	},
+	{
+		"name": "Recreational Products and Toys",
+		"description": "Companies selling recreational products, toys, and games."
+	},
+	{
+		"name": "Sporting Goods and Equipment",
+		"description": "Retailers offering sporting goods, athletic equipment, and outdoor gear."
+	},
+	{
+		"name": "Tools and Hardware",
+		"description": "Companies selling tools, hardware, and building supplies."
+	},
+	{
+		"name": "Vitamins and Supplements",
+		"description": "Retailers providing vitamins, dietary supplements, and health supplements."
+	},
+	{
+		"name": "Arts and Crafts",
+		"description": "Companies selling art supplies, craft materials, and creative products."
+	},
+	{
+		"name": "Baby and Nursery Furniture",
+		"description": "Retailers offering baby furniture, strollers, and nursery decor."
+	},
+	{
+		"name": "Bicycles and Accessories",
+		"description": "Companies selling bicycles, bike parts, and cycling accessories."
+	},
+	{
+		"name": "Camera and Photo Equipment",
+		"description": "Retailers providing cameras, photography equipment, and accessories."
+	},
+	{
+		"name": "Car and Truck Accessories",
+		"description": "Companies selling car parts, accessories, and automotive supplies."
+	},
+	{
+		"name": "Computer and Tablet Accessories",
+		"description": "Retailers offering computer peripherals, tablet accessories, and mobile devices."
+	},
+	{
+		"name": "DIY and Home Improvement",
+		"description": "Companies selling DIY tools, building materials, and home improvement products."
+	},
+	{
+		"name": "Educational Products and Resources",
+		"description": "Retailers providing educational materials, textbooks, and learning resources."
+	},
+	{
+		"name": "Floral and Garden Supplies",
+		"description": "Companies selling flowers, gardening tools, and outdoor decor."
+	},
+	{
+		"name": "Furniture and Decor",
+		"description": "Retailers offering furniture, home decor, and interior design products."
+	},
+	{
+		"name": "Gifts and Novelties",
+		"description": "Companies selling gifts, souvenirs, and novelty items."
+	},
+	{
+		"name": "Health and Medical Supplies",
+		"description": "Retailers providing medical equipment, healthcare products, and wellness supplies."
+	},
+	{
+		"name": "Home Security and Automation",
+		"description": "Companies selling home security systems, automation products, and smart home devices."
+	},
+	{
+		"name": "Kitchen and Dining",
+		"description": "Retailers offering kitchen appliances, cookware, and dining products."
+	},
+	{
+		"name": "Lawn and Garden Equipment",
+		"description": "Companies selling lawn mowers, gardening tools, and outdoor equipment."
+	},
+	{
+		"name": "Lighting and Electrical",
+		"description": "Retailers providing lighting fixtures, electrical supplies, and home automation products."
+	},
+	{
+		"name": "Musical Instruments and Lessons",
+		"description": "Companies selling musical instruments, offering music lessons, and providing music-related services."
+	}
+]

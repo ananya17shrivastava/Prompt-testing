@@ -1,9 +1,9 @@
-from typing import List, Dict
+from typing import List, Dict, TypedDict
 import xml.etree.ElementTree as ET
 
 
 def get_prompt(industry: str):
-    base_prompt = f"""
+    prompt = f"""
     You are an expert analyst tasked with creating a list of industry categories based on the product or services provided for the {industry} industry.
     Your goal is to provide a exhaustive and accurate list based on products and services offered in this sector.
     Follow these guidelines:
@@ -16,11 +16,13 @@ def get_prompt(industry: str):
     6. Make sure descriptions are brief and short."""
 
     if "retail" in industry.lower():
-        base_prompt += """
-    7. Provide at least 30 categories or more
-"""
+        prompt += """
+            7. Provide at least 30 categories or more
+        """
 
-    base_prompt += f"""
+    prompt += f"""
+    7. Provide atleast 30 categories or more
+
     Present your answer in the following XML format:
 
     <RESPONSE>
@@ -32,13 +34,15 @@ def get_prompt(industry: str):
     </RESPONSE>
 
     Based on this request, create a comprehensive list of industry categories for the {industry} sector. Ensure each category has a clear, concise name and an original description that explains its role in the industry. Remember to use language appropriate for high-level business executives and avoid any form of plagiarism in your descriptions.
-    IMPORTANT: It's crucial to send the response in strict XML format. No additional text should be included outside the XML structure.
-    """
+    And its important to just send the response in strict xml format noting else must be there in response"""
 
-    return base_prompt
+    return prompt
 
+class IndustryCategory(TypedDict):
+    name: str
+    description: str
 
-def parser(llm_response: str) -> List[Dict[str, str]]:
+def parser(llm_response: str) -> List[IndustryCategory]:
     root = ET.fromstring(llm_response)
     result = []
 

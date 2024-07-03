@@ -5,11 +5,11 @@
 	},
 	{
 		"name": "Corporate Banking",
-		"description": "Specialized financial services for large corporations, including complex lending, treasury management, and international trade finance."
+		"description": "Specialized financial services for large corporations, including complex lending, cash management, and trade finance."
 	},
 	{
 		"name": "Investment Banking",
-		"description": "Advisory services for mergers, acquisitions, and capital raising activities, along with securities underwriting and trading."
+		"description": "Advisory services for mergers, acquisitions, and capital raising activities for institutional clients."
 	},
 	{
 		"name": "Asset Management",
@@ -17,46 +17,34 @@
 	},
 	{
 		"name": "Wealth Management",
-		"description": "Comprehensive financial planning and investment services tailored for high-net-worth individuals and families."
+		"description": "Comprehensive financial planning and investment services for high-net-worth individuals and families."
 	},
 	{
 		"name": "Insurance Services",
-		"description": "Provision of various insurance products, often integrated with banking services to offer comprehensive financial protection."
+		"description": "Provision of various insurance products and risk management solutions within the banking ecosystem."
 	},
 	{
 		"name": "Payment Systems",
-		"description": "Infrastructure and services facilitating electronic funds transfers, credit card processing, and emerging digital payment technologies."
-	},
-	{
-		"name": "Mortgage Banking",
-		"description": "Specialized services for originating, selling, and servicing home loans and other real estate-backed financial products."
-	},
-	{
-		"name": "Private Banking",
-		"description": "Exclusive banking services offering personalized financial solutions and preferential treatment for affluent clients."
-	},
-	{
-		"name": "Commercial Real Estate Finance",
-		"description": "Specialized lending and advisory services for large-scale commercial property developments and investments."
+		"description": "Infrastructure and services facilitating electronic funds transfers and digital transactions."
 	},
 	{
 		"name": "Treasury Services",
-		"description": "Management of an organization's liquidity, investments, and financial risks, often for corporate and institutional clients."
+		"description": "Management of an organization's liquidity, funding, and financial risk."
 	},
 	{
-		"name": "Custodial Services",
-		"description": "Safekeeping and administration of securities and other financial assets on behalf of institutional investors."
+		"name": "Mortgage Banking",
+		"description": "Origination, servicing, and securitization of home loans and other real estate financing products."
 	},
 	{
-		"name": "Brokerage Services",
-		"description": "Facilitation of securities transactions for retail and institutional clients, often including research and advisory components."
+		"name": "Capital Markets",
+		"description": "Facilitation of trading in financial instruments and provision of market-making services."
 	},
 	{
 		"name": "Credit Services",
-		"description": "Provision and management of various credit products, including credit cards, personal loans, and lines of credit."
+		"description": "Evaluation and extension of credit to individuals and businesses, including credit cards and lines of credit."
 	},
 	{
-		"name": "Islamic Banking",
-		"description": "Sharia-compliant banking services adhering to Islamic principles, offering unique financial products and investment structures."
+		"name": "Fintech Solutions",
+		"description": "Innovative technology-driven financial services enhancing traditional banking offerings and operations."
 	}
 ]

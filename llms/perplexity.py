@@ -26,5 +26,5 @@ async def call_llm_perplexity(messages: List[Dict[str, str]], model: str = PERPL
     #         max_tokens=max_tokens,
     #         temperature=temperature
     #     )
-    # print(response)
+    print(response)
     return response.choices[0].message.content.strip()

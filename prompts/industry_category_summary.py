@@ -47,10 +47,9 @@ def get_prompt(industry: str, sources: List[str]):
    - Avoid any form of plagiarism in your descriptions.
    - Provide your response in strict XML format as specified above, with no additional text outside the XML structure.
 
-   6. Think step by step for every source and category inside source 
-    Begin your analysis and category creation now.
-    And its important to just send the response in strict xml format noting else must be there in response
-    Don't add <SCRATCHPAD> tag and the data inside it 
+   6. Think step by step for every source and category inside source and provide your reasoning in <SCRATCHPAD>
+    Begin your analysis and category creation now. Make sure to respond only in XML format don't add any other text outside XML structure.
+    
     """
 
     return prompt
