@@ -131,12 +131,11 @@ def insert_industry_category(industry_id: str, name: str, product_services: str)
             category_id = str(uuid.uuid4())
             insert_query = """
                 INSERT INTO industry_categories 
-                (id, name, created_at, source_id, industry_id, products_and_services) 
-                VALUES (%s, %s, NOW(), NULL, %s, %s)
+                (id, name, created_at, source_id, industry_id, products_and_services,ai_generated) 
+                VALUES (%s, %s, NOW(), NULL, %s, %s,%s)
             """
-
             print(f"Inserting Name: {name}, Industry ID: {industry_id}, Value: {product_services}")
-            my_cursor.execute(insert_query, (category_id, name, industry_id, product_services))
+            my_cursor.execute(insert_query, (category_id, name, industry_id, product_services,1))
             print(f"Inserted: {category_id} Name: {name}, Industry ID: {industry_id}, Value: {product_services}")
 
         conn.commit()
@@ -150,3 +149,31 @@ def insert_industry_category(industry_id: str, name: str, product_services: str)
     finally:
         my_cursor.close()
         conn.close()
+
+
+def get_api_key(key_name: str):
+    conn = create_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT api_key FROM ai_machines WHERE name = %s", (key_name,))
+    result = cur.fetchone()
+    cur.close()
+    conn.close()
+    if result:
+        return result[0]
+    else:
+        raise ValueError(f"No API key found for {key_name}")
+
+def fetch_prompt(prompt_name):
+    conn = create_db_connection()
+    cur = conn.cursor()
+    query = "SELECT user_prompt, system_prompt FROM trigger_prompts WHERE prompt_name = %s"
+    cur.execute(query, (prompt_name,))
+    result = cur.fetchone()
+    cur.close()
+    conn.close()
+    if result:
+        return list(result) 
+    else:
+        raise ValueError(f"Prompt not found for prompt_name {prompt_name}")
+
+

@@ -5,7 +5,8 @@ from llms.index import invoke_llm, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT, LLM_PR
 from llms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from llms.gpt import GPT4_MODEL
 from llms.perplexity import PERPLEXITY_MODEL
-from prompts.industry_category import get_prompt,get_systemprompt,get_xmlprompt, parser as industry_parser
+from prompts.industry_category import get_prompt, parser as industry_parser
+from prompts.xml_prompt import get_xmlprompt
 from pathlib import Path
 from db.mysql import insert_industry_category, find_industries, delete_all_industry_category
 from prompts.industry_category_summary import get_prompt as get_prompt_summary
@@ -32,19 +33,18 @@ async def main():
         
         industry_name = industryObj["name"]
         industry_id = industryObj["id"]
-        system_prompt=get_systemprompt(industry=industry_name)
-
-        # if len(industry_id) > 0:
-        #     delete_all_industry_category(industry_id)
-
+        # if "retail" in industry_name.lower():
         print(f"processing for {industry_name} and {industry_id}")
         provider = LLM_PROVIDER_CLAUDE
         print(f"generating for model {provider}")
 
         file_path = f"dump/{provider}/{industry_name.replace(' ', '_')}.json"
         if not Path(file_path).is_file():
-            prompt = get_prompt()
-            system_prompt=get_systemprompt(industry=industry_name)
+            prompts = get_prompt(industry_name)
+            # print(prompts)
+            
+            user_prompt=prompts[0]
+            system_prompt=prompts[1]
 
             model = PERPLEXITY_MODEL
             if (provider == LLM_PROVIDER_CLAUDE):
@@ -56,7 +56,7 @@ async def main():
 
             description_result = await invoke_llm(provider, model, [{
                 "role": "user",
-                "content": prompt,
+                "content": user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
 
             xml_prompt=get_xmlprompt(description_result)
@@ -69,7 +69,6 @@ async def main():
             print(xml_result)
             json_result = industry_parser(xml_result)
         
-
             for industry_result in json_result:
                 name = industry_result["name"]
                 product_services = industry_result["description"]

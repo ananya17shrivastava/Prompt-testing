@@ -12,8 +12,8 @@ async def invoke_llm(provider: str, model: str, messages: List[Dict[str, str]], 
     if (provider == LLM_PROVIDER_CLAUDE):
         return await call_llm_claude(max_tokens=max_tokens, messages=messages, model=model, temperature=temperature,prompt_id=prompt_id,system_prompt=system_prompt)
     elif (provider == LLM_PROVIDER_GPT):
-        return await call_openai(max_tokens=max_tokens, messages=messages, model=model, temperature=temperature,prompt=prompt_id,system_prompt=system_prompt)
+        return await call_openai(max_tokens=max_tokens, messages=messages, model=model, temperature=temperature,prompt_id=prompt_id,system_prompt=system_prompt)
     elif (provider == LLM_PROVIDER_PERPLEXITY):
-        return await call_llm_perplexity(max_tokens=max_tokens, messages=messages, model=model, temperature=temperature,prompt=prompt_id,system_prompt=system_prompt)
+        return await call_llm_perplexity(max_tokens=max_tokens, messages=messages, model=model, temperature=temperature,prompt_id=prompt_id,system_prompt=system_prompt)
     else:
         raise Exception(f"provider def not found {provider}")

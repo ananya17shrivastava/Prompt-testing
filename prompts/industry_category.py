@@ -1,70 +1,50 @@
 from typing import List, Dict
 import xml.etree.ElementTree as ET
+from db.mysql import fetch_prompt
 
 
-def get_systemprompt(industry: str):
-    system_prompt=f"""Acting as an expert analyst please provide me a list of industry categories based on the product or services provided for the {industry} industry.
-    Avoid assumptions and use the most acknowledged categorization in expert research"""
-    return system_prompt
+def get_prompt(industry: str):
+    prompts = fetch_prompt("industry_category")
+    prompts[1] = prompts[1].replace("{{industry}}", industry)
+    # print(prompts)
+    return prompts
 
-def get_prompt():
+def parser(llm_response: str) -> List[Dict[str, str]]:
+    root = ET.fromstring(llm_response)
+    result = []
 
-    base_prompt=f"""
-    Provide the answer as a comprehensive list. Describe each of them in a language addressed to C-level or company management user personas.
-    Each description needs to be original and not fall into plagiarism.
-    """
-    return base_prompt
+    for category in root.findall("INDUSTRY_CATEGORY"):
+        name = category.find('NAME').text
+        value = category.find('DESCRIPTION').text
+        # print(f"Name: {name}, Value: {value}")
+        result.append({"name": name, "description": value})
 
-def get_xmlprompt(test_result:str):
-    xml_prompt=f"""
-    You are tasked with presenting test results in a specific XML format. Your goal is to organize the information into industry categories and present it in a structured manner.
+    return result
 
-    Here is the test result you will be working with:
 
-    <test_result>
-    {test_result}
-    </test_result>
 
-    You must present this information in the following XML format:
+# def get_systemprompt(industry: str):
+#     # system_prompt=f"""Acting as an expert analyst please provide me a list of industry categories based on the product or services provided for the {{industry}} industry.
+#     # Avoid assumptions and use the most acknowledged categorization in expert research"""
+#     system_prompt=fetch_prompt(101)
+#     system_prompt = system_prompt.replace("{{industry}}", industry)
+#     return system_prompt
 
-    <RESPONSE>
-        <INDUSTRY_CATEGORY>
-            <NAME>name of category</NAME>
-            <DESCRIPTION>description of category</DESCRIPTION>
-        </INDUSTRY_CATEGORY>
-        <!-- Repeat the INDUSTRY_CATEGORY structure for each industry category -->
-    </RESPONSE>
+# def get_prompt():
 
-    Follow these steps to process and present the information:
+#     # base_prompt=f"""
+#     # Provide the answer as a comprehensive list. Describe each of them in a language addressed to C-level or company management user personas.
+#     # Each description needs to be original and not fall into plagiarism.
+#     # """
+#     base_prompt=fetch_prompt(102)
+   
+#     return base_prompt
 
-    1. Carefully analyze the test result to identify distinct industry categories.
-    2. For each industry category you identify:
-    a. Create an <INDUSTRY_CATEGORY> element.
-    b. Within it, add a <NAME> element containing the name of the category.
-    c. Add a <DESCRIPTION> element with a brief description of the category.
-    3. Ensure that all identified categories are included in your response.
 
-    It is crucial that you send the response in strict XML format. Do not include any text outside the XML structure. The entire response should be valid XML.
 
-    Here's an example of how your output should be structured:
 
-    <RESPONSE>
-        <INDUSTRY_CATEGORY>
-            <NAME>Technology</NAME>
-            <DESCRIPTION>Companies involved in the development and manufacturing of electronic devices, software, and related services.</DESCRIPTION>
-        </INDUSTRY_CATEGORY>
-        <INDUSTRY_CATEGORY>
-            <NAME>Healthcare</NAME>
-            <DESCRIPTION>Organizations that provide medical services, develop pharmaceuticals, or manufacture medical equipment.</DESCRIPTION>
-        </INDUSTRY_CATEGORY>
-    </RESPONSE>
+    
 
-    Now, begin your response by presenting the test result in the required XML format. Remember to include all identified industry categories and ensure strict adherence to the XML structure.
-    IMPORTANT: It's crucial to send the response in strict XML format. No additional text should be included outside the XML structure
-    CRITICAL: Do not use any unescaped ampersand (&) character in the file.
-    """
-
-    return xml_prompt
 
 
 #     base_prompt = f"""
@@ -102,14 +82,3 @@ def get_xmlprompt(test_result:str):
     # return base_prompt
 
 
-def parser(llm_response: str) -> List[Dict[str, str]]:
-    root = ET.fromstring(llm_response)
-    result = []
-
-    for category in root.findall("INDUSTRY_CATEGORY"):
-        name = category.find('NAME').text
-        value = category.find('DESCRIPTION').text
-        # print(f"Name: {name}, Value: {value}")
-        result.append({"name": name, "description": value})
-
-    return result
