@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from typing import List, Dict
-from db.mongo import feed_data_to_mongodb
+# from db.mongo import feed_data_to_mongodb
 from db.mysql import get_api_key
 load_dotenv()
 

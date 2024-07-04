@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import anthropic
 from typing import List, Dict
 import xml.etree.ElementTree as ET
-from db.mongo import feed_data_to_mongodb
+# from db.mongo import feed_data_to_mongodb
 from db.mysql import get_api_key
 
 # load_dotenv()
@@ -30,5 +30,5 @@ async def call_llm_claude(messages: List[Dict[str, str]], model: str, max_tokens
     )
     text_block = response.content[0]
     xml_string = text_block.text
-    feed_data_to_mongodb(prompt_id,xml_string,model=CLAUDE_SONNET_35)
+    # feed_data_to_mongodb(prompt_id,xml_string,model=CLAUDE_SONNET_35)
     return xml_string

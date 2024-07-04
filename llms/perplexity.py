@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-from db.mongo import feed_data_to_mongodb
+# from db.mongo import feed_data_to_mongodb
 import os
 from typing import List, Dict
 from db.mysql import get_api_key
