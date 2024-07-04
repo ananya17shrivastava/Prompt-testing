@@ -4,13 +4,16 @@ import anthropic
 from typing import List, Dict
 import xml.etree.ElementTree as ET
 from db.mongo import feed_data_to_mongodb
+from db.mysql import get_api_key
 
-load_dotenv()
+# load_dotenv()
 
-assert os.environ.get("ANTHROPIC_API_KEY") != "", "ANTHROPIC_API_KEY is not set or is an empty string"
+# assert os.environ.get("ANTHROPIC_API_KEY") != "", "ANTHROPIC_API_KEY is not set or is an empty string"
 
+
+ANTHROPIC_API_KEY = get_api_key("ANTHROPIC_API_KEY")
 client = anthropic.Anthropic(
-    api_key=os.environ.get("ANTHROPIC_API_KEY")
+    api_key=ANTHROPIC_API_KEY
 )
 
 CLAUDE_SONNET_35 = "claude-3-5-sonnet-20240620"
