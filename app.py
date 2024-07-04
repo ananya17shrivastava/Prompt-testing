@@ -33,68 +33,68 @@ async def main():
         
         industry_name = industryObj["name"]
         industry_id = industryObj["id"]
-        # if "retail" in industry_name.lower():
-        print(f"processing for {industry_name} and {industry_id}")
-        provider = LLM_PROVIDER_CLAUDE
-        print(f"generating for model {provider}")
+        if "retail" in industry_name.lower():
+            print(f"processing for {industry_name} and {industry_id}")
+            provider = LLM_PROVIDER_CLAUDE
+            print(f"generating for model {provider}")
 
-        file_path = f"dump/{provider}/{industry_name.replace(' ', '_')}.json"
-        if not Path(file_path).is_file():
-            prompts = get_prompt(industry_name)
-            # print(prompts)
-            
-            user_prompt=prompts[0]
-            system_prompt=prompts[1]
+            file_path = f"dump/{provider}/{industry_name.replace(' ', '_')}.json"
+            if not Path(file_path).is_file():
+                prompts = get_prompt(industry_name)
+                # print(prompts)
+                
+                user_prompt=prompts[0]
+                system_prompt=prompts[1]
 
-            model = PERPLEXITY_MODEL
-            if (provider == LLM_PROVIDER_CLAUDE):
-                model = CLAUDE_SONNET_35
-            elif (provider == LLM_PROVIDER_GPT):
-                model = GPT4_MODEL
-            elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
+                if (provider == LLM_PROVIDER_CLAUDE):
+                    model = CLAUDE_SONNET_35
+                elif (provider == LLM_PROVIDER_GPT):
+                    model = GPT4_MODEL
+                elif (provider == LLM_PROVIDER_PERPLEXITY):
+                    model = PERPLEXITY_MODEL
 
-            description_result = await invoke_llm(provider, model, [{
-                "role": "user",
-                "content": user_prompt,
-            }], max_tokens=4096, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
+                description_result = await invoke_llm(provider, model, [{
+                    "role": "user",
+                    "content": user_prompt,
+                }], max_tokens=4096, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt)
 
-            xml_prompt=get_xmlprompt(description_result)
+                xml_prompt=get_xmlprompt(description_result)
 
-            xml_result= await invoke_llm(provider, model, [{
-                "role": "user",
-                "content": xml_prompt,
-            }], max_tokens=4096, temperature=.2,prompt_id="industry_category")
+                xml_result= await invoke_llm(provider, model, [{
+                    "role": "user",
+                    "content": xml_prompt,
+                }], max_tokens=4096, temperature=.2,prompt_id="industry_category")
 
-            print(xml_result)
-            json_result = industry_parser(xml_result)
-        
-            for industry_result in json_result:
-                name = industry_result["name"]
-                product_services = industry_result["description"]
-                if len(industry_id) > 0:
-                    insert_industry_category(industry_id, name, product_services)
-
-                    
-            json_result = json.dumps(json_result, indent='\t')
-            print(json_result)
-
-            # Ensure the 'dump' folder exists
-            if not os.path.exists(f'dump/{provider}'):
-                os.makedirs(f'dump/{provider}')
-
-            # Save the json_result to a file
-            with open(file_path, "w") as file:
-                file.write(json_result)
-        else:
-            json_result = read_json_file(file_path)
-            if json_result:
-                text = json.dumps(json_result, indent=4)
+                print(xml_result)
+                json_result = industry_parser(xml_result)
+            
                 for industry_result in json_result:
                     name = industry_result["name"]
                     product_services = industry_result["description"]
                     if len(industry_id) > 0:
                         insert_industry_category(industry_id, name, product_services)
+
+                        
+                json_result = json.dumps(json_result, indent='\t')
+                print(json_result)
+
+                # Ensure the 'dump' folder exists
+                if not os.path.exists(f'dump/{provider}'):
+                    os.makedirs(f'dump/{provider}')
+
+                # Save the json_result to a file
+                with open(file_path, "w") as file:
+                    file.write(json_result)
+            else:
+                json_result = read_json_file(file_path)
+                if json_result:
+                    text = json.dumps(json_result, indent=4)
+                    for industry_result in json_result:
+                        name = industry_result["name"]
+                        product_services = industry_result["description"]
+                        if len(industry_id) > 0:
+                            insert_industry_category(industry_id, name, product_services)
 
 
 
