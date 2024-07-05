@@ -22,6 +22,19 @@ def parser(llm_response: str) -> List[Dict[str, str]]:
     return result
 
 
+def business_parser(llm_response: str) -> List[Dict[str, str]]:
+    root = ET.fromstring(llm_response)
+    result = []
+
+    for category in root.findall("BUSINESS_AREA_NAME"):
+        name = category.find('NAME').text
+        value = category.find('DESCRIPTION').text
+        # print(f"Name: {name}, Value: {value}")
+        result.append({"name": name, "description": value})
+
+    return result
+
+
 
 # def get_systemprompt(industry: str):
 #     # system_prompt=f"""Acting as an expert analyst please provide me a list of industry categories based on the product or services provided for the {{industry}} industry.
