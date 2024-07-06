@@ -37,7 +37,7 @@ async def main():
         provider = LLM_PROVIDER_CLAUDE
         file_path = f"dump/business_areas/{provider}/{industry_name}/{industry_category_name.replace(' ', '_').replace('/', '_')}.json"
         if not Path(file_path).is_file():
-            prompt=get_business_prompt(industry_name,industry_category_name)
+            # prompt=get_business_prompt(industry_name,industry_category_name)
             model = PERPLEXITY_MODEL
             if (provider == LLM_PROVIDER_CLAUDE):
                 model = CLAUDE_SONNET_35
@@ -47,8 +47,8 @@ async def main():
                 model = PERPLEXITY_MODEL
             
             prompts = get_business_prompt(industry_name,industry_category_name)
-            user_prompt=prompts[0]
-            system_prompt=prompts[1]
+            user_prompt = prompts['user_prompt']
+            system_prompt = prompts['system_prompt']
 
             description_result = await invoke_llm(provider, model, [{
                 "role": "user",

@@ -1,8 +1,8 @@
 from db.mysql import fetch_prompt
-def get_xmlprompt(test_result:str):
+def get_xmlprompt(test_result:str)->str:
     prompts = fetch_prompt("xml_prompt")
-    prompts[0] = prompts[0].replace("{{test_result}}", test_result)
-    return prompts[0]
+    prompts['user_prompt'] = prompts['user_prompt'].replace("{{test_result}}", test_result)
+    return prompts['user_prompt']
 
 
     # xml_prompt=f"""

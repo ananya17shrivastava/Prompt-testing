@@ -43,8 +43,8 @@ async def main():
             prompts = get_prompt(industry_name)
             # print(prompts)
             
-            user_prompt=prompts[0]
-            system_prompt=prompts[1]
+            user_prompt = prompts['user_prompt']
+            system_prompt = prompts['system_prompt']
 
             model = PERPLEXITY_MODEL
             if (provider == LLM_PROVIDER_CLAUDE):
