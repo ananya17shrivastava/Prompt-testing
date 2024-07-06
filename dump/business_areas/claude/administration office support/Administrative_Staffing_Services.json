@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Temporary Placement Division",
+		"description": "This specialized unit focuses on rapidly matching short-term administrative talent with client needs. It's the cornerstone of administrative staffing, providing agile workforce solutions for companies experiencing sudden workload spikes or temporary staff shortages."
+	},
+	{
+		"name": "Executive Assistant Recruitment",
+		"description": "A niche department dedicated to identifying and placing high-caliber executive assistants. This team understands the unique demands of supporting top-tier executives and matches candidates with the right blend of skills, discretion, and cultural fit."
+	},
+	{
+		"name": "Office Manager Talent Pool",
+		"description": "This division cultivates a network of experienced office managers ready for placement. It's crucial for clients seeking professionals who can hit the ground running in complex office environments, managing diverse administrative functions seamlessly."
+	},
+	{
+		"name": "Administrative Skills Assessment Center",
+		"description": "A cutting-edge department that develops and administers tailored assessments to evaluate candidates' administrative prowess. This ensures that only the most qualified individuals are presented to clients, significantly reducing hiring risks."
+	},
+	{
+		"name": "Administrative Technology Training Unit",
+		"description": "This forward-thinking team keeps temporary staff up-to-date with the latest office technologies and software. By maintaining a tech-savvy talent pool, it ensures that placed staff can integrate smoothly into modern office environments."
+	},
+	{
+		"name": "Client Office Culture Analysis Team",
+		"description": "A specialized group that studies client workplace cultures to ensure optimal matches. This proactive approach minimizes turnover and maximizes satisfaction for both clients and placed administrative professionals."
+	},
+	{
+		"name": "Rapid Response Staffing Squad",
+		"description": "An agile team dedicated to fulfilling urgent administrative staffing needs within hours. This unit is crucial for clients facing unexpected absences or last-minute project demands, providing immediate administrative support."
+	},
+	{
+		"name": "Administrative Career Progression Planning",
+		"description": "This innovative department focuses on long-term talent development, mapping out career paths for administrative professionals. It's a key differentiator in attracting and retaining top administrative talent for extended placements."
+	},
+	{
+		"name": "Office Efficiency Consulting Division",
+		"description": "A value-added service that advises clients on optimizing their administrative workflows. By leveraging insights gained from numerous placements, this team helps clients enhance their office productivity."
+	},
+	{
+		"name": "Administrative Staffing Analytics Department",
+		"description": "This data-driven unit analyzes placement trends, success rates, and market demands. It provides crucial insights for strategic decision-making, ensuring the staffing service stays ahead of industry curves."
+	},
+	{
+		"name": "Specialized Industry Administrative Matching",
+		"description": "A team of experts who understand the unique administrative needs of specific industries (e.g., legal, medical, tech). This specialized knowledge ensures that placed staff are not just administratively competent but also industry-savvy."
+	},
+	{
+		"name": "Remote Administrative Talent Management",
+		"description": "As remote work becomes more prevalent, this forward-thinking department focuses on sourcing, vetting, and supporting administrative professionals who excel in virtual work environments."
+	}
+]

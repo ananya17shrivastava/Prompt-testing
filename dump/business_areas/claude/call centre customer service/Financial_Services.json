@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Wealth Management Support",
+		"description": "This specialized unit caters to high-net-worth individuals, providing personalized assistance for complex investment portfolios, estate planning, and exclusive financial products. It requires agents with advanced financial knowledge and exceptional interpersonal skills to maintain relationships with valuable clients."
+	},
+	{
+		"name": "Fraud Detection and Prevention",
+		"description": "A critical department focused on real-time monitoring and response to suspicious financial activities. This team employs advanced analytics and AI to identify potential fraud, collaborates with cybersecurity experts, and communicates with customers to verify transactions, protecting both the institution and its clients."
+	},
+	{
+		"name": "Loan and Mortgage Processing",
+		"description": "This department handles inquiries and support for various lending products, guiding customers through application processes, explaining terms, and addressing concerns. Agents need in-depth knowledge of lending regulations and the ability to explain complex financial concepts in simple terms."
+	},
+	{
+		"name": "Trading and Securities Support",
+		"description": "A specialized team that assists clients with stock trading, mutual funds, and other securities. They provide real-time market information, execute trades, and offer guidance on investment strategies, requiring agents with securities licenses and up-to-the-minute market knowledge."
+	},
+	{
+		"name": "Insurance Claims Processing",
+		"description": "This unit manages the intricate process of insurance claims, from initial filing to resolution. Agents need to understand policy details, assess claim validity, and guide customers through the often emotional process of claim settlement."
+	},
+	{
+		"name": "Regulatory Compliance Assistance",
+		"description": "A crucial department that ensures all customer interactions adhere to strict financial regulations. They provide guidance on compliance issues, assist with regulatory reporting, and help customers navigate complex financial rules and requirements."
+	},
+	{
+		"name": "Digital Banking Support",
+		"description": "This team focuses on assisting customers with online and mobile banking platforms, addressing issues related to digital transactions, app functionality, and online account management. They play a key role in driving digital adoption and improving the user experience."
+	},
+	{
+		"name": "Foreign Exchange Services",
+		"description": "A specialized unit handling inquiries related to currency exchange, international transfers, and global banking services. Agents need to understand exchange rates, international banking regulations, and cross-border transaction processes."
+	},
+	{
+		"name": "Retirement Planning Support",
+		"description": "This department provides guidance on retirement accounts, pension plans, and long-term financial planning. Agents offer personalized advice based on customers' financial situations and goals, requiring in-depth knowledge of retirement products and tax implications."
+	},
+	{
+		"name": "Credit Repair and Counseling",
+		"description": "A sensitive area focused on assisting customers with credit issues, offering advice on improving credit scores, managing debt, and navigating financial difficulties. This team requires agents with strong empathy skills and a deep understanding of credit systems and financial recovery strategies."
+	},
+	{
+		"name": "Private Banking Concierge",
+		"description": "An elite service catering to ultra-high-net-worth individuals, offering personalized financial solutions, exclusive investment opportunities, and bespoke banking services. This team requires highly skilled agents who can handle the unique demands and expectations of affluent clients."
+	},
+	{
+		"name": "Financial Product Development Support",
+		"description": "This innovative department works closely with product teams to gather customer feedback, identify market trends, and assist in the rollout of new financial products and services. They play a crucial role in product refinement and customer adoption strategies."
+	}
+]

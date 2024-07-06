@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Risk Engineering Services",
+		"description": "This department focuses on assessing and mitigating potential risks for commercial clients. It employs specialized engineers and risk management experts who conduct on-site evaluations, analyze business operations, and provide tailored recommendations to reduce exposure to losses. This proactive approach not only helps clients improve their risk profile but also enhances the insurer's ability to offer more competitive premiums."
+	},
+	{
+		"name": "Commercial Property Underwriting",
+		"description": "Unlike personal lines, commercial property underwriting requires a deep understanding of complex business assets and operations. This department evaluates diverse property types, from office buildings to industrial facilities, considering factors such as construction materials, occupancy, protection systems, and business continuity plans. Their expertise is crucial in accurately pricing policies and determining appropriate coverage limits for high-value commercial properties."
+	},
+	{
+		"name": "Business Interruption Analysis",
+		"description": "This specialized unit focuses on assessing the potential financial impact of business disruptions on commercial clients. They work closely with underwriters and claims teams to develop and price business interruption coverage, considering factors such as supply chain dependencies, market conditions, and industry-specific risks. Their insights are vital in helping businesses maintain financial stability during unforeseen interruptions."
+	},
+	{
+		"name": "Cyber Risk Assessment",
+		"description": "As cyber threats evolve, this department specializes in evaluating and quantifying cyber risks for commercial entities. They assess clients' digital infrastructure, data protection measures, and incident response capabilities. Their expertise is crucial in developing comprehensive cyber insurance products and helping businesses understand and mitigate their digital vulnerabilities."
+	},
+	{
+		"name": "Environmental Liability Evaluation",
+		"description": "This unit focuses on assessing environmental risks associated with commercial operations. They evaluate potential pollution liabilities, regulatory compliance, and environmental impact across various industries. Their expertise is essential in developing specialized environmental insurance products and helping businesses navigate complex environmental regulations."
+	},
+	{
+		"name": "Professional Liability Specialization",
+		"description": "This department concentrates on evaluating risks associated with professional services across various industries. They assess factors such as professional standards, regulatory requirements, and potential for errors and omissions. Their expertise is crucial in developing tailored professional liability insurance products for diverse professions, from lawyers to architects."
+	},
+	{
+		"name": "Commercial Fleet Risk Management",
+		"description": "This specialized unit focuses on assessing and managing risks associated with commercial vehicle fleets. They analyze factors such as driver safety programs, vehicle maintenance practices, and route optimization. Their insights are vital in developing comprehensive commercial auto insurance products and helping businesses improve their fleet safety and efficiency."
+	},
+	{
+		"name": "Product Liability Assessment",
+		"description": "This department specializes in evaluating risks associated with products manufactured or distributed by commercial clients. They assess factors such as product design, quality control processes, and potential for recalls. Their expertise is crucial in developing product liability insurance solutions and helping businesses mitigate risks associated with their products."
+	},
+	{
+		"name": "Multinational Program Coordination",
+		"description": "This unit focuses on managing insurance programs for multinational corporations. They navigate complex international regulations, coordinate with local insurers, and ensure consistent coverage across multiple jurisdictions. Their expertise is essential in providing seamless global insurance solutions for large commercial clients with international operations."
+	},
+	{
+		"name": "Parametric Insurance Design",
+		"description": "This innovative department develops index-based insurance products for commercial clients. They create policies that pay out based on predefined parameters (e.g., weather events, commodity prices) rather than traditional claims processes. Their work is crucial in providing rapid, objective payouts for specific risks, particularly in industries sensitive to external factors."
+	}
+]

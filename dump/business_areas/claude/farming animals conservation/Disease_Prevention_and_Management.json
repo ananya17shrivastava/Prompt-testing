@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Zoonotic Disease Surveillance Unit",
+		"description": "This specialized unit focuses on monitoring and identifying potential zoonotic diseases that can transfer between animals and humans. It's crucial for early detection and prevention of outbreaks that could impact both livestock and public health."
+	},
+	{
+		"name": "Herd Health Analytics Department",
+		"description": "This department utilizes advanced data analytics and AI to predict disease patterns, assess herd vulnerability, and optimize preventive measures. It's essential for proactive disease management and improving overall herd health outcomes."
+	},
+	{
+		"name": "Biosecurity Implementation Team",
+		"description": "This team develops and enforces stringent biosecurity protocols specific to conservation farming. They work to create barriers against disease introduction and spread, safeguarding valuable genetic resources and endangered species."
+	},
+	{
+		"name": "Wildlife-Livestock Interface Management",
+		"description": "This unique division focuses on managing disease transmission risks at the intersection of wildlife and farmed animal populations. It's critical for maintaining biodiversity while protecting both wild and domesticated species from cross-species infections."
+	},
+	{
+		"name": "Vaccine Development and Adaptation Unit",
+		"description": "This unit specializes in creating and modifying vaccines for rare or endangered species. They work on developing novel vaccination strategies that are both effective and safe for animals with limited genetic diversity or specialized physiologies."
+	},
+	{
+		"name": "Conservation Breeding Disease Control",
+		"description": "This department focuses on disease prevention and management specifically within conservation breeding programs. They develop strategies to maintain genetic diversity while minimizing disease risks in captive breeding populations."
+	},
+	{
+		"name": "Emerging Pathogen Rapid Response Team",
+		"description": "This elite team is dedicated to quickly identifying and containing new or unexpected disease outbreaks in conservation farm settings. They're essential for protecting vulnerable species from potentially devastating novel pathogens."
+	},
+	{
+		"name": "Environmental Health Monitoring Division",
+		"description": "This division specializes in assessing and managing environmental factors that influence disease spread in conservation farming. They focus on soil, water, and air quality as they relate to animal health and disease prevention."
+	},
+	{
+		"name": "Nutritional Immunology Department",
+		"description": "This department explores the intersection of nutrition and immune function in rare or endangered farm animals. They develop specialized feeding programs to boost natural disease resistance in these unique populations."
+	},
+	{
+		"name": "Stress-Induced Illness Prevention Unit",
+		"description": "This unit focuses on mitigating stress-related health issues in conservation farm animals. They develop strategies to reduce environmental and psychological stressors that can compromise immune function and increase disease susceptibility."
+	}
+]

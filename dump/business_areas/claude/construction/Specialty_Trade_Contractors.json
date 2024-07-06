@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Trade-Specific Estimating Departments",
+		"description": "These specialized units focus on precise cost estimation for specific trades like electrical, plumbing, or HVAC. They require in-depth knowledge of trade-specific materials, labor, and regulations to provide accurate bids for subcontract work."
+	},
+	{
+		"name": "Specialized Equipment Management",
+		"description": "This department oversees the acquisition, maintenance, and deployment of trade-specific equipment. It ensures that specialized tools and machinery are available and in optimal condition for each project, maximizing efficiency and minimizing downtime."
+	},
+	{
+		"name": "Trade Certification and Licensing Compliance",
+		"description": "A dedicated team manages the complex landscape of trade-specific certifications and licenses. They ensure that all personnel maintain up-to-date qualifications, reducing legal risks and maintaining the company's eligibility for specialized projects."
+	},
+	{
+		"name": "Custom Fabrication Workshops",
+		"description": "These on-site or off-site facilities focus on creating bespoke components for specific trades. They allow for greater quality control, cost-effectiveness, and flexibility in meeting unique project requirements."
+	},
+	{
+		"name": "Trade-Specific Safety Training",
+		"description": "This department develops and implements safety protocols tailored to the unique hazards of each specialty trade. They conduct specialized training sessions and ensure compliance with trade-specific safety regulations."
+	},
+	{
+		"name": "Subcontractor Relations Management",
+		"description": "This unit focuses on building and maintaining relationships with other specialty subcontractors. They coordinate multi-trade projects, manage potential conflicts, and ensure seamless integration of various specialized services."
+	},
+	{
+		"name": "Specialized Material Procurement",
+		"description": "This department sources and manages the supply chain for trade-specific materials and components. They leverage industry knowledge to secure competitive pricing and ensure timely delivery of specialized items."
+	},
+	{
+		"name": "Trade-Specific Quality Control",
+		"description": "These teams develop and implement quality assurance processes unique to each specialty trade. They ensure that work meets or exceeds industry standards and client expectations for specific trade services."
+	},
+	{
+		"name": "Specialized Project Scheduling",
+		"description": "This unit focuses on creating and managing timelines for trade-specific work within larger project schedules. They coordinate with other trades and main contractors to optimize workflow and minimize delays."
+	},
+	{
+		"name": "Trade-Specific Technology Integration",
+		"description": "This department researches, implements, and manages cutting-edge technologies specific to individual trades. They ensure that the company stays at the forefront of technological advancements in their specialty areas."
+	},
+	{
+		"name": "Warranty and Service Departments",
+		"description": "These units handle post-installation support, maintenance, and warranty claims specific to the company's trade specialties. They maintain long-term client relationships and address any issues that arise after project completion."
+	},
+	{
+		"name": "Specialized Code Compliance",
+		"description": "This team stays abreast of evolving building codes and regulations specific to their trade. They ensure that all work meets current standards and advise on compliance issues throughout the project lifecycle."
+	}
+]

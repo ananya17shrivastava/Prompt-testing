@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Document Capture and Digitization",
+		"description": "This department focuses on transforming physical documents into digital formats, utilizing advanced scanning technologies and optical character recognition (OCR) systems. It's crucial for modernizing legacy paper-based processes and enabling seamless digital workflows."
+	},
+	{
+		"name": "Metadata Management",
+		"description": "This specialized team develops and maintains robust metadata frameworks, ensuring that digital documents are properly tagged, categorized, and easily searchable. Their work is essential for efficient information retrieval and compliance with data governance standards."
+	},
+	{
+		"name": "Version Control and Document Lifecycle",
+		"description": "This unit oversees the entire lifecycle of documents, from creation to archival or deletion. They implement sophisticated version control systems, enabling teams to track changes, collaborate effectively, and maintain a clear audit trail of document evolution."
+	},
+	{
+		"name": "Digital Rights Management (DRM)",
+		"description": "This department focuses on protecting sensitive information through advanced DRM technologies. They implement encryption, access controls, and usage restrictions to safeguard intellectual property and ensure compliance with data protection regulations."
+	},
+	{
+		"name": "Workflow Automation",
+		"description": "This team designs and implements automated document routing and approval processes. They leverage business process management tools to streamline operations, reduce manual interventions, and accelerate decision-making across the organization."
+	},
+	{
+		"name": "Content Analytics",
+		"description": "This department utilizes advanced analytics and machine learning algorithms to extract valuable insights from document repositories. They provide critical business intelligence by analyzing document usage patterns, content relevance, and information flow within the organization."
+	},
+	{
+		"name": "Enterprise Content Integration",
+		"description": "This specialized unit focuses on integrating document management solutions with other enterprise systems such as ERP, CRM, and collaboration platforms. They ensure seamless information flow and create a unified digital ecosystem for the organization."
+	},
+	{
+		"name": "Records Management and Compliance",
+		"description": "This team develops and enforces policies for long-term records retention, ensuring compliance with industry regulations and legal requirements. They implement secure archiving solutions and manage the disposition of outdated or unnecessary documents."
+	},
+	{
+		"name": "Document Security and Access Control",
+		"description": "This department designs and maintains robust security protocols for document access and sharing. They implement multi-factor authentication, role-based access controls, and activity monitoring to protect sensitive information from unauthorized access or data breaches."
+	},
+	{
+		"name": "Document Collaboration and Co-authoring",
+		"description": "This unit focuses on implementing advanced collaboration tools that enable real-time document editing, commenting, and version tracking. They ensure that teams can work together efficiently on documents, regardless of their physical location."
+	},
+	{
+		"name": "Mobile Document Management",
+		"description": "This team develops and maintains mobile-friendly document management solutions, ensuring that employees can access, edit, and share documents securely from any device. They focus on creating intuitive mobile interfaces and implementing robust security measures for remote access."
+	},
+	{
+		"name": "Document Template Management",
+		"description": "This department creates and maintains a library of standardized document templates, ensuring brand consistency and compliance across the organization. They work closely with various business units to develop templates that streamline document creation processes and reduce errors."
+	}
+]

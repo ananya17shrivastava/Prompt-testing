@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Tenant Improvement Services",
+		"description": "This specialized department focuses on customizing existing commercial spaces to meet the specific needs of new tenants. It requires a deep understanding of both landlord and tenant requirements, as well as expertise in maximizing space efficiency while adhering to building codes and regulations."
+	},
+	{
+		"name": "Mixed-Use Development Planning",
+		"description": "This team specializes in creating integrated designs that combine multiple functions within a single project, such as retail, office, and residential spaces. They balance diverse stakeholder needs while optimizing land use and creating synergies between different components of the development."
+	},
+	{
+		"name": "Corporate Identity Integration",
+		"description": "This department works closely with clients to incorporate their brand identity and corporate culture into the architectural design. They ensure that the physical space reflects and reinforces the client's values, mission, and visual identity, creating a cohesive environment that supports the company's goals."
+	},
+	{
+		"name": "Retail Space Optimization",
+		"description": "This specialized unit focuses on designing commercial spaces that maximize sales potential and enhance customer experience. They employ advanced analytics and consumer behavior insights to create layouts that optimize traffic flow, product placement, and overall shopping atmosphere."
+	},
+	{
+		"name": "Workplace Strategy and Design",
+		"description": "This team concentrates on creating office environments that boost productivity, collaboration, and employee well-being. They incorporate the latest trends in workplace design, such as activity-based working, biophilic design, and technology integration, to create spaces that attract and retain top talent."
+	},
+	{
+		"name": "Sustainable Commercial Design",
+		"description": "This department specializes in creating environmentally responsible commercial buildings that minimize energy consumption and carbon footprint. They focus on integrating green technologies, sustainable materials, and innovative design solutions to meet or exceed LEED and other green building certifications."
+	},
+	{
+		"name": "Adaptive Reuse for Commercial Purposes",
+		"description": "This unit specializes in transforming existing structures, often with historical significance, into modern commercial spaces. They balance preservation requirements with contemporary needs, creating unique environments that tell a story while serving current business purposes."
+	},
+	{
+		"name": "Commercial Fa\u00e7ade Engineering",
+		"description": "This specialized team focuses on designing and engineering building exteriors that not only create a striking visual impact but also optimize energy efficiency and interior comfort. They work with innovative materials and technologies to create facades that serve both aesthetic and functional purposes."
+	},
+	{
+		"name": "Hospitality Design Innovation",
+		"description": "This department concentrates on creating cutting-edge designs for hotels, restaurants, and other hospitality venues. They focus on crafting unique guest experiences through innovative spatial layouts, custom furnishings, and immersive environments that set new standards in the industry."
+	},
+	{
+		"name": "Smart Building Integration",
+		"description": "This team specializes in incorporating advanced technologies into commercial buildings, such as IoT sensors, automated systems, and data analytics platforms. They design spaces that can adapt to user needs, optimize resource usage, and provide valuable insights for facility management and business operations."
+	}
+]

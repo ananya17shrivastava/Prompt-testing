@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Candidate Sourcing Specialists",
+		"description": "These professionals focus exclusively on proactively identifying and engaging passive candidates for open positions. They utilize advanced search techniques, social media platforms, and industry networks to build a robust pipeline of potential candidates, ensuring a competitive edge in the fast-paced contingency recruitment market."
+	},
+	{
+		"name": "Client Acquisition Team",
+		"description": "This department is dedicated to securing new clients and job orders on a contingency basis. They specialize in rapid response to client needs, emphasizing the firm's ability to deliver quality candidates quickly without upfront fees. Their expertise lies in negotiating favorable terms and positioning the firm's services against retained search competitors."
+	},
+	{
+		"name": "Rapid Placement Unit",
+		"description": "This agile team is responsible for filling urgent positions within extremely tight timeframes. They excel at quickly matching pre-screened candidates from the firm's database to immediate job openings, often filling roles within days or even hours to meet clients' pressing needs."
+	},
+	{
+		"name": "Success-based Billing Department",
+		"description": "This specialized finance team manages the unique billing structure of contingency recruitment. They handle invoice generation only upon successful placements, track placement guarantees, and manage refunds or replacements if necessary. Their expertise ensures cash flow optimization in this success-driven business model."
+	},
+	{
+		"name": "Competitive Intelligence Group",
+		"description": "This unit focuses on gathering and analyzing real-time market data on competitor activities, industry hiring trends, and salary benchmarks. They provide crucial insights to help recruiters and account managers stay ahead in the highly competitive contingency recruitment landscape."
+	},
+	{
+		"name": "Volume Hiring Specialists",
+		"description": "These experts manage large-scale recruitment projects for clients needing multiple hires in a short timeframe. They develop strategies for efficiently screening and presenting a high volume of candidates while maintaining quality standards, crucial for winning and retaining high-volume accounts in the contingency model."
+	},
+	{
+		"name": "Candidate Exclusivity Management",
+		"description": "This team oversees the delicate process of managing candidate relationships in a non-exclusive environment. They develop strategies to ensure candidates remain engaged with the firm's opportunities while navigating the complexities of candidates potentially being presented to the same client by multiple agencies."
+	},
+	{
+		"name": "Rapid Onboarding Consultants",
+		"description": "These professionals specialize in quickly preparing successful candidates for their new roles. They provide accelerated orientation and integration support to ensure placed candidates succeed in their positions, thereby solidifying the firm's reputation and reducing the risk of early-stage turnover."
+	},
+	{
+		"name": "Performance-Based Recruiter Development",
+		"description": "This department focuses on training and developing recruiters specifically for the high-pressure, results-driven contingency model. They implement performance-based training programs, mentorship initiatives, and incentive structures aligned with the unique demands of contingency recruitment."
+	},
+	{
+		"name": "Market Responsiveness Team",
+		"description": "This agile unit monitors sudden shifts in hiring trends or economic conditions. They rapidly adjust the firm's recruitment strategies and resource allocation to capitalize on emerging opportunities or mitigate risks in the volatile contingency recruitment market."
+	}
+]

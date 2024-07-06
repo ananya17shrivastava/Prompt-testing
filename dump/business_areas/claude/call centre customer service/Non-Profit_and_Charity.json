@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Donor Relations Management",
+		"description": "This department focuses on cultivating and maintaining relationships with individual and corporate donors. It handles inquiries about donation processes, provides updates on how contributions are being used, and manages donor recognition programs. The team works to ensure donors feel valued and informed, encouraging long-term support for the organization's mission."
+	},
+	{
+		"name": "Volunteer Coordination",
+		"description": "This unit manages the recruitment, scheduling, and support of volunteers. They handle inquiries from potential volunteers, coordinate assignments, and provide information about volunteer opportunities. The team also manages volunteer recognition programs and ensures a positive experience for those donating their time and skills."
+	},
+	{
+		"name": "Grant Information and Support",
+		"description": "This department assists with inquiries related to grant applications, eligibility criteria, and reporting requirements. They provide guidance to potential grantees, answer questions about the application process, and offer support throughout the grant lifecycle. This team plays a crucial role in facilitating the organization's funding distribution efforts."
+	},
+	{
+		"name": "Advocacy and Outreach",
+		"description": "This unit manages communication with supporters regarding advocacy campaigns and policy initiatives. They provide information on current issues, coordinate grassroots efforts, and guide supporters on how to engage with policymakers. This team helps amplify the organization's voice and mobilize support for its cause."
+	},
+	{
+		"name": "Beneficiary Support Services",
+		"description": "This department handles inquiries from individuals or communities who benefit from the organization's programs. They provide information about available services, eligibility criteria, and application processes. The team also manages feedback and ensures that beneficiaries receive appropriate support and resources."
+	},
+	{
+		"name": "In-Kind Donation Management",
+		"description": "This unit coordinates the receipt, processing, and distribution of non-monetary donations. They handle inquiries about acceptable items, arrange pick-ups or drop-offs, and manage the logistics of distributing goods to beneficiaries. This team plays a vital role in maximizing the impact of diverse forms of support."
+	},
+	{
+		"name": "Event and Fundraising Support",
+		"description": "This department assists with inquiries related to fundraising events, charity auctions, and awareness campaigns. They provide information about upcoming events, manage ticket sales or registrations, and coordinate logistics for participants. This team helps drive engagement and financial support through various activities."
+	},
+	{
+		"name": "Legacy Giving and Planned Donations",
+		"description": "This specialized unit handles inquiries about bequests, charitable trusts, and other forms of planned giving. They provide guidance on the various options for leaving a lasting impact through estate planning and work closely with donors and their legal advisors to facilitate these arrangements."
+	},
+	{
+		"name": "Ethical Sourcing and Fair Trade Support",
+		"description": "For charities involved in fair trade or ethical product sales, this department manages inquiries about product sourcing, certification processes, and the impact of purchases. They educate customers about the organization's commitment to ethical practices and how their purchases support the mission."
+	},
+	{
+		"name": "Impact Reporting and Transparency",
+		"description": "This unit handles inquiries related to the organization's impact, financial statements, and program effectiveness. They provide detailed information about how donations are used, the outcomes of various initiatives, and the overall impact of the organization's work. This team plays a crucial role in maintaining donor trust and organizational accountability."
+	}
+]

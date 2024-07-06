@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Patent Prosecution",
+		"description": "This department focuses on guiding inventors and companies through the complex process of obtaining patent protection for their innovations. It involves drafting patent applications, responding to office actions, and negotiating with patent offices to secure the broadest possible protection for clients' inventions."
+	},
+	{
+		"name": "Trademark Management",
+		"description": "This area specializes in helping businesses protect their brand identities through trademark registration and enforcement. It encompasses everything from conducting clearance searches to filing applications and maintaining existing trademark portfolios, ensuring that a company's valuable brand assets are safeguarded."
+	},
+	{
+		"name": "Copyright Advisory",
+		"description": "This department assists creators and businesses in navigating the intricacies of copyright law. It provides guidance on copyright registration, licensing agreements, and strategies for monetizing creative works while protecting them from unauthorized use or infringement."
+	},
+	{
+		"name": "IP Portfolio Strategy",
+		"description": "This strategic unit focuses on developing comprehensive intellectual property strategies aligned with a company's business objectives. It involves assessing existing IP assets, identifying gaps, and recommending approaches to maximize the value of a company's intellectual property portfolio."
+	},
+	{
+		"name": "IP Valuation and Commercialization",
+		"description": "This specialized area helps businesses understand the economic value of their intellectual property assets and develop strategies for monetizing them. It includes conducting IP audits, performing valuations, and advising on licensing opportunities or potential sales of IP assets."
+	},
+	{
+		"name": "IP Due Diligence",
+		"description": "This department specializes in conducting thorough investigations of intellectual property assets during mergers, acquisitions, or investment transactions. It helps identify potential risks, assess the strength of IP portfolios, and determine the true value of IP assets in business deals."
+	},
+	{
+		"name": "Technology Transfer",
+		"description": "This unit focuses on facilitating the transfer of intellectual property rights between organizations, particularly from research institutions to commercial entities. It involves negotiating licensing agreements, managing collaborative research projects, and ensuring compliance with regulatory requirements."
+	},
+	{
+		"name": "IP Litigation Support",
+		"description": "This department provides specialized support for intellectual property litigation cases. It includes conducting prior art searches, preparing technical analyses, and assisting in the development of legal strategies specific to patent, trademark, or copyright infringement cases."
+	},
+	{
+		"name": "Global IP Rights Management",
+		"description": "This area focuses on managing intellectual property rights across multiple jurisdictions. It involves coordinating international patent and trademark filings, developing global IP protection strategies, and navigating the complexities of different national IP laws and regulations."
+	},
+	{
+		"name": "IP Analytics and Competitive Intelligence",
+		"description": "This department leverages advanced data analytics and research methodologies to provide insights into IP landscapes, competitor activities, and emerging technology trends. It helps businesses make informed decisions about their IP strategies and identify potential opportunities or threats in the market."
+	},
+	{
+		"name": "IP Training and Education",
+		"description": "This specialized unit develops and delivers customized training programs to help businesses understand the importance of intellectual property and implement best practices for IP management. It focuses on educating employees across various departments about IP rights, protection strategies, and compliance issues."
+	},
+	{
+		"name": "Open Source Compliance",
+		"description": "This area specializes in helping companies navigate the complexities of open source software licensing and ensure compliance with various open source licenses. It involves conducting audits, developing policies, and advising on the integration of open source components into proprietary software products."
+	}
+]

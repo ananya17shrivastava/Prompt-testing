@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Network Operations Center (NOC)",
+		"description": "The nerve center of telecommunications operations, responsible for monitoring and managing network performance, troubleshooting issues, and ensuring seamless connectivity for customers. This department is crucial for maintaining service quality and minimizing downtime, directly impacting customer satisfaction and revenue."
+	},
+	{
+		"name": "Spectrum Management",
+		"description": "This specialized team focuses on optimizing the use of radio frequency spectrum, a finite and valuable resource in telecommunications. They work on frequency allocation, interference mitigation, and regulatory compliance, ensuring the company maximizes its spectrum assets while adhering to national and international regulations."
+	},
+	{
+		"name": "Interconnection and Roaming",
+		"description": "This department manages relationships and technical integrations with other telecom operators, both domestically and internationally. They negotiate agreements, implement protocols, and ensure smooth interoperability, allowing customers to stay connected across networks and borders, thus enhancing service offering and global reach."
+	},
+	{
+		"name": "Radio Access Network (RAN) Engineering",
+		"description": "RAN engineers design, deploy, and optimize the wireless infrastructure that connects mobile devices to the core network. This team is critical for expanding network coverage, improving capacity, and implementing new technologies like 5G, directly impacting the company's competitive edge in the mobile market."
+	},
+	{
+		"name": "Transmission Planning",
+		"description": "This department focuses on designing and implementing the backbone of the telecommunications network. They plan and optimize the transmission paths for voice, data, and multimedia services, ensuring efficient data flow across the infrastructure and minimizing latency for end-users."
+	},
+	{
+		"name": "Numbering Plan Management",
+		"description": "This specialized team manages the allocation and administration of telephone numbers within the network. They work closely with regulatory bodies, implement number portability solutions, and ensure efficient use of numbering resources, which is crucial for scaling the subscriber base and complying with national telecommunications policies."
+	},
+	{
+		"name": "Value-Added Services (VAS) Development",
+		"description": "This innovative department creates and manages additional services beyond standard voice and data offerings. They develop products like mobile banking, content streaming, and IoT solutions, helping diversify revenue streams and differentiate the brand in a competitive market."
+	},
+	{
+		"name": "Telecom Fraud Management",
+		"description": "This team specializes in detecting, preventing, and mitigating fraudulent activities specific to telecommunications networks. They employ advanced analytics and security measures to protect the company from revenue leakage due to SIM cloning, subscription fraud, and other telecom-specific threats."
+	},
+	{
+		"name": "Quality of Service (QoS) Management",
+		"description": "This department focuses on maintaining and improving the overall quality of telecommunications services. They monitor key performance indicators, analyze customer experience metrics, and implement strategies to enhance network reliability and service quality, directly impacting customer retention and brand reputation."
+	},
+	{
+		"name": "Telecom Regulatory Affairs",
+		"description": "This team navigates the complex and ever-changing landscape of telecommunications regulations. They manage licensing, ensure compliance with industry-specific laws, and represent the company's interests in policy discussions, playing a crucial role in maintaining operating rights and influencing the regulatory environment."
+	}
+]

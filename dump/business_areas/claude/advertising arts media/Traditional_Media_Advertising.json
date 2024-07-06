@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Media Buying and Planning",
+		"description": "This department specializes in strategically purchasing advertising space and airtime across traditional media channels. They negotiate rates, secure prime placements, and develop comprehensive media plans to maximize reach and frequency for clients' campaigns in print, broadcast, and outdoor media."
+	},
+	{
+		"name": "Print Production",
+		"description": "This team focuses on the creation and execution of print advertisements for newspapers, magazines, and other physical publications. They manage the entire process from design to final printing, ensuring high-quality reproductions that align with brand standards and campaign objectives."
+	},
+	{
+		"name": "Broadcast Traffic",
+		"description": "This department coordinates the scheduling and distribution of radio and television commercials. They work closely with media outlets to ensure ads air at the correct times, manage last-minute changes, and maintain detailed logs for client reporting and compliance purposes."
+	},
+	{
+		"name": "Outdoor Advertising Logistics",
+		"description": "This specialized team handles the unique challenges of billboard and transit advertising. They manage site selection, permitting, installation, and maintenance of physical ad placements, ensuring maximum visibility and impact for clients' outdoor campaigns."
+	},
+	{
+		"name": "Direct Mail Campaign Management",
+		"description": "This department oversees the creation, production, and distribution of direct mail advertising materials. They manage mailing lists, coordinate with postal services, and track campaign performance through response rates and conversion metrics."
+	},
+	{
+		"name": "Traditional Media Research and Analytics",
+		"description": "This team focuses on gathering and analyzing data specific to traditional media channels. They conduct audience research, measure campaign effectiveness, and provide insights on media consumption habits to inform strategic decisions and demonstrate ROI to clients."
+	},
+	{
+		"name": "Local Market Specialists",
+		"description": "These experts focus on navigating the nuances of local traditional media landscapes. They build relationships with local publishers and broadcasters, understand regional audience preferences, and tailor campaigns to maximize impact in specific geographic markets."
+	},
+	{
+		"name": "Regulatory Compliance for Traditional Media",
+		"description": "This department ensures all traditional media advertising adheres to industry regulations and standards. They stay updated on FCC guidelines, print media regulations, and local advertising laws to mitigate legal risks and maintain ethical advertising practices."
+	},
+	{
+		"name": "Traditional Media Creative Adaptation",
+		"description": "This specialized creative team adapts existing campaign concepts for various traditional media formats. They understand the unique requirements and limitations of each medium, ensuring consistent brand messaging across print, broadcast, and outdoor platforms."
+	},
+	{
+		"name": "Sponsorship and Event Integration",
+		"description": "This team identifies and manages sponsorship opportunities within traditional media channels. They coordinate brand integration into live events, TV shows, and radio programs, creating unique advertising experiences that go beyond standard commercial placements."
+	}
+]

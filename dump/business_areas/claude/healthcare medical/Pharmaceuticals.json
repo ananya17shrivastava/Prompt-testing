@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Drug Discovery and Development",
+		"description": "This department is the cornerstone of pharmaceutical innovation. It focuses on identifying new molecular entities with therapeutic potential and shepherding them through the complex process of becoming viable drug candidates. Your teams here will be responsible for groundbreaking research that could lead to the next blockbuster medication or life-saving treatment."
+	},
+	{
+		"name": "Clinical Trials Management",
+		"description": "This crucial area oversees the design, implementation, and analysis of clinical trials for new drug candidates. Your clinical trials team will be responsible for navigating the intricate regulatory landscape, ensuring patient safety, and generating the robust data necessary for drug approval. Their work is essential in demonstrating the efficacy and safety of your products to regulatory bodies."
+	},
+	{
+		"name": "Regulatory Affairs (Pharmaceutical-specific)",
+		"description": "While many industries have regulatory departments, pharmaceutical regulatory affairs are uniquely complex. This team will be your liaison with health authorities worldwide, managing drug applications, maintaining compliance with ever-evolving regulations, and strategizing on how to expedite approvals. Their expertise can make or break your product launch timelines."
+	},
+	{
+		"name": "Pharmacovigilance",
+		"description": "This department is dedicated to monitoring and ensuring the safety of your drugs post-market. They'll be responsible for collecting, analyzing, and reporting adverse events, as well as implementing risk management strategies. In an era of increased scrutiny on drug safety, this team's work is critical to maintaining public trust and regulatory compliance."
+	},
+	{
+		"name": "Pharmaceutical Manufacturing and Quality Control",
+		"description": "While manufacturing is common across industries, pharmaceutical manufacturing requires specialized knowledge and adherence to stringent quality standards like Good Manufacturing Practices (GMP). This department ensures the consistent production of high-quality, safe, and effective medications. Their expertise in areas like sterile manufacturing or handling controlled substances sets them apart from general manufacturing operations."
+	},
+	{
+		"name": "Formulation Development",
+		"description": "This specialized R&D function focuses on developing the optimal form and delivery method for your drugs. Whether it's creating extended-release formulations, improving bioavailability, or developing novel drug delivery systems, this team's work can significantly enhance the efficacy and marketability of your products."
+	},
+	{
+		"name": "Medical Affairs (Pharma-specific)",
+		"description": "While medical affairs exist in other healthcare sectors, pharmaceutical medical affairs have unique responsibilities. This department serves as the scientific bridge between your company and the medical community. They'll manage key opinion leader relationships, provide medical education, and support investigator-initiated trials. Their work is crucial in establishing your company's scientific credibility and driving adoption of your products."
+	},
+	{
+		"name": "Pharmaceutical Pricing and Market Access",
+		"description": "This specialized team navigates the complex landscape of drug pricing, reimbursement, and market access. They'll develop strategies to demonstrate the value of your products to payers and health technology assessment bodies. Their work is critical in ensuring that your innovative treatments not only reach regulatory approval but also achieve commercial success and patient access."
+	},
+	{
+		"name": "Chemical and Biological Raw Materials Sourcing",
+		"description": "This department focuses on securing the specific, often highly regulated raw materials needed for pharmaceutical production. They manage relationships with specialized suppliers, ensure compliance with regulations governing these materials, and develop strategies to mitigate supply chain risks unique to the pharmaceutical industry."
+	},
+	{
+		"name": "Bioequivalence Studies Management",
+		"description": "For companies involved in generic drug development, this department is crucial. They design and oversee studies that demonstrate the therapeutic equivalence of generic formulations to branded drugs. Their work is essential in bringing more affordable medication options to market while ensuring they meet strict regulatory standards for efficacy and safety."
+	}
+]

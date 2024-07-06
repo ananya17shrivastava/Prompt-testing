@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Cultural Interpretation Services",
+		"description": "This department focuses on developing and delivering authentic, engaging narratives about local history, traditions, and cultural significance. It's responsible for training specialized guides and creating immersive experiences that bring heritage sites to life for visitors."
+	},
+	{
+		"name": "Artifact Conservation and Preservation",
+		"description": "This critical unit manages the delicate balance between public access and the protection of historical artifacts and structures. They implement cutting-edge preservation techniques and develop protocols for sustainable tourism practices at cultural sites."
+	},
+	{
+		"name": "Living History Programs",
+		"description": "This innovative department creates and manages interactive experiences where staff members portray historical figures or demonstrate traditional crafts and lifestyles. They focus on authenticity and educational value while ensuring an engaging visitor experience."
+	},
+	{
+		"name": "Cultural Events and Festivals Management",
+		"description": "This team specializes in organizing and executing events that showcase local heritage, from traditional music festivals to historical reenactments. They work to create memorable experiences that attract tourists and celebrate cultural identity."
+	},
+	{
+		"name": "Indigenous Tourism Liaison",
+		"description": "This department acts as a bridge between indigenous communities and tourism operations, ensuring respectful representation, fair economic benefits, and the protection of sacred sites and traditions. They facilitate authentic cultural exchanges and experiences."
+	},
+	{
+		"name": "Heritage Architectural Services",
+		"description": "This specialized unit focuses on the restoration, maintenance, and adaptation of historical buildings for tourism purposes. They balance preservation requirements with modern safety standards and visitor needs."
+	},
+	{
+		"name": "Cultural Sensitivity Training",
+		"description": "This department develops and implements training programs for all staff members, ensuring they understand and respect the cultural significance of sites and artifacts. They also create guidelines for visitor behavior at sensitive locations."
+	},
+	{
+		"name": "Oral History and Storytelling Division",
+		"description": "This unique team collects, preserves, and shares local stories and traditions. They work with community elders and historians to create compelling narratives that enrich the visitor experience and preserve intangible cultural heritage."
+	},
+	{
+		"name": "Traditional Crafts and Skills Workshop",
+		"description": "This department manages programs where visitors can learn and practice traditional crafts or skills. They work with local artisans to offer authentic, hands-on experiences that connect tourists with cultural heritage."
+	},
+	{
+		"name": "Cultural Tourism Impact Assessment",
+		"description": "This analytical unit studies the long-term effects of tourism on cultural sites and local communities. They develop strategies to mitigate negative impacts and enhance positive outcomes, ensuring the sustainability of cultural tourism initiatives."
+	},
+	{
+		"name": "Heritage Language Services",
+		"description": "This department focuses on preserving and promoting local languages or dialects that are integral to the cultural heritage. They develop language immersion experiences and educational materials for tourists interested in linguistic diversity."
+	},
+	{
+		"name": "Cultural Authenticity Certification",
+		"description": "This team develops and manages certification programs that verify the authenticity of cultural experiences, products, and services offered to tourists. They work to prevent cultural appropriation and ensure the integrity of heritage tourism offerings."
+	}
+]

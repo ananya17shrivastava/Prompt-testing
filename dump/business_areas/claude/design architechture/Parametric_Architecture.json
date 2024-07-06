@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Algorithmic Design Studio",
+		"description": "This specialized unit focuses on developing and implementing complex mathematical algorithms and computational models to generate architectural forms and solutions. It's the creative engine that transforms abstract parameters into tangible design outcomes, pushing the boundaries of traditional architectural thinking."
+	},
+	{
+		"name": "Parametric Modeling Team",
+		"description": "This team is responsible for creating and managing the intricate 3D models that form the backbone of parametric architecture projects. They work with advanced software to build flexible, parameter-driven models that can be easily adjusted to meet changing design requirements or site conditions."
+	},
+	{
+		"name": "Environmental Performance Optimization Department",
+		"description": "This department leverages parametric tools to analyze and optimize building performance in real-time. They focus on aspects such as energy efficiency, daylighting, and thermal comfort, using data-driven approaches to fine-tune designs for maximum sustainability and occupant well-being."
+	},
+	{
+		"name": "Digital Fabrication Lab",
+		"description": "This cutting-edge facility bridges the gap between virtual design and physical construction. It houses advanced manufacturing technologies like 3D printers and CNC machines, allowing for the rapid prototyping and production of complex geometries and custom components unique to parametric designs."
+	},
+	{
+		"name": "Generative Design Research Unit",
+		"description": "This forward-thinking unit explores the potential of artificial intelligence and machine learning in architectural design. They develop and test algorithms that can generate multiple design options based on given parameters, pushing the boundaries of what's possible in parametric architecture."
+	},
+	{
+		"name": "Parametric Systems Integration Department",
+		"description": "This department specializes in integrating parametric design principles with building systems and components. They ensure that the complex geometries and adaptive designs characteristic of parametric architecture can be effectively implemented in real-world construction scenarios."
+	},
+	{
+		"name": "Computational Design Training Center",
+		"description": "This in-house educational facility is dedicated to keeping the team at the forefront of parametric design technologies and methodologies. It provides ongoing training and skill development in advanced software tools and computational thinking, ensuring the firm remains competitive in this rapidly evolving field."
+	},
+	{
+		"name": "Parametric Design Visualization Studio",
+		"description": "This studio focuses on creating immersive, interactive visualizations of parametric designs. Using advanced rendering techniques and virtual reality technologies, they bring complex parametric concepts to life, facilitating better communication with clients and stakeholders."
+	},
+	{
+		"name": "Data-Driven Design Analytics Team",
+		"description": "This team specializes in collecting, analyzing, and interpreting vast amounts of data to inform parametric design decisions. They work on developing custom tools and dashboards that allow designers to make informed choices based on real-time data feedback."
+	},
+	{
+		"name": "Parametric Urban Planning Division",
+		"description": "This division applies parametric design principles to urban scale projects. They develop adaptive, responsive urban models that can evolve based on changing demographic, environmental, and economic parameters, offering innovative solutions for smart cities and sustainable urban development."
+	}
+]

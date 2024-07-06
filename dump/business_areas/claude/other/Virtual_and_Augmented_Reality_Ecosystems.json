@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Spatial Computing Division",
+		"description": "This department focuses on developing and implementing technologies that enable virtual objects to interact with real-world environments. It's crucial for creating immersive AR experiences that seamlessly blend digital content with physical spaces, enhancing user engagement and practical applications across various industries."
+	},
+	{
+		"name": "Haptic Feedback Engineering",
+		"description": "This specialized team works on creating tactile sensations for VR/AR users, allowing them to \"feel\" virtual objects. Their innovations are essential for improving the realism and interactivity of virtual experiences, opening up new possibilities in fields like remote surgery, industrial training, and advanced gaming."
+	},
+	{
+		"name": "Volumetric Capture Studio",
+		"description": "This state-of-the-art facility is dedicated to creating three-dimensional representations of real people and objects for use in VR/AR environments. It's vital for producing high-quality, lifelike content that can be integrated into various applications, from entertainment to educational simulations."
+	},
+	{
+		"name": "Neural Interface Research",
+		"description": "This cutting-edge department explores ways to directly connect the human brain with VR/AR systems. Their work aims to revolutionize user interaction, potentially allowing for thought-controlled navigation and more intuitive experiences within virtual environments."
+	},
+	{
+		"name": "Virtual Economy Management",
+		"description": "This team oversees the creation, regulation, and maintenance of in-world economies for VR platforms. They're responsible for developing virtual currencies, managing digital asset marketplaces, and ensuring fair and secure transactions within immersive environments."
+	},
+	{
+		"name": "Holographic Display Development",
+		"description": "This department focuses on creating advanced display technologies that project three-dimensional images into real space without the need for headsets. Their innovations are crucial for expanding AR applications in public spaces, retail environments, and collaborative workspaces."
+	},
+	{
+		"name": "Olfactory Simulation Lab",
+		"description": "This unique division works on incorporating scent into VR/AR experiences. By developing technologies to simulate smells, they enhance the immersive quality of virtual environments, opening up new possibilities in fields like experiential marketing and therapeutic applications."
+	},
+	{
+		"name": "Gesture Recognition Systems",
+		"description": "This team specializes in developing intuitive, hand-based control systems for VR/AR interfaces. Their work is essential for creating more natural and accessible ways of interacting with virtual content, improving user experience across various applications."
+	},
+	{
+		"name": "Virtual Social Dynamics Research",
+		"description": "This department studies and develops protocols for social interactions in virtual spaces. Their insights are crucial for creating engaging multiplayer VR experiences and fostering healthy online communities within immersive platforms."
+	},
+	{
+		"name": "Augmented Reality Navigation",
+		"description": "This team focuses on developing AR-based wayfinding and information overlay systems. Their work is vital for creating practical AR applications in urban environments, tourism, and large-scale event management."
+	},
+	{
+		"name": "Immersive Audio Engineering",
+		"description": "This specialized division works on creating 3D soundscapes that respond dynamically to user movement and interactions in VR/AR environments. Their innovations are key to enhancing the realism and emotional impact of virtual experiences."
+	},
+	{
+		"name": "Virtual Asset Creation Studio",
+		"description": "This department is dedicated to designing and producing high-quality 3D models, textures, and animations specifically optimized for use in VR/AR environments. Their work is essential for populating virtual worlds with visually appealing and performance-efficient content."
+	}
+]

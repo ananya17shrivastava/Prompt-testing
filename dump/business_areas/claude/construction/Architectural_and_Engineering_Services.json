@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Design Studio",
+		"description": "The creative hub where architectural concepts are born and refined. This department houses skilled architects and designers who transform client visions into tangible blueprints, utilizing cutting-edge software and innovative design principles to create aesthetically pleasing and functional structures."
+	},
+	{
+		"name": "Engineering Specialties Division",
+		"description": "A multi-disciplinary team of specialized engineers (structural, mechanical, electrical, civil) who collaborate to ensure the technical feasibility and safety of architectural designs. This department translates creative concepts into engineered solutions, addressing complex challenges unique to each project."
+	},
+	{
+		"name": "Sustainability and Green Building Unit",
+		"description": "Focused on integrating environmentally conscious practices into architectural and engineering designs. This forward-thinking department develops strategies for energy efficiency, sustainable materials usage, and eco-friendly building systems, aligning projects with green certifications and future-proofing designs."
+	},
+	{
+		"name": "Building Information Modeling (BIM) Center",
+		"description": "A technologically advanced department dedicated to creating detailed 3D models of projects. This unit facilitates better visualization, collaboration, and decision-making throughout the design and construction process, enhancing efficiency and reducing errors."
+	},
+	{
+		"name": "Architectural Visualization Team",
+		"description": "Specialists in creating photorealistic renderings and animations of proposed designs. This department brings concepts to life, allowing clients and stakeholders to experience spaces virtually before construction begins, aiding in marketing and approvals."
+	},
+	{
+		"name": "Code Compliance and Permitting Division",
+		"description": "Experts in navigating the complex landscape of building codes, zoning laws, and regulatory requirements. This department ensures designs meet all legal and safety standards, streamlining the approval process and minimizing potential delays."
+	},
+	{
+		"name": "Historic Preservation and Restoration Unit",
+		"description": "Dedicated to the sensitive renovation and preservation of historically significant structures. This specialized team balances modern functionality with respect for architectural heritage, employing unique techniques and materials to maintain historical integrity."
+	},
+	{
+		"name": "Parametric Design Department",
+		"description": "Cutting-edge professionals who utilize advanced computational design techniques to create complex, data-driven architectural forms. This department pushes the boundaries of traditional design, enabling the creation of innovative and highly optimized structures."
+	},
+	{
+		"name": "Acoustical Engineering Team",
+		"description": "Specialists focused on the science of sound within architectural spaces. This department optimizes audio environments in various settings, from concert halls to office buildings, ensuring optimal acoustic performance and comfort."
+	},
+	{
+		"name": "Facade Engineering Unit",
+		"description": "Experts in the design and engineering of building envelopes. This department focuses on creating aesthetically pleasing, energy-efficient, and structurally sound exterior systems that protect and define the building's character."
+	},
+	{
+		"name": "Lighting Design Studio",
+		"description": "A specialized team dedicated to enhancing architectural spaces through innovative lighting solutions. This department combines artistic vision with technical expertise to create atmospheres that complement the architecture and improve user experience."
+	},
+	{
+		"name": "Virtual Reality (VR) and Augmented Reality (AR) Lab",
+		"description": "A forward-thinking department leveraging immersive technologies to enhance design processes and client experiences. This team develops VR walkthroughs and AR applications, allowing for more intuitive design reviews and marketing presentations."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Audit and Assurance Services",
+		"description": "This department forms the backbone of public accounting firms, providing independent verification of financial statements and internal controls. It's crucial for maintaining investor confidence and regulatory compliance, offering a level of scrutiny that goes beyond internal accounting practices."
+	},
+	{
+		"name": "SEC Reporting and Compliance",
+		"description": "Specializing in the complex world of Securities and Exchange Commission regulations, this department ensures that publicly traded companies meet all filing requirements and disclosure standards. It's essential for maintaining transparency and avoiding costly regulatory issues."
+	},
+	{
+		"name": "Forensic Accounting and Fraud Investigation",
+		"description": "This specialized unit combines accounting expertise with investigative skills to uncover financial irregularities and support legal proceedings. It's invaluable for risk management and can be crucial in high-stakes situations involving financial misconduct."
+	},
+	{
+		"name": "IPO Advisory Services",
+		"description": "Focused on guiding companies through the intricate process of going public, this department offers expertise in financial reporting, regulatory compliance, and investor relations specific to initial public offerings. It's a critical resource for companies looking to transition to public status."
+	},
+	{
+		"name": "PCAOB Compliance",
+		"description": "This department ensures that the firm adheres to Public Company Accounting Oversight Board standards, which are specific to public accounting firms. It's essential for maintaining the firm's credibility and ability to audit public companies."
+	},
+	{
+		"name": "Technical Accounting Research",
+		"description": "Dedicated to staying ahead of evolving accounting standards and complex technical issues, this department provides crucial support for both clients and internal teams. It's key to offering cutting-edge solutions and maintaining the firm's reputation for expertise."
+	},
+	{
+		"name": "Quality Control and Peer Review",
+		"description": "Unique to public accounting, this department focuses on maintaining the firm's adherence to professional standards and practices. It's critical for upholding the firm's reputation and ensuring consistent, high-quality service across all engagements."
+	},
+	{
+		"name": "Client Acceptance and Continuance",
+		"description": "This specialized function assesses potential clients and ongoing relationships to manage risk and ensure compliance with independence requirements specific to public accounting. It's crucial for maintaining the firm's integrity and avoiding conflicts of interest."
+	},
+	{
+		"name": "Independence Monitoring",
+		"description": "This department ensures that the firm and its professionals maintain independence from audit clients as required by regulatory bodies. It's essential for preserving the objectivity that is fundamental to public accounting services."
+	},
+	{
+		"name": "Audit Technology and Innovation",
+		"description": "Focused on developing and implementing cutting-edge audit tools and methodologies, this department keeps the firm at the forefront of technological advancements in auditing. It's key to improving efficiency and effectiveness in an increasingly complex audit environment."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Crisis Intervention Units",
+		"description": "These specialized teams provide immediate, short-term assistance to individuals experiencing acute mental health or substance abuse emergencies. They operate 24/7 and often involve mobile response capabilities, offering on-site assessment and stabilization services."
+	},
+	{
+		"name": "Dual Diagnosis Treatment Programs",
+		"description": "These programs cater specifically to clients with co-occurring mental health and substance abuse disorders. They integrate treatment approaches from both fields, addressing the complex interplay between mental illness and addiction."
+	},
+	{
+		"name": "Psychiatric Medication Management",
+		"description": "This department focuses on the prescription, monitoring, and adjustment of psychotropic medications for mental health patients. It requires a team of psychiatrists and specialized nurses who work closely with other treatment providers."
+	},
+	{
+		"name": "Substance Detoxification Services",
+		"description": "These units provide medically supervised withdrawal management for individuals with substance dependencies. They offer a safe environment for detoxification, managing physical symptoms and preparing clients for further treatment."
+	},
+	{
+		"name": "Behavioral Therapy Units",
+		"description": "These specialized departments employ evidence-based therapeutic approaches like Cognitive Behavioral Therapy (CBT) or Dialectical Behavior Therapy (DBT) to address specific mental health and substance abuse issues."
+	},
+	{
+		"name": "Addiction Counseling Services",
+		"description": "This area focuses on providing individual and group counseling specifically tailored to address substance abuse issues, including relapse prevention strategies and recovery support."
+	},
+	{
+		"name": "Psychosocial Rehabilitation Programs",
+		"description": "These programs aim to improve the functional capabilities of individuals with severe mental illnesses, focusing on life skills, social integration, and vocational training."
+	},
+	{
+		"name": "Harm Reduction Services",
+		"description": "This department implements strategies to minimize the negative health, social, and legal impacts associated with drug use, without necessarily requiring abstinence."
+	},
+	{
+		"name": "Telepsychiatry Divisions",
+		"description": "These units leverage technology to provide remote mental health and substance abuse services, expanding reach to underserved or rural populations."
+	},
+	{
+		"name": "Forensic Mental Health Services",
+		"description": "This specialized area deals with the intersection of mental health and the criminal justice system, providing assessment, treatment, and rehabilitation services for offenders with mental health or substance abuse issues."
+	},
+	{
+		"name": "Eating Disorder Treatment Units",
+		"description": "These departments offer specialized care for individuals struggling with eating disorders, often involving a multidisciplinary approach including medical, nutritional, and psychological interventions."
+	},
+	{
+		"name": "Trauma-Informed Care Programs",
+		"description": "These units specialize in providing services that recognize and respond to the impact of trauma on mental health and substance abuse, employing specific trauma-sensitive approaches in treatment."
+	}
+]

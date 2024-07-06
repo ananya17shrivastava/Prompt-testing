@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Pipe Fabrication Workshop",
+		"description": "A specialized area where custom pipes and fittings are manufactured to meet specific project requirements. This department allows for greater flexibility in addressing unique plumbing challenges and can significantly reduce reliance on third-party suppliers."
+	},
+	{
+		"name": "Water Treatment Solutions Division",
+		"description": "This department focuses on developing and implementing water purification, softening, and filtration systems for residential and commercial clients. It addresses the growing demand for improved water quality and can be a significant revenue generator."
+	},
+	{
+		"name": "Leak Detection Unit",
+		"description": "A specialized team equipped with advanced technology to locate and assess hidden leaks in pipes and plumbing systems. This proactive approach can prevent major water damage and position your company as a leader in preventative plumbing services."
+	},
+	{
+		"name": "Trenchless Technology Department",
+		"description": "This innovative division specializes in pipe repair and replacement methods that minimize surface disruption. By offering services like pipe relining and horizontal directional drilling, you can differentiate your company in the market and tackle complex projects more efficiently."
+	},
+	{
+		"name": "Backflow Prevention and Testing Division",
+		"description": "A dedicated team that focuses on installing, maintaining, and certifying backflow prevention devices. This specialized service ensures compliance with local regulations and protects water supply systems from contamination."
+	},
+	{
+		"name": "Greywater Recycling Systems Unit",
+		"description": "This forward-thinking department designs and installs systems that recycle wastewater from sinks, showers, and laundry for non-potable uses like irrigation. It caters to environmentally conscious clients and positions your company at the forefront of sustainable plumbing practices."
+	},
+	{
+		"name": "Plumbing Diagnostics and Imaging Center",
+		"description": "A high-tech division utilizing advanced imaging technologies like video pipe inspection and thermal imaging to diagnose complex plumbing issues. This department can significantly improve the accuracy and efficiency of your service delivery."
+	},
+	{
+		"name": "Hydro Jetting and Pipe Cleaning Specialists",
+		"description": "A team dedicated to using high-pressure water jetting technology for clearing severe blockages and cleaning pipes. This specialized service can address issues that traditional plumbing methods cannot, opening up new revenue streams."
+	},
+	{
+		"name": "Gas Line Installation and Maintenance Unit",
+		"description": "A specialized division focused on the installation, repair, and maintenance of gas lines for residential and commercial properties. This department requires specific certifications and expertise, setting your company apart in the plumbing services market."
+	},
+	{
+		"name": "Smart Plumbing Integration Team",
+		"description": "This innovative department focuses on integrating smart technology into plumbing systems, including leak detection sensors, water usage monitors, and automated shut-off valves. It caters to the growing demand for connected home and building solutions."
+	},
+	{
+		"name": "Commercial Kitchen Plumbing Specialists",
+		"description": "A dedicated team that specializes in the unique plumbing requirements of commercial kitchens, including grease trap installation and maintenance, high-capacity drainage systems, and compliance with health department regulations."
+	},
+	{
+		"name": "Rainwater Harvesting Systems Division",
+		"description": "This department designs and installs systems to collect, store, and utilize rainwater for various non-potable applications. It appeals to environmentally conscious clients and those looking to reduce water costs in drought-prone areas."
+	}
+]

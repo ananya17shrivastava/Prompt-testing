@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Diversity Sourcing Strategy",
+		"description": "This department focuses on developing innovative strategies to identify and attract diverse talent pools. They create targeted approaches to reach underrepresented groups, leveraging non-traditional channels and partnerships to expand the diversity of candidate pipelines."
+	},
+	{
+		"name": "Inclusive Job Description Engineering",
+		"description": "This specialized team crafts job descriptions and recruitment materials that are free from bias and appeal to a wide range of candidates. They use inclusive language and highlight diversity-friendly policies to attract a more diverse applicant pool."
+	},
+	{
+		"name": "Cultural Competence Training",
+		"description": "This unit designs and delivers training programs to enhance the cultural competence of hiring managers and recruitment teams. They focus on reducing unconscious bias in the hiring process and promoting inclusive interview techniques."
+	},
+	{
+		"name": "Diversity Metrics and Analytics",
+		"description": "This department develops and monitors key performance indicators (KPIs) specific to diversity and inclusion in recruitment. They analyze data to identify trends, gaps, and opportunities in the hiring process, providing actionable insights to improve diversity outcomes."
+	},
+	{
+		"name": "Affirmative Action Compliance",
+		"description": "This specialized team ensures that recruitment practices align with affirmative action requirements and equal employment opportunity (EEO) regulations. They develop and implement strategies to meet diversity goals while maintaining legal compliance."
+	},
+	{
+		"name": "Diversity Employer Branding",
+		"description": "This unit focuses on crafting and promoting an employer brand that emphasizes commitment to diversity and inclusion. They develop targeted marketing campaigns and content to attract diverse candidates and showcase the organization's inclusive culture."
+	},
+	{
+		"name": "Diversity Partnerships and Outreach",
+		"description": "This department builds and maintains relationships with diverse professional organizations, educational institutions, and community groups. They organize and participate in diversity-focused career fairs, networking events, and mentorship programs to expand the diverse talent pipeline."
+	},
+	{
+		"name": "Inclusive Assessment Design",
+		"description": "This specialized team develops and implements assessment tools and methodologies that minimize bias and fairly evaluate candidates from diverse backgrounds. They focus on creating inclusive interview processes and skills assessments that accommodate various cultural perspectives and experiences."
+	},
+	{
+		"name": "Diversity Onboarding and Retention",
+		"description": "This unit designs tailored onboarding programs to support the integration and success of diverse hires. They develop retention strategies and initiatives to create an inclusive work environment that values and nurtures diverse talent."
+	},
+	{
+		"name": "Intersectionality Analysis",
+		"description": "This department focuses on understanding and addressing the complex interplay of multiple diversity dimensions (e.g., race, gender, age, disability) in the recruitment process. They develop strategies to ensure that recruitment efforts are inclusive across various intersecting identities."
+	},
+	{
+		"name": "Diversity Recruitment Technology",
+		"description": "This specialized team researches, implements, and manages technology solutions specifically designed to support diversity and inclusion in recruitment. They focus on AI-powered tools for unbiased resume screening, diversity-focused applicant tracking systems, and inclusive chatbots for candidate engagement."
+	},
+	{
+		"name": "Diversity Talent Pool Management",
+		"description": "This unit maintains and nurtures a diverse talent pool of passive candidates. They develop long-term engagement strategies to build relationships with potential diverse candidates, even when there are no immediate job openings."
+	}
+]

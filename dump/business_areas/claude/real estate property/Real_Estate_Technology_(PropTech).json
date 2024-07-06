@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Virtual Property Tours Development",
+		"description": "This department focuses on creating immersive, 3D virtual tours of properties. It leverages cutting-edge technologies like augmented reality (AR) and virtual reality (VR) to provide potential buyers or renters with realistic, interactive property experiences without physical visits."
+	},
+	{
+		"name": "Smart Building Systems Integration",
+		"description": "This team specializes in implementing and managing IoT-based smart building solutions. They work on integrating various systems like HVAC, lighting, security, and energy management into a cohesive, AI-driven ecosystem for optimal building performance and tenant comfort."
+	},
+	{
+		"name": "Blockchain-based Property Transactions",
+		"description": "This innovative department develops and maintains blockchain platforms for secure, transparent real estate transactions. They focus on creating smart contracts, facilitating fractional ownership, and streamlining the entire property buying/selling process through distributed ledger technology."
+	},
+	{
+		"name": "AI-Powered Property Valuation",
+		"description": "This unit employs artificial intelligence and machine learning algorithms to provide accurate, real-time property valuations. They continuously refine predictive models using vast datasets of property characteristics, market trends, and location-specific factors."
+	},
+	{
+		"name": "Digital Twin Development",
+		"description": "This department creates detailed digital replicas of physical properties and entire real estate portfolios. These digital twins enable advanced simulations, predictive maintenance, and optimization of building operations through real-time data analysis and visualization."
+	},
+	{
+		"name": "Proptech API Integration",
+		"description": "This team focuses on developing and maintaining APIs that allow seamless integration between various proptech solutions and traditional real estate systems. They ensure smooth data flow and interoperability across different platforms and technologies."
+	},
+	{
+		"name": "Tenant Experience App Development",
+		"description": "This department designs and maintains mobile applications focused on enhancing tenant experiences in commercial and residential properties. These apps typically include features like maintenance requests, community engagement, amenity bookings, and personalized services."
+	},
+	{
+		"name": "Predictive Analytics for Real Estate Trends",
+		"description": "This unit leverages big data and advanced analytics to forecast real estate market trends, investment opportunities, and potential risks. They provide actionable insights to inform strategic decision-making in property acquisition, development, and management."
+	},
+	{
+		"name": "Automated Property Management Systems",
+		"description": "This team develops AI-driven systems that automate various aspects of property management, including rent collection, maintenance scheduling, tenant communications, and financial reporting. These systems aim to increase efficiency and reduce operational costs."
+	},
+	{
+		"name": "Drone-based Property Inspection and Mapping",
+		"description": "This department utilizes drone technology for aerial property inspections, 3D mapping, and site surveys. They develop software for flight planning, data collection, and analysis, providing detailed insights for property assessment, development planning, and marketing."
+	},
+	{
+		"name": "Energy Efficiency Optimization Technology",
+		"description": "This unit focuses on developing and implementing advanced technologies for optimizing energy usage in buildings. They work on smart metering systems, renewable energy integration, and AI-driven energy management solutions to reduce costs and environmental impact."
+	},
+	{
+		"name": "Augmented Reality for Property Development",
+		"description": "This innovative team creates AR applications for visualizing proposed property developments or renovations. Their tools allow stakeholders to see and interact with virtual representations of future projects in real-world contexts, enhancing decision-making and marketing efforts."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Treasury Management Services",
+		"description": "This department focuses on providing sophisticated cash management solutions to corporate clients. It helps businesses optimize their working capital, streamline payment processes, and enhance liquidity management through cutting-edge technology platforms and customized financial strategies."
+	},
+	{
+		"name": "Trade Finance",
+		"description": "Specializing in facilitating international trade, this unit offers a range of services to support import-export activities. It provides solutions such as letters of credit, trade guarantees, and supply chain financing, enabling businesses to mitigate risks and capitalize on global opportunities."
+	},
+	{
+		"name": "Commercial Real Estate Lending",
+		"description": "This division caters to the unique financing needs of commercial property developers and investors. It offers tailored lending solutions for various property types, including office buildings, retail spaces, and industrial facilities, supporting clients throughout the property lifecycle."
+	},
+	{
+		"name": "Asset-Based Lending",
+		"description": "Focusing on leveraging a company's assets to secure financing, this department provides creative funding solutions for businesses with substantial inventory, equipment, or accounts receivable. It enables companies to access capital based on the value of their assets, supporting growth and operational needs."
+	},
+	{
+		"name": "Middle Market Banking",
+		"description": "This segment specializes in serving mid-sized businesses with complex financial needs. It offers a blend of personalized service and sophisticated banking products, helping these companies navigate growth challenges, access capital, and optimize their financial operations."
+	},
+	{
+		"name": "Syndicated Lending",
+		"description": "This unit arranges and manages large, complex loans that are too sizeable for a single bank to handle. It coordinates with multiple financial institutions to structure and distribute these loans, supporting major corporate initiatives and large-scale projects."
+	},
+	{
+		"name": "Equipment Finance",
+		"description": "Catering to businesses requiring specialized machinery or equipment, this department offers tailored financing solutions. It helps companies acquire essential assets without tying up significant capital, supporting operational expansion and technological upgrades."
+	},
+	{
+		"name": "Franchise Finance",
+		"description": "This niche area focuses on providing financial solutions to franchisees and franchisors. It offers specialized lending products and advisory services that address the unique challenges and opportunities within the franchise business model."
+	},
+	{
+		"name": "Government Banking",
+		"description": "This division serves the distinct needs of government entities, offering specialized products and services tailored to public sector requirements. It helps manage public funds, streamline revenue collection, and facilitate efficient financial operations for various government levels."
+	},
+	{
+		"name": "Not-for-Profit Banking",
+		"description": "Catering to the unique financial needs of non-profit organizations, this unit offers specialized services such as endowment management, donation processing, and grant administration. It helps these entities maximize their financial resources to fulfill their missions effectively."
+	},
+	{
+		"name": "Healthcare Banking",
+		"description": "This specialized department focuses on the complex financial needs of healthcare providers and institutions. It offers tailored solutions for medical equipment financing, practice acquisitions, and working capital management, supporting the unique cash flow cycles in the healthcare industry."
+	},
+	{
+		"name": "Agribusiness Banking",
+		"description": "Serving the agricultural sector, this unit provides specialized financial products and services tailored to the cyclical nature of farming and agribusiness. It offers solutions such as crop financing, equipment loans, and risk management tools designed for the agricultural industry's unique challenges."
+	}
+]

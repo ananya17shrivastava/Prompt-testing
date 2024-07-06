@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Neural Interface Development",
+		"description": "This department focuses on creating cutting-edge brain-computer interfaces (BCIs) and neural implants. It's responsible for developing technologies that allow direct communication between the human brain and external devices, potentially revolutionizing how we interact with technology and treat neurological disorders."
+	},
+	{
+		"name": "Neuromodulation Systems",
+		"description": "This area specializes in designing and manufacturing devices that alter nerve activity through targeted delivery of electrical stimulation or chemical agents. These systems have applications in pain management, movement disorders, and psychiatric conditions, offering innovative therapeutic approaches beyond traditional pharmaceuticals."
+	},
+	{
+		"name": "Neurofeedback Solutions",
+		"description": "This department develops advanced systems that provide real-time information about brain activity, allowing users to self-regulate their neural patterns. These solutions have potential applications in improving cognitive performance, managing stress, and treating various neurological and psychological conditions."
+	},
+	{
+		"name": "Neuroimaging Innovation",
+		"description": "This division focuses on creating next-generation brain imaging technologies that offer higher resolution, faster acquisition times, and novel insights into brain function. These innovations can lead to earlier disease detection, improved treatment planning, and enhanced understanding of cognitive processes."
+	},
+	{
+		"name": "Neurorobotics Integration",
+		"description": "This area combines neuroscience with robotics to develop brain-controlled prosthetics and exoskeletons. It aims to restore mobility and independence to individuals with paralysis or limb loss, pushing the boundaries of human-machine integration."
+	},
+	{
+		"name": "Cognitive Enhancement Technologies",
+		"description": "This department explores and develops technologies aimed at augmenting human cognitive abilities. This may include non-invasive brain stimulation devices, smart drugs, or AI-assisted cognitive training programs, potentially offering competitive advantages in high-performance fields."
+	},
+	{
+		"name": "Neuromarketing Tools",
+		"description": "This division creates technologies that measure and analyze neural and physiological responses to marketing stimuli. These tools provide unprecedented insights into consumer behavior and decision-making processes, potentially revolutionizing marketing strategies and product development."
+	},
+	{
+		"name": "Neurogaming Development",
+		"description": "This area focuses on creating immersive gaming experiences that directly interface with the player's neural activity. It explores novel forms of entertainment and therapeutic applications, potentially opening new markets in the gaming and mental health industries."
+	},
+	{
+		"name": "Neurolaw Applications",
+		"description": "This department develops technologies and methodologies for applying neuroscience in legal contexts. This may include advanced lie detection systems, tools for assessing mental competency, or technologies for evaluating eyewitness testimony reliability."
+	},
+	{
+		"name": "Neuroprosthetics Research",
+		"description": "This division specializes in developing artificial neural systems to replace or augment damaged nervous system functions. It combines expertise in neuroscience, materials science, and bioengineering to create revolutionary medical devices that can restore lost sensory or motor functions."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Creative Services",
+		"description": "This department is the heart of an advertising agency, responsible for conceptualizing and producing innovative, attention-grabbing campaigns. It's where your agency's artistic vision comes to life, transforming client briefs into compelling visual and verbal narratives that resonate with target audiences."
+	},
+	{
+		"name": "Media Planning and Buying",
+		"description": "This specialized unit strategically plans and purchases advertising space across various platforms. They leverage industry relationships and data-driven insights to optimize client budgets, ensuring maximum reach and impact for campaigns in an increasingly fragmented media landscape."
+	},
+	{
+		"name": "Account Planning",
+		"description": "These strategic thinkers dive deep into consumer behavior, market trends, and brand positioning. They develop comprehensive briefs that guide creative teams, ensuring campaigns are not just creative, but also strategically sound and aligned with client objectives."
+	},
+	{
+		"name": "Production Services",
+		"description": "This department brings creative concepts to life, managing the entire production process from pre- to post-production. They oversee everything from photo shoots and video filming to animation and audio recording, ensuring high-quality deliverables that meet both creative vision and client expectations."
+	},
+	{
+		"name": "Traffic Management",
+		"description": "This crucial yet often overlooked department acts as the agency's central nervous system, coordinating workflow between different teams and ensuring projects move smoothly from conception to completion. They manage timelines, resources, and deliverables to keep campaigns on track and within budget."
+	},
+	{
+		"name": "New Business Development",
+		"description": "This team is dedicated to agency growth, identifying and pursuing new client opportunities. They craft compelling pitches, lead presentations, and negotiate contracts, playing a vital role in expanding your agency's client portfolio and revenue streams."
+	},
+	{
+		"name": "Brand Management",
+		"description": "These specialists focus on maintaining and evolving client brands over time. They ensure consistency across all touchpoints while adapting to market changes, acting as guardians of brand equity and stewards of long-term brand health."
+	},
+	{
+		"name": "Digital Integration",
+		"description": "This forward-thinking department specializes in incorporating digital elements into traditional campaigns and developing purely digital strategies. They stay ahead of technological trends, ensuring your agency remains competitive in the rapidly evolving digital advertising landscape."
+	},
+	{
+		"name": "Experiential Marketing",
+		"description": "This innovative team creates immersive brand experiences that go beyond traditional advertising. They conceptualize and execute events, pop-ups, and interactive installations that allow consumers to engage with brands in memorable, tangible ways."
+	},
+	{
+		"name": "Social Media Strategy",
+		"description": "This unit focuses specifically on leveraging social media platforms for advertising purposes. They develop platform-specific content strategies, manage influencer partnerships, and create engaging social campaigns that foster brand communities and drive user engagement."
+	}
+]

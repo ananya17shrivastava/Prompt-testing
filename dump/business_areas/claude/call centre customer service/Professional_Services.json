@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Billable Hours Management",
+		"description": "This department focuses on tracking, managing, and optimizing billable hours for professional service engagements. It ensures accurate time reporting, maximizes billable utilization, and helps maintain profitability for each client project."
+	},
+	{
+		"name": "Expertise Matching",
+		"description": "This specialized unit pairs client inquiries with the most suitable subject matter experts within the organization. It ensures that complex professional service requests are handled by individuals with the appropriate knowledge and experience."
+	},
+	{
+		"name": "Regulatory Compliance Support",
+		"description": "This department stays abreast of industry-specific regulations and standards, providing guidance to both internal teams and clients. It helps navigate the complex landscape of professional service compliance requirements, mitigating risks and ensuring adherence to relevant laws."
+	},
+	{
+		"name": "Client Relationship Management (CRM) for Long-term Engagements",
+		"description": "Unlike traditional CRM, this unit focuses on nurturing and maintaining long-term professional relationships. It oversees ongoing client engagements, manages contract renewals, and identifies opportunities for service expansion."
+	},
+	{
+		"name": "Knowledge Base Curation",
+		"description": "This team is responsible for developing and maintaining a comprehensive, up-to-date knowledge base of professional services information. They ensure that all customer service representatives have access to accurate, detailed information to address complex client queries."
+	},
+	{
+		"name": "Professional Development and Certification Tracking",
+		"description": "This department manages the ongoing professional development and certification requirements for staff members. It ensures that the team maintains the necessary qualifications to provide expert-level service in their respective fields."
+	},
+	{
+		"name": "Project Scope and Deliverables Management",
+		"description": "This unit oversees the definition, tracking, and fulfillment of project scopes and deliverables for professional service engagements. They ensure that client expectations are met and that projects are completed within agreed-upon parameters."
+	},
+	{
+		"name": "Intellectual Property Protection",
+		"description": "This specialized department safeguards the company's intellectual property, including proprietary methodologies, frameworks, and tools used in professional service delivery. They also advise on client confidentiality matters and data protection."
+	},
+	{
+		"name": "Thought Leadership and Content Development",
+		"description": "This team creates high-value, industry-specific content that showcases the organization's expertise. They produce whitepapers, case studies, and other materials that support the company's position as a thought leader in its field."
+	},
+	{
+		"name": "Service Customization and Tailoring",
+		"description": "This department focuses on adapting and customizing professional services to meet specific client needs. They work closely with sales and delivery teams to create bespoke solutions that address unique client challenges."
+	},
+	{
+		"name": "Peer Review and Quality Assurance",
+		"description": "This unit conducts peer reviews of professional work products and deliverables to ensure the highest quality standards are met. They implement and oversee quality assurance processes specific to professional service engagements."
+	},
+	{
+		"name": "Client Training and Enablement",
+		"description": "This department develops and delivers training programs to enable clients to effectively use and benefit from the professional services provided. They create custom learning materials and conduct workshops to enhance client capabilities."
+	},
+	{
+		"name": "ROI and Value Realization",
+		"description": "This team focuses on measuring and demonstrating the return on investment and value realization for clients engaging professional services. They develop metrics, conduct assessments, and produce reports that quantify the impact of service engagements."
+	}
+]

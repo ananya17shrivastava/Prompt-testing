@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Custom Home Design Services",
+		"description": "This department focuses on creating bespoke residential designs tailored to individual homeowners' preferences and needs. It combines architectural expertise with client collaboration to develop unique, personalized living spaces that stand out in the market."
+	},
+	{
+		"name": "Subdivision Planning and Development",
+		"description": "This specialized unit manages the intricate process of transforming raw land into residential communities. It involves master planning, infrastructure design, and navigating complex zoning regulations to create cohesive, marketable neighborhoods."
+	},
+	{
+		"name": "Energy Efficiency and Green Building Solutions",
+		"description": "This forward-thinking department concentrates on incorporating sustainable technologies and practices into residential construction. It stays abreast of the latest eco-friendly materials and energy-saving systems to meet growing consumer demand for environmentally responsible homes."
+	},
+	{
+		"name": "Home Renovation and Remodeling",
+		"description": "This adaptable team specializes in transforming existing residential structures. They focus on modernizing outdated homes, expanding living spaces, and enhancing property values through strategic upgrades and redesigns."
+	},
+	{
+		"name": "Model Home Staging and Sales Centers",
+		"description": "This creative department designs and furnishes model homes and sales centers to showcase the company's craftsmanship and design capabilities. They create immersive experiences that help potential buyers envision their future homes and facilitate the sales process."
+	},
+	{
+		"name": "Residential Warranty and After-Sales Service",
+		"description": "This customer-centric department manages post-construction relationships with homeowners. They handle warranty claims, provide maintenance support, and ensure customer satisfaction long after the keys are handed over."
+	},
+	{
+		"name": "Homeowner Association (HOA) Setup and Management",
+		"description": "This specialized team establishes and initially manages HOAs for new residential developments. They create governing documents, set up financial structures, and facilitate the transition to resident-led management."
+	},
+	{
+		"name": "Smart Home Integration",
+		"description": "This cutting-edge department focuses on incorporating the latest home automation and IoT technologies into residential construction. They design and implement integrated systems for security, climate control, entertainment, and energy management."
+	},
+	{
+		"name": "Multi-Family and Townhouse Development",
+		"description": "This niche team specializes in designing and constructing higher-density residential projects. They balance communal and private spaces, optimize land use, and create attractive, functional living environments for urban and suburban settings."
+	},
+	{
+		"name": "In-House Real Estate and Financing Services",
+		"description": "This department offers end-to-end solutions for homebuyers, including property selection, mortgage arrangements, and closing services. They streamline the home-buying process and provide additional value to customers while generating additional revenue streams."
+	},
+	{
+		"name": "Aging-in-Place and Accessibility Design",
+		"description": "This forward-thinking unit focuses on creating homes that accommodate residents throughout their lifespans. They incorporate universal design principles and adaptive technologies to ensure long-term comfort and functionality for all age groups and abilities."
+	},
+	{
+		"name": "Custom Millwork and Cabinetry",
+		"description": "This specialized department designs and produces bespoke woodwork elements for residential projects. They create unique, high-quality fixtures that elevate the overall design and craftsmanship of the homes, setting them apart from mass-produced alternatives."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Customs Classification Team",
+		"description": "This specialized unit focuses on accurately categorizing goods according to the Harmonized System (HS) codes. Their expertise ensures proper tariff classification, helping clients minimize duties and avoid compliance issues. This team's work is crucial for streamlining the customs clearance process and optimizing cost-efficiency in international trade."
+	},
+	{
+		"name": "Customs Valuation Department",
+		"description": "Experts in this department determine the correct customs value of imported goods. They navigate complex valuation methods, ensuring adherence to WTO guidelines and local regulations. Their work is vital for accurate duty calculations and preventing costly audits or penalties."
+	},
+	{
+		"name": "Free Trade Agreement (FTA) Compliance Unit",
+		"description": "This team specializes in leveraging FTAs to reduce or eliminate duties for eligible shipments. They analyze rules of origin, manage certification processes, and stay updated on evolving trade agreements. Their expertise can significantly impact your bottom line by optimizing duty savings opportunities."
+	},
+	{
+		"name": "Customs Bond Management",
+		"description": "This department handles the intricate world of customs bonds, which are financial guarantees required for various import activities. They assess bond requirements, manage renewals, and ensure adequate coverage, protecting your company from potential liabilities and ensuring smooth import operations."
+	},
+	{
+		"name": "Drawback Services Group",
+		"description": "This specialized team focuses on recovering duties, taxes, and fees paid on imported goods that are subsequently exported or destroyed. They navigate complex drawback regulations, prepare claims, and manage the refund process, potentially recovering substantial amounts for your business."
+	},
+	{
+		"name": "Remote Location Filing (RLF) Team",
+		"description": "This unit leverages technology to file customs entries from locations other than the port of entry. They streamline the clearance process, reduce delays, and offer flexibility in managing your imports. This team's work can significantly enhance your supply chain efficiency."
+	},
+	{
+		"name": "Reconciliation Department",
+		"description": "Experts here manage the process of adjusting initial customs entries when final information becomes available. They ensure accuracy in duties paid, handle post-entry adjustments, and maintain compliance with customs regulations. Their work is crucial for avoiding penalties and maintaining good standing with customs authorities."
+	},
+	{
+		"name": "Customs Audit Defense Unit",
+		"description": "This team specializes in preparing for and managing customs audits. They conduct internal reviews, prepare documentation, and represent your interests during audits. Their expertise is vital for minimizing disruptions, reducing potential penalties, and maintaining a positive relationship with customs authorities."
+	},
+	{
+		"name": "Customs Technology Integration Team",
+		"description": "This department focuses on implementing and managing specialized customs software and integrating it with your existing systems. They ensure smooth data flow, automate customs processes, and enhance overall efficiency in your international trade operations."
+	},
+	{
+		"name": "Trade Compliance Training Department",
+		"description": "This unit develops and delivers customized training programs on customs regulations, compliance requirements, and best practices. They ensure your staff stays updated on ever-changing customs laws, reducing compliance risks and empowering your team to make informed decisions."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "High-Power Microwave Systems Development",
+		"description": "This department focuses on creating weapons that emit intense bursts of electromagnetic energy to disable electronic systems. It requires specialized expertise in microwave technology, power management, and precision targeting systems."
+	},
+	{
+		"name": "Laser Weapon Integration",
+		"description": "This unit is responsible for developing and integrating high-energy laser systems into various platforms. They work on challenges like beam control, thermal management, and power scaling to create effective laser-based defensive and offensive capabilities."
+	},
+	{
+		"name": "Particle Beam Research",
+		"description": "This cutting-edge department explores the potential of accelerated particle beams as weapons. They tackle complex issues related to particle acceleration, beam focusing, and the effects of these weapons on various targets."
+	},
+	{
+		"name": "DEW Power Source Innovation",
+		"description": "This team is dedicated to developing compact, high-output power sources specifically for directed energy weapons. They work on advanced battery technologies, novel energy storage solutions, and efficient power distribution systems."
+	},
+	{
+		"name": "DEW Cooling and Thermal Management",
+		"description": "This specialized unit addresses the unique cooling requirements of directed energy weapons. They develop innovative heat dissipation technologies and thermal management strategies to ensure optimal weapon performance and longevity."
+	},
+	{
+		"name": "DEW Target Acquisition and Tracking",
+		"description": "This department focuses on creating advanced sensors and algorithms specifically designed for DEW targeting. They work on real-time atmospheric compensation, predictive tracking, and integration with existing battle management systems."
+	},
+	{
+		"name": "DEW Effects Analysis and Modeling",
+		"description": "This team uses advanced simulation tools and real-world testing to model the effects of directed energy weapons on various targets. They provide crucial data for weapon development, tactical planning, and strategic decision-making."
+	},
+	{
+		"name": "DEW Counter-Measures Development",
+		"description": "This unit researches and develops technologies to protect against enemy directed energy weapons. They work on advanced materials, shielding techniques, and electronic hardening to ensure the resilience of friendly forces and assets."
+	},
+	{
+		"name": "DEW Field Testing and Evaluation",
+		"description": "This department manages specialized testing facilities and conducts field trials for directed energy weapons. They develop unique testing protocols, safety procedures, and performance metrics specific to DEW systems."
+	},
+	{
+		"name": "DEW Legal and Ethical Compliance",
+		"description": "This team navigates the complex legal and ethical landscape surrounding directed energy weapons. They ensure compliance with international laws, develop rules of engagement, and address concerns related to the use of these novel weapon systems."
+	},
+	{
+		"name": "DEW Technology Transfer and Integration",
+		"description": "This department manages the transition of DEW technologies from research to operational use. They work closely with traditional weapon system integrators to incorporate directed energy capabilities into existing and future platforms."
+	},
+	{
+		"name": "DEW Training and Simulation",
+		"description": "This unit develops specialized training programs and simulation systems for DEW operators. They create realistic scenarios, virtual environments, and hands-on exercises to prepare personnel for the unique challenges of operating directed energy weapons."
+	}
+]

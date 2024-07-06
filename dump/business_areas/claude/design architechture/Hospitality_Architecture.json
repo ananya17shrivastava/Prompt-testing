@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Guest Experience Design",
+		"description": "This department focuses on creating immersive and memorable experiences for hotel guests through innovative spatial design. It goes beyond traditional architectural planning to incorporate elements that enhance comfort, functionality, and emotional connection with the space."
+	},
+	{
+		"name": "Brand Integration Architecture",
+		"description": "This specialized team ensures that the architectural design aligns seamlessly with the hotel brand's identity and values. They work to create unique visual signatures that differentiate the property from competitors while maintaining brand consistency across multiple locations."
+	},
+	{
+		"name": "Adaptive Reuse for Hospitality",
+		"description": "This department specializes in transforming existing buildings into hospitality spaces, preserving historical elements while adapting them to modern hotel requirements. They navigate the unique challenges of repurposing structures for optimal guest comfort and operational efficiency."
+	},
+	{
+		"name": "Food and Beverage Venue Design",
+		"description": "This team focuses on creating innovative dining spaces within hotels, from casual cafes to high-end restaurants. They consider factors such as traffic flow, ambiance, and operational efficiency to design venues that enhance the overall guest experience and maximize revenue potential."
+	},
+	{
+		"name": "Wellness Facility Integration",
+		"description": "This department specializes in incorporating health and wellness facilities into hotel designs. They create spaces for spas, fitness centers, and relaxation areas that align with current wellness trends and guest expectations, enhancing the overall value proposition of the property."
+	},
+	{
+		"name": "Event Space Optimization",
+		"description": "This team designs flexible and technologically advanced spaces for conferences, weddings, and other events within hotels. They focus on creating versatile areas that can be easily reconfigured to accommodate various group sizes and functions, maximizing the property's revenue potential."
+	},
+	{
+		"name": "Sustainable Hospitality Design",
+		"description": "This department focuses on integrating eco-friendly and energy-efficient solutions specific to the hospitality industry. They work on reducing the environmental impact of hotels while enhancing guest comfort and operational efficiency through innovative sustainable design practices."
+	},
+	{
+		"name": "FF&E (Furniture, Fixtures, and Equipment) Coordination",
+		"description": "This specialized team works on selecting and integrating furniture, fixtures, and equipment that align with the overall design concept while meeting the unique durability and functionality requirements of the hospitality industry."
+	},
+	{
+		"name": "Themed Environment Creation",
+		"description": "This department specializes in designing immersive, themed hotel environments that transport guests to different worlds or eras. They focus on creating cohesive narratives through architecture, decor, and interactive elements to provide unique guest experiences."
+	},
+	{
+		"name": "Smart Room Technology Integration",
+		"description": "This team focuses on incorporating cutting-edge technology into guest room designs. They work on seamlessly integrating smart controls, IoT devices, and personalized tech amenities to enhance guest comfort and operational efficiency."
+	},
+	{
+		"name": "Lobby Transformation Design",
+		"description": "This department specializes in reimagining hotel lobbies as dynamic, multi-functional spaces. They focus on creating areas that serve as social hubs, co-working spaces, and transitional zones, enhancing guest engagement and property utilization."
+	},
+	{
+		"name": "Hospitality Soundscaping",
+		"description": "This unique team works on designing architectural elements that optimize acoustics in various hotel spaces. They focus on creating environments that balance ambient noise, privacy, and sound quality to enhance guest comfort and overall experience."
+	}
+]

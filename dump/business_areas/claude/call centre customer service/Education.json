@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Academic Program Support",
+		"description": "This specialized unit handles inquiries related to specific educational programs, course offerings, and curriculum details. It requires staff with in-depth knowledge of various academic disciplines and the ability to explain complex educational pathways to students and parents."
+	},
+	{
+		"name": "Enrollment Management",
+		"description": "A dedicated team focused on managing the entire student enrollment process, from initial inquiries to application support and registration assistance. This department plays a crucial role in maintaining and growing student numbers, requiring a delicate balance of customer service and sales skills."
+	},
+	{
+		"name": "Financial Aid Navigation",
+		"description": "This department assists students and families in understanding and accessing various financial aid options, scholarships, and grants. Staff must be well-versed in complex financial aid regulations and able to guide callers through intricate application processes."
+	},
+	{
+		"name": "Student Life Services",
+		"description": "A unique support unit that addresses inquiries related to on-campus living, extracurricular activities, and student organizations. This team helps foster a sense of community and engagement, which is vital for student retention and satisfaction."
+	},
+	{
+		"name": "Alumni Relations Support",
+		"description": "This specialized department maintains connections with graduates, handling inquiries about alumni events, networking opportunities, and continuing education programs. It plays a crucial role in fostering long-term relationships and potential donor cultivation."
+	},
+	{
+		"name": "Accreditation and Compliance Assistance",
+		"description": "A dedicated team that manages inquiries related to institutional accreditation, academic standards, and regulatory compliance. This department ensures that stakeholders understand the institution's credibility and adherence to educational standards."
+	},
+	{
+		"name": "International Student Services",
+		"description": "This specialized unit caters to the unique needs of international students, addressing visa requirements, cultural adaptation, and specific academic support. It requires staff with cross-cultural communication skills and knowledge of international education regulations."
+	},
+	{
+		"name": "Continuing Education Support",
+		"description": "A department focused on assisting non-traditional students and professionals seeking additional certifications or skill development. This team must be adept at explaining flexible learning options and tailoring educational pathways to diverse career goals."
+	},
+	{
+		"name": "Educational Technology Support",
+		"description": "This unit provides specialized assistance for e-learning platforms, virtual classrooms, and other educational technologies. Staff must possess both technical expertise and the ability to guide users through digital learning environments."
+	},
+	{
+		"name": "Academic Advising Triage",
+		"description": "A unique department that serves as the first point of contact for students seeking academic guidance, helping to direct them to appropriate advisors or resources. This team requires broad knowledge of academic programs and strong interpersonal skills to assess student needs effectively."
+	},
+	{
+		"name": "Textbook and Course Materials Support",
+		"description": "This specialized unit handles inquiries related to required textbooks, course materials, and educational resources. Staff must be familiar with various publishing platforms, digital content access, and institution-specific material requirements."
+	},
+	{
+		"name": "Research and Grant Support",
+		"description": "A dedicated team that assists faculty, researchers, and students with inquiries related to research opportunities, grant applications, and academic publishing. This department requires staff with knowledge of academic research processes and funding mechanisms."
+	}
+]

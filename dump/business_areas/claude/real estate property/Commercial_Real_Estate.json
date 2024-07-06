@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Tenant Representation",
+		"description": "This specialized department focuses exclusively on representing commercial tenants in lease negotiations and property searches. It's a critical function that helps businesses find optimal spaces while navigating complex lease terms, ensuring our clients' interests are protected in an often landlord-favored market."
+	},
+	{
+		"name": "Investment Sales",
+		"description": "Our investment sales team is dedicated to facilitating large-scale transactions of commercial properties. They analyze market trends, property values, and potential returns to connect sellers with qualified investors, often dealing with multi-million dollar portfolios that can significantly impact our bottom line."
+	},
+	{
+		"name": "Asset Management",
+		"description": "This department oversees the performance of commercial real estate portfolios, focusing on maximizing property values and returns for investors. They implement strategic plans for each asset, balancing occupancy rates, rental income, and property improvements to ensure optimal financial performance."
+	},
+	{
+		"name": "Development Services",
+		"description": "Our development services team specializes in transforming raw land or existing properties into valuable commercial assets. They manage the entire development process, from conceptualization and feasibility studies to construction oversight and tenant acquisition, creating new revenue streams for our company."
+	},
+	{
+		"name": "Corporate Services",
+		"description": "This department caters to large corporations with extensive real estate portfolios. They provide comprehensive solutions for managing multiple properties across various locations, offering services like portfolio optimization, lease administration, and strategic planning to streamline our clients' real estate operations."
+	},
+	{
+		"name": "Facilities Management",
+		"description": "Our facilities management team focuses on the day-to-day operations of commercial properties. They ensure buildings run smoothly, efficiently, and cost-effectively, handling everything from maintenance and security to energy management and tenant relations, which is crucial for maintaining property values and tenant satisfaction."
+	},
+	{
+		"name": "Retail Advisory Services",
+		"description": "This specialized unit focuses on the unique needs of retail properties. They provide expert guidance on site selection, market analysis, and leasing strategies specific to retail environments, helping our clients navigate the rapidly evolving retail landscape."
+	},
+	{
+		"name": "Industrial and Logistics",
+		"description": "Our industrial and logistics department specializes in properties designed for manufacturing, warehousing, and distribution. They understand the unique requirements of these facilities, such as ceiling heights, loading dock specifications, and proximity to transportation hubs, ensuring our clients find or develop spaces that optimize their supply chain operations."
+	},
+	{
+		"name": "Office Leasing",
+		"description": "This team focuses exclusively on office space transactions. They have in-depth knowledge of office market trends, space planning, and tenant needs across various industries, allowing us to effectively match businesses with suitable office environments that enhance productivity and corporate image."
+	},
+	{
+		"name": "Sustainability and Green Building Services",
+		"description": "This forward-thinking department specializes in sustainable commercial real estate practices. They advise on green building certifications, energy-efficient retrofits, and sustainable property management strategies, helping our clients reduce their environmental impact while often lowering operating costs and increasing property values."
+	}
+]

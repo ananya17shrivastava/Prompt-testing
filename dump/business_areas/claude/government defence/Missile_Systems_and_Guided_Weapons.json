@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Propulsion Systems Engineering",
+		"description": "This department focuses on developing cutting-edge rocket motors and propulsion technologies specific to missiles and guided weapons. It's responsible for enhancing thrust-to-weight ratios, improving fuel efficiency, and creating innovative propulsion solutions that give our products a competitive edge in range and speed."
+	},
+	{
+		"name": "Guidance and Control Systems",
+		"description": "This critical unit designs and implements advanced guidance algorithms and control mechanisms. They ensure our missiles and guided weapons maintain pinpoint accuracy throughout their flight paths, adapting to changing environmental conditions and potential countermeasures."
+	},
+	{
+		"name": "Warhead Design and Integration",
+		"description": "This specialized team develops and integrates various types of warheads, including conventional, shaped charge, and specialized payloads. They focus on maximizing effectiveness while adhering to international treaties and regulations governing weapon systems."
+	},
+	{
+		"name": "Missile Aerodynamics",
+		"description": "This department employs computational fluid dynamics and wind tunnel testing to optimize the aerodynamic properties of our missiles. Their work is crucial in enhancing range, maneuverability, and overall performance across diverse operational environments."
+	},
+	{
+		"name": "Target Acquisition Systems",
+		"description": "This unit develops advanced sensors and tracking systems specific to missile applications. They work on integrating multi-spectral imaging, radar technologies, and other cutting-edge solutions to ensure our weapons can effectively identify and lock onto intended targets."
+	},
+	{
+		"name": "Missile Launch Systems Engineering",
+		"description": "This team designs and develops launch platforms and mechanisms tailored to various missile types. Their work spans from portable man-operated systems to complex ship-based and airborne launch platforms, ensuring seamless integration with host vehicles or platforms."
+	},
+	{
+		"name": "Electronic Warfare Countermeasures for Missiles",
+		"description": "This department focuses on developing sophisticated electronic protection measures to safeguard our missiles against enemy jamming, spoofing, or other electronic warfare tactics. They also work on creating penetration aids to enhance missile survivability in contested environments."
+	},
+	{
+		"name": "Missile Test and Evaluation Facilities",
+		"description": "This unit manages specialized testing infrastructure for missile systems, including flight test ranges, environmental simulation chambers, and hardware-in-the-loop testing facilities. They ensure our products meet rigorous performance and reliability standards before deployment."
+	},
+	{
+		"name": "Missile Software Integration",
+		"description": "This department specializes in developing and integrating complex software systems specific to missile operations. They focus on real-time processing, mission planning algorithms, and secure communication protocols tailored to the unique requirements of guided weapons."
+	},
+	{
+		"name": "Hypersonic Weapons Research",
+		"description": "This cutting-edge unit explores the frontier of hypersonic technology, developing missiles capable of traveling at speeds exceeding Mach 5. They tackle unique challenges in materials science, propulsion, and control systems to push the boundaries of weapon system capabilities."
+	},
+	{
+		"name": "Missile Life Cycle Management",
+		"description": "This team focuses on the long-term sustainment and modernization of missile systems throughout their operational life. They develop strategies for periodic upgrades, manage obsolescence issues, and ensure our products remain effective and relevant for decades."
+	},
+	{
+		"name": "Missile Safety and Arming Mechanisms",
+		"description": "This specialized department designs fail-safe mechanisms and safety protocols specific to missile systems. They ensure our products meet the highest standards of safety during storage, transportation, and operation while maintaining rapid deployment capabilities when needed."
+	}
+]

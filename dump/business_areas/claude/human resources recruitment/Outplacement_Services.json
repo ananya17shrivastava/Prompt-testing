@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Career Transition Consulting",
+		"description": "This department focuses on providing personalized guidance to displaced employees, helping them navigate the complexities of career change. It's crucial for ensuring a smooth transition and maintaining positive relationships with former employees, which can significantly impact your company's reputation and employer brand."
+	},
+	{
+		"name": "Redeployment Strategy",
+		"description": "This specialized unit works on identifying opportunities within the organization for employees facing layoffs. It's essential for retaining valuable talent and minimizing the negative impact of workforce reductions, potentially saving your company substantial recruitment and training costs in the long run."
+	},
+	{
+		"name": "Outplacement Technology Solutions",
+		"description": "This department develops and maintains proprietary software platforms designed specifically for job search, career assessment, and skills matching. These tools are critical for providing scalable, efficient outplacement services that can adapt to the changing needs of your displaced workforce."
+	},
+	{
+		"name": "Employer Brand Protection",
+		"description": "This unique team focuses on mitigating the potential negative impact of layoffs on your company's reputation. They work to ensure that the outplacement process aligns with your corporate values and helps maintain positive relationships with both departing and remaining employees, safeguarding your ability to attract top talent in the future."
+	},
+	{
+		"name": "Alumni Network Management",
+		"description": "This department creates and nurtures a network of former employees who have gone through the outplacement process. This network can be a valuable resource for future talent needs, business opportunities, and maintaining a positive corporate image in the broader professional community."
+	},
+	{
+		"name": "Layoff Impact Analysis",
+		"description": "This specialized unit provides data-driven insights on the potential consequences of workforce reductions. They help you understand the full scope of layoffs, including financial implications, productivity impacts, and potential legal risks, enabling more informed decision-making at the executive level."
+	},
+	{
+		"name": "Transition Communications Strategy",
+		"description": "This team develops tailored communication plans for announcing and managing layoffs. They ensure that messages are clear, compassionate, and aligned with legal requirements, helping to minimize confusion, maintain morale, and reduce the risk of negative publicity or legal challenges."
+	},
+	{
+		"name": "Skills Repurposing Consultancy",
+		"description": "This innovative department focuses on identifying transferable skills in displaced employees and matching them with emerging job markets or industries. This approach can significantly enhance the success rate of career transitions and demonstrate your company's commitment to employee well-being beyond their tenure."
+	},
+	{
+		"name": "Psychological Support Coordination",
+		"description": "This unit manages a network of mental health professionals specializing in career transition stress. They ensure that displaced employees have access to the emotional support needed during this challenging time, which can be crucial for maintaining your company's reputation as a caring employer."
+	},
+	{
+		"name": "Entrepreneurship Launchpad",
+		"description": "This unique department provides resources and guidance for employees interested in starting their own businesses post-layoff. By supporting entrepreneurial ambitions, you can turn a potentially negative situation into an opportunity for innovation and maintain positive relationships with former employees who may become future partners or clients."
+	}
+]

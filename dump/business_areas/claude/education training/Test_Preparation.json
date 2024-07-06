@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Question Bank Development",
+		"description": "This department focuses on creating, curating, and maintaining an extensive repository of test questions across various subjects and difficulty levels. It's crucial for ensuring that practice materials accurately reflect current exam patterns and standards."
+	},
+	{
+		"name": "Adaptive Learning Algorithm Team",
+		"description": "This specialized unit develops and refines algorithms that personalize study plans based on individual student performance. Their work is essential for creating efficient, targeted learning experiences that adapt in real-time to student progress."
+	},
+	{
+		"name": "Mock Test Design and Simulation",
+		"description": "This team creates highly realistic mock exams that mimic the actual testing environment, including timing, format, and difficulty. Their efforts are critical for helping students build test-taking stamina and familiarity with exam conditions."
+	},
+	{
+		"name": "Test-Taking Strategy Development",
+		"description": "This department focuses on researching and developing effective strategies specific to different types of standardized tests. They provide insights on time management, question approach, and mental preparation tailored to each exam format."
+	},
+	{
+		"name": "Score Prediction and Analysis",
+		"description": "This unit uses advanced analytics to predict student performance based on practice test results and study patterns. Their work is vital for providing students with realistic expectations and targeted areas for improvement."
+	},
+	{
+		"name": "Test Updates and Regulatory Compliance",
+		"description": "This team stays abreast of changes in various standardized tests, ensuring that all materials and strategies remain current and compliant with the latest exam regulations and formats."
+	},
+	{
+		"name": "Performance Analytics and Reporting",
+		"description": "This department develops comprehensive reports and dashboards that track student progress, identify areas of weakness, and provide actionable insights for both students and instructors."
+	},
+	{
+		"name": "Exam-Specific Content Creation",
+		"description": "This team develops targeted content for specific exams, ensuring that materials are precisely aligned with the unique requirements and nuances of each test, from SAT to GMAT to professional certification exams."
+	},
+	{
+		"name": "Rapid Response Question Solving",
+		"description": "This unit provides quick, expert responses to student queries about specific test questions or concepts, often in real-time during practice sessions or mock exams."
+	},
+	{
+		"name": "Test-Day Logistics and Support",
+		"description": "This department focuses on preparing students for the practical aspects of test day, including what to bring, how to manage stress, and how to handle unexpected situations during the actual exam."
+	}
+]

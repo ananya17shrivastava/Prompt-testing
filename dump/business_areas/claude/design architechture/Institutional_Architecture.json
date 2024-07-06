@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Campus Master Planning",
+		"description": "This department focuses on developing comprehensive, long-term plans for educational and institutional campuses. It involves strategizing the optimal placement of buildings, open spaces, and infrastructure to create cohesive and functional environments that support the institution's mission and growth objectives."
+	},
+	{
+		"name": "Specialized Learning Space Design",
+		"description": "This team concentrates on creating innovative and adaptable spaces tailored to specific educational needs. They design cutting-edge classrooms, laboratories, and collaborative areas that enhance learning experiences and accommodate evolving pedagogical approaches."
+	},
+	{
+		"name": "Student Life Facilities Development",
+		"description": "This department specializes in designing spaces that cater to the non-academic aspects of institutional life. They focus on creating engaging environments for student housing, dining facilities, recreation centers, and social hubs that foster community building and support student well-being."
+	},
+	{
+		"name": "Accessibility and Universal Design Integration",
+		"description": "This unit ensures that institutional buildings and spaces are inclusive and accessible to all users, regardless of their physical abilities. They work on implementing universal design principles throughout the campus, ensuring compliance with accessibility regulations while creating seamless experiences for everyone."
+	},
+	{
+		"name": "Sustainable Institutional Design",
+		"description": "This department focuses on incorporating environmentally responsible and resource-efficient practices into institutional architecture. They develop strategies for energy conservation, waste reduction, and sustainable material use, aligning institutional buildings with green certification standards and long-term sustainability goals."
+	},
+	{
+		"name": "Heritage and Adaptive Reuse",
+		"description": "This team specializes in preserving and repurposing historic institutional buildings. They balance the need for modern functionality with the preservation of architectural heritage, ensuring that renovations and adaptations respect the historical significance of campus structures."
+	},
+	{
+		"name": "Security and Safety Integration",
+		"description": "This department focuses on incorporating advanced security measures and safety features into institutional designs. They work on creating secure environments that protect occupants while maintaining an open and welcoming atmosphere, addressing unique challenges faced by educational and public institutions."
+	},
+	{
+		"name": "Funding and Grant Compliance",
+		"description": "This unit ensures that architectural designs align with the requirements of various funding sources and grants specific to institutional projects. They navigate complex regulations and guidelines associated with public, private, and philanthropic funding for educational and institutional buildings."
+	},
+	{
+		"name": "Interdisciplinary Collaboration Spaces",
+		"description": "This team specializes in designing flexible, multi-use spaces that facilitate collaboration across different academic disciplines. They create environments that encourage cross-pollination of ideas and support interdisciplinary research and learning initiatives."
+	},
+	{
+		"name": "Community Integration Planning",
+		"description": "This department focuses on designing institutional spaces that seamlessly integrate with the surrounding community. They work on creating permeable campus boundaries, shared public spaces, and facilities that serve both the institution and the local population, fostering positive town-gown relationships."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Underwriting",
+		"description": "This department is the backbone of insurance operations, responsible for evaluating and pricing risks. Underwriters analyze potential policyholders, determine coverage terms, and set premium rates. Their expertise ensures the company's profitability while offering competitive policies to clients."
+	},
+	{
+		"name": "Actuarial Services",
+		"description": "Actuaries are the mathematical wizards of the insurance world. This department uses complex statistical models and data analysis to assess risks, calculate premiums, and ensure the company's long-term financial stability. Their work is crucial for product development and maintaining the insurer's solvency."
+	},
+	{
+		"name": "Claims Management",
+		"description": "This department handles the core promise of insurance: paying out when policyholders experience losses. Claims professionals investigate incidents, assess damages, and process payouts. Their efficiency and fairness directly impact customer satisfaction and the company's reputation."
+	},
+	{
+		"name": "Reinsurance",
+		"description": "Reinsurance is insurance for insurance companies. This department manages relationships with reinsurers, negotiating treaties and facultative arrangements to spread risk and protect the insurer's financial stability in case of catastrophic events or large-scale losses."
+	},
+	{
+		"name": "Loss Control/Risk Engineering",
+		"description": "These specialists work to prevent and mitigate losses before they occur. They conduct risk assessments, provide safety recommendations to policyholders, and develop strategies to reduce claim frequency and severity. Their work is essential for maintaining profitability and fostering long-term client relationships."
+	},
+	{
+		"name": "Policy Administration",
+		"description": "This department manages the lifecycle of insurance policies, from issuance to renewal or cancellation. They handle policy changes, endorsements, and ensure compliance with regulatory requirements. Their efficiency is crucial for customer retention and operational effectiveness."
+	},
+	{
+		"name": "Insurance Product Development",
+		"description": "This innovative department creates new insurance products and modifies existing ones to meet market demands and address emerging risks. They work closely with actuarial, underwriting, and marketing teams to design competitive and profitable insurance solutions."
+	},
+	{
+		"name": "Catastrophe Modeling",
+		"description": "Unique to property and casualty insurers, this department uses sophisticated computer models to simulate and assess the potential impact of natural disasters and other catastrophic events on the insurer's portfolio. Their work is critical for risk management and capital allocation decisions."
+	},
+	{
+		"name": "Subrogation",
+		"description": "This specialized legal department pursues recovery of claim payments from third parties responsible for losses. Their work helps reduce the insurer's losses and can significantly impact the company's bottom line."
+	},
+	{
+		"name": "Insurance Fraud Investigation",
+		"description": "This department focuses on detecting, investigating, and preventing fraudulent insurance claims. Their work protects the company from financial losses and helps maintain fair premium rates for honest policyholders."
+	},
+	{
+		"name": "Policyholder Services",
+		"description": "This customer-facing department handles inquiries, policy changes, and general support for existing policyholders. Their role is crucial in maintaining customer satisfaction and retention, directly impacting the insurer's long-term success."
+	},
+	{
+		"name": "Insurance-specific Compliance",
+		"description": "While all financial institutions have compliance departments, insurance companies have unique regulatory requirements. This department ensures adherence to insurance-specific regulations, such as state-based insurance laws, solvency requirements, and policy form approvals."
+	}
+]

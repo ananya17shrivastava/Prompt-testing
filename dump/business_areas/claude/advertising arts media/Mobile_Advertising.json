@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Mobile Ad Format Innovation",
+		"description": "This department focuses on creating and refining mobile-specific ad formats that captivate users on smaller screens. They develop innovative solutions like playable ads, augmented reality experiences, and interactive video formats tailored for mobile devices, ensuring your brand stays ahead in the ever-evolving mobile landscape."
+	},
+	{
+		"name": "In-App Advertising Specialists",
+		"description": "These experts specialize in placing ads within mobile applications, understanding the nuances of different app categories and user behaviors. They work on seamless ad integration that enhances rather than disrupts the user experience, maximizing engagement and conversion rates within the app ecosystem."
+	},
+	{
+		"name": "Mobile Location Intelligence",
+		"description": "This team leverages mobile device location data to deliver hyper-targeted advertising. They develop strategies for geofencing, proximity marketing, and location-based audience segmentation, allowing your campaigns to reach consumers at the right place and time for maximum impact."
+	},
+	{
+		"name": "Mobile Ad Operations",
+		"description": "This department manages the technical aspects of mobile ad delivery, ensuring ads are served correctly across various mobile platforms and devices. They handle mobile-specific challenges like varying screen sizes, operating systems, and cellular network conditions to optimize ad performance and viewability."
+	},
+	{
+		"name": "Mobile User Experience (UX) Design",
+		"description": "These specialists focus on creating mobile ad experiences that are not only visually appealing but also functionally optimized for touchscreens and mobile interactions. They ensure that your ads are user-friendly, load quickly, and provide intuitive engagement options on mobile devices."
+	},
+	{
+		"name": "Mobile Attribution and Analytics",
+		"description": "This team develops and implements mobile-specific attribution models and analytics tools. They track user journeys across mobile apps and websites, providing insights into mobile ad performance, in-app conversions, and cross-device behavior to inform your mobile advertising strategy."
+	},
+	{
+		"name": "Mobile Programmatic Specialists",
+		"description": "These experts focus on real-time bidding and programmatic ad buying specifically for mobile inventory. They navigate the complexities of mobile ad exchanges, demand-side platforms (DSPs), and supply-side platforms (SSPs) to optimize your mobile ad spend and reach."
+	},
+	{
+		"name": "Mobile Privacy and Compliance",
+		"description": "With increasing regulations around mobile data usage, this department ensures your mobile advertising practices comply with laws like GDPR, CCPA, and mobile-specific privacy guidelines. They develop strategies for ethical data collection and usage in the mobile space."
+	},
+	{
+		"name": "Mobile Ad Fraud Prevention",
+		"description": "This specialized team focuses on detecting and preventing fraud unique to mobile advertising, such as click injection, SDK spoofing, and fake installs. They implement advanced technologies and protocols to protect your mobile ad investments and ensure authentic user engagement."
+	},
+	{
+		"name": "Mobile-First Creative Strategy",
+		"description": "This department develops advertising concepts and creative assets specifically for mobile consumption. They understand the nuances of mobile user behavior and design ads that capture attention quickly, convey messages effectively in limited space, and drive action on mobile devices."
+	},
+	{
+		"name": "In-Game Mobile Advertising",
+		"description": "These specialists focus on integrating ads into mobile games, a rapidly growing sector of mobile advertising. They work on non-intrusive ad placements that blend with gameplay, such as rewarded video ads, branded power-ups, and native in-game advertising opportunities."
+	},
+	{
+		"name": "Mobile Ad Tech Development",
+		"description": "This team creates proprietary mobile advertising technologies, including mobile-specific ad servers, real-time bidding systems, and mobile measurement partners (MMPs). They ensure your company stays at the forefront of mobile ad tech innovation, providing unique solutions to advertisers and publishers."
+	}
+]

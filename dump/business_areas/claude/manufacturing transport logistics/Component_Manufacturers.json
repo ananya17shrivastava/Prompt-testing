@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Custom Tooling and Die Design",
+		"description": "This department focuses on creating specialized tools and dies for manufacturing specific components. It's crucial for producing unique parts that meet exact specifications and tolerances required by transport equipment manufacturers."
+	},
+	{
+		"name": "Materials Engineering and Alloy Development",
+		"description": "This area is dedicated to researching and developing new materials and alloys that can enhance the performance, durability, and efficiency of transport components. It's essential for staying competitive and meeting evolving industry demands."
+	},
+	{
+		"name": "Precision Machining and Microfabrication",
+		"description": "This department specializes in producing extremely small or intricate parts with high accuracy. It's vital for creating components used in advanced transport systems, such as sensors or miniaturized electronic parts."
+	},
+	{
+		"name": "Additive Manufacturing for Transport Components",
+		"description": "This innovative area focuses on using 3D printing and other additive manufacturing techniques to produce complex geometries and lightweight parts specifically for the transport sector. It enables rapid prototyping and production of components that were previously impossible or cost-prohibitive to manufacture."
+	},
+	{
+		"name": "Transport-Specific Quality Assurance and Testing",
+		"description": "This department is responsible for ensuring that manufactured components meet the stringent safety and performance standards of the transport industry. It involves specialized testing procedures, simulations, and compliance checks unique to transport applications."
+	},
+	{
+		"name": "Reverse Engineering and Legacy Part Production",
+		"description": "This area specializes in analyzing and reproducing components for older transport systems that may no longer be in production. It's crucial for maintaining and repairing legacy transport equipment."
+	},
+	{
+		"name": "Just-In-Sequence (JIS) Production Planning",
+		"description": "This department focuses on coordinating the production and delivery of components in the exact sequence required by transport equipment manufacturers. It's essential for supporting lean manufacturing processes in the transport industry."
+	},
+	{
+		"name": "Transport Regulations Compliance",
+		"description": "This specialized area ensures that all manufactured components comply with the ever-changing regulations and standards specific to various modes of transport (automotive, aerospace, marine, etc.). It's critical for maintaining certifications and market access."
+	},
+	{
+		"name": "Intermodal Component Integration",
+		"description": "This department focuses on designing and manufacturing components that can seamlessly integrate across different modes of transport. It's crucial for creating versatile parts that can be used in multiple transport applications, enhancing efficiency and reducing costs."
+	},
+	{
+		"name": "Sustainable Transport Component Innovation",
+		"description": "This forward-thinking area is dedicated to developing eco-friendly components that contribute to sustainable transport solutions. It involves researching and implementing new materials, designs, and manufacturing processes that reduce environmental impact while meeting performance requirements."
+	}
+]

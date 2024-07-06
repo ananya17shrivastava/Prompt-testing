@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Climate Resilience Planning",
+		"description": "This department focuses on developing long-term strategies to help farm animals adapt to changing climate conditions. It involves analyzing climate projections, identifying vulnerabilities, and creating action plans to ensure the sustainability of livestock operations in the face of environmental challenges."
+	},
+	{
+		"name": "Genetic Adaptation Research",
+		"description": "This cutting-edge division works on identifying and developing animal breeds that are more resilient to climate change impacts. They collaborate with geneticists and breeders to create livestock varieties that can thrive in hotter, drier, or more variable conditions while maintaining productivity."
+	},
+	{
+		"name": "Heat Stress Management",
+		"description": "Specializing in mitigating the effects of rising temperatures on farm animals, this unit develops innovative cooling systems, designs climate-controlled housing, and creates protocols for managing livestock during extreme heat events to maintain animal welfare and productivity."
+	},
+	{
+		"name": "Water Conservation and Management",
+		"description": "This department focuses on developing and implementing water-efficient practices for livestock operations. They work on technologies like precision irrigation, water recycling systems, and drought-resistant feed cultivation to ensure sustainable water use in increasingly water-stressed environments."
+	},
+	{
+		"name": "Extreme Weather Event Preparedness",
+		"description": "This team develops protocols and infrastructure to protect farm animals from increasingly frequent and severe weather events such as floods, storms, and wildfires. They create early warning systems, evacuation plans, and design resilient farm structures to safeguard livestock."
+	},
+	{
+		"name": "Climate-Adaptive Nutrition",
+		"description": "This innovative unit researches and develops feed formulations that help animals cope with climate stress. They work on creating nutritional strategies that boost animals' resilience to heat, improve water retention, and maintain productivity under challenging environmental conditions."
+	},
+	{
+		"name": "Carbon Sequestration in Livestock Systems",
+		"description": "This department explores ways to integrate carbon sequestration practices into livestock farming. They develop strategies like rotational grazing, silvopasture, and manure management to enhance soil carbon storage, creating a dual benefit of climate adaptation and mitigation."
+	},
+	{
+		"name": "Climate-Smart Animal Health",
+		"description": "This specialized unit focuses on anticipating and addressing emerging health challenges for farm animals due to climate change. They develop new vaccination strategies, disease surveillance systems, and treatment protocols for climate-sensitive diseases and parasites."
+	},
+	{
+		"name": "Adaptive Farm Infrastructure Design",
+		"description": "This department designs and retrofits farm buildings and infrastructure to withstand changing climate conditions. They work on creating energy-efficient, naturally ventilated structures that provide optimal conditions for animals in various climate scenarios."
+	},
+	{
+		"name": "Climate Data Integration for Livestock Management",
+		"description": "This high-tech unit develops systems to integrate real-time climate data into farm management decisions. They create AI-driven platforms that use weather forecasts, climate projections, and on-farm sensors to optimize daily operations and long-term planning for climate resilience."
+	}
+]

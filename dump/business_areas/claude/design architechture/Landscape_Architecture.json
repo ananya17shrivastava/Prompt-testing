@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Ecological Design Services",
+		"description": "This department focuses on creating sustainable and environmentally-friendly outdoor spaces. It integrates native plant species, water conservation techniques, and habitat restoration into landscape designs. This specialized service is crucial for projects aiming to minimize environmental impact and promote biodiversity."
+	},
+	{
+		"name": "Green Infrastructure Planning",
+		"description": "This team develops strategies for implementing natural systems to manage stormwater, reduce urban heat islands, and improve air quality. They work on large-scale projects that integrate landscape elements into urban planning, providing essential ecosystem services to communities."
+	},
+	{
+		"name": "Therapeutic Landscape Design",
+		"description": "This unique division specializes in creating outdoor environments that promote healing and well-being. They work closely with healthcare facilities, rehabilitation centers, and senior living communities to design spaces that support physical and mental health through nature-based interventions."
+	},
+	{
+		"name": "Cultural Landscape Preservation",
+		"description": "This department focuses on the conservation and restoration of historically significant landscapes. They work to maintain the integrity of heritage sites, gardens, and culturally important outdoor spaces, balancing preservation with modern use requirements."
+	},
+	{
+		"name": "Phytoremediation Services",
+		"description": "This specialized team uses plants to clean contaminated soils and water bodies. They design landscape solutions for brownfield sites, industrial areas, and polluted urban spaces, turning environmental liabilities into assets through innovative plant-based remediation techniques."
+	},
+	{
+		"name": "Vertical Garden Systems",
+		"description": "This division specializes in designing and implementing green walls and vertical gardens for urban environments. They create innovative solutions for integrating vegetation into buildings and structures, maximizing green space in densely populated areas."
+	},
+	{
+		"name": "Edible Landscape Design",
+		"description": "This department focuses on integrating food production into ornamental landscapes. They design productive gardens for residential, commercial, and community spaces, promoting sustainable local food systems and enhancing food security through landscape architecture."
+	},
+	{
+		"name": "Climate Adaptation Landscapes",
+		"description": "This team develops landscape strategies to help communities and ecosystems adapt to climate change. They design resilient outdoor spaces that can withstand extreme weather events, sea-level rise, and changing temperature patterns, ensuring long-term sustainability of landscapes."
+	},
+	{
+		"name": "Biophilic Urban Design",
+		"description": "This innovative department specializes in integrating nature into urban environments to enhance human well-being. They focus on creating city-wide green networks, pocket parks, and nature-based solutions that reconnect urban dwellers with the natural world."
+	},
+	{
+		"name": "Landscape Performance Analysis",
+		"description": "This unique team quantifies the environmental, social, and economic benefits of landscape architectural projects. They develop metrics and conduct post-occupancy evaluations to demonstrate the tangible value of landscape interventions, crucial for justifying investment in green infrastructure."
+	}
+]

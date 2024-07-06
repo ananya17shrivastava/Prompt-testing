@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Tenant Relations Management",
+		"description": "This department focuses exclusively on maintaining positive relationships with tenants, addressing their concerns, and ensuring their satisfaction throughout their tenancy. It goes beyond typical customer service, incorporating proactive communication strategies and personalized tenant experience programs to maximize retention and minimize vacancies."
+	},
+	{
+		"name": "Maintenance Coordination",
+		"description": "This specialized unit oversees the intricate scheduling and execution of routine and emergency maintenance tasks across multiple properties. It employs advanced scheduling systems and vendor management protocols to ensure timely responses to tenant requests while optimizing cost-efficiency and property upkeep."
+	},
+	{
+		"name": "Lease Administration",
+		"description": "This department manages the complex web of lease agreements, renewals, and compliance issues specific to property management. It utilizes sophisticated lease tracking software and legal expertise to ensure all contractual obligations are met, minimize risks, and maximize property revenue."
+	},
+	{
+		"name": "Property Inspection and Compliance",
+		"description": "This team is responsible for conducting regular property inspections, ensuring compliance with local regulations, and maintaining property standards. They employ cutting-edge technology like drones and IoT devices to efficiently monitor property conditions and preemptively address potential issues."
+	},
+	{
+		"name": "Rent Collection and Financial Management",
+		"description": "This specialized financial unit focuses on the unique aspects of rent collection, including late payment management, eviction processes, and property-specific financial reporting. They utilize advanced property management software to track rent payments, manage security deposits, and generate detailed financial reports for property owners."
+	},
+	{
+		"name": "Vacancy Marketing and Tenant Acquisition",
+		"description": "This department specializes in marketing vacant properties and screening potential tenants. They employ targeted marketing strategies, virtual tour technologies, and comprehensive tenant screening processes to minimize vacancy periods and secure high-quality tenants."
+	},
+	{
+		"name": "Property Performance Analytics",
+		"description": "This data-driven department focuses on analyzing property performance metrics, market trends, and tenant behaviors to optimize property management strategies. They use advanced analytics tools to provide actionable insights for improving occupancy rates, rental yields, and overall property value."
+	},
+	{
+		"name": "Sustainability and Energy Management",
+		"description": "This forward-thinking unit focuses on implementing and managing sustainable practices and energy-efficient solutions across managed properties. They work on reducing environmental impact, lowering operational costs, and enhancing property value through green initiatives and smart building technologies."
+	},
+	{
+		"name": "Emergency Response Coordination",
+		"description": "This critical department is responsible for managing rapid responses to property-related emergencies, such as natural disasters, major system failures, or security breaches. They maintain 24/7 readiness and employ crisis management protocols to protect tenants, properties, and assets."
+	},
+	{
+		"name": "Amenity and Common Area Management",
+		"description": "This specialized team oversees the operation and maintenance of shared spaces and amenities in multi-unit properties. They focus on enhancing tenant experiences through effective management of facilities like gyms, pools, parking areas, and communal spaces, often employing booking systems and usage analytics to optimize these resources."
+	}
+]

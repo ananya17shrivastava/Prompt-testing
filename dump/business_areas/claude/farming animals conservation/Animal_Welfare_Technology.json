@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Behavioral Monitoring Systems Development",
+		"description": "This department focuses on creating advanced AI-driven systems that analyze animal behavior patterns in real-time. These technologies help farm managers identify stress, illness, or discomfort in livestock before visible symptoms appear, enabling proactive welfare interventions."
+	},
+	{
+		"name": "Environmental Control Automation",
+		"description": "This team develops sophisticated climate control systems specifically designed for animal housing. They create solutions that automatically adjust temperature, humidity, and air quality based on species-specific needs, ensuring optimal living conditions that promote animal well-being and productivity."
+	},
+	{
+		"name": "Precision Nutrition Technology",
+		"description": "This department innovates in the field of individualized animal feeding systems. They develop smart feeders and AI algorithms that analyze each animal's nutritional requirements, health status, and production stage to dispense precisely tailored diets, maximizing welfare and efficiency."
+	},
+	{
+		"name": "Non-Invasive Health Diagnostics",
+		"description": "This cutting-edge unit focuses on creating technologies for monitoring animal health without causing stress or discomfort. They develop tools like thermal imaging systems, vocal analysis software, and AI-powered visual inspection technologies to detect health issues early and non-intrusively."
+	},
+	{
+		"name": "Enrichment Innovation",
+		"description": "This creative department designs and implements technologically advanced environmental enrichment solutions. They develop interactive feeding puzzles, species-specific play structures, and sensory stimulation systems that promote natural behaviors and reduce stress in farm animals."
+	},
+	{
+		"name": "Welfare Compliance Automation",
+		"description": "This team creates software and IoT systems that automate the monitoring and reporting of animal welfare compliance. Their solutions help farm managers ensure adherence to welfare standards, streamline audits, and provide transparent welfare data to stakeholders and consumers."
+	},
+	{
+		"name": "Pain Management Technology",
+		"description": "This specialized unit develops advanced pain detection and management systems for farm animals. They create AI-driven tools that can identify subtle signs of discomfort and automate the administration of appropriate pain relief, ensuring better welfare during necessary farm procedures."
+	},
+	{
+		"name": "Virtual Fencing and Herd Management",
+		"description": "This innovative department designs GPS-based virtual fencing systems and AI-powered herd management tools. These technologies allow for more natural grazing patterns and herd behaviors while optimizing land use and reducing the need for physical barriers."
+	},
+	{
+		"name": "Welfare-Centric Transportation Systems",
+		"description": "This team focuses on developing smart transportation solutions that prioritize animal comfort and reduce stress during transit. They create sensor-equipped vehicles with automated climate control, vibration reduction, and real-time monitoring capabilities."
+	},
+	{
+		"name": "Humane Handling Robotics",
+		"description": "This cutting-edge department develops robotic systems for tasks that traditionally involve direct human-animal interaction. Their innovations include gentle robotic systems for milking, shearing, and medical treatments, reducing animal stress and improving welfare in routine farm operations."
+	}
+]

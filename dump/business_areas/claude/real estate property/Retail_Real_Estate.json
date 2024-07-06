@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Tenant Mix Strategy",
+		"description": "This department focuses on curating an optimal blend of retailers within a shopping center or mall. They analyze consumer demographics, shopping patterns, and market trends to create a synergistic mix of stores that maximizes foot traffic and overall property performance."
+	},
+	{
+		"name": "Mall Management",
+		"description": "Specialized in overseeing the day-to-day operations of large retail complexes, this team handles unique challenges such as coordinating common area maintenance, managing food courts, and organizing mall-wide events to drive customer engagement and sales."
+	},
+	{
+		"name": "Anchor Tenant Relations",
+		"description": "This group manages relationships with major retailers that serve as anchor tenants in shopping centers. They negotiate long-term leases, address specific space requirements, and work to retain these crucial tenants that drive significant foot traffic to smaller retailers."
+	},
+	{
+		"name": "Pop-up and Kiosk Leasing",
+		"description": "Focused on short-term retail opportunities, this team manages temporary retail spaces within shopping centers. They identify trending brands or seasonal retailers to fill these spaces, creating a dynamic shopping environment and testing new concepts."
+	},
+	{
+		"name": "Retail Redevelopment",
+		"description": "This department specializes in reimagining and revitalizing aging retail properties. They assess market conditions, consumer preferences, and property potential to transform outdated shopping centers into modern, mixed-use destinations."
+	},
+	{
+		"name": "Omnichannel Integration",
+		"description": "This innovative team works on bridging the gap between physical and digital retail experiences. They implement technologies and strategies that allow retailers to offer seamless shopping experiences across online and in-store channels within the property."
+	},
+	{
+		"name": "Experiential Retail Design",
+		"description": "Focused on creating immersive shopping environments, this department designs spaces that go beyond traditional retail. They incorporate interactive elements, technology, and unique architectural features to enhance the overall shopping experience."
+	},
+	{
+		"name": "Retail Traffic Analytics",
+		"description": "This specialized team uses advanced technologies to track and analyze shopper behavior within retail properties. They provide valuable insights on foot traffic patterns, dwell times, and conversion rates to optimize store placements and overall property layout."
+	},
+	{
+		"name": "Cross-Shopping Synergy",
+		"description": "This department works on maximizing the benefits of complementary retailers within a property. They strategically place stores to encourage cross-shopping, increasing the average time and money spent by visitors."
+	},
+	{
+		"name": "Seasonal Retail Management",
+		"description": "This team manages the cyclical nature of retail properties, particularly during high-traffic periods like holidays. They coordinate temporary displays, manage increased security needs, and organize seasonal events to capitalize on peak shopping seasons."
+	},
+	{
+		"name": "Retail Parking Optimization",
+		"description": "Specializing in the unique parking needs of retail properties, this team manages parking structures, implements smart parking technologies, and designs traffic flow to enhance the shopping experience from arrival to departure."
+	},
+	{
+		"name": "Food and Beverage Curation",
+		"description": "This department focuses on selecting and managing food and beverage tenants within retail properties. They curate a mix of dining options that complement the overall tenant mix and create additional draw for shoppers."
+	}
+]

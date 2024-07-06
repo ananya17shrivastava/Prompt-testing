@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Sterile Processing and Distribution",
+		"description": "This department is crucial for ensuring medical supplies are properly sterilized, packaged, and distributed throughout healthcare facilities. It's a critical link in maintaining infection control and patient safety, requiring specialized knowledge of sterilization techniques and inventory management specific to medical supplies."
+	},
+	{
+		"name": "Biocompatibility Testing",
+		"description": "This specialized area focuses on evaluating how medical supplies interact with biological systems. It's essential for ensuring new products meet safety standards and don't cause adverse reactions when in contact with patients. This department requires a unique blend of materials science and biological expertise."
+	},
+	{
+		"name": "Medical Device Reprocessing",
+		"description": "This department is responsible for cleaning, sterilizing, and preparing reusable medical devices for safe use. It's a highly regulated area that requires in-depth knowledge of various medical supplies and their specific reprocessing requirements, balancing cost-effectiveness with patient safety."
+	},
+	{
+		"name": "Custom Procedure Tray Assembly",
+		"description": "This specialized unit focuses on creating tailored procedure kits that contain all necessary supplies for specific medical procedures. It requires intimate knowledge of various medical specialties and the ability to optimize supply chain efficiency while meeting exacting clinical requirements."
+	},
+	{
+		"name": "Wound Care Product Development",
+		"description": "This department specializes in creating advanced wound care supplies, such as specialized dressings and negative pressure wound therapy devices. It requires a deep understanding of wound healing processes and innovative materials science to develop effective products."
+	},
+	{
+		"name": "Implantable Device Tracking",
+		"description": "This unique area focuses on maintaining detailed records of implantable medical devices, from manufacture to patient implantation. It's crucial for quality control, recall management, and patient safety, requiring specialized systems and processes specific to the medical supplies sector."
+	},
+	{
+		"name": "Single-Use Device Innovation",
+		"description": "This department concentrates on developing disposable medical supplies that balance clinical effectiveness, cost-efficiency, and environmental considerations. It requires a unique approach to product design and materials selection, focusing on items that are used once and then discarded."
+	},
+	{
+		"name": "Medical Textiles Research",
+		"description": "This specialized area focuses on developing advanced fabrics and materials for use in medical supplies, such as antimicrobial drapes or smart bandages. It combines textile engineering with medical science to create innovative products that enhance patient care and safety."
+	},
+	{
+		"name": "Diagnostic Consumables Development",
+		"description": "This department specializes in creating supplies used in diagnostic procedures, such as reagents, test strips, and sample collection devices. It requires a deep understanding of various diagnostic technologies and the ability to develop products that ensure accurate and reliable test results."
+	},
+	{
+		"name": "Medical Gas Delivery Systems",
+		"description": "This unique area focuses on the design, manufacture, and maintenance of systems that deliver medical gases (such as oxygen or nitrous oxide) to healthcare facilities. It requires specialized knowledge of gas properties, safety regulations, and healthcare facility infrastructure."
+	},
+	{
+		"name": "Infection Control Supply Innovation",
+		"description": "This department concentrates on developing new and improved supplies for preventing healthcare-associated infections. It requires a deep understanding of microbiology, materials science, and healthcare protocols to create effective products that enhance patient and healthcare worker safety."
+	},
+	{
+		"name": "Surgical Instrument Design",
+		"description": "This specialized area focuses on creating and improving surgical tools and instruments. It requires a unique blend of engineering expertise, ergonomic design principles, and in-depth knowledge of surgical procedures to develop instruments that enhance surgical precision and efficiency."
+	}
+]

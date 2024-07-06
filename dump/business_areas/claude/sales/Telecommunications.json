@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Network Infrastructure Sales",
+		"description": "This department focuses on selling the backbone of telecommunications services. It deals with high-value, complex sales of equipment and solutions that form the core network infrastructure, including cell towers, fiber optic cables, and switching systems. The team requires deep technical knowledge and often engages in long sales cycles with significant stakeholder involvement."
+	},
+	{
+		"name": "Spectrum Management",
+		"description": "A critical and unique department that handles the acquisition, optimization, and monetization of radio frequency spectrum. This team works closely with regulatory bodies and is responsible for strategizing spectrum purchases during auctions, managing existing spectrum assets, and exploring opportunities for spectrum sharing or leasing."
+	},
+	{
+		"name": "Interconnection Services",
+		"description": "This specialized unit manages the intricate process of negotiating and selling interconnection services to other telecom providers. They handle the complex agreements that allow different networks to communicate and exchange traffic, ensuring seamless connectivity for end-users while maximizing revenue from these B2B arrangements."
+	},
+	{
+		"name": "Value-Added Services (VAS) Development and Sales",
+		"description": "A dynamic department focused on creating and selling additional services beyond basic voice and data. This team identifies market trends, develops innovative offerings like IoT solutions, mobile payment systems, or content delivery platforms, and creates sales strategies to differentiate the company's service portfolio in a highly competitive market."
+	},
+	{
+		"name": "Roaming Partnerships",
+		"description": "This department manages the establishment and maintenance of roaming agreements with international carriers. They negotiate complex contracts, set pricing structures, and ensure technical compatibility to allow customers to use services seamlessly when traveling abroad, creating additional revenue streams and enhancing customer satisfaction."
+	},
+	{
+		"name": "Telecom Regulatory Compliance",
+		"description": "A crucial department that ensures all sales activities comply with the ever-changing telecommunications regulations. This team works closely with legal departments to navigate the complex regulatory landscape, manage licensing requirements, and advise on compliant sales practices, playing a vital role in risk management and maintaining the company's operating licenses."
+	},
+	{
+		"name": "Convergence Solutions",
+		"description": "This forward-thinking department focuses on developing and selling integrated solutions that combine various telecommunications services. They create packages that blend fixed-line, mobile, internet, and often media services, targeting both consumer and enterprise markets with unified communications offerings that leverage the full potential of the company's network capabilities."
+	},
+	{
+		"name": "Network Slicing Sales",
+		"description": "A cutting-edge department emerging with 5G technology, specializing in selling virtualized, segmented network capabilities. This team works on creating and marketing customized network 'slices' for different industry verticals, offering tailored performance, security, and service level agreements to meet specific enterprise needs in areas like autonomous vehicles, smart cities, or industrial IoT."
+	},
+	{
+		"name": "Telecommunications Wholesale",
+		"description": "This department manages the sale of network capacity and services to other telecommunications providers, MVNOs (Mobile Virtual Network Operators), and large enterprises. They handle complex, high-volume deals that require a deep understanding of network economics, capacity planning, and long-term strategic partnerships."
+	},
+	{
+		"name": "Digital Transformation Consulting",
+		"description": "A specialized sales unit that goes beyond selling traditional telecom services to offer strategic consulting on digital transformation. This team works with enterprise clients to develop comprehensive strategies leveraging advanced telecom technologies like 5G, edge computing, and network virtualization to drive business innovation and efficiency."
+	}
+]

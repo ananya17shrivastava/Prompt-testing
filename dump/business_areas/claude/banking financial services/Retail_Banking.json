@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Branch Network Operations",
+		"description": "Oversees the management and optimization of physical bank branches, focusing on customer service, operational efficiency, and community engagement. This department is crucial for maintaining a tangible presence in local markets and fostering personal relationships with retail customers."
+	},
+	{
+		"name": "Consumer Lending",
+		"description": "Specializes in developing and managing a diverse portfolio of personal loan products, including mortgages, auto loans, and unsecured personal loans. This area is vital for driving revenue growth and meeting the varied financing needs of individual customers."
+	},
+	{
+		"name": "Retail Deposit Products",
+		"description": "Focuses on creating and managing a range of deposit accounts tailored for individual consumers, such as checking, savings, and certificate of deposit (CD) accounts. This department plays a key role in attracting and retaining customer deposits, which form a critical funding base for the bank."
+	},
+	{
+		"name": "Personal Banking Services",
+		"description": "Provides personalized financial advice and solutions to individual customers, often segmented by wealth tiers. This area is essential for building long-term customer relationships and increasing share of wallet through cross-selling and upselling."
+	},
+	{
+		"name": "ATM and Self-Service Banking",
+		"description": "Manages the bank's network of automated teller machines and other self-service technologies, ensuring 24/7 access to basic banking services. This department is crucial for enhancing customer convenience and reducing operational costs associated with in-person transactions."
+	},
+	{
+		"name": "Retail Credit Risk Management",
+		"description": "Specializes in assessing and managing credit risk for individual borrowers, developing credit scoring models, and setting lending policies specific to retail customers. This area is critical for maintaining a healthy loan portfolio and minimizing losses from defaults."
+	},
+	{
+		"name": "Consumer Financial Education",
+		"description": "Develops and implements programs to improve financial literacy among retail customers, helping them make informed decisions about their personal finances. This department is important for building trust, enhancing the bank's reputation, and fostering long-term customer relationships."
+	},
+	{
+		"name": "Retail Digital Banking",
+		"description": "Focuses on developing and maintaining digital banking platforms specifically designed for individual customers, including mobile apps and online banking portals. This area is crucial for meeting the evolving expectations of tech-savvy consumers and driving digital adoption."
+	},
+	{
+		"name": "Retail Customer Experience",
+		"description": "Dedicated to enhancing and optimizing the end-to-end customer journey for individual banking clients across all touchpoints. This department is essential for improving customer satisfaction, loyalty, and retention in the highly competitive retail banking space."
+	},
+	{
+		"name": "Mass Affluent Banking",
+		"description": "Caters to the unique needs of high-income individuals who fall between traditional retail and private banking segments. This area focuses on providing premium services and tailored financial solutions to a lucrative customer segment, driving higher profitability per customer."
+	},
+	{
+		"name": "Student and Youth Banking",
+		"description": "Specializes in developing products, services, and marketing strategies targeted at younger demographics, including students and young professionals. This department is crucial for acquiring customers early in their financial journey and building long-term relationships."
+	},
+	{
+		"name": "Retail Banking Analytics",
+		"description": "Focuses on leveraging data analytics and artificial intelligence to gain insights into retail customer behavior, preferences, and needs. This area is vital for driving personalized marketing, product development, and risk management strategies in the retail banking space."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Environmental Compliance Office",
+		"description": "This specialized department focuses on ensuring adherence to complex environmental regulations specific to mining and energy operations. It develops strategies to minimize ecological impact, manages environmental impact assessments, and coordinates with regulatory bodies to maintain compliance with evolving environmental standards."
+	},
+	{
+		"name": "Mine Safety and Health Administration (MSHA) Liaison Team",
+		"description": "This team serves as the primary point of contact with MSHA, managing inspections, addressing citations, and implementing safety protocols unique to mining operations. They stay abreast of MSHA regulations and work to maintain a strong safety culture while ensuring regulatory compliance."
+	},
+	{
+		"name": "Resource Extraction Permitting Unit",
+		"description": "This unit navigates the intricate process of obtaining and maintaining permits for resource extraction activities. They manage relationships with various government agencies, prepare detailed permit applications, and ensure ongoing compliance with permit conditions specific to mining and energy projects."
+	},
+	{
+		"name": "Tailings Management and Compliance Division",
+		"description": "Focused on the safe storage and disposal of mining waste, this division develops and implements policies to ensure compliance with tailings management regulations. They conduct regular risk assessments, monitor structural integrity, and stay current with evolving global standards for tailings facility management."
+	},
+	{
+		"name": "Radiation Safety and Compliance Department",
+		"description": "Particularly relevant for uranium mining and nuclear energy operations, this department manages all aspects of radiation safety. They develop protocols for handling radioactive materials, ensure compliance with radiation exposure limits, and coordinate with nuclear regulatory agencies."
+	},
+	{
+		"name": "Indigenous Rights and Land Use Compliance Team",
+		"description": "This team specializes in navigating the complex landscape of indigenous rights and land use agreements in resource-rich areas. They ensure compliance with treaties, manage consultations with indigenous communities, and develop policies to respect traditional land use while pursuing mining or energy projects."
+	},
+	{
+		"name": "Mineral Rights and Royalty Compliance Office",
+		"description": "This office manages the intricate web of mineral rights and royalty payments associated with resource extraction. They ensure accurate reporting of extracted resources, calculate and distribute royalties, and maintain compliance with various stakeholder agreements and government regulations."
+	},
+	{
+		"name": "Reclamation and Mine Closure Planning Department",
+		"description": "Focused on the end-of-life aspects of mining operations, this department develops and implements plans for site rehabilitation and mine closure in compliance with regulatory requirements. They manage long-term environmental monitoring, ensure financial provisions for closure activities, and coordinate with regulators on closure certifications."
+	},
+	{
+		"name": "Subsurface Resource Management Compliance Unit",
+		"description": "This unit specializes in ensuring compliance with regulations governing subsurface resource management, including issues like hydraulic fracturing, underground storage, and geothermal resource utilization. They develop policies to address unique challenges associated with subsurface operations and liaise with relevant regulatory bodies."
+	},
+	{
+		"name": "Energy Grid Integration and Compliance Team",
+		"description": "Particularly relevant for energy producers, this team manages compliance with regulations governing integration into power grids. They navigate the complex landscape of energy market rules, ensure adherence to grid stability requirements, and manage relationships with energy regulators and grid operators."
+	}
+]

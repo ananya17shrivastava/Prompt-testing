@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Aircraft Underwriting",
+		"description": "This specialized department focuses on assessing and pricing risks associated with various types of aircraft. Your underwriters here need deep knowledge of aircraft types, their operational characteristics, and potential hazards to accurately determine premiums and coverage limits."
+	},
+	{
+		"name": "Aviation Claims Management",
+		"description": "Unlike standard claims departments, this unit requires expertise in aviation accidents, incidents, and regulatory investigations. Your team here will work closely with aviation authorities, manufacturers, and operators to process complex, high-value claims efficiently."
+	},
+	{
+		"name": "Aviation Safety and Risk Engineering",
+		"description": "This department employs aviation safety experts who conduct risk assessments of airlines, airports, and other aviation operations. They provide valuable insights to both underwriters and policyholders, helping to mitigate risks and potentially reduce premiums."
+	},
+	{
+		"name": "Space and Satellite Insurance",
+		"description": "A niche but crucial area, this department specializes in underwriting and managing risks associated with satellite launches, in-orbit operations, and other space-related activities. Your experts here need to understand complex space technologies and their unique risk profiles."
+	},
+	{
+		"name": "Aviation Product Liability",
+		"description": "This unit focuses on insuring aircraft manufacturers, component suppliers, and maintenance organizations against potential lawsuits arising from product defects or failures. Your team needs to understand intricate aviation engineering and regulatory compliance issues."
+	},
+	{
+		"name": "Airport Operations Insurance",
+		"description": "This department specializes in coverage for airport facilities, including runways, terminals, and ground equipment. Your experts here need to understand the complex ecosystem of airport operations and associated risks."
+	},
+	{
+		"name": "Aviation War and Political Risk",
+		"description": "This unique department assesses and insures against risks such as war, terrorism, and political instability that can affect aviation operations. Your team here needs to stay abreast of global geopolitical developments and their potential impact on the aviation industry."
+	},
+	{
+		"name": "Aviation Environmental Liability",
+		"description": "This emerging area focuses on environmental risks associated with aviation, such as noise pollution, fuel spills, and emissions. Your specialists here need to understand evolving environmental regulations and their implications for the aviation sector."
+	},
+	{
+		"name": "Drone and UAV Insurance",
+		"description": "As unmanned aerial vehicles become more prevalent, this department specializes in assessing and insuring risks associated with commercial and recreational drone operations. Your team needs to stay current with rapidly evolving drone technologies and regulations."
+	},
+	{
+		"name": "Aviation Cyber Risk",
+		"description": "This cutting-edge department focuses on the growing threat of cyber attacks on aviation systems, including aircraft, air traffic control, and booking systems. Your experts here need to understand both aviation operations and cybersecurity to effectively underwrite and manage these risks."
+	}
+]

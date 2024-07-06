@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Outage Management Support",
+		"description": "This specialized unit focuses on handling customer inquiries and concerns during power outages or service disruptions. They coordinate with field teams, provide real-time updates, and manage customer expectations during critical periods. This department is crucial for maintaining customer satisfaction and trust during challenging situations unique to utility providers."
+	},
+	{
+		"name": "Energy Efficiency Advisory",
+		"description": "This department offers expert guidance on energy conservation and efficiency measures tailored to residential and commercial customers. They help customers understand their energy consumption patterns, recommend energy-saving solutions, and provide information on rebates or incentives for adopting eco-friendly practices. This value-added service enhances customer relationships and supports corporate sustainability goals."
+	},
+	{
+		"name": "Smart Meter Support",
+		"description": "As utilities transition to smart meter technology, this dedicated team assists customers with understanding their new meters, interpreting usage data, and troubleshooting any issues. They play a vital role in educating customers about the benefits of smart meters and addressing concerns about data privacy or accuracy, facilitating a smooth transition to this advanced technology."
+	},
+	{
+		"name": "Renewable Energy Integration",
+		"description": "This specialized unit handles inquiries related to integrating renewable energy sources, such as solar panels or wind turbines, into the existing power grid. They guide customers through the process of connecting their renewable energy systems, explain net metering policies, and address technical questions about grid compatibility and safety requirements."
+	},
+	{
+		"name": "Regulatory Compliance Liaison",
+		"description": "This department serves as the interface between customers and regulatory bodies, ensuring that customer inquiries related to utility regulations, tariffs, and compliance issues are addressed accurately and efficiently. They stay up-to-date with changing regulations and help customers navigate complex regulatory landscapes unique to the utilities sector."
+	},
+	{
+		"name": "Infrastructure Planning Communication",
+		"description": "This team manages customer communications regarding long-term infrastructure projects, such as grid upgrades or new power plant constructions. They provide transparent information about project timelines, potential impacts on service, and benefits to the community, fostering public understanding and support for essential utility infrastructure improvements."
+	},
+	{
+		"name": "Load Management Support",
+		"description": "This specialized group assists customers with demand response programs and time-of-use pricing structures. They help customers understand how to shift their energy usage to off-peak hours, explain the benefits of load management, and provide guidance on how to participate in demand response initiatives, contributing to grid stability and cost savings."
+	},
+	{
+		"name": "Water Quality Assurance",
+		"description": "For water utility providers, this department addresses customer concerns about water quality, explains testing procedures, and provides information on water treatment processes. They play a crucial role in maintaining public trust in the water supply and educating customers about water safety and conservation measures."
+	},
+	{
+		"name": "Gas Safety Education",
+		"description": "This team focuses on educating customers about natural gas safety, including leak detection, proper appliance usage, and emergency procedures. They handle inquiries related to gas odors, pilot light issues, and carbon monoxide concerns, playing a vital role in ensuring public safety and compliance with gas utility regulations."
+	},
+	{
+		"name": "Energy Market Navigation",
+		"description": "In deregulated energy markets, this department assists customers in understanding their options for choosing energy suppliers. They explain the intricacies of the energy market, help customers compare rates and plans, and guide them through the process of switching providers, ensuring customers can make informed decisions about their energy supply."
+	}
+]

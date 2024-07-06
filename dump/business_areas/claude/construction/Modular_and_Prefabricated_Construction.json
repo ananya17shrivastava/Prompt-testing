@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Off-site Manufacturing Facility Management",
+		"description": "Oversees the factory-like environment where modular units are produced. This department ensures efficient production lines, quality control, and adherence to manufacturing schedules, distinguishing modular construction from traditional on-site building methods."
+	},
+	{
+		"name": "Module Transportation Logistics",
+		"description": "Specializes in the complex task of transporting large, pre-built modules from the manufacturing facility to the construction site. This team manages route planning, permits, and specialized equipment to ensure safe and timely delivery of modules."
+	},
+	{
+		"name": "Assembly and Integration Engineering",
+		"description": "Focuses on designing and executing the precise assembly of prefabricated components on-site. This department develops strategies for seamlessly integrating modules and ensuring structural integrity during the final construction phase."
+	},
+	{
+		"name": "Modular Design Optimization",
+		"description": "Dedicated to creating standardized yet customizable designs that maximize the benefits of modular construction. This team works on optimizing spatial efficiency, material usage, and manufacturing processes specific to prefabricated units."
+	},
+	{
+		"name": "BIM for Modular Construction",
+		"description": "Specializes in adapting Building Information Modeling (BIM) techniques specifically for modular projects. This department focuses on creating detailed 3D models that account for the unique aspects of prefabrication, including manufacturing tolerances and assembly sequences."
+	},
+	{
+		"name": "Prefab Quality Assurance",
+		"description": "Ensures that each prefabricated module meets strict quality standards before leaving the manufacturing facility. This team develops and implements quality control processes unique to the controlled environment of off-site construction."
+	},
+	{
+		"name": "Modular Project Scheduling",
+		"description": "Manages the intricate scheduling required to synchronize off-site manufacturing with on-site preparation and assembly. This department coordinates the parallel processes of module production and site work, a unique challenge in modular construction."
+	},
+	{
+		"name": "Prefab Material Supply Chain Management",
+		"description": "Specializes in sourcing and managing materials specifically for modular construction. This team optimizes inventory for the continuous production environment of a prefab facility, distinct from traditional construction material management."
+	},
+	{
+		"name": "Modular Building Code Compliance",
+		"description": "Navigates the specific building codes and regulations applicable to prefabricated structures. This department ensures compliance across multiple jurisdictions, as modules may be manufactured in one location and assembled in another."
+	},
+	{
+		"name": "Prefab Technology Integration",
+		"description": "Focuses on incorporating cutting-edge technologies into the modular construction process. This team explores innovations like 3D printing, robotics, and IoT integration specifically for prefabricated building components."
+	},
+	{
+		"name": "Modular Sustainability Engineering",
+		"description": "Develops strategies to maximize the environmental benefits of modular construction. This department focuses on reducing waste, optimizing energy efficiency, and incorporating sustainable materials in ways unique to prefabricated building methods."
+	},
+	{
+		"name": "Client Customization Interface",
+		"description": "Manages the delicate balance between standardization and customization in modular projects. This team develops systems and processes to allow clients to personalize their modular buildings within the constraints of prefabrication."
+	}
+]

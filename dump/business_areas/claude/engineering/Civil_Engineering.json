@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Geotechnical Engineering Department",
+		"description": "This specialized unit focuses on soil and rock mechanics, crucial for foundation design and earthwork projects. It provides vital insights into ground stability, soil properties, and subsurface conditions, enabling informed decision-making for large-scale infrastructure projects."
+	},
+	{
+		"name": "Transportation Systems Design Division",
+		"description": "Dedicated to planning and designing efficient transportation networks, this division optimizes traffic flow, develops highway systems, and creates sustainable urban mobility solutions. Their work directly impacts economic growth and quality of life in urban and rural areas."
+	},
+	{
+		"name": "Water Resources Management Team",
+		"description": "This team addresses the complex challenges of water supply, distribution, and treatment. They develop innovative solutions for flood control, irrigation systems, and water conservation, ensuring sustainable water management for growing populations and industries."
+	},
+	{
+		"name": "Structural Health Monitoring Unit",
+		"description": "Utilizing cutting-edge sensor technologies and data analytics, this unit assesses the integrity and performance of bridges, buildings, and other critical infrastructure. Their work is essential for predictive maintenance and extending the lifespan of valuable assets."
+	},
+	{
+		"name": "Urban Planning and Development Division",
+		"description": "This forward-thinking division integrates civil engineering principles with urban design, creating sustainable and livable cities. They balance infrastructure needs with environmental concerns, shaping the future of urban landscapes."
+	},
+	{
+		"name": "Coastal and Marine Engineering Department",
+		"description": "Specializing in projects at the interface of land and sea, this department tackles unique challenges such as port design, coastal protection, and offshore structures. Their expertise is crucial for maritime trade and protecting coastal communities from rising sea levels."
+	},
+	{
+		"name": "Seismic Design and Retrofitting Team",
+		"description": "This team focuses on designing structures to withstand earthquakes and retrofitting existing buildings to improve their seismic performance. Their work is critical for ensuring public safety in earthquake-prone regions and minimizing potential economic losses."
+	},
+	{
+		"name": "Environmental Remediation Unit",
+		"description": "Dedicated to cleaning up contaminated sites and restoring ecosystems, this unit combines civil engineering principles with environmental science. They develop innovative solutions for soil and groundwater decontamination, crucial for urban redevelopment and environmental protection."
+	},
+	{
+		"name": "Infrastructure Asset Management Division",
+		"description": "This division optimizes the lifecycle of civil infrastructure through strategic planning, maintenance, and rehabilitation. They employ advanced modeling techniques to maximize the value and performance of public and private infrastructure investments."
+	},
+	{
+		"name": "Sustainable Materials Research Lab",
+		"description": "This cutting-edge lab develops and tests new, environmentally friendly construction materials. Their work focuses on reducing the carbon footprint of civil engineering projects while maintaining or improving structural performance and durability."
+	},
+	{
+		"name": "BIM (Building Information Modeling) Integration Team",
+		"description": "This specialized team implements and manages BIM technologies specifically for civil engineering projects. They enhance project visualization, improve collaboration among stakeholders, and optimize construction processes for large-scale infrastructure developments."
+	},
+	{
+		"name": "Disaster Resilience Planning Department",
+		"description": "This forward-looking department develops strategies to make communities more resilient to natural disasters. They integrate civil engineering principles with risk assessment and emergency management to create comprehensive disaster mitigation and recovery plans."
+	}
+]

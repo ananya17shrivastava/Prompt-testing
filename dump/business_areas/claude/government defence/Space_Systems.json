@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Satellite Systems Engineering",
+		"description": "This department focuses on designing, developing, and integrating complex satellite systems for various defense applications. It requires a deep understanding of orbital mechanics, space-based communications, and cutting-edge materials science to create resilient and effective satellites for military use."
+	},
+	{
+		"name": "Space Launch Vehicle Development",
+		"description": "This specialized area is responsible for creating and improving rockets and launch systems capable of delivering payloads into orbit. It involves advanced propulsion technologies, aerodynamics, and mission planning to ensure reliable access to space for defense assets."
+	},
+	{
+		"name": "Space-Based Surveillance and Reconnaissance",
+		"description": "This department develops and manages sophisticated space-based sensors and imaging systems for intelligence gathering and threat detection. It combines advanced optics, radar technologies, and data processing to provide critical situational awareness from orbit."
+	},
+	{
+		"name": "Space Debris Mitigation and Management",
+		"description": "This emerging area focuses on developing technologies and strategies to address the growing problem of space debris. It involves creating systems to track, avoid, and potentially remove orbital debris to protect valuable space assets and maintain operational capabilities."
+	},
+	{
+		"name": "Space-Based Weapon Systems",
+		"description": "This highly specialized department works on developing defensive and offensive capabilities in space, including directed energy weapons and kinetic interceptors. It requires expertise in advanced physics, targeting systems, and space-based power generation."
+	},
+	{
+		"name": "Space Weather Monitoring and Prediction",
+		"description": "This unique area concentrates on understanding and forecasting space weather phenomena that can affect military operations and satellite systems. It involves developing advanced sensors and predictive models to anticipate solar flares, geomagnetic storms, and other space-based environmental factors."
+	},
+	{
+		"name": "Extraterrestrial Resource Utilization",
+		"description": "This forward-looking department explores the potential for extracting and utilizing resources from celestial bodies to support space-based operations. It involves developing technologies for in-situ resource utilization and establishing sustainable presence beyond Earth orbit."
+	},
+	{
+		"name": "Space-Based Navigation Systems",
+		"description": "This department specializes in developing and maintaining precise positioning, navigation, and timing (PNT) systems in space. It focuses on creating resilient alternatives to GPS and ensuring accurate navigation capabilities for military operations in contested environments."
+	},
+	{
+		"name": "Orbital Refueling and Servicing",
+		"description": "This innovative area develops technologies and systems for refueling, repairing, and upgrading satellites in orbit. It aims to extend the lifespan of space assets and enhance their capabilities without the need for costly replacements."
+	},
+	{
+		"name": "Space Domain Awareness",
+		"description": "This critical department focuses on monitoring and understanding activities in space to protect defense assets and maintain strategic advantage. It involves developing advanced sensors, data fusion techniques, and artificial intelligence to track objects and detect potential threats in the increasingly congested space environment."
+	}
+]

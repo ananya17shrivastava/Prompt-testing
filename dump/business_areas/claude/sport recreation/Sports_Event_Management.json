@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Venue Operations and Logistics",
+		"description": "This department focuses on the intricate planning and execution of event-specific venue requirements. It involves coordinating with stadium or arena management, designing temporary structures, and ensuring all necessary facilities are in place for both athletes and spectators. The team must adapt quickly to various sporting environments, from indoor arenas to outdoor fields, each with its unique challenges."
+	},
+	{
+		"name": "Athlete and Team Liaison",
+		"description": "This specialized unit serves as the primary point of contact between event organizers and participating athletes or teams. They manage everything from travel arrangements and accommodation to training schedules and special requests. Their role is crucial in ensuring athletes can perform at their peak by addressing their specific needs and concerns throughout the event."
+	},
+	{
+		"name": "Competition Management",
+		"description": "This department oversees the actual sporting competition, including scheduling, rule enforcement, and result tracking. They work closely with sport-specific governing bodies to ensure adherence to regulations and maintain the integrity of the competition. This team must be well-versed in the nuances of various sports and able to handle last-minute changes or disputes professionally."
+	},
+	{
+		"name": "Spectator Experience Design",
+		"description": "This innovative team focuses on creating immersive and engaging experiences for event attendees beyond the main sporting action. They design interactive zones, organize side events, and implement technologies to enhance fan engagement. Their goal is to transform a simple sporting event into a memorable, multi-faceted experience that keeps spectators coming back."
+	},
+	{
+		"name": "Event-Specific Sponsorship Activation",
+		"description": "While sponsorship is common in many industries, this department specializes in creating unique, event-specific activation opportunities for sponsors. They work on integrating brand experiences seamlessly into the event environment, developing custom packages that align with the specific sport and audience demographics of each event."
+	},
+	{
+		"name": "Sports Equipment and Technology Management",
+		"description": "This department handles the procurement, setup, and maintenance of sport-specific equipment and technology required for each event. From timing systems for races to goal-line technology in football, they ensure all necessary technical elements are in place and functioning correctly. They must stay abreast of the latest sports technology trends and work closely with governing bodies to implement approved systems."
+	},
+	{
+		"name": "Ceremonial Productions",
+		"description": "This creative team is responsible for designing and executing opening and closing ceremonies, medal presentations, and other ceremonial aspects unique to large sporting events. They blend elements of entertainment, culture, and sport to create memorable spectacles that capture the essence of each event and its host location."
+	},
+	{
+		"name": "Anti-Doping Coordination",
+		"description": "This specialized unit works with anti-doping agencies to implement testing protocols specific to each sporting event. They manage the logistics of sample collection, ensure proper chain of custody, and coordinate with laboratories. Their work is crucial in maintaining the integrity of the competition and adhering to international anti-doping standards."
+	},
+	{
+		"name": "Sports Medical Services",
+		"description": "This department goes beyond basic event medical care, providing sport-specific medical support for athletes. They coordinate with team doctors, set up on-site treatment facilities, and ensure rapid response capabilities for sport-related injuries. Their expertise must cover a wide range of sports medicine specialties to cater to the diverse needs of different athletic disciplines."
+	},
+	{
+		"name": "Sustainable Event Practices",
+		"description": "This forward-thinking department focuses on implementing environmentally friendly practices specific to large-scale sporting events. They work on minimizing the ecological footprint of temporary venues, managing waste from large crowds, and creating legacy programs that benefit the host community long after the event concludes."
+	}
+]

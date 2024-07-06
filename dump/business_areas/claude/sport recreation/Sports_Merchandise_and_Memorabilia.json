@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Authentication and Certification",
+		"description": "This department is responsible for verifying the authenticity of sports memorabilia items. They employ experts who use advanced techniques to examine signatures, game-used equipment, and other collectibles to ensure their legitimacy. This crucial function protects the integrity of the market and builds trust with high-value collectors."
+	},
+	{
+		"name": "Limited Edition Product Development",
+		"description": "This team focuses on creating exclusive, limited-run merchandise that appeals to die-hard fans and serious collectors. They work closely with sports leagues, teams, and athletes to design and produce items that commemorate significant milestones, championships, or retiring players, driving high-margin sales and brand loyalty."
+	},
+	{
+		"name": "Memorabilia Acquisition",
+		"description": "This department specializes in sourcing rare and valuable sports artifacts from various channels, including retired athletes, estates, and private collectors. They have a keen understanding of market trends and historical significance, allowing them to secure items that will appreciate in value over time."
+	},
+	{
+		"name": "Provenance Research",
+		"description": "This team of historians and researchers traces the ownership history of significant sports memorabilia items. They meticulously document the chain of custody for high-value pieces, enhancing their authenticity and market value. This function is critical for establishing the legitimacy of items with historical importance."
+	},
+	{
+		"name": "Collectibles Grading and Preservation",
+		"description": "This specialized department assesses the condition of sports memorabilia and assigns standardized grades. They also provide expert advice on proper storage and display methods to maintain item value. Their work is essential for creating a common language of quality in the collectibles market."
+	},
+	{
+		"name": "Fan Experience and Memorabilia Events",
+		"description": "This team organizes exclusive events where fans can interact with athletes, witness live signings, and purchase authenticated memorabilia. They create immersive experiences that blend entertainment with commerce, fostering emotional connections between fans, athletes, and collectibles."
+	},
+	{
+		"name": "Digital Collectibles and NFT Management",
+		"description": "This cutting-edge department focuses on developing and managing digital sports collectibles and Non-Fungible Tokens (NFTs). They leverage blockchain technology to create unique, verifiable digital assets that represent moments in sports history, opening up new revenue streams and engaging tech-savvy fans."
+	},
+	{
+		"name": "Memorabilia Insurance and Valuation",
+		"description": "This specialized team provides expert valuation services for high-value sports collectibles and offers tailored insurance products to protect these assets. They stay abreast of market trends and historical sales data to accurately assess the worth of rare and unique items."
+	},
+	{
+		"name": "Custom Framing and Display Solutions",
+		"description": "This department designs and creates bespoke framing and display options for sports memorabilia. They work with conservation-grade materials and innovative designs to showcase items while ensuring their long-term preservation, catering to both individual collectors and institutional clients like museums or sports halls of fame."
+	},
+	{
+		"name": "Auction Strategy and Management",
+		"description": "This team specializes in planning and executing high-profile sports memorabilia auctions. They curate lots, develop marketing strategies to attract serious collectors, and manage the complex logistics of online and in-person bidding events. Their expertise is crucial in maximizing the value realized from rare and significant pieces."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Programmatic Advertising Operations",
+		"description": "This department focuses on leveraging automated technology platforms to purchase and optimize digital ad placements in real-time. It's crucial for maximizing ad spend efficiency and reaching highly targeted audiences across multiple digital channels simultaneously."
+	},
+	{
+		"name": "Ad Tech Integration",
+		"description": "This team specializes in integrating various advertising technologies and platforms to create a seamless digital advertising ecosystem. They ensure that different tools and systems work together effectively, enhancing campaign performance and data flow."
+	},
+	{
+		"name": "Digital Ad Fraud Prevention",
+		"description": "This unit is dedicated to detecting and preventing fraudulent activities in digital advertising, such as bot traffic, click fraud, and domain spoofing. They implement advanced security measures to protect ad budgets and maintain the integrity of digital campaigns."
+	},
+	{
+		"name": "Cross-Device Attribution",
+		"description": "This department focuses on tracking and analyzing user interactions across multiple devices and touchpoints. They develop sophisticated models to attribute conversions accurately, providing insights into the customer journey and optimizing multi-channel digital strategies."
+	},
+	{
+		"name": "Dynamic Creative Optimization (DCO)",
+		"description": "This team specializes in creating and managing dynamic ad content that automatically adjusts based on user data, context, and behavior. They leverage AI and machine learning to deliver personalized ad experiences at scale."
+	},
+	{
+		"name": "Native Advertising Strategy",
+		"description": "This unit develops strategies for creating and placing ads that seamlessly integrate with the look and feel of digital platforms. They focus on crafting non-disruptive ad experiences that engage users while maintaining brand relevance and authenticity."
+	},
+	{
+		"name": "Influencer Marketing Automation",
+		"description": "This department leverages technology to streamline and scale influencer marketing efforts in the digital space. They develop tools and processes to identify, vet, and manage digital influencers, as well as track and measure campaign performance across various social platforms."
+	},
+	{
+		"name": "Ad Exchange Management",
+		"description": "This team oversees the company's participation in digital ad exchanges, managing relationships with demand-side platforms (DSPs) and supply-side platforms (SSPs). They optimize bidding strategies and inventory management to maximize revenue and campaign performance."
+	},
+	{
+		"name": "Digital Out-of-Home (DOOH) Integration",
+		"description": "This unit focuses on incorporating digital out-of-home advertising into broader digital campaigns. They develop strategies for programmatic DOOH buying and create synergies between traditional outdoor advertising and other digital channels."
+	},
+	{
+		"name": "Voice and Audio Ad Innovation",
+		"description": "This department specializes in developing advertising solutions for emerging voice-activated devices and audio streaming platforms. They create innovative ad formats and targeting strategies tailored to these unique digital environments."
+	},
+	{
+		"name": "Augmented Reality (AR) Ad Development",
+		"description": "This team focuses on creating immersive AR advertising experiences for mobile and wearable devices. They leverage cutting-edge technology to develop interactive and engaging ad formats that blend digital content with the real world."
+	},
+	{
+		"name": "In-Game Advertising Solutions",
+		"description": "This unit specializes in developing and implementing advertising strategies within video games and virtual environments. They create non-intrusive ad experiences that enhance rather than disrupt gameplay, targeting the growing gaming audience."
+	}
+]

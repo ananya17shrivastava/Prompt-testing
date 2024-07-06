@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Intermodal Integration Planning",
+		"description": "This department focuses on seamlessly connecting various transportation modes within a single architectural design. It ensures that passengers can effortlessly transition between different forms of transport, such as trains, buses, and airports, enhancing overall travel efficiency and user experience."
+	},
+	{
+		"name": "Transit-Oriented Development (TOD) Strategy",
+		"description": "This team specializes in creating architectural designs that maximize the potential of areas surrounding transportation hubs. They develop strategies to integrate residential, commercial, and public spaces around transit stations, fostering sustainable urban growth and reducing reliance on personal vehicles."
+	},
+	{
+		"name": "Wayfinding and Passenger Flow Optimization",
+		"description": "This unit concentrates on designing intuitive navigation systems within transportation facilities. They utilize advanced modeling techniques to analyze and improve passenger movement, reducing congestion and enhancing the overall travel experience in complex transportation environments."
+	},
+	{
+		"name": "Transportation Security Architecture",
+		"description": "This department focuses on integrating cutting-edge security measures into transportation facility designs. They work to create spaces that are both secure and aesthetically pleasing, balancing safety requirements with passenger comfort and operational efficiency."
+	},
+	{
+		"name": "Sustainable Transportation Infrastructure Design",
+		"description": "This team specializes in developing eco-friendly transportation architectures. They incorporate green building practices, renewable energy systems, and sustainable materials into designs for terminals, stations, and other transportation facilities, aligning with global environmental goals."
+	},
+	{
+		"name": "Multimodal Hub Conceptualization",
+		"description": "This unit is dedicated to envisioning and designing transportation centers that efficiently accommodate multiple modes of transport. They create architectural solutions that seamlessly integrate various transportation services, from high-speed rail to local bus networks, within a single cohesive facility."
+	},
+	{
+		"name": "Transportation Acoustics and Vibration Mitigation",
+		"description": "This specialized department focuses on addressing noise and vibration issues unique to transportation environments. They develop innovative architectural solutions to minimize sound pollution and structural vibrations in transportation facilities, enhancing passenger comfort and structural integrity."
+	},
+	{
+		"name": "Future Mobility Integration",
+		"description": "This forward-thinking team concentrates on designing transportation architectures that can adapt to emerging mobility trends. They create flexible spaces that can accommodate future technologies such as autonomous vehicles, flying taxis, and hyperloop systems, ensuring long-term relevance of transportation facilities."
+	},
+	{
+		"name": "Passenger Experience Enhancement",
+		"description": "This department specializes in creating architectural designs that prioritize traveler comfort and satisfaction. They focus on elements such as natural lighting, intuitive layouts, and amenity placement to reduce stress and improve the overall journey experience for passengers in transportation hubs."
+	},
+	{
+		"name": "Transportation Disaster Resilience Planning",
+		"description": "This critical unit develops architectural strategies to make transportation facilities more resilient to natural disasters and other emergencies. They design structures and systems that can withstand extreme events, ensure rapid recovery, and maintain critical transportation functions during crises."
+	}
+]

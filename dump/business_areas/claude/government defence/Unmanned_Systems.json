@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Autonomous Navigation Systems Development",
+		"description": "This department focuses on creating advanced algorithms and software that enable unmanned systems to navigate complex environments without human intervention. It's crucial for developing systems that can operate in GPS-denied areas or highly dynamic situations."
+	},
+	{
+		"name": "Swarm Intelligence Research",
+		"description": "This cutting-edge unit explores the potential of multiple unmanned systems working together as a coordinated swarm. It aims to develop technologies that allow large numbers of autonomous vehicles to collaborate effectively for various military applications."
+	},
+	{
+		"name": "Human-Machine Teaming Integration",
+		"description": "This department works on seamlessly integrating unmanned systems with human operators, developing intuitive interfaces and AI-assisted decision-making tools to enhance overall mission effectiveness and reduce cognitive load on personnel."
+	},
+	{
+		"name": "Payload Optimization and Integration",
+		"description": "This specialized team focuses on designing and integrating various payloads (sensors, weapons, or other mission-specific equipment) onto unmanned platforms, ensuring optimal performance and mission flexibility."
+	},
+	{
+		"name": "Counter-UAS Technologies",
+		"description": "This unit develops systems and strategies to detect, track, and neutralize enemy unmanned systems. It's a rapidly evolving field that combines electronic warfare, directed energy weapons, and advanced sensor technologies."
+	},
+	{
+		"name": "Autonomous Refueling and Maintenance Systems",
+		"description": "This department works on technologies that allow unmanned systems to refuel, rearm, and perform basic maintenance autonomously, significantly extending their operational range and endurance."
+	},
+	{
+		"name": "Multi-Domain Unmanned Operations",
+		"description": "This team focuses on developing unmanned systems that can seamlessly operate across air, land, sea, and even space domains, enhancing military capabilities in joint operations scenarios."
+	},
+	{
+		"name": "Ethical AI for Unmanned Systems",
+		"description": "This department addresses the complex ethical considerations surrounding autonomous systems in military applications, developing frameworks and safeguards to ensure responsible use of unmanned technologies."
+	},
+	{
+		"name": "Resilient Command and Control Systems",
+		"description": "This unit specializes in creating robust, secure communication networks and control systems for unmanned platforms, ensuring continued operation in contested electromagnetic environments."
+	},
+	{
+		"name": "Unmanned Logistics and Supply Chain",
+		"description": "This department develops autonomous systems for military logistics, including unmanned cargo delivery vehicles and automated supply management systems, revolutionizing battlefield supply chains."
+	},
+	{
+		"name": "Modular Unmanned System Architecture",
+		"description": "This team focuses on creating standardized, modular designs for unmanned systems, allowing for rapid reconfiguration and upgrades to meet evolving mission requirements and reduce lifecycle costs."
+	},
+	{
+		"name": "Biomimetic Unmanned Systems",
+		"description": "This innovative department explores nature-inspired designs for unmanned systems, developing platforms that mimic biological entities for enhanced stealth, efficiency, and adaptability in various environments."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Executive Research Team",
+		"description": "A specialized unit dedicated to in-depth market analysis and candidate identification for high-level executive positions. This team employs advanced research methodologies to uncover top-tier talent, often including those not actively seeking new opportunities."
+	},
+	{
+		"name": "Client Strategy Division",
+		"description": "A department focused on developing long-term partnerships with client organizations, understanding their strategic goals, and aligning executive search efforts with the client's broader business objectives. This division works to position the firm as a trusted advisor rather than just a service provider."
+	},
+	{
+		"name": "Leadership Assessment Center",
+		"description": "A dedicated facility or team that conducts comprehensive evaluations of executive candidates, utilizing sophisticated psychometric tools, simulations, and in-depth interviews to assess leadership potential, cultural fit, and long-term success probability."
+	},
+	{
+		"name": "Board Practice",
+		"description": "A specialized group that focuses exclusively on board-level placements, including independent directors, board chairs, and committee members. This practice area requires deep understanding of corporate governance, regulatory requirements, and boardroom dynamics."
+	},
+	{
+		"name": "Succession Planning Unit",
+		"description": "A team dedicated to helping organizations develop robust succession strategies for key executive positions. This unit works closely with clients to identify and groom internal talent, as well as map external candidates for critical roles."
+	},
+	{
+		"name": "Executive Integration Team",
+		"description": "A post-placement support division that assists newly placed executives in their transition into the new organization. This team provides onboarding guidance, cultural integration support, and ongoing coaching to ensure the executive's success in the new role."
+	},
+	{
+		"name": "Diversity and Inclusion Search Practice",
+		"description": "A specialized group focused on identifying and placing diverse executive talent, helping organizations build inclusive leadership teams. This practice area requires expertise in developing diverse talent pipelines and navigating the unique challenges of placing underrepresented executives."
+	},
+	{
+		"name": "Cross-Border Search Division",
+		"description": "A team dedicated to handling complex international executive searches, navigating cultural nuances, and managing global talent mobility. This division requires expertise in international business practices, visa regulations, and cross-cultural leadership competencies."
+	},
+	{
+		"name": "Executive Compensation Advisory",
+		"description": "A specialized unit that provides guidance on executive compensation packages, ensuring that offers are competitive and aligned with market standards. This team works closely with client organizations to structure attractive compensation plans that align with long-term business goals."
+	},
+	{
+		"name": "Thought Leadership and Executive Insights Group",
+		"description": "A division focused on producing high-level research, white papers, and industry insights on executive talent trends, leadership challenges, and organizational effectiveness. This group positions the firm as a knowledge leader in the executive search space."
+	}
+]

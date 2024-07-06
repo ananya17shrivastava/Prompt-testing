@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Digital Preservation Unit",
+		"description": "This specialized department focuses on maintaining the long-term accessibility and usability of digital records. They develop and implement strategies to combat technological obsolescence, ensuring that critical digital information remains readable and authentic over extended periods, sometimes spanning decades or even centuries."
+	},
+	{
+		"name": "Physical Records Storage Facility Management",
+		"description": "This team oversees the operation of secure, climate-controlled warehouses designed specifically for storing physical documents and artifacts. They manage space utilization, implement advanced inventory tracking systems, and maintain optimal environmental conditions to prevent degradation of stored materials."
+	},
+	{
+		"name": "Records Retention Schedule Development",
+		"description": "This strategic unit works closely with clients to create customized retention schedules that comply with industry regulations and legal requirements. They analyze business processes, assess risk, and design comprehensive plans for managing the lifecycle of records from creation to disposition."
+	},
+	{
+		"name": "Archival Processing and Description",
+		"description": "This department is responsible for organizing and describing historical records to make them accessible for research. They apply archival principles to arrange materials, create finding aids, and develop metadata schemas that facilitate efficient retrieval of information while preserving the context and provenance of the records."
+	},
+	{
+		"name": "Records Disaster Recovery and Business Continuity",
+		"description": "This specialized team develops and implements strategies to protect vital records from natural disasters, cyber-attacks, and other potential threats. They create redundancy systems, manage off-site backups, and design rapid recovery protocols to ensure business continuity in the event of a catastrophe."
+	},
+	{
+		"name": "Confidential Records Destruction",
+		"description": "This unit manages the secure destruction of sensitive documents and media that have reached the end of their retention period. They employ various methods such as shredding, pulping, and degaussing to ensure that confidential information cannot be reconstructed or accessed by unauthorized parties."
+	},
+	{
+		"name": "Historical Research and Curation",
+		"description": "This department consists of subject matter experts who provide in-depth historical research services using archived materials. They curate exhibitions, produce publications, and offer consulting services to help organizations leverage their historical records for branding, marketing, and legacy preservation purposes."
+	},
+	{
+		"name": "Records Compliance and Audit",
+		"description": "This team ensures that records management practices adhere to relevant laws, regulations, and industry standards. They conduct regular audits, monitor changes in compliance requirements, and provide guidance on implementing necessary adjustments to maintain legal and regulatory conformity."
+	},
+	{
+		"name": "Archival Digitization and Imaging",
+		"description": "This specialized unit focuses on converting physical records into digital formats. They employ state-of-the-art scanning technologies, develop quality control processes, and create searchable databases to enhance accessibility while preserving the integrity of original documents."
+	},
+	{
+		"name": "Records Management Software Development",
+		"description": "This department designs and maintains proprietary software solutions for managing electronic records. They create user-friendly interfaces, implement advanced search capabilities, and develop integration tools to seamlessly incorporate records management functionalities into clients' existing IT infrastructures."
+	},
+	{
+		"name": "Archival Conservation Laboratory",
+		"description": "This highly specialized unit is dedicated to the physical preservation and restoration of historical documents and artifacts. They employ advanced conservation techniques, conduct material analysis, and develop customized preservation strategies to extend the lifespan of valuable records."
+	},
+	{
+		"name": "Records Information Governance",
+		"description": "This strategic department develops comprehensive policies and procedures for managing information assets throughout their lifecycle. They align records management practices with broader organizational goals, ensuring that information is treated as a valuable corporate asset and managed accordingly."
+	}
+]

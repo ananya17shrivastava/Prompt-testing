@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Campus Relations Management",
+		"description": "This department focuses on building and maintaining strong relationships with universities and colleges. It's crucial for securing prime locations near campuses and understanding the evolving needs of student populations. This team works to align housing offerings with institutional goals and student life initiatives."
+	},
+	{
+		"name": "Academic Calendar-Based Operations",
+		"description": "A specialized operations team that manages the unique cyclical nature of student housing. They coordinate mass move-ins and move-outs aligned with academic schedules, ensuring smooth transitions between semesters and handling the complexities of summer occupancy fluctuations."
+	},
+	{
+		"name": "Roommate Matching Services",
+		"description": "This innovative department utilizes advanced algorithms and social profiling to create compatible living arrangements. By matching students based on lifestyle preferences, study habits, and personal interests, it aims to enhance the overall living experience and reduce conflicts."
+	},
+	{
+		"name": "Student Life Programming",
+		"description": "A dedicated team that designs and implements engaging activities and events tailored to the student demographic. This department focuses on creating a community atmosphere, fostering social connections, and supporting academic success through study groups and workshops."
+	},
+	{
+		"name": "Parent and Guarantor Relations",
+		"description": "This specialized customer service unit manages communications with parents and guarantors who often play a significant role in the leasing process. They handle concerns, provide reassurance about safety and security, and facilitate financial transactions unique to the student housing model."
+	},
+	{
+		"name": "Academic Performance Liaison",
+		"description": "An innovative department that works closely with educational institutions to support student success. They may offer study spaces, tutoring programs, or coordinate with university academic support services to ensure that the living environment contributes positively to academic outcomes."
+	},
+	{
+		"name": "International Student Accommodation Services",
+		"description": "This team focuses on the unique needs of international students, providing culturally sensitive housing options, assistance with legal requirements for foreign residents, and support for integration into campus life."
+	},
+	{
+		"name": "Technology and Connectivity Management",
+		"description": "A specialized IT department that ensures high-speed internet access and advanced technological amenities crucial for modern students. They manage bandwidth allocation, smart room features, and educational technology integration within the living spaces."
+	},
+	{
+		"name": "Flexible Lease Management",
+		"description": "This department handles the complexities of lease terms that align with academic schedules. They manage short-term leases, semester-based contracts, and coordinate with study abroad programs to accommodate students' dynamic needs."
+	},
+	{
+		"name": "Student Wellness and Mental Health Support",
+		"description": "A forward-thinking department that focuses on the holistic well-being of student residents. They coordinate with campus health services, provide mental health resources, and create programs promoting physical and emotional wellness within the housing community."
+	}
+]

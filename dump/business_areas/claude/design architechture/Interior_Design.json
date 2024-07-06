@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Space Planning and Optimization",
+		"description": "This department focuses on maximizing the functionality and flow of interior spaces. It's crucial for creating efficient layouts that enhance productivity, comfort, and aesthetics. Your space planning team will be instrumental in transforming client visions into practical, livable environments."
+	},
+	{
+		"name": "Material and Finish Selection",
+		"description": "This specialized unit is responsible for choosing and recommending appropriate materials, textures, and finishes for interior spaces. Their expertise ensures that design choices not only look stunning but also meet durability, sustainability, and budget requirements. This team's decisions significantly impact the overall feel and longevity of your projects."
+	},
+	{
+		"name": "Color Psychology and Scheme Development",
+		"description": "This department leverages the psychological impact of colors to create desired atmospheres and emotions within interior spaces. Their work goes beyond mere aesthetics, influencing mood, productivity, and even perceived temperature in rooms. This team's insights can be a key differentiator in your design proposals."
+	},
+	{
+		"name": "Furniture and Fixture Curation",
+		"description": "This team specializes in selecting, sourcing, and arranging furniture and fixtures that complement the overall design concept. Their expertise ensures that each piece not only fits the aesthetic vision but also serves functional purposes, enhancing the usability and comfort of the space."
+	},
+	{
+		"name": "Lighting Design and Integration",
+		"description": "This department focuses on creating optimal lighting solutions for interior spaces. They balance natural and artificial light sources to enhance ambiance, functionality, and energy efficiency. Their work is crucial in setting the mood and ensuring proper task lighting across various interior environments."
+	},
+	{
+		"name": "Textile and Upholstery Coordination",
+		"description": "This unit specializes in selecting and coordinating textiles and upholstery for various interior elements. Their expertise ensures cohesion in texture, pattern, and color across soft furnishings, window treatments, and upholstered items. This team's work significantly contributes to the tactile and visual comfort of designed spaces."
+	},
+	{
+		"name": "Accessory and Art Curation",
+		"description": "This department focuses on selecting and placing decorative elements, artwork, and accessories that complement and elevate the overall interior design. Their expertise in curating these finishing touches can transform a well-designed space into a truly personalized and memorable environment."
+	},
+	{
+		"name": "Sustainable Interior Solutions",
+		"description": "This team specializes in incorporating eco-friendly and sustainable practices into interior design projects. They focus on selecting environmentally responsible materials, implementing energy-efficient solutions, and creating designs that promote occupant health and well-being. Their work is crucial in meeting growing client demands for sustainable interiors."
+	},
+	{
+		"name": "Virtual Reality (VR) Interior Visualization",
+		"description": "This cutting-edge department utilizes VR technology to create immersive, three-dimensional visualizations of interior designs. This allows clients to experience and interact with proposed designs before implementation, significantly enhancing client communication and decision-making processes."
+	},
+	{
+		"name": "Feng Shui and Vastu Shastra Integration",
+		"description": "This specialized unit focuses on incorporating principles of Feng Shui and Vastu Shastra into interior designs. Their expertise in these ancient practices of harmonizing living spaces with natural forces can provide a unique selling point for clients interested in holistic design approaches."
+	}
+]

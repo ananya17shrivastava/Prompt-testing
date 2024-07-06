@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Mergers and Acquisitions (M&A) Advisory",
+		"description": "This department specializes in guiding companies through complex corporate transactions, providing strategic advice on mergers, acquisitions, divestitures, and restructurings. The M&A team leverages deep industry knowledge and financial expertise to maximize value for clients in transformative deals."
+	},
+	{
+		"name": "Equity Capital Markets (ECM)",
+		"description": "ECM focuses on helping companies raise capital through public offerings and private placements of equity securities. This team orchestrates initial public offerings (IPOs), follow-on offerings, and convertible bond issuances, ensuring optimal pricing and market positioning for client companies."
+	},
+	{
+		"name": "Debt Capital Markets (DCM)",
+		"description": "The DCM department assists corporations and governments in raising capital through the issuance of various debt instruments. This team structures and executes bond offerings, leveraged finance transactions, and other debt-related products, optimizing clients' capital structures and funding strategies."
+	},
+	{
+		"name": "Structured Finance",
+		"description": "This specialized unit designs and implements complex financial instruments and deals, often involving the securitization of assets. The team creates tailored solutions for clients seeking to manage risk, enhance liquidity, or achieve specific financial objectives through innovative structuring techniques."
+	},
+	{
+		"name": "Financial Sponsors Group",
+		"description": "This group caters exclusively to private equity firms and other financial sponsors, offering a full suite of investment banking services. The team provides specialized advice on leveraged buyouts, portfolio company transactions, and exit strategies, leveraging deep relationships within the private equity ecosystem."
+	},
+	{
+		"name": "Corporate Broking",
+		"description": "Corporate broking teams act as long-term strategic advisors to publicly listed companies, maintaining ongoing relationships and providing market intelligence. They assist in managing shareholder relations, facilitating secondary offerings, and advising on market-related matters to enhance corporate value."
+	},
+	{
+		"name": "Leveraged Finance",
+		"description": "This department specializes in arranging and structuring debt financing for leveraged buyouts, recapitalizations, and other highly leveraged transactions. The team works closely with private equity firms and corporate clients to optimize capital structures and secure favorable financing terms in complex, high-yield scenarios."
+	},
+	{
+		"name": "Restructuring and Special Situations",
+		"description": "This group focuses on advising companies facing financial distress or undergoing significant operational changes. The team provides expertise in debt restructuring, bankruptcy proceedings, and turnaround strategies, helping clients navigate challenging financial circumstances and emerge stronger."
+	},
+	{
+		"name": "Sovereign Advisory",
+		"description": "This niche department offers specialized advisory services to governments, central banks, and other sovereign entities. The team provides guidance on debt management, privatizations, and other strategic financial matters, leveraging deep understanding of geopolitical dynamics and sovereign finance."
+	},
+	{
+		"name": "Industry Coverage Groups",
+		"description": "These specialized teams focus on specific sectors (e.g., healthcare, technology, energy) within investment banking. They combine deep industry knowledge with financial expertise to provide tailored advisory services, ensuring that clients receive sector-specific insights and strategic guidance in their transactions."
+	},
+	{
+		"name": "Equity Syndicate",
+		"description": "The equity syndicate desk manages the execution and distribution of equity offerings. This team coordinates pricing, allocation, and stabilization activities for new issues, working closely with sales and trading departments to ensure successful placement of securities in the market."
+	},
+	{
+		"name": "Debt Syndicate",
+		"description": "Similar to the equity syndicate, the debt syndicate desk oversees the execution of debt offerings. This team manages the pricing and distribution of bonds and other debt instruments, coordinating with various market participants to optimize the issuance process for clients."
+	}
+]

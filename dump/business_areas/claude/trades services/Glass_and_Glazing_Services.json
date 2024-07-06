@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Custom Glass Fabrication Workshop",
+		"description": "This specialized department focuses on creating bespoke glass solutions for unique architectural designs or specific client requirements. It's equipped with advanced cutting, shaping, and finishing tools to produce custom glass pieces that standard suppliers can't offer."
+	},
+	{
+		"name": "Glazing Systems Engineering",
+		"description": "A dedicated team that designs and develops innovative glazing systems for various applications, such as curtain walls, skylights, and structural glass installations. This department is crucial for staying competitive in high-end commercial and residential projects."
+	},
+	{
+		"name": "Energy Efficiency Analysis Unit",
+		"description": "This unit specializes in assessing and recommending energy-efficient glass solutions for buildings. They utilize advanced software and thermal imaging technology to optimize glass selections, contributing to LEED certifications and reduced energy costs for clients."
+	},
+	{
+		"name": "Glass Restoration and Preservation Division",
+		"description": "Focused on the restoration and preservation of historical or antique glass elements, this division combines traditional craftsmanship with modern techniques to maintain the integrity of heritage buildings and valuable glass artifacts."
+	},
+	{
+		"name": "Safety and Security Glass Development",
+		"description": "A specialized team dedicated to developing and implementing cutting-edge safety and security glass solutions. They work on projects ranging from bullet-resistant glass to blast-resistant glazing systems for high-security facilities."
+	},
+	{
+		"name": "Smart Glass Integration Department",
+		"description": "This forward-thinking department focuses on integrating smart glass technologies, such as electrochromic and thermochromic glass, into building designs. They collaborate with tech companies to create innovative, responsive glazing solutions."
+	},
+	{
+		"name": "Glass Recycling and Sustainability Center",
+		"description": "A dedicated facility that manages the recycling of glass waste from job sites and promotes sustainable practices within the industry. This center also researches and implements eco-friendly glass production methods and materials."
+	},
+	{
+		"name": "Specialty Coatings Laboratory",
+		"description": "This lab develops and applies specialized coatings to glass surfaces, enhancing properties such as UV protection, self-cleaning capabilities, and anti-reflective characteristics. It's essential for creating high-performance glass products that meet specific client needs."
+	},
+	{
+		"name": "Glass Art and Decorative Design Studio",
+		"description": "A creative hub where skilled artisans and designers collaborate to produce unique decorative glass elements, such as stained glass, etched glass, and fused glass art pieces for architectural applications."
+	},
+	{
+		"name": "Emergency Glass Repair and Replacement Unit",
+		"description": "This rapid-response team is equipped to handle urgent glass repair and replacement needs, often operating 24/7. They specialize in quick turnaround times for commercial and residential emergencies, minimizing downtime and security risks."
+	},
+	{
+		"name": "Glass Performance Testing Facility",
+		"description": "An in-house facility dedicated to rigorously testing glass products for various performance metrics, including strength, thermal insulation, and acoustic properties. This ensures compliance with industry standards and helps in developing superior products."
+	},
+	{
+		"name": "Glazier Training Academy",
+		"description": "An educational division focused on training and upskilling glaziers in the latest techniques, safety protocols, and emerging technologies. This academy ensures a steady supply of skilled professionals and maintains high-quality standards across projects."
+	}
+]

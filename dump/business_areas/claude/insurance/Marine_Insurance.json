@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Marine Underwriting",
+		"description": "This specialized department focuses on assessing and pricing risks specific to maritime ventures. Your marine underwriters possess in-depth knowledge of vessel types, cargo classifications, and international shipping routes, enabling them to accurately evaluate and price complex marine risks."
+	},
+	{
+		"name": "Cargo Claims Management",
+		"description": "This unit handles claims related to damaged or lost cargo during transit. Your team here must be well-versed in international trade regulations, bill of lading interpretation, and cargo valuation methods to efficiently process and settle claims while minimizing fraud."
+	},
+	{
+		"name": "Hull and Machinery Assessment",
+		"description": "This department specializes in evaluating the condition and value of ships and their equipment. Your experts here combine engineering knowledge with maritime expertise to accurately assess vessels, determine insurable values, and recommend risk mitigation measures."
+	},
+	{
+		"name": "Port Risk Management",
+		"description": "This unique division focuses on analyzing and mitigating risks associated with port operations. Your team here works closely with port authorities and shipping companies to develop tailored insurance solutions for port infrastructure, cargo handling equipment, and potential environmental hazards."
+	},
+	{
+		"name": "Marine Salvage Coordination",
+		"description": "This specialized unit manages the complex process of salvaging vessels and cargo after maritime accidents. Your salvage coordinators must have a deep understanding of maritime law, environmental regulations, and salvage techniques to minimize losses and ensure compliance."
+	},
+	{
+		"name": "Piracy and Political Risk Analysis",
+		"description": "This department assesses the risks of piracy, political instability, and regional conflicts that may affect maritime operations. Your analysts here provide crucial intelligence to inform underwriting decisions and help clients navigate high-risk shipping routes."
+	},
+	{
+		"name": "Marine Pollution Liability",
+		"description": "This unit focuses on the unique environmental risks associated with maritime activities. Your experts here must stay abreast of evolving environmental regulations and develop innovative coverage solutions for potential pollution incidents at sea or in coastal areas."
+	},
+	{
+		"name": "Yacht and Pleasure Craft Insurance",
+		"description": "This specialized department caters to the unique needs of high-net-worth individuals and their luxury vessels. Your team here combines knowledge of high-value asset protection with an understanding of the specific risks associated with recreational boating."
+	},
+	{
+		"name": "Marine Warranty Surveying",
+		"description": "This department provides independent technical assessments of marine projects and operations. Your marine warranty surveyors play a crucial role in risk mitigation by ensuring compliance with industry standards and best practices in areas such as offshore construction and heavy-lift operations."
+	},
+	{
+		"name": "Arctic Shipping Risk Management",
+		"description": "As climate change opens new shipping routes in the Arctic, this forward-looking department specializes in assessing and managing the unique risks associated with polar navigation. Your experts here must consider factors such as ice conditions, limited infrastructure, and environmental sensitivities when developing insurance solutions for this emerging market."
+	}
+]

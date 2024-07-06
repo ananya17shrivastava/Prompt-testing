@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Street Team Coordination",
+		"description": "This department manages groups of brand ambassadors who engage in unconventional, face-to-face marketing activities. They orchestrate surprise events, flash mobs, and interactive experiences that create buzz and generate word-of-mouth marketing."
+	},
+	{
+		"name": "Ambient Media Planning",
+		"description": "Specialists in this area focus on identifying and leveraging unexpected environments for brand messaging. They transform everyday objects and spaces into attention-grabbing advertisements, ensuring your brand stands out in cluttered markets."
+	},
+	{
+		"name": "Viral Content Creation",
+		"description": "This team crafts shareable, provocative content designed to spread rapidly through social networks. They blend creativity with psychological triggers to produce campaigns that audiences feel compelled to share, amplifying reach organically."
+	},
+	{
+		"name": "Stealth Marketing Operations",
+		"description": "Experts here develop covert marketing strategies that subtly influence consumer behavior without overt advertising. They orchestrate product placements, sponsored conversations, and undercover brand advocacy to build authentic connections with target audiences."
+	},
+	{
+		"name": "Urban Art Collaboration",
+		"description": "This department forges partnerships with street artists and urban creatives to produce visually striking, culturally relevant brand expressions. They navigate the fine line between art and advertising to create impactful, Instagram-worthy installations."
+	},
+	{
+		"name": "Guerrilla Event Disruption",
+		"description": "Specialists in this area plan and execute unexpected brand interventions at high-profile events. They create memorable brand experiences by hijacking attention at gatherings where your target audience is already present."
+	},
+	{
+		"name": "Tactical PR Stunts",
+		"description": "This team conceptualizes and executes newsworthy events designed to generate media coverage and public discussion. They craft provocative, headline-grabbing actions that align with your brand message and values."
+	},
+	{
+		"name": "Grassroots Community Engagement",
+		"description": "Experts here develop strategies to authentically integrate your brand into local communities. They create meaningful interactions and support initiatives that resonate with your target demographic, fostering brand loyalty through genuine connections."
+	},
+	{
+		"name": "Guerrilla Digital Integration",
+		"description": "This department bridges the gap between physical guerrilla tactics and digital platforms. They ensure that real-world activations have a strong online presence, maximizing reach and engagement across multiple channels."
+	},
+	{
+		"name": "Legal and Ethical Compliance for Unconventional Marketing",
+		"description": "This crucial team navigates the complex legal landscape of guerrilla marketing. They assess risks, secure necessary permissions, and ensure campaigns push creative boundaries without crossing legal or ethical lines."
+	},
+	{
+		"name": "Rapid Response Activation",
+		"description": "This agile team capitalizes on current events and trending topics to create timely, relevant guerrilla campaigns. They maintain a pulse on cultural moments and swiftly deploy marketing tactics that insert your brand into ongoing conversations."
+	},
+	{
+		"name": "Measurement and Analytics for Non-Traditional Campaigns",
+		"description": "Specialists here develop unique metrics and methodologies to quantify the impact of guerrilla marketing efforts. They translate unconventional activities into measurable ROI, helping justify and refine guerrilla strategies."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Itinerary Planning and Customization",
+		"description": "This department focuses on creating tailored travel experiences for customers. It requires agents with extensive knowledge of destinations, attractions, and travel logistics to craft personalized itineraries that meet specific client preferences and budgets."
+	},
+	{
+		"name": "Reservation and Booking Management",
+		"description": "Dedicated to handling complex multi-leg bookings across various travel services, this team manages reservations for flights, hotels, cruises, and ground transportation. They ensure seamless coordination between different service providers and handle intricate booking modifications."
+	},
+	{
+		"name": "Travel Documentation and Visa Support",
+		"description": "This specialized unit assists customers with travel documentation requirements, including passport renewals, visa applications, and health certifications. They stay updated on ever-changing international travel regulations to provide accurate and timely information."
+	},
+	{
+		"name": "Loyalty Program Administration",
+		"description": "Focused on managing and optimizing travel loyalty programs, this department handles point accrual, redemption, and status upgrades. They play a crucial role in customer retention by providing personalized offers and exclusive benefits to frequent travelers."
+	},
+	{
+		"name": "Destination Concierge Services",
+		"description": "This team acts as virtual concierges, offering expert advice on local attractions, dining recommendations, and cultural experiences. They provide insider tips and can arrange special requests to enhance the overall travel experience for discerning customers."
+	},
+	{
+		"name": "Group and Event Travel Coordination",
+		"description": "Specializing in managing large-scale travel arrangements for corporate events, weddings, or family reunions, this department handles the complexities of group bookings, including negotiating group rates and coordinating logistics for multiple travelers."
+	},
+	{
+		"name": "Travel Insurance and Assistance",
+		"description": "This unit focuses on travel insurance products, claim processing, and emergency assistance services. They provide support for unexpected situations such as medical emergencies, trip cancellations, or lost luggage, ensuring travelers feel secure throughout their journey."
+	},
+	{
+		"name": "Sustainable Travel Advisory",
+		"description": "Catering to the growing demand for eco-friendly travel options, this department provides guidance on sustainable accommodations, transportation, and activities. They help environmentally conscious travelers minimize their carbon footprint while exploring the world."
+	},
+	{
+		"name": "Accessibility Travel Support",
+		"description": "Dedicated to assisting travelers with disabilities or special needs, this team ensures that accommodations, transportation, and activities are accessible and suitable for all customers, regardless of their physical capabilities."
+	},
+	{
+		"name": "Cruise and Maritime Services",
+		"description": "This specialized department handles all aspects of cruise travel, including ship selection, cabin bookings, shore excursions, and onboard activity reservations. They possess in-depth knowledge of various cruise lines and itineraries to match customers with their ideal seafaring experience."
+	},
+	{
+		"name": "Adventure and Specialty Travel Planning",
+		"description": "Focused on niche travel experiences such as safaris, ski trips, or culinary tours, this team comprises experts in specific types of travel. They curate unique experiences and handle the specialized equipment or training requirements associated with adventure travel."
+	},
+	{
+		"name": "Corporate Travel Management",
+		"description": "This department caters to business travelers and corporate clients, managing travel policies, expense reporting, and duty of care responsibilities. They optimize travel spending and ensure compliance with company guidelines while meeting the unique needs of business travelers."
+	}
+]

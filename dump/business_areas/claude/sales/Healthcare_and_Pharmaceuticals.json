@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Clinical Trial Sales",
+		"description": "This department focuses on selling services related to clinical trials to pharmaceutical companies, biotechnology firms, and research institutions. It requires a deep understanding of the drug development process and regulatory requirements."
+	},
+	{
+		"name": "Medical Device Sales",
+		"description": "Specializing in selling innovative medical equipment and devices to healthcare providers, this department requires expertise in complex technological solutions and their clinical applications."
+	},
+	{
+		"name": "Pharmaceutical Sales",
+		"description": "This core department concentrates on promoting and selling prescription drugs to healthcare professionals, requiring in-depth knowledge of pharmacology and therapeutic areas."
+	},
+	{
+		"name": "Specialty Pharmacy Services",
+		"description": "This unique area deals with selling specialized medication management services for patients with complex or chronic conditions, often involving high-cost or high-touch therapies."
+	},
+	{
+		"name": "Biosimilars Sales",
+		"description": "Focused on selling biologic medical products that are highly similar to already approved biological medicines, this department requires expertise in navigating the complex regulatory landscape of biosimilars."
+	},
+	{
+		"name": "Compounding Pharmacy Sales",
+		"description": "This niche department sells customized medication solutions to healthcare providers, addressing specific patient needs that cannot be met by commercially available drugs."
+	},
+	{
+		"name": "Nutraceutical Sales",
+		"description": "Concentrating on selling dietary supplements and functional foods with health benefits, this department bridges the gap between pharmaceuticals and nutrition."
+	},
+	{
+		"name": "Pharmacogenomics Services Sales",
+		"description": "This cutting-edge department sells genetic testing services and personalized medicine solutions to healthcare providers, aiming to optimize drug therapies based on individual genetic profiles."
+	},
+	{
+		"name": "Radiopharmaceutical Sales",
+		"description": "Specializing in selling radioactive drugs used in nuclear medicine for diagnostic and therapeutic purposes, this department requires expertise in handling and transporting radioactive materials."
+	},
+	{
+		"name": "Orphan Drug Sales",
+		"description": "This department focuses on selling medications developed specifically to treat rare diseases, requiring a deep understanding of niche markets and specialized regulatory pathways."
+	},
+	{
+		"name": "Biotech Research Tools Sales",
+		"description": "Concentrating on selling advanced research equipment and reagents to pharmaceutical and biotechnology companies, this department supports drug discovery and development processes."
+	},
+	{
+		"name": "Pharmaceutical Packaging Solutions",
+		"description": "This department sells specialized packaging solutions designed to meet the unique requirements of pharmaceutical products, including child-resistant packaging and anti-counterfeiting measures."
+	},
+	{
+		"name": "Drug Delivery Technology Sales",
+		"description": "Focusing on selling innovative drug delivery systems and technologies to pharmaceutical companies, this department requires expertise in enhancing drug efficacy and patient compliance."
+	},
+	{
+		"name": "Pharmacovigilance Services Sales",
+		"description": "This department sells drug safety monitoring and adverse event reporting services to pharmaceutical companies, helping them comply with regulatory requirements and maintain product safety."
+	},
+	{
+		"name": "Pharmaceutical Cold Chain Logistics",
+		"description": "Specializing in selling temperature-controlled supply chain solutions for sensitive pharmaceutical products, this department ensures product integrity throughout the distribution process."
+	}
+]

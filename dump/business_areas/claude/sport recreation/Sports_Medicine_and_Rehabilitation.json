@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Biomechanics Laboratory",
+		"description": "A cutting-edge facility dedicated to analyzing athletes' movements and physical performance. This department utilizes advanced motion capture technology and force plate systems to assess and optimize athletic techniques, reducing injury risks and enhancing performance."
+	},
+	{
+		"name": "Sports-Specific Rehabilitation Units",
+		"description": "Specialized units focused on sport-specific recovery protocols. These departments tailor rehabilitation programs to the unique demands of different sports, ensuring athletes regain their competitive edge while minimizing re-injury risks."
+	},
+	{
+		"name": "Performance Nutrition Center",
+		"description": "A dedicated facility that combines sports nutrition expertise with personalized meal planning. This department works closely with athletes to develop optimal fueling strategies, supporting both recovery and peak performance."
+	},
+	{
+		"name": "Cryotherapy and Recovery Suite",
+		"description": "An advanced recovery center featuring state-of-the-art cryotherapy chambers and other recovery modalities. This department focuses on accelerating post-exercise recovery and managing inflammation, helping athletes maintain consistent training schedules."
+	},
+	{
+		"name": "Orthopedic Sports Medicine Clinic",
+		"description": "A specialized medical facility staffed by orthopedic surgeons and sports medicine physicians. This department provides expert diagnosis, treatment, and surgical interventions for sports-related injuries, ensuring athletes receive top-tier medical care."
+	},
+	{
+		"name": "Sports Psychology and Mental Performance Unit",
+		"description": "A dedicated department focusing on the mental aspects of athletic performance and injury recovery. This unit helps athletes develop mental resilience, manage performance anxiety, and maintain motivation during rehabilitation."
+	},
+	{
+		"name": "Functional Movement Screening Center",
+		"description": "A specialized facility for conducting comprehensive movement assessments. This department identifies movement imbalances and potential injury risks, allowing for proactive interventions and personalized training programs."
+	},
+	{
+		"name": "Adaptive Sports Rehabilitation Division",
+		"description": "A unique department dedicated to rehabilitating athletes with disabilities or those transitioning to adaptive sports. This unit combines specialized equipment and expertise to help para-athletes optimize their performance and recovery."
+	},
+	{
+		"name": "Return-to-Play Assessment Center",
+		"description": "A dedicated facility for evaluating athletes' readiness to resume competitive play after injury. This department utilizes sport-specific testing protocols and advanced monitoring technologies to ensure safe and effective return to competition."
+	},
+	{
+		"name": "Regenerative Medicine and Biologics Lab",
+		"description": "An innovative department focused on cutting-edge treatments like platelet-rich plasma (PRP) therapy and stem cell applications. This unit accelerates healing and tissue regeneration, potentially reducing recovery times for athletes."
+	},
+	{
+		"name": "Altitude Training and Acclimatization Chamber",
+		"description": "A specialized facility simulating various altitude conditions. This department helps athletes prepare for competitions at different elevations and can be used as part of rehabilitation programs to enhance cardiovascular fitness."
+	},
+	{
+		"name": "Aquatic Therapy and Rehabilitation Pool",
+		"description": "A purpose-built aquatic center featuring adjustable-depth pools and underwater treadmills. This department provides low-impact rehabilitation options, particularly beneficial for early-stage recovery and athletes with weight-bearing restrictions."
+	}
+]

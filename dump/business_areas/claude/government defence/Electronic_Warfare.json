@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Electromagnetic Spectrum Operations (EMSO) Division",
+		"description": "This division focuses on developing strategies and technologies to control and exploit the electromagnetic spectrum. It's crucial for maintaining information superiority in modern warfare, enabling your forces to communicate effectively while denying the same capability to adversaries."
+	},
+	{
+		"name": "Signal Intelligence (SIGINT) Systems Department",
+		"description": "This department specializes in intercepting, analyzing, and exploiting enemy communications and electronic signals. It's essential for providing actionable intelligence to decision-makers, giving your organization a critical edge in both strategic planning and tactical operations."
+	},
+	{
+		"name": "Electronic Attack (EA) Solutions Unit",
+		"description": "This unit develops advanced jamming and disruption technologies to neutralize enemy electronic systems. It's vital for degrading adversary capabilities, protecting friendly forces, and ensuring mission success in contested electromagnetic environments."
+	},
+	{
+		"name": "Electronic Protection (EP) Technologies Group",
+		"description": "This group focuses on creating defensive measures against enemy electronic attacks. It's crucial for safeguarding your critical communication and weapon systems, ensuring their reliability and effectiveness in the face of sophisticated electronic threats."
+	},
+	{
+		"name": "Directed Energy Weapons (DEW) Research Team",
+		"description": "This team explores cutting-edge technologies like high-power microwaves and lasers for offensive and defensive applications. It's at the forefront of next-generation warfare, potentially revolutionizing how conflicts are fought and won."
+	},
+	{
+		"name": "Cyber-Electronic Warfare Integration (CEWI) Department",
+		"description": "This department works on merging cyber and electronic warfare capabilities. It's essential for developing holistic strategies that leverage both domains, creating synergistic effects that can provide a decisive advantage in modern, multi-domain conflicts."
+	},
+	{
+		"name": "Electronic Warfare Support (ES) Systems Division",
+		"description": "This division develops advanced sensors and analysis tools for detecting, identifying, and locating electromagnetic emissions. It's critical for maintaining situational awareness in complex electromagnetic environments and informing both offensive and defensive EW operations."
+	},
+	{
+		"name": "Cognitive Electronic Warfare (CEW) Innovation Lab",
+		"description": "This lab focuses on developing AI-driven EW systems capable of adapting to rapidly changing electromagnetic environments. It's crucial for staying ahead of adversaries in the ever-evolving electronic battlefield, ensuring your systems remain effective against emerging threats."
+	},
+	{
+		"name": "Electronic Warfare Test and Evaluation (T&E) Center",
+		"description": "This center specializes in rigorously testing EW systems and strategies in realistic scenarios. It's vital for ensuring the reliability and effectiveness of your EW capabilities, minimizing risks, and maximizing return on investment in this critical defense sector."
+	},
+	{
+		"name": "Electronic Warfare Training and Simulation Unit",
+		"description": "This unit develops advanced training programs and simulation systems for EW operators. It's essential for maintaining a highly skilled workforce capable of effectively employing complex EW systems in challenging operational environments."
+	},
+	{
+		"name": "Electromagnetic Environmental Effects (E3) Management Office",
+		"description": "This office focuses on managing electromagnetic compatibility and interference issues within complex weapon systems and platforms. It's crucial for ensuring that your various electronic systems can operate harmoniously without degrading each other's performance."
+	},
+	{
+		"name": "Electronic Warfare Logistics and Sustainment Division",
+		"description": "This division specializes in the unique maintenance, supply chain, and lifecycle management challenges of EW systems. It's essential for ensuring the long-term operational readiness and cost-effectiveness of your EW capabilities in a rapidly evolving technological landscape."
+	}
+]

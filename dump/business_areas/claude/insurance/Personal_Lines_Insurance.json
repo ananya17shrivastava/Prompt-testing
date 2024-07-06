@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Personal Risk Assessment",
+		"description": "This department specializes in evaluating individual lifestyle factors and personal assets to determine risk profiles for policyholders. It's crucial for accurately pricing policies and ensuring appropriate coverage for personal lines products."
+	},
+	{
+		"name": "Home Insurance Underwriting",
+		"description": "Focused exclusively on residential properties, this unit assesses risks associated with individual homes, considering factors like location, construction materials, and local hazards. Their expertise is vital for offering tailored homeowners' policies."
+	},
+	{
+		"name": "Auto Insurance Claims Processing",
+		"description": "This specialized division handles claims specific to personal vehicles, managing everything from fender-benders to total losses. Their deep understanding of automotive repair costs and liability issues is essential for efficient claims resolution."
+	},
+	{
+		"name": "Personal Umbrella Coverage",
+		"description": "This niche department develops and manages additional liability coverage that extends beyond standard auto and home policies. They're crucial for protecting high-net-worth individuals from potential lawsuits and financial losses."
+	},
+	{
+		"name": "Renters Insurance Solutions",
+		"description": "This unit focuses on creating and managing policies for individuals who don't own their residences. They navigate the unique challenges of protecting personal property without covering the physical structure of rented dwellings."
+	},
+	{
+		"name": "Personal Watercraft and Recreational Vehicle Coverage",
+		"description": "Specializing in insuring boats, jet skis, RVs, and other personal leisure vehicles, this department understands the specific risks and coverage needs associated with these assets."
+	},
+	{
+		"name": "Personal Cyber Security Insurance",
+		"description": "This cutting-edge department develops policies to protect individuals from cyber threats, identity theft, and online fraud. They stay ahead of emerging digital risks that can impact personal finances and reputation."
+	},
+	{
+		"name": "Pet Insurance Division",
+		"description": "Catering to the growing market of pet owners, this unit creates and manages policies covering veterinary expenses and liability related to personal pets. They balance emotional factors with actuarial data to provide valuable coverage."
+	},
+	{
+		"name": "Personal Lines Bundling Strategies",
+		"description": "This department focuses on creating attractive multi-policy packages for individuals, encouraging customers to consolidate their various personal insurance needs with a single provider."
+	},
+	{
+		"name": "Individual Life Milestones Coverage",
+		"description": "This innovative unit develops insurance products that adapt to significant personal life events, such as marriage, childbirth, or retirement. They ensure coverage evolves with the policyholder's changing needs."
+	},
+	{
+		"name": "Personal Lines Customer Education",
+		"description": "This department creates tailored educational content and programs to help individual policyholders understand their coverage, manage risks, and make informed decisions about their personal insurance needs."
+	},
+	{
+		"name": "Individual Policy Customization",
+		"description": "This specialized team works on creating highly flexible policy structures that allow for personalized coverage options, catering to the unique needs and preferences of individual policyholders."
+	}
+]

@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Hyperloop Development",
+		"description": "This department focuses on the research, design, and implementation of ultra-high-speed transportation systems using vacuum tubes. It's responsible for pushing the boundaries of ground transportation to achieve near-supersonic speeds, potentially revolutionizing inter-city travel."
+	},
+	{
+		"name": "Flying Car Innovation",
+		"description": "This team is dedicated to developing and commercializing personal aerial vehicles that can operate both on roads and in the air. They work on overcoming technical, regulatory, and infrastructure challenges to make flying cars a viable transportation option for the masses."
+	},
+	{
+		"name": "Autonomous Vehicle Intelligence",
+		"description": "This department specializes in creating and refining artificial intelligence systems for self-driving vehicles. They focus on developing advanced sensors, decision-making algorithms, and machine learning capabilities to ensure safe and efficient autonomous transportation."
+	},
+	{
+		"name": "Urban Air Mobility Solutions",
+		"description": "This team works on creating infrastructure and vehicles for short-distance aerial transportation within cities. They develop electric vertical takeoff and landing (eVTOL) aircraft and supporting systems to alleviate ground traffic congestion in urban areas."
+	},
+	{
+		"name": "Maglev Technology Advancement",
+		"description": "This department is responsible for pushing the boundaries of magnetic levitation technology for high-speed ground transportation. They work on improving efficiency, reducing costs, and expanding the applicability of maglev systems for various transportation needs."
+	},
+	{
+		"name": "Space Tourism Operations",
+		"description": "This team focuses on developing and managing suborbital and orbital space travel experiences for civilians. They work on spacecraft design, passenger training programs, and creating unique space tourism packages to make space travel accessible to a broader audience."
+	},
+	{
+		"name": "Teleportation Research",
+		"description": "While still in its infancy, this department explores the theoretical and practical aspects of matter transportation. They investigate quantum entanglement and other cutting-edge physics concepts to potentially enable instantaneous travel in the future."
+	},
+	{
+		"name": "Smart Road Systems",
+		"description": "This team develops intelligent road infrastructure that can communicate with vehicles, pedestrians, and city systems. They work on creating adaptive traffic management, dynamic road markings, and energy-generating road surfaces to enhance transportation efficiency and safety."
+	},
+	{
+		"name": "Drone Delivery Networks",
+		"description": "This department focuses on creating large-scale autonomous drone delivery systems for urban and rural areas. They develop drone technology, navigation systems, and logistics solutions to enable efficient and environmentally friendly last-mile delivery options."
+	},
+	{
+		"name": "Sustainable Fuel Alternatives",
+		"description": "This team researches and develops next-generation sustainable fuels for various transportation modes. They explore options like hydrogen propulsion, advanced biofuels, and other zero-emission energy sources to power future vehicles and aircraft."
+	},
+	{
+		"name": "Neurotechnology Interface for Transportation",
+		"description": "This department works on developing brain-computer interfaces that allow users to control vehicles or navigate transportation systems using thought alone. They aim to create more inclusive and accessible transportation options for individuals with physical disabilities."
+	},
+	{
+		"name": "Underwater Transit Systems",
+		"description": "This team focuses on designing and implementing subsea transportation networks for coastal cities or island nations. They work on developing underwater vehicles, tunnels, and stations that can provide efficient and weather-resistant transit options."
+	},
+	{
+		"name": "Gravity Manipulation for Transportation",
+		"description": "This forward-thinking department explores theoretical concepts of gravity control for transportation purposes. They investigate potential technologies that could allow vehicles to manipulate gravitational fields, enabling new forms of propulsion and maneuverability."
+	},
+	{
+		"name": "Time-Space Compression Travel",
+		"description": "This highly speculative research team explores concepts related to faster-than-light travel and time manipulation for transportation purposes. They investigate theoretical physics and potential technological applications to push the boundaries of what's possible in long-distance travel."
+	},
+	{
+		"name": "Holographic Teleportation",
+		"description": "This department focuses on developing advanced holographic technology that could potentially allow individuals to project themselves to distant locations instantly. They work on creating immersive, real-time 3D projections for virtual meetings and experiences that could reduce the need for physical travel."
+	}
+]

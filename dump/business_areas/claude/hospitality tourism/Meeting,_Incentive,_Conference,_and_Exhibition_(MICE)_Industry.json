@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Event Design and Production",
+		"description": "This department focuses on creating immersive and engaging experiences for MICE attendees. They conceptualize and execute innovative event layouts, stage designs, and interactive elements that align with client objectives and enhance participant engagement."
+	},
+	{
+		"name": "Venue Sourcing and Management",
+		"description": "Specialists in this area identify and secure optimal locations for MICE events, negotiating contracts and managing relationships with diverse venue providers. They ensure spaces meet specific event requirements and align with client budgets and expectations."
+	},
+	{
+		"name": "Exhibition Services",
+		"description": "This team manages all aspects of trade shows and exhibitions, including booth design, setup, and dismantling. They coordinate with exhibitors, handle logistics, and ensure smooth operation of exhibition spaces within larger MICE events."
+	},
+	{
+		"name": "Incentive Travel Planning",
+		"description": "Dedicated to crafting unique reward and recognition programs, this department designs exclusive travel experiences for high-performing employees or clients. They curate bespoke itineraries that blend luxury, cultural immersion, and team-building activities."
+	},
+	{
+		"name": "Conference Programming",
+		"description": "This specialized unit develops comprehensive agendas for conferences, including speaker selection, session planning, and content curation. They ensure that educational components align with industry trends and attendee expectations."
+	},
+	{
+		"name": "MICE Technology Integration",
+		"description": "Focused on leveraging cutting-edge technologies, this department implements solutions such as event apps, virtual reality experiences, and hybrid event platforms to enhance attendee engagement and expand event reach."
+	},
+	{
+		"name": "Sustainable MICE Practices",
+		"description": "This forward-thinking unit develops and implements eco-friendly strategies for MICE events, focusing on reducing carbon footprints, sourcing sustainable materials, and creating socially responsible event experiences."
+	},
+	{
+		"name": "MICE Marketing and Branding",
+		"description": "Specialists in this area create targeted marketing campaigns to attract attendees and exhibitors to MICE events. They develop event branding, manage social media presence, and craft compelling narratives to drive participation."
+	},
+	{
+		"name": "Delegate Experience Management",
+		"description": "This department focuses on enhancing the overall attendee journey, from registration to post-event follow-up. They design personalized experiences, manage on-site services, and ensure seamless logistics for participants."
+	},
+	{
+		"name": "MICE Analytics and ROI Measurement",
+		"description": "This data-driven unit develops metrics and methodologies to measure the success and return on investment of MICE events. They provide valuable insights to clients and stakeholders, helping to refine future event strategies."
+	},
+	{
+		"name": "Corporate Meeting Management",
+		"description": "Dedicated to handling the unique needs of corporate clients, this team specializes in organizing board meetings, shareholder events, and other high-level corporate gatherings within the MICE framework."
+	},
+	{
+		"name": "MICE Risk Management and Compliance",
+		"description": "This critical department assesses and mitigates risks associated with large-scale events, ensuring compliance with local regulations, managing insurance requirements, and developing contingency plans for various scenarios."
+	}
+]

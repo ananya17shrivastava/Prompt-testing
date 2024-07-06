@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Fraud Investigation Unit",
+		"description": "This specialized team focuses on uncovering financial deception and misconduct within organizations. They employ advanced analytical techniques and forensic tools to detect patterns of fraud, embezzlement, and other financial crimes that may elude traditional auditing processes."
+	},
+	{
+		"name": "Litigation Support Division",
+		"description": "This department provides critical financial expertise to legal teams during complex litigation cases. They assist in analyzing financial data, preparing expert reports, and offering testimony in court to support or refute claims in legal disputes involving financial matters."
+	},
+	{
+		"name": "Asset Tracing and Recovery Team",
+		"description": "This group specializes in tracking down hidden or misappropriated assets across various jurisdictions and complex ownership structures. They employ sophisticated investigative techniques to follow money trails and recover assets for clients or legal authorities."
+	},
+	{
+		"name": "Digital Forensics Laboratory",
+		"description": "This high-tech unit focuses on extracting and analyzing digital evidence from computers, mobile devices, and other electronic sources. They use specialized software and hardware to recover deleted files, decrypt encrypted data, and reconstruct digital financial trails crucial to forensic investigations."
+	},
+	{
+		"name": "Anti-Money Laundering (AML) Compliance Unit",
+		"description": "This team specializes in developing and implementing robust AML programs to detect and prevent financial crimes related to money laundering. They work closely with regulatory bodies and financial institutions to ensure compliance with complex AML regulations and identify suspicious transactions."
+	},
+	{
+		"name": "Economic Damages Assessment Group",
+		"description": "This department focuses on quantifying financial losses resulting from various events such as breach of contract, intellectual property infringement, or business interruptions. They employ advanced economic modeling and financial analysis to provide accurate damage calculations for legal proceedings or insurance claims."
+	},
+	{
+		"name": "Forensic Data Analytics Team",
+		"description": "This unit leverages advanced statistical techniques, machine learning, and artificial intelligence to analyze large volumes of financial data. They identify anomalies, patterns, and trends that may indicate fraudulent activities or other financial irregularities not easily detectable through traditional methods."
+	},
+	{
+		"name": "Expert Witness Preparation Division",
+		"description": "This specialized group focuses on preparing forensic accountants to serve as expert witnesses in legal proceedings. They provide training on courtroom etiquette, effective communication of complex financial concepts, and strategies for withstanding cross-examination to ensure credible and impactful testimony."
+	},
+	{
+		"name": "Cybercrime Financial Investigation Unit",
+		"description": "This team specializes in investigating financial crimes committed through digital means, such as cryptocurrency fraud, online banking theft, and ransomware attacks. They combine expertise in both cybersecurity and forensic accounting to trace digital financial transactions and uncover sophisticated online fraud schemes."
+	},
+	{
+		"name": "Forensic Valuation Services",
+		"description": "This department focuses on providing accurate and defensible valuations of businesses, assets, or financial instruments in cases of disputes, mergers and acquisitions, or suspected fraud. They employ specialized valuation techniques that consider the unique circumstances and potential hidden issues in forensic cases."
+	}
+]

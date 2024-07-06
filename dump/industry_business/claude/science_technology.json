@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Research & Development (R&D) Innovation Labs",
+		"description": "These specialized units focus on pushing the boundaries of scientific knowledge and technological capabilities. They operate at the cutting edge of discovery, often working on projects that may not have immediate commercial applications but hold the potential for groundbreaking advancements."
+	},
+	{
+		"name": "Technology Transfer Office",
+		"description": "This department bridges the gap between scientific discoveries and market applications. It manages the process of identifying, protecting, and commercializing intellectual property generated within the organization, ensuring that scientific breakthroughs translate into tangible business opportunities."
+	},
+	{
+		"name": "Scientific Advisory Board",
+		"description": "Comprised of leading experts in relevant fields, this board provides strategic guidance on scientific directions, emerging trends, and potential collaborations. Their insights help shape the company's long-term research agenda and validate the scientific merit of ongoing projects."
+	},
+	{
+		"name": "Regulatory Science Department",
+		"description": "This team navigates the complex landscape of scientific regulations, ensuring that new technologies and products comply with evolving standards. They work closely with regulatory bodies to shape policies that foster innovation while maintaining safety and ethical standards."
+	},
+	{
+		"name": "Scientific Computing and Data Science",
+		"description": "This department leverages advanced computational techniques and big data analytics to accelerate scientific discovery. They develop and maintain sophisticated models, simulations, and data analysis tools that drive research efficiency and enable insights that would be impossible through traditional methods."
+	},
+	{
+		"name": "Interdisciplinary Research Coordination",
+		"description": "This unit facilitates collaboration across different scientific disciplines, fostering a cross-pollination of ideas that can lead to unexpected breakthroughs. They manage complex, multi-disciplinary projects that require diverse expertise and resources."
+	},
+	{
+		"name": "Scientific Equipment and Facilities Management",
+		"description": "This specialized team oversees the acquisition, maintenance, and optimization of cutting-edge scientific instruments and research facilities. They ensure that researchers have access to state-of-the-art tools and environments necessary for pushing the boundaries of science."
+	},
+	{
+		"name": "Scientific Ethics and Integrity Office",
+		"description": "This department safeguards the ethical conduct of scientific research within the organization. They develop and enforce guidelines for responsible research practices, manage conflicts of interest, and ensure transparency in scientific communications."
+	},
+	{
+		"name": "Science Communication and Outreach",
+		"description": "This team translates complex scientific concepts into accessible language for various stakeholders, including investors, policymakers, and the general public. They play a crucial role in building public trust, attracting funding, and inspiring the next generation of scientists."
+	},
+	{
+		"name": "Experimental Design and Statistical Analysis",
+		"description": "This department specializes in designing robust scientific experiments and analyzing complex data sets. They ensure the validity and reproducibility of research findings, critical for maintaining scientific credibility and making informed business decisions."
+	}
+]

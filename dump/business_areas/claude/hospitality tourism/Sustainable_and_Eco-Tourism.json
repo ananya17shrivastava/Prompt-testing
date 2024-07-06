@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Ecological Impact Assessment Team",
+		"description": "This specialized unit focuses on evaluating and minimizing the environmental footprint of tourism activities. They conduct thorough analyses of proposed projects, existing operations, and guest activities to ensure alignment with sustainability goals and compliance with eco-certification standards."
+	},
+	{
+		"name": "Sustainable Resource Management Department",
+		"description": "This department oversees the efficient use of natural resources within the eco-tourism operation. They implement innovative strategies for water conservation, renewable energy adoption, and waste reduction, ensuring the business operates with minimal environmental impact while maintaining guest comfort."
+	},
+	{
+		"name": "Local Community Integration Office",
+		"description": "This office is responsible for fostering strong relationships with indigenous populations and local communities. They develop programs that provide economic benefits to locals, preserve cultural heritage, and create authentic, immersive experiences for guests that respect and celebrate local traditions."
+	},
+	{
+		"name": "Wildlife Conservation and Habitat Restoration Unit",
+		"description": "This unit works to protect and rehabilitate local ecosystems and wildlife. They oversee conservation projects, manage protected areas within the property, and develop educational programs for guests about local flora and fauna, emphasizing the importance of biodiversity."
+	},
+	{
+		"name": "Sustainable Architecture and Design Team",
+		"description": "This team focuses on creating and maintaining eco-friendly structures that blend seamlessly with the natural environment. They utilize green building techniques, locally-sourced materials, and innovative designs that minimize energy consumption while maximizing guest comfort and connection to nature."
+	},
+	{
+		"name": "Carbon Offsetting and Climate Action Division",
+		"description": "This division is dedicated to measuring, reducing, and offsetting the carbon footprint of the eco-tourism operation. They implement strategies to achieve carbon neutrality, manage carbon credit programs, and engage guests in climate action initiatives."
+	},
+	{
+		"name": "Eco-Adventure and Responsible Tourism Activities Coordination",
+		"description": "This department designs and manages low-impact, nature-based activities and excursions. They ensure that all guest experiences are conducted responsibly, with minimal disturbance to local ecosystems and wildlife, while providing educational and transformative experiences."
+	},
+	{
+		"name": "Sustainable Supply Chain Management",
+		"description": "This team focuses on sourcing eco-friendly products and services from local and sustainable suppliers. They work to minimize the environmental impact of procurement processes, support fair trade practices, and promote the use of biodegradable and recyclable materials throughout the operation."
+	},
+	{
+		"name": "Green Technology Integration Department",
+		"description": "This department researches, implements, and maintains cutting-edge sustainable technologies across the eco-tourism operation. They focus on innovative solutions for energy efficiency, waste management, and resource conservation, keeping the business at the forefront of eco-friendly practices."
+	},
+	{
+		"name": "Sustainability Education and Guest Engagement Team",
+		"description": "This team develops and implements programs to educate guests about sustainable practices and environmental conservation. They create immersive learning experiences, workshops, and activities that inspire guests to adopt eco-friendly behaviors during their stay and in their daily lives."
+	},
+	{
+		"name": "Eco-Certification and Compliance Management",
+		"description": "This department ensures that the eco-tourism operation meets and exceeds industry standards for sustainability. They manage the process of obtaining and maintaining relevant eco-certifications, conduct internal audits, and continuously improve sustainability practices to stay ahead of evolving standards."
+	},
+	{
+		"name": "Regenerative Tourism Planning Division",
+		"description": "This forward-thinking division focuses on developing strategies that go beyond sustainability to actively regenerate local ecosystems and communities. They design and implement projects that leave a positive environmental and social impact, ensuring that tourism activities contribute to the long-term health and resilience of the destination."
+	}
+]

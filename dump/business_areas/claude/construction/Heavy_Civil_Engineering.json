@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Geotechnical Engineering Department",
+		"description": "This specialized unit focuses on analyzing and manipulating earth materials for large-scale projects. They assess soil and rock properties, design foundations for massive structures, and develop solutions for complex ground conditions. Their expertise is crucial for ensuring the stability and longevity of infrastructure projects like dams, tunnels, and bridges."
+	},
+	{
+		"name": "Hydraulic Engineering Division",
+		"description": "This department specializes in the movement and control of water in large-scale projects. They design and oversee the construction of flood control systems, hydroelectric dams, and water treatment facilities. Their work is essential for managing water resources, preventing natural disasters, and ensuring sustainable water supply for communities."
+	},
+	{
+		"name": "Transportation Infrastructure Planning Unit",
+		"description": "This team focuses on the intricate planning and design of major transportation networks. They work on projects such as highways, railways, and airports, considering factors like traffic flow, environmental impact, and long-term urban development. Their expertise is vital for creating efficient and sustainable transportation systems that connect cities and regions."
+	},
+	{
+		"name": "Heavy Equipment Management Division",
+		"description": "This department oversees the acquisition, maintenance, and deployment of specialized heavy machinery unique to large-scale civil engineering projects. They manage fleets of excavators, cranes, and other heavy-duty equipment essential for tasks like earth moving, pile driving, and material handling in challenging environments."
+	},
+	{
+		"name": "Environmental Impact Mitigation Team",
+		"description": "This unit specializes in assessing and minimizing the environmental consequences of major infrastructure projects. They develop strategies to protect ecosystems, manage waste, and ensure compliance with environmental regulations specific to large-scale civil engineering works. Their role is crucial in balancing development needs with environmental preservation."
+	},
+	{
+		"name": "Structural Integrity and Load Analysis Department",
+		"description": "This team focuses on ensuring the structural soundness of massive civil engineering projects. They perform complex calculations and simulations to determine load-bearing capacities, stress distributions, and potential failure points in structures like bridges, dams, and tunnels. Their work is essential for guaranteeing the safety and longevity of critical infrastructure."
+	},
+	{
+		"name": "Coastal and Marine Engineering Unit",
+		"description": "This specialized department deals with projects in coastal and offshore environments. They design and oversee the construction of seawalls, breakwaters, offshore platforms, and underwater tunnels. Their expertise is crucial for addressing unique challenges posed by marine environments, such as tidal forces and corrosion."
+	},
+	{
+		"name": "Tunneling and Underground Construction Division",
+		"description": "This unit specializes in the complex field of subterranean construction. They plan and execute projects like subway systems, underground storage facilities, and mountain tunnels. Their work involves addressing unique challenges such as rock mechanics, groundwater management, and specialized excavation techniques."
+	},
+	{
+		"name": "Seismic Design and Retrofitting Team",
+		"description": "This department focuses on making large-scale structures resilient to earthquakes and other seismic activities. They develop innovative design solutions and retrofitting techniques for bridges, dams, and other critical infrastructure in seismically active regions. Their expertise is vital for ensuring public safety and infrastructure resilience in earthquake-prone areas."
+	},
+	{
+		"name": "Large-Scale Concrete Technology Department",
+		"description": "This specialized unit deals with the unique concrete requirements of massive civil engineering projects. They develop and implement advanced concrete technologies, such as mass concrete pours, high-performance mixtures, and innovative curing techniques. Their work is crucial for ensuring the durability and performance of large-scale concrete structures like dams and bridges."
+	}
+]

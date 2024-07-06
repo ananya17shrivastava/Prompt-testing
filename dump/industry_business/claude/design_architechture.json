@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Design Visualization Studio",
+		"description": "This specialized department focuses on creating immersive, photorealistic renderings and animations of architectural designs. It's crucial for helping clients visualize complex projects before construction begins, enhancing communication and decision-making processes."
+	},
+	{
+		"name": "Building Information Modeling (BIM) Integration Team",
+		"description": "This cutting-edge unit manages the implementation and coordination of BIM technologies across projects. They ensure seamless collaboration between various stakeholders, optimizing design processes and reducing potential conflicts during construction."
+	},
+	{
+		"name": "Sustainable Design Innovation Lab",
+		"description": "This forward-thinking department develops and implements eco-friendly design strategies, focusing on energy efficiency, renewable materials, and green building certifications. They keep the firm at the forefront of sustainable architecture trends and regulations."
+	},
+	{
+		"name": "Historic Preservation and Adaptive Reuse Division",
+		"description": "This specialized team focuses on projects involving heritage buildings and sites. They balance modern design requirements with preservation guidelines, ensuring that historical structures are respectfully repurposed for contemporary use."
+	},
+	{
+		"name": "Parametric Design and Computational Architecture Unit",
+		"description": "This avant-garde department leverages advanced algorithms and computational tools to create complex, data-driven architectural forms. They push the boundaries of traditional design methodologies, offering innovative solutions to challenging projects."
+	},
+	{
+		"name": "Building Performance Simulation Group",
+		"description": "This technical team uses sophisticated software to analyze and optimize building performance in areas such as energy consumption, daylighting, and acoustics. Their work ensures that designs meet or exceed performance standards before construction begins."
+	},
+	{
+		"name": "Materials Research and Innovation Center",
+		"description": "This department explores cutting-edge building materials and construction techniques. They collaborate with manufacturers and researchers to integrate novel materials into architectural designs, enhancing both aesthetics and functionality."
+	},
+	{
+		"name": "Urban Planning and Master Planning Division",
+		"description": "This strategic unit focuses on large-scale projects that shape entire communities or districts. They balance architectural design with urban planning principles, ensuring that projects contribute positively to the broader built environment."
+	},
+	{
+		"name": "Experiential Design and Wayfinding Team",
+		"description": "This creative group specializes in enhancing user experiences within architectural spaces. They design intuitive navigation systems, integrate interactive elements, and create cohesive visual identities for complex buildings or campuses."
+	},
+	{
+		"name": "Post-Occupancy Evaluation and Building Optimization Department",
+		"description": "This analytical team assesses completed projects to gather data on building performance and user satisfaction. Their insights inform future designs and help optimize existing structures, ensuring continuous improvement in the firm's work."
+	}
+]

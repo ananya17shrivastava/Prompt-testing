@@ -1,0 +1,42 @@
+[
+	{
+		"name": "High Voltage Specialist Division",
+		"description": "This department focuses on large-scale electrical projects involving power transmission and distribution systems. It requires specialized expertise in handling extremely high voltages and complex grid infrastructures, setting your company apart in the electrical services sector."
+	},
+	{
+		"name": "Smart Home Integration Unit",
+		"description": "A cutting-edge division dedicated to the design and implementation of advanced home automation systems. This team bridges the gap between traditional electrical services and the growing demand for interconnected, intelligent living spaces."
+	},
+	{
+		"name": "Renewable Energy Systems Department",
+		"description": "This forward-thinking unit specializes in the installation and maintenance of solar, wind, and other renewable energy sources. It positions your company at the forefront of the green energy revolution within the electrical services industry."
+	},
+	{
+		"name": "Industrial Control Systems Team",
+		"description": "A highly specialized group focusing on the design, installation, and maintenance of complex electrical control systems for manufacturing and industrial processes. This team's expertise in PLC programming and SCADA systems is crucial for serving industrial clients."
+	},
+	{
+		"name": "Electrical Testing and Compliance Division",
+		"description": "This department ensures that all electrical installations meet rigorous safety standards and regulatory requirements. They conduct comprehensive testing, issue certifications, and provide expert consultations on electrical code compliance."
+	},
+	{
+		"name": "Emergency Electrical Response Unit",
+		"description": "A rapid-response team equipped to handle critical electrical emergencies 24/7. This unit's ability to quickly address power outages and electrical failures in various settings, from residential to industrial, is a unique value proposition in the electrical services sector."
+	},
+	{
+		"name": "Lighting Design and Efficiency Department",
+		"description": "This creative team combines artistic vision with technical expertise to design and implement innovative lighting solutions. They focus on energy efficiency, mood enhancement, and architectural lighting for both commercial and high-end residential projects."
+	},
+	{
+		"name": "Power Quality Analysis Group",
+		"description": "A specialized team that diagnoses and resolves complex power quality issues. They use advanced diagnostic tools to identify problems like harmonics, voltage fluctuations, and power factor issues, crucial for clients with sensitive electronic equipment."
+	},
+	{
+		"name": "Electrical Retrofitting Specialists",
+		"description": "This department focuses on upgrading and modernizing existing electrical systems in older buildings. They specialize in integrating modern electrical technologies into historical structures while maintaining architectural integrity."
+	},
+	{
+		"name": "Data Center Electrical Infrastructure Team",
+		"description": "A highly specialized unit that designs and maintains the critical electrical systems for data centers. Their expertise in uninterruptible power supplies, backup generators, and redundant power systems is essential for ensuring continuous operation of these vital facilities."
+	}
+]

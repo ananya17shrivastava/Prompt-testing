@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Assistive Technology Solutions",
+		"description": "This department focuses on identifying, developing, and implementing cutting-edge technological solutions to enhance the independence and quality of life for individuals with disabilities. It involves staying abreast of the latest innovations in adaptive equipment and software, and customizing these tools to meet the specific needs of clients."
+	},
+	{
+		"name": "Accessibility Consulting",
+		"description": "This specialized unit provides expert guidance to businesses, organizations, and government entities on creating inclusive environments and services. They assess physical spaces, digital platforms, and operational processes to ensure compliance with accessibility standards and recommend improvements to accommodate individuals with various disabilities."
+	},
+	{
+		"name": "Disability Employment Services",
+		"description": "This department is dedicated to bridging the gap between employers and job seekers with disabilities. It involves developing tailored employment programs, providing job coaching, and collaborating with businesses to create inclusive workplaces that leverage the unique talents of individuals with disabilities."
+	},
+	{
+		"name": "Specialized Transportation Services",
+		"description": "This area focuses on developing and managing transportation solutions specifically designed for individuals with mobility challenges. It involves coordinating accessible vehicle fleets, implementing adaptive technologies, and training drivers to provide safe and comfortable transportation for clients with various disabilities."
+	},
+	{
+		"name": "Sensory Integration Programs",
+		"description": "This department designs and implements programs that help individuals with sensory processing disorders navigate their environment more effectively. It involves creating specialized sensory rooms, developing therapeutic interventions, and training caregivers in sensory integration techniques."
+	},
+	{
+		"name": "Augmentative and Alternative Communication (AAC) Services",
+		"description": "This unit specializes in assessing, recommending, and implementing communication systems for individuals with speech and language impairments. It involves staying current with the latest AAC technologies, customizing solutions for individual needs, and providing training to clients and their support networks."
+	},
+	{
+		"name": "Disability Advocacy and Policy Development",
+		"description": "This department focuses on influencing public policy and societal attitudes towards disability. It involves conducting research, drafting policy recommendations, lobbying for legislative changes, and developing awareness campaigns to promote the rights and inclusion of individuals with disabilities."
+	},
+	{
+		"name": "Specialized Respite Care Services",
+		"description": "This area is dedicated to providing temporary relief for primary caregivers of individuals with disabilities. It involves developing tailored respite programs, training specialized respite care workers, and coordinating services to ensure continuity of care during respite periods."
+	},
+	{
+		"name": "Disability-Specific Recreation Programs",
+		"description": "This department designs and implements recreational activities and programs specifically adapted for individuals with various disabilities. It involves creating inclusive sports leagues, organizing accessible cultural events, and developing therapeutic recreation programs that promote physical and mental well-being."
+	},
+	{
+		"name": "Transition Support Services",
+		"description": "This unit focuses on assisting individuals with disabilities as they navigate major life transitions, such as moving from pediatric to adult healthcare systems, transitioning from school to work, or shifting from institutional to community-based living. It involves developing personalized transition plans, coordinating multi-disciplinary support teams, and providing ongoing guidance throughout the transition process."
+	}
+]

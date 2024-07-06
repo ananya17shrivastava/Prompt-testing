@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Video Ad Operations",
+		"description": "This department focuses on the technical aspects of video ad delivery, ensuring seamless integration of video advertisements across various platforms and devices. They manage ad serving technologies, troubleshoot playback issues, and optimize video ad performance to maximize client ROI."
+	},
+	{
+		"name": "Video Content Strategy",
+		"description": "This team specializes in developing video-specific content strategies that align with brand objectives and audience preferences. They analyze trends in video consumption, identify optimal video formats, and create compelling narratives that resonate with target demographics in the fast-paced video advertising landscape."
+	},
+	{
+		"name": "Interactive Video Production",
+		"description": "This innovative department creates cutting-edge interactive video experiences that go beyond traditional linear video ads. They develop clickable, shoppable, and personalized video content that encourages viewer engagement and drives measurable actions, leveraging the unique capabilities of digital video platforms."
+	},
+	{
+		"name": "Video Analytics and Attribution",
+		"description": "This specialized unit focuses on measuring and analyzing the performance of video advertising campaigns. They utilize advanced analytics tools to track viewer behavior, engagement metrics, and conversion rates specific to video ads, providing actionable insights to optimize campaign effectiveness and demonstrate ROI."
+	},
+	{
+		"name": "Video Ad Fraud Prevention",
+		"description": "This critical department is dedicated to combating fraud in the video advertising ecosystem. They employ sophisticated technologies and methodologies to detect and prevent various forms of video ad fraud, such as bot traffic, domain spoofing, and fake video inventory, ensuring the integrity of video ad placements and protecting client investments."
+	},
+	{
+		"name": "Video Ad Tech Integration",
+		"description": "This team specializes in integrating and managing the complex ecosystem of video advertising technologies. They work with various video ad servers, SSPs, DSPs, and other platforms specific to video advertising, ensuring seamless communication and data flow between different systems to optimize campaign performance."
+	},
+	{
+		"name": "Connected TV (CTV) and Over-the-Top (OTT) Advertising",
+		"description": "This forward-thinking department focuses on the rapidly growing CTV and OTT advertising space. They develop strategies and execute campaigns specifically tailored for streaming platforms and smart TVs, leveraging the unique targeting and measurement capabilities of these emerging channels."
+	},
+	{
+		"name": "Video Ad Creative Optimization",
+		"description": "This innovative unit specializes in optimizing video ad creatives for maximum impact. They use data-driven insights and A/B testing methodologies to refine video ad elements such as length, messaging, visuals, and calls-to-action, ensuring that each video advertisement is tailored for optimal performance across different platforms and audience segments."
+	},
+	{
+		"name": "Programmatic Video Buying",
+		"description": "This department focuses on the automated buying and selling of video ad inventory through programmatic platforms. They leverage real-time bidding technologies and data-driven targeting strategies specific to video advertising to maximize reach and efficiency in video ad placements across various digital channels."
+	},
+	{
+		"name": "Video Ad Compliance and Standards",
+		"description": "This crucial team ensures that all video advertisements comply with industry standards, platform-specific requirements, and regulatory guidelines. They stay up-to-date with the evolving landscape of video ad formats, specifications, and policies across different video platforms and markets, ensuring seamless ad delivery and brand safety."
+	}
+]

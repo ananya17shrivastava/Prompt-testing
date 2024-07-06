@@ -1,0 +1,50 @@
+[
+	{
+		"name": "REIT-Specific Compliance Management",
+		"description": "This department ensures adherence to the strict regulations governing REITs, including maintaining the required asset and income thresholds to qualify for REIT status. It's crucial for preserving tax advantages and investor confidence."
+	},
+	{
+		"name": "Dividend Strategy and Planning",
+		"description": "A specialized team focused on structuring and optimizing the mandatory high dividend payouts characteristic of REITs. This group balances shareholder returns with reinvestment needs to maintain growth and property portfolio health."
+	},
+	{
+		"name": "REIT-Focused Investor Relations",
+		"description": "This department manages communications with REIT-specific investors, addressing unique concerns such as dividend yields, funds from operations (FFO), and adjusted funds from operations (AFFO). They play a critical role in attracting and retaining income-focused investors."
+	},
+	{
+		"name": "Portfolio Rebalancing and Optimization",
+		"description": "A dedicated team that continuously evaluates and adjusts the REIT's property holdings to maintain the optimal mix of assets. They focus on aligning the portfolio with market trends and REIT-specific performance metrics."
+	},
+	{
+		"name": "REIT-Specific Risk Management",
+		"description": "This group assesses and mitigates risks unique to REITs, such as interest rate sensitivity, regulatory compliance risks, and sector-specific market fluctuations. They develop strategies to protect the REIT's status and financial stability."
+	},
+	{
+		"name": "Specialized REIT Accounting",
+		"description": "A department that handles REIT-specific accounting practices, including the calculation of FFO, AFFO, and net asset value (NAV). They ensure financial reporting aligns with REIT industry standards and regulatory requirements."
+	},
+	{
+		"name": "REIT Tax Strategy",
+		"description": "This team focuses on maximizing the tax benefits of REIT status while ensuring compliance with distribution requirements and other tax-related regulations specific to REITs."
+	},
+	{
+		"name": "Capital Markets and REIT Financing",
+		"description": "A specialized group that manages REIT-specific financing strategies, including equity offerings, debt issuance, and other capital raising activities tailored to the unique structure and needs of REITs."
+	},
+	{
+		"name": "REIT M&A and Strategic Transactions",
+		"description": "This department handles mergers, acquisitions, and other strategic transactions specific to the REIT sector, focusing on deals that enhance portfolio quality, increase market share, or provide strategic advantages within REIT-specific constraints."
+	},
+	{
+		"name": "REIT-Specific Legal Affairs",
+		"description": "A legal team well-versed in REIT-specific regulations, handling matters such as REIT qualification, securities law compliance, and structuring complex REIT transactions."
+	},
+	{
+		"name": "REIT Performance Analytics",
+		"description": "This group develops and monitors REIT-specific performance metrics, providing insights on how the trust compares to industry benchmarks and identifying areas for improvement in the context of REIT operations."
+	},
+	{
+		"name": "Specialized REIT Property Management",
+		"description": "A department focused on managing properties with a REIT-specific lens, balancing the need for steady income generation with long-term asset appreciation to meet REIT performance expectations."
+	}
+]

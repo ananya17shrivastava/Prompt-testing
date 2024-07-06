@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Load Calculation and System Design",
+		"description": "This department focuses on accurately determining the heating and cooling requirements for specific spaces. It employs advanced software and engineering principles to design HVAC systems that precisely match the needs of residential, commercial, or industrial environments. This precision ensures optimal energy efficiency and comfort for end-users."
+	},
+	{
+		"name": "Energy Efficiency Consulting",
+		"description": "This specialized team advises clients on maximizing the energy efficiency of their HVAC systems. They conduct energy audits, recommend upgrades, and provide insights on the latest energy-saving technologies. Their expertise helps clients reduce operational costs and meet sustainability goals."
+	},
+	{
+		"name": "Indoor Air Quality (IAQ) Solutions",
+		"description": "This department addresses the growing concern for healthy indoor environments. They specialize in assessing air quality, recommending and implementing purification systems, and ensuring proper ventilation. Their work is crucial in maintaining healthy living and working spaces, especially in light of recent global health concerns."
+	},
+	{
+		"name": "Refrigerant Management",
+		"description": "This team oversees the handling, recovery, and disposal of refrigerants in compliance with environmental regulations. They stay abreast of changing laws regarding ozone-depleting substances and implement best practices for refrigerant use and recycling, ensuring your company's environmental responsibility."
+	},
+	{
+		"name": "Building Automation Integration",
+		"description": "This forward-thinking department focuses on integrating HVAC systems with smart building technologies. They design and implement solutions that allow for remote monitoring, automated climate control, and integration with other building systems, enhancing overall energy management and user comfort."
+	},
+	{
+		"name": "Thermal Comfort Analysis",
+		"description": "This specialized unit uses advanced tools and methodologies to assess and optimize thermal comfort in various environments. They consider factors like air temperature, humidity, and air movement to ensure occupant satisfaction and productivity in diverse settings, from office spaces to industrial facilities."
+	},
+	{
+		"name": "Geothermal HVAC Solutions",
+		"description": "This innovative department specializes in designing and implementing geothermal heating and cooling systems. They leverage the earth's constant underground temperature to provide highly efficient HVAC solutions, offering a unique service that sets your company apart in the sustainable energy market."
+	},
+	{
+		"name": "Ductwork Design and Fabrication",
+		"description": "This department combines engineering expertise with custom fabrication capabilities. They design and produce tailored ductwork solutions that optimize airflow and system efficiency, addressing the unique challenges of each installation site and improving overall HVAC performance."
+	},
+	{
+		"name": "Psychrometric Analysis",
+		"description": "This highly technical team focuses on the properties of air and water vapor mixtures. They use psychrometric charts and calculations to optimize HVAC system design, ensuring proper humidity control and air conditioning performance across various environmental conditions."
+	},
+	{
+		"name": "HVAC Commissioning and Retro-commissioning",
+		"description": "This specialized unit ensures that new HVAC installations perform as intended and that existing systems are optimized for current use. They develop and implement comprehensive testing protocols, fine-tune system operations, and provide detailed performance reports, ensuring long-term efficiency and reliability of HVAC investments."
+	}
+]

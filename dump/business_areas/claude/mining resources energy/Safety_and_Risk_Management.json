@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Mine Safety Operations",
+		"description": "This department focuses exclusively on maintaining safety standards within active mining sites. It develops and implements protocols specific to underground and open-pit mining environments, addressing unique challenges such as cave-ins, gas leaks, and equipment-related hazards."
+	},
+	{
+		"name": "Hazardous Materials Management",
+		"description": "Specializing in the handling, storage, and disposal of dangerous substances specific to resource extraction, this team ensures compliance with industry-specific regulations and develops emergency response plans for chemical spills or radioactive material incidents."
+	},
+	{
+		"name": "Geotechnical Risk Assessment",
+		"description": "This unit evaluates and mitigates risks associated with geological instabilities in mining and drilling operations. They analyze soil composition, rock formations, and seismic activity to prevent landslides, sinkholes, and other terrain-related hazards."
+	},
+	{
+		"name": "Explosion Prevention and Control",
+		"description": "Dedicated to minimizing the risk of explosions in mining and energy operations, this department develops strategies to manage combustible dust, methane gas accumulation, and other explosive materials unique to the industry."
+	},
+	{
+		"name": "Radiation Safety Management",
+		"description": "Focusing on protecting workers and the environment from radiation exposure in uranium mining and nuclear energy facilities, this team implements specialized safety protocols and monitoring systems."
+	},
+	{
+		"name": "Subsidence Monitoring and Control",
+		"description": "This department addresses the unique challenge of ground subsidence in mining areas, using advanced technologies to predict, monitor, and mitigate the effects of underground excavation on surface stability."
+	},
+	{
+		"name": "Mine Rescue and Emergency Response",
+		"description": "A specialized unit trained in responding to mining-specific emergencies, such as trapped miners, underground fires, or flooding. They develop and maintain rescue plans tailored to the unique challenges of subterranean environments."
+	},
+	{
+		"name": "Tailings Dam Safety",
+		"description": "This team focuses on the design, construction, and monitoring of tailings dams to prevent catastrophic failures unique to the mining industry. They implement advanced monitoring systems and develop emergency action plans for potential breaches."
+	},
+	{
+		"name": "Drill Rig Safety Operations",
+		"description": "Specializing in safety protocols for offshore and onshore drilling operations, this department addresses the unique risks associated with high-pressure systems, extreme weather conditions, and remote locations."
+	},
+	{
+		"name": "Mineral Dust Exposure Control",
+		"description": "This unit develops strategies to minimize worker exposure to harmful mineral dusts, such as silica and coal dust, which are specific health hazards in mining operations. They implement dust suppression technologies and respiratory protection programs."
+	},
+	{
+		"name": "Blasting Safety Management",
+		"description": "Focusing on the safe use of explosives in mining and quarrying operations, this team develops protocols for explosive storage, handling, and detonation to prevent accidents and ensure regulatory compliance."
+	},
+	{
+		"name": "Well Integrity Management",
+		"description": "This department ensures the structural integrity of oil and gas wells throughout their lifecycle, addressing unique risks such as blowouts, leaks, and subsurface contamination specific to the energy extraction industry."
+	},
+	{
+		"name": "Confined Space Safety in Resource Extraction",
+		"description": "Specializing in safety protocols for confined spaces unique to mining and energy operations, such as storage tanks, silos, and underground tunnels, this team develops entry procedures and rescue plans for these high-risk environments."
+	},
+	{
+		"name": "Heavy Mobile Equipment Safety",
+		"description": "This unit focuses on safety measures for large-scale mining and construction equipment, addressing risks associated with vehicle interactions, operator fatigue, and equipment failure in challenging terrain and extreme conditions."
+	},
+	{
+		"name": "Process Safety Management for Resource Processing",
+		"description": "Dedicated to managing risks in mineral processing plants and refineries, this department develops safety systems for high-temperature, high-pressure, and chemically hazardous processes specific to resource transformation."
+	}
+]

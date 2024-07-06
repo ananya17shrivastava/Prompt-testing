@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Landscape Design Studio",
+		"description": "This department is the creative hub where your vision for outdoor spaces comes to life. Expert designers blend aesthetics with functionality, creating custom plans that transform ordinary yards into stunning landscapes. This team is crucial for differentiating your services and attracting high-value clients seeking bespoke outdoor environments."
+	},
+	{
+		"name": "Plant Nursery and Greenhouse Operations",
+		"description": "Your in-house plant cultivation center is a key asset, allowing you to grow and maintain a diverse inventory of plants, trees, and shrubs. This department gives you control over plant quality, reduces supply chain dependencies, and can become an additional revenue stream through retail sales."
+	},
+	{
+		"name": "Irrigation Systems Division",
+		"description": "This specialized unit focuses on designing, installing, and maintaining efficient watering systems. As water conservation becomes increasingly important, this department positions your company as an eco-conscious leader, offering smart irrigation solutions that save resources and reduce clients' long-term costs."
+	},
+	{
+		"name": "Hardscaping Unit",
+		"description": "Dedicated to non-living landscape elements, this team specializes in creating patios, walkways, retaining walls, and other structural features. Their expertise in working with various materials like stone, brick, and concrete allows you to offer comprehensive outdoor living solutions, increasing project scope and profitability."
+	},
+	{
+		"name": "Turf Management Department",
+		"description": "This specialized division focuses on the science and art of maintaining healthy, vibrant lawns. From soil analysis to custom fertilization programs and pest control, this team ensures your clients' grass remains lush and resilient, setting your services apart in the competitive lawn care market."
+	},
+	{
+		"name": "Arboriculture and Tree Care Services",
+		"description": "This department, staffed with certified arborists, specializes in the care and maintenance of trees and woody plants. Their expertise in tree health, pruning, and removal not only enhances landscape aesthetics but also addresses safety concerns, positioning your company as a comprehensive outdoor care provider."
+	},
+	{
+		"name": "Seasonal Decor and Lighting Division",
+		"description": "This unique unit focuses on enhancing landscapes with temporary decorative elements. From holiday lighting installations to seasonal flower rotations, this team allows you to offer year-round value to clients, maintaining engagement even in off-peak landscaping seasons."
+	},
+	{
+		"name": "Outdoor Living Design Center",
+		"description": "This innovative department specializes in creating functional outdoor living spaces. From outdoor kitchens to fire pits and seating areas, this team transforms landscapes into extensions of the home, tapping into the growing trend of outdoor entertaining and living."
+	},
+	{
+		"name": "Sustainable Landscaping Unit",
+		"description": "Focused on eco-friendly practices, this department develops and implements environmentally responsible landscaping solutions. From xeriscaping to native plant installations and rainwater harvesting systems, this team positions your company at the forefront of sustainable outdoor design."
+	},
+	{
+		"name": "Landscape Maintenance Logistics Center",
+		"description": "This department optimizes the scheduling and routing of maintenance crews, ensuring efficient service delivery. By leveraging technology and data analytics, this team maximizes productivity, reduces costs, and improves customer satisfaction through timely and consistent service."
+	}
+]

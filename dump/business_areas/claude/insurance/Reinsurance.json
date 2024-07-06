@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Treaty Management",
+		"description": "This department focuses on negotiating, implementing, and overseeing reinsurance treaties \u2013 the contractual agreements between primary insurers and reinsurers. It's crucial for maintaining long-term relationships with ceding companies and ensuring optimal risk transfer arrangements."
+	},
+	{
+		"name": "Facultative Operations",
+		"description": "This specialized unit handles individual risk placements that fall outside standard treaty arrangements. It requires a high level of expertise to assess and price unique or complex risks on a case-by-case basis, often involving large-scale or unusual exposures."
+	},
+	{
+		"name": "Retrocession Management",
+		"description": "This department manages the process of transferring risk to other reinsurers, effectively \"reinsuring the reinsurer.\" It's essential for optimizing capital efficiency and managing the company's overall risk exposure in a strategic manner."
+	},
+	{
+		"name": "Catastrophe Modeling",
+		"description": "This highly technical department uses advanced statistical and computational models to assess potential losses from catastrophic events. It's critical for pricing reinsurance contracts accurately and managing the company's exposure to large-scale disasters."
+	},
+	{
+		"name": "Commutation Services",
+		"description": "This specialized unit handles the early termination of reinsurance contracts, negotiating settlements to close out long-term liabilities. It's crucial for managing the company's balance sheet and resolving complex, often legacy, reinsurance arrangements."
+	},
+	{
+		"name": "Alternative Risk Transfer (ART)",
+		"description": "This innovative department develops and manages non-traditional reinsurance solutions, such as catastrophe bonds, sidecars, and insurance-linked securities. It's essential for providing clients with customized risk management options and accessing capital markets for risk transfer."
+	},
+	{
+		"name": "Global Accounts Management",
+		"description": "This department focuses on servicing multinational insurance groups, coordinating reinsurance solutions across multiple jurisdictions and lines of business. It's crucial for maintaining relationships with large, complex clients and providing integrated global solutions."
+	},
+	{
+		"name": "Reinsurance Claims Management",
+		"description": "This specialized unit handles claims specific to reinsurance contracts, often involving complex, high-value cases. It requires in-depth knowledge of reinsurance terms and conditions, as well as expertise in managing relationships with ceding companies during the claims process."
+	},
+	{
+		"name": "Reinsurance Accounting and Settlements",
+		"description": "This department manages the unique financial aspects of reinsurance transactions, including premium calculations, loss allocations, and settlements. It's essential for ensuring accurate financial reporting and maintaining smooth operations with ceding companies."
+	},
+	{
+		"name": "Finite Risk Management",
+		"description": "This niche department develops and manages finite risk reinsurance products, which combine risk transfer with financing elements. It requires a deep understanding of both insurance and financial concepts to create tailored solutions for clients' risk and capital management needs."
+	}
+]

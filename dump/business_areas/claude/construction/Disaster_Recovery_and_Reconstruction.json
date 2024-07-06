@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Rapid Response Unit",
+		"description": "This specialized team is on standby 24/7, ready to mobilize at a moment's notice. They assess immediate risks, coordinate with local authorities, and initiate preliminary recovery efforts. Their swift action can significantly mitigate further damage and set the tone for the entire reconstruction process."
+	},
+	{
+		"name": "Damage Assessment and Documentation",
+		"description": "This department employs cutting-edge technology like drones and 3D scanning to quickly and accurately assess disaster-related damage. They create detailed reports that are crucial for insurance claims, government aid applications, and planning reconstruction efforts."
+	},
+	{
+		"name": "Hazardous Materials Management",
+		"description": "In post-disaster scenarios, this team deals with the unique challenges of identifying, containing, and safely removing hazardous materials exposed or created by the disaster. Their expertise ensures the safety of workers and future occupants while complying with environmental regulations."
+	},
+	{
+		"name": "Temporary Infrastructure Solutions",
+		"description": "This innovative department specializes in rapidly deploying temporary structures and services. From emergency housing to provisional power systems, they ensure that basic needs are met and that recovery efforts can proceed without delay."
+	},
+	{
+		"name": "Resilience Engineering",
+		"description": "These forward-thinking experts focus on rebuilding structures and infrastructure to withstand future disasters. They incorporate the latest resilience strategies and technologies to create more robust and adaptable built environments."
+	},
+	{
+		"name": "Community Liaison and Stakeholder Management",
+		"description": "This team manages the complex web of relationships between affected communities, local governments, and aid organizations. They ensure clear communication, manage expectations, and foster collaboration to smooth the path for recovery efforts."
+	},
+	{
+		"name": "Disaster-Specific Restoration Techniques",
+		"description": "This department develops and implements specialized techniques for restoring structures and materials affected by specific types of disasters, such as flood damage mitigation or fire and smoke remediation."
+	},
+	{
+		"name": "Regulatory Compliance and Disaster Aid Navigation",
+		"description": "These experts navigate the complex landscape of post-disaster regulations and aid programs. They ensure all reconstruction efforts comply with updated building codes and maximize available government and private sector assistance."
+	},
+	{
+		"name": "Psychological Support and Trauma-Informed Design",
+		"description": "This unique team integrates mental health considerations into the reconstruction process. They work to create environments that promote healing and resilience among disaster-affected populations."
+	},
+	{
+		"name": "Long-Term Recovery Planning",
+		"description": "This strategic department looks beyond immediate reconstruction to develop comprehensive, long-term recovery plans. They consider economic revitalization, social equity, and environmental sustainability to help communities not just rebuild, but thrive."
+	},
+	{
+		"name": "Disaster Waste Management and Recycling",
+		"description": "This specialized unit focuses on the efficient and environmentally responsible management of disaster-generated debris. They implement innovative recycling and repurposing strategies to minimize landfill impact and support sustainable reconstruction."
+	},
+	{
+		"name": "Cultural Heritage Preservation",
+		"description": "In the wake of disasters, this team works to salvage, protect, and restore culturally significant structures and artifacts. Their efforts ensure that a community's heritage and identity are preserved throughout the recovery process."
+	}
+]

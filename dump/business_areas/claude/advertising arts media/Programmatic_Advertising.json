@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Demand-Side Platform (DSP) Management",
+		"description": "This department focuses on optimizing and managing the technology that allows advertisers to buy ad inventory across multiple ad exchanges. Your DSP team will be crucial in ensuring efficient, targeted ad placements and maximizing return on ad spend through real-time bidding strategies."
+	},
+	{
+		"name": "Supply-Side Platform (SSP) Operations",
+		"description": "For companies operating on the publisher side, this team manages the technology that automates the sale of ad inventory. They work to maximize revenue by optimizing the yield from various demand sources and ensuring the most valuable ad placements are properly monetized."
+	},
+	{
+		"name": "Data Management Platform (DMP) Integration",
+		"description": "This specialized unit focuses on integrating and leveraging vast amounts of first-, second-, and third-party data to enhance targeting capabilities. They ensure that your programmatic campaigns are reaching the right audiences with pinpoint accuracy, improving overall campaign effectiveness."
+	},
+	{
+		"name": "Ad Exchange Relationships",
+		"description": "This team manages relationships with various ad exchanges, negotiating favorable terms and ensuring seamless integration with your programmatic ecosystem. They play a critical role in expanding your reach and accessing premium inventory across multiple platforms."
+	},
+	{
+		"name": "Algorithmic Optimization",
+		"description": "This department develops and fine-tunes proprietary algorithms that drive real-time bidding decisions. They work on creating sophisticated models that factor in numerous variables to make split-second decisions on ad placements, maximizing campaign performance and ROI."
+	},
+	{
+		"name": "Programmatic Creative Optimization",
+		"description": "This innovative team focuses on developing dynamic creative solutions that can be personalized and optimized in real-time based on user data and context. They ensure that your ad creatives are not just targeted but also highly relevant and engaging to each individual user."
+	},
+	{
+		"name": "Fraud Detection and Brand Safety",
+		"description": "This critical department uses advanced technologies to detect and prevent ad fraud, ensuring your programmatic spend is not wasted on fake impressions or clicks. They also work to maintain brand safety by ensuring ads are not placed alongside inappropriate content."
+	},
+	{
+		"name": "Programmatic Direct Deals",
+		"description": "This team specializes in negotiating and managing direct programmatic deals with premium publishers. They work on securing guaranteed inventory and preferred access to high-quality placements, combining the efficiency of programmatic with the certainty of traditional direct buys."
+	},
+	{
+		"name": "Cross-Device Attribution",
+		"description": "This department focuses on tracking and attributing user interactions across multiple devices and touchpoints. They develop sophisticated models to understand the customer journey in a fragmented digital landscape, enabling more accurate performance measurement and optimization."
+	},
+	{
+		"name": "Programmatic TV and Audio",
+		"description": "This forward-looking team explores and implements programmatic buying strategies for emerging channels like connected TV and digital audio. They work on adapting programmatic techniques to these new mediums, opening up new opportunities for targeted, data-driven advertising."
+	},
+	{
+		"name": "Private Marketplace (PMP) Management",
+		"description": "This specialized unit manages invitation-only marketplaces where premium publishers offer their inventory to a select group of advertisers. They work on cultivating relationships with top-tier publishers and negotiating advantageous deals for accessing high-quality, brand-safe inventory."
+	},
+	{
+		"name": "Header Bidding Optimization",
+		"description": "This technical team focuses on implementing and optimizing header bidding strategies. They work to ensure that your demand has fair access to premium inventory, maximizing fill rates and improving the efficiency of your programmatic buying across multiple supply sources."
+	}
+]

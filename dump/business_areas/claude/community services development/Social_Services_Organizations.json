@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Case Management Services",
+		"description": "This department focuses on coordinating and monitoring individualized care plans for clients. It involves assessing needs, connecting clients with appropriate resources, and ensuring continuity of care. For executives, this area is crucial for delivering personalized support and measuring the organization's impact on individual lives."
+	},
+	{
+		"name": "Crisis Intervention",
+		"description": "A specialized unit dedicated to providing immediate, short-term assistance to individuals facing acute emergencies. This department operates 24/7 hotlines, deploys rapid response teams, and offers temporary shelter or support. For leadership, this area demonstrates the organization's ability to respond swiftly to community needs and prevent escalation of critical situations."
+	},
+	{
+		"name": "Community Outreach and Engagement",
+		"description": "This department focuses on building relationships with underserved populations, identifying unmet needs, and promoting available services. It involves grassroots organizing, door-to-door campaigns, and community events. For management, this area is essential for expanding the organization's reach and ensuring services are accessible to those who need them most."
+	},
+	{
+		"name": "Volunteer Coordination",
+		"description": "A dedicated team that recruits, trains, and manages volunteers who support various social service programs. This department develops volunteer opportunities, conducts background checks, and ensures proper placement. For executives, effective volunteer management can significantly extend the organization's capacity and community impact while managing costs."
+	},
+	{
+		"name": "Social Policy Advocacy",
+		"description": "This department works to influence public policy and legislation related to social issues. It involves research, coalition-building, and lobbying efforts to promote systemic change. For leadership, this area is crucial for addressing root causes of social problems and positioning the organization as a thought leader in the field."
+	},
+	{
+		"name": "Specialized Population Services",
+		"description": "Departments focused on serving specific vulnerable groups, such as homeless individuals, at-risk youth, or elderly populations. These units develop targeted interventions and programs tailored to the unique needs of each group. For management, these specialized services demonstrate the organization's commitment to addressing complex social issues and filling gaps in existing support systems."
+	},
+	{
+		"name": "Social Enterprise Development",
+		"description": "A department dedicated to creating and managing revenue-generating initiatives that align with the organization's social mission. This may include job training programs, thrift stores, or social businesses. For executives, social enterprises offer opportunities for sustainable funding and provide valuable skills development for clients."
+	},
+	{
+		"name": "Trauma-Informed Care Training",
+		"description": "A specialized unit that develops and implements trauma-informed approaches across all services. This department trains staff on recognizing and addressing the impact of trauma on clients. For leadership, integrating trauma-informed care enhances the effectiveness of interventions and improves client outcomes."
+	},
+	{
+		"name": "Cultural Competency and Inclusion",
+		"description": "This department ensures that services are culturally appropriate and accessible to diverse populations. It involves language services, cultural sensitivity training, and adapting programs to meet varied cultural needs. For management, this area is critical for building trust with marginalized communities and ensuring equitable service delivery."
+	},
+	{
+		"name": "Impact Measurement and Evaluation",
+		"description": "A dedicated team focused on developing metrics, collecting data, and analyzing the organization's social impact. This department creates evaluation frameworks, conducts longitudinal studies, and produces impact reports. For executives, robust impact measurement is essential for demonstrating value to funders, improving program effectiveness, and guiding strategic decision-making."
+	}
+]

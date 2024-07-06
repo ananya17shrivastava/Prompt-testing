@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Destination Risk Assessment Unit",
+		"description": "This specialized team focuses on evaluating and categorizing global destinations based on various risk factors. They provide crucial insights that inform policy pricing, coverage limits, and exclusions for specific locations."
+	},
+	{
+		"name": "Travel Assistance Coordination Center",
+		"description": "This 24/7 operational hub manages emergency support for policyholders abroad. They coordinate medical evacuations, legal assistance, and other critical services, serving as the lifeline for travelers in distress."
+	},
+	{
+		"name": "Trip Cancellation Claims Processing",
+		"description": "This department handles the intricate process of verifying and settling claims related to trip cancellations and interruptions. They navigate the complex landscape of travel supplier policies and unforeseen events affecting travelers' plans."
+	},
+	{
+		"name": "Adventure Sports and Activities Underwriting",
+		"description": "This niche unit specializes in assessing risks associated with adventure travel and extreme sports. They develop tailored coverage options for thrill-seekers and adventure enthusiasts, balancing risk with customer demand."
+	},
+	{
+		"name": "Travel Health Intelligence Division",
+		"description": "This team monitors global health trends, disease outbreaks, and vaccination requirements. They provide real-time data to inform policy adjustments, travel advisories, and pre-trip health recommendations for policyholders."
+	},
+	{
+		"name": "Baggage and Personal Effects Valuation",
+		"description": "This department focuses on accurately assessing the value of lost, stolen, or damaged personal items during travel. They stay current with market prices of common travel items and luxury goods to ensure fair compensation."
+	},
+	{
+		"name": "Travel Supplier Relationship Management",
+		"description": "This unit maintains partnerships with airlines, hotels, and tour operators. They negotiate favorable terms for policy integration and develop co-branded insurance products to enhance distribution channels."
+	},
+	{
+		"name": "Digital Nomad and Long-Term Travel Solutions",
+		"description": "This innovative team develops specialized products for remote workers and long-term travelers. They create flexible policies that adapt to the unique needs of this growing market segment."
+	},
+	{
+		"name": "Travel Document and Visa Support Services",
+		"description": "This department assists policyholders with obtaining necessary travel documents and visas. They provide guidance on entry requirements and help resolve issues related to passport or visa complications."
+	},
+	{
+		"name": "Cultural Sensitivity and Etiquette Training",
+		"description": "This unit develops training programs for both staff and policyholders, focusing on cultural norms and etiquette in various destinations. This helps minimize cultural misunderstandings and enhances the overall travel experience."
+	},
+	{
+		"name": "Sustainable and Eco-Tourism Product Development",
+		"description": "This forward-thinking team creates insurance products that align with sustainable travel practices. They develop policies that incentivize eco-friendly travel choices and support responsible tourism initiatives."
+	},
+	{
+		"name": "Travel Technology Integration Unit",
+		"description": "This department focuses on integrating travel insurance services with popular travel apps, booking platforms, and wearable devices. They enhance the customer experience through seamless technology integration and real-time policy management."
+	}
+]

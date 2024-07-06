@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Global Financial Reporting Harmonization",
+		"description": "This department focuses on aligning financial reporting practices across different countries and regions. It ensures that your multinational organization's financial statements are consistent, comparable, and compliant with various international accounting standards, facilitating better decision-making and transparency for global stakeholders."
+	},
+	{
+		"name": "Cross-Border Tax Optimization",
+		"description": "This specialized unit develops strategies to minimize tax liabilities across multiple jurisdictions while ensuring compliance with local and international tax laws. It helps your organization navigate complex global tax landscapes, identify tax-efficient structures, and maximize after-tax profits in your international operations."
+	},
+	{
+		"name": "Foreign Currency Management",
+		"description": "This department manages the intricacies of foreign exchange fluctuations and their impact on your company's financial statements. It develops strategies to mitigate currency risks, implements hedging techniques, and ensures accurate translation of foreign currency transactions and balances in consolidated financial reports."
+	},
+	{
+		"name": "International Transfer Pricing",
+		"description": "This unit focuses on establishing and documenting appropriate pricing for intercompany transactions across borders. It helps your organization comply with transfer pricing regulations, minimize tax risks, and optimize the allocation of profits among different entities within your global corporate structure."
+	},
+	{
+		"name": "Global Consolidation and Elimination",
+		"description": "This department specializes in consolidating financial information from various international subsidiaries and eliminating intercompany transactions. It ensures that your organization's consolidated financial statements accurately reflect the overall financial position and performance of the global entity."
+	},
+	{
+		"name": "International Mergers and Acquisitions Accounting",
+		"description": "This unit handles the complex accounting issues arising from cross-border mergers, acquisitions, and divestitures. It manages the integration of different accounting systems, aligns accounting policies, and ensures compliance with international accounting standards during these transformative corporate events."
+	},
+	{
+		"name": "Global Internal Control and Compliance",
+		"description": "This department designs and implements internal control systems that are effective across diverse international operations. It ensures compliance with various regulatory requirements, such as the Foreign Corrupt Practices Act (FCPA) and local anti-corruption laws, while maintaining consistent control standards throughout your global organization."
+	},
+	{
+		"name": "International Financial Due Diligence",
+		"description": "This specialized unit conducts thorough financial investigations of potential international investment targets or partners. It assesses financial risks, identifies hidden liabilities, and evaluates the true financial position of foreign entities to support your organization's global expansion strategies and investment decisions."
+	},
+	{
+		"name": "Global Statutory Reporting",
+		"description": "This department manages the preparation and filing of statutory financial reports required by local regulations in different countries. It ensures that your organization meets diverse reporting requirements across jurisdictions while maintaining consistency with the group's overall financial reporting framework."
+	},
+	{
+		"name": "International Accounting Standards Interpretation",
+		"description": "This unit stays abreast of evolving international accounting standards and provides expert interpretation and guidance on their application. It helps your organization adapt to changes in global accounting regulations and ensures consistent implementation across your international operations."
+	},
+	{
+		"name": "Cross-Cultural Accounting Integration",
+		"description": "This department focuses on bridging cultural differences in accounting practices and financial management across your global operations. It develops strategies to harmonize diverse accounting cultures, facilitates effective communication between international teams, and promotes a cohesive global financial mindset within your organization."
+	},
+	{
+		"name": "Global Chart of Accounts Management",
+		"description": "This specialized unit designs and maintains a standardized chart of accounts that accommodates the reporting needs of various international entities while enabling efficient consolidation at the group level. It ensures consistency in financial data classification across your global operations, facilitating better analysis and decision-making."
+	}
+]

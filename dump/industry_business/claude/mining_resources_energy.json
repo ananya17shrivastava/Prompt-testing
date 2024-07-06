@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Exploration and Prospecting",
+		"description": "This department focuses on identifying and evaluating potential mineral, oil, or gas deposits. It employs cutting-edge technologies and geological expertise to pinpoint promising areas for resource extraction, playing a crucial role in the company's long-term growth strategy."
+	},
+	{
+		"name": "Mine Planning and Development",
+		"description": "Responsible for designing and implementing efficient extraction methods, this department optimizes resource recovery while ensuring safety and environmental compliance. Their work directly impacts operational efficiency and project feasibility."
+	},
+	{
+		"name": "Reservoir Engineering",
+		"description": "Specific to oil and gas, this department manages subsurface reservoirs to maximize hydrocarbon recovery. They utilize advanced modeling techniques to predict reservoir behavior and optimize production strategies, directly influencing the company's output and profitability."
+	},
+	{
+		"name": "Drilling Operations",
+		"description": "This specialized unit oversees the complex process of drilling for resources, whether it's minerals, oil, or gas. They manage drilling equipment, techniques, and personnel to ensure safe and efficient extraction, playing a critical role in accessing valuable deposits."
+	},
+	{
+		"name": "Mineral Processing",
+		"description": "This department focuses on extracting valuable minerals from raw ore through various physical and chemical processes. Their expertise in metallurgy and materials science is crucial for maximizing resource yield and quality."
+	},
+	{
+		"name": "Energy Trading and Marketing",
+		"description": "Unique to the energy sector, this department manages the buying, selling, and trading of energy commodities. They navigate complex market dynamics to optimize revenue streams and manage price volatility risks."
+	},
+	{
+		"name": "Refining and Processing",
+		"description": "This unit transforms raw materials into marketable products, such as refined petroleum or processed minerals. Their expertise in chemical engineering and process optimization is vital for product quality and operational efficiency."
+	},
+	{
+		"name": "Resource Estimation and Valuation",
+		"description": "This department assesses the quantity and quality of mineral or energy resources, providing crucial data for strategic decision-making. Their work directly impacts investment decisions and shareholder value."
+	},
+	{
+		"name": "Reclamation and Mine Closure",
+		"description": "Focused on the end-of-life cycle of mining operations, this department plans and executes site rehabilitation strategies. They ensure regulatory compliance and minimize environmental impact, safeguarding the company's reputation and future operations."
+	},
+	{
+		"name": "Geotechnical Engineering",
+		"description": "This specialized unit assesses and manages ground stability in mining operations. Their expertise is crucial for ensuring safe and efficient extraction, particularly in challenging geological environments."
+	},
+	{
+		"name": "Energy Efficiency and Sustainability",
+		"description": "This forward-thinking department develops strategies to reduce energy consumption and environmental impact across operations. They play a key role in meeting sustainability goals and maintaining the company's social license to operate."
+	},
+	{
+		"name": "Commodity Risk Management",
+		"description": "This department specializes in managing the unique risks associated with resource price volatility. They develop hedging strategies and financial instruments to protect the company's revenue streams from market fluctuations."
+	}
+]

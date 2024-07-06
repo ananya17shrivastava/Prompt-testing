@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Right-of-Way Acquisition",
+		"description": "This department specializes in securing land and property rights necessary for large-scale infrastructure projects. They navigate complex legal and regulatory landscapes to ensure project viability and minimize delays due to property disputes."
+	},
+	{
+		"name": "Environmental Impact Assessment",
+		"description": "This team conducts thorough analyses of potential environmental consequences of infrastructure projects. They develop mitigation strategies and ensure compliance with environmental regulations, which is crucial for obtaining project approvals."
+	},
+	{
+		"name": "Traffic Management Systems",
+		"description": "This department designs and implements sophisticated traffic control solutions for road and highway projects. They optimize traffic flow during construction and develop long-term traffic management plans for completed infrastructure."
+	},
+	{
+		"name": "Geotechnical Engineering",
+		"description": "Specializing in soil and rock mechanics, this team assesses ground conditions for large-scale infrastructure projects. They provide critical insights for foundation design and stability in challenging terrains."
+	},
+	{
+		"name": "Bridge and Tunnel Engineering",
+		"description": "This specialized unit focuses on the design, construction, and maintenance of complex bridge and tunnel structures. They employ advanced engineering techniques to overcome unique geographical and structural challenges."
+	},
+	{
+		"name": "Utility Relocation Coordination",
+		"description": "This department manages the intricate process of relocating existing utilities (power lines, water mains, gas pipelines) to accommodate new infrastructure. They liaise with utility companies and local authorities to minimize service disruptions."
+	},
+	{
+		"name": "Public-Private Partnership (PPP) Management",
+		"description": "This team specializes in structuring and managing PPP agreements for large infrastructure projects. They navigate complex financing models and ensure alignment between public sector goals and private sector interests."
+	},
+	{
+		"name": "Flood Control and Water Management",
+		"description": "This unit designs and implements systems to manage water flow in infrastructure projects. They develop solutions for flood prevention, stormwater management, and water conservation in large-scale developments."
+	},
+	{
+		"name": "Railway Systems Integration",
+		"description": "This department focuses on integrating various components of railway infrastructure, including track design, signaling systems, and electrification. They ensure seamless operation and safety in complex rail projects."
+	},
+	{
+		"name": "Intelligent Transportation Systems (ITS)",
+		"description": "This cutting-edge team develops and implements smart technologies for infrastructure projects. They integrate sensors, communication systems, and data analytics to enhance the efficiency and safety of transportation networks."
+	},
+	{
+		"name": "Seismic Resilience Planning",
+		"description": "This specialized unit focuses on designing infrastructure to withstand seismic events. They incorporate advanced materials and construction techniques to ensure the longevity and safety of structures in earthquake-prone regions."
+	},
+	{
+		"name": "Coastal and Marine Engineering",
+		"description": "This department specializes in infrastructure projects in coastal and offshore environments. They address unique challenges such as tidal forces, marine ecosystems, and coastal erosion in the development of ports, offshore wind farms, and coastal protection structures."
+	}
+]

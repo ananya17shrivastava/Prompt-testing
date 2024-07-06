@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Environmental Cost Allocation",
+		"description": "This department focuses on accurately attributing environmental costs to specific products, processes, or activities within your organization. By pinpointing these expenses, you can make more informed decisions about resource allocation and identify areas for potential cost savings or environmental improvements."
+	},
+	{
+		"name": "Sustainability Performance Metrics",
+		"description": "This team develops and implements key performance indicators (KPIs) specifically tailored to measure your company's environmental impact and sustainability efforts. These metrics go beyond traditional financial measures, providing you with a holistic view of your organization's ecological footprint and progress towards sustainability goals."
+	},
+	{
+		"name": "Natural Capital Valuation",
+		"description": "This innovative department quantifies the economic value of natural resources and ecosystem services that your company relies on or impacts. By assigning monetary values to these often-overlooked assets, you can better understand the true costs and benefits of your business activities and make more environmentally conscious decisions."
+	},
+	{
+		"name": "Environmental Liability Assessment",
+		"description": "This specialized unit focuses on identifying, quantifying, and managing potential environmental liabilities associated with your company's operations. By proactively addressing these risks, you can minimize future financial and reputational damages while ensuring compliance with evolving environmental regulations."
+	},
+	{
+		"name": "Carbon Accounting and Management",
+		"description": "This department is dedicated to measuring, reporting, and managing your organization's carbon footprint. They develop strategies to reduce greenhouse gas emissions, implement carbon offset programs, and ensure compliance with carbon pricing mechanisms and emissions trading schemes."
+	},
+	{
+		"name": "Environmental Management Accounting Systems",
+		"description": "This team designs and implements accounting systems that integrate environmental data with traditional financial information. These systems provide you with a comprehensive view of your company's environmental and economic performance, enabling more sustainable decision-making across all levels of the organization."
+	},
+	{
+		"name": "Environmental Financial Reporting",
+		"description": "This department specializes in preparing environmental financial statements and disclosures that go beyond conventional financial reporting. They ensure that your company's environmental performance and risks are transparently communicated to stakeholders, including investors, regulators, and the public."
+	},
+	{
+		"name": "Eco-efficiency Analysis",
+		"description": "This unit focuses on identifying opportunities to improve both economic and environmental performance simultaneously. By analyzing the relationship between resource inputs and outputs, they help you optimize processes, reduce waste, and increase overall efficiency."
+	},
+	{
+		"name": "Environmental Investment Appraisal",
+		"description": "This department evaluates potential investments and projects from an environmental perspective, considering both financial returns and ecological impacts. They help you make informed decisions about capital allocation that align with your sustainability goals and long-term business strategy."
+	},
+	{
+		"name": "Circular Economy Accounting",
+		"description": "This innovative team develops accounting methodologies and metrics to support circular economy initiatives within your organization. They focus on measuring and optimizing resource flows, waste reduction, and value creation through circular business models."
+	},
+	{
+		"name": "Biodiversity Impact Assessment",
+		"description": "This specialized unit quantifies and reports on your company's impacts on biodiversity and ecosystems. They develop strategies to mitigate negative effects and enhance positive contributions to local and global biodiversity, helping you manage reputational risks and identify new opportunities for environmental stewardship."
+	},
+	{
+		"name": "Environmental Supply Chain Accounting",
+		"description": "This department focuses on tracking and managing environmental impacts throughout your supply chain. They work on developing accounting systems and metrics to measure and improve the sustainability performance of your suppliers, helping you create a more resilient and environmentally responsible value chain."
+	}
+]

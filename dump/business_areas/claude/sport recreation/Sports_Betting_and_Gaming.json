@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Odds Compilation",
+		"description": "This department is responsible for creating and adjusting betting odds across various sports and events. They utilize advanced statistical models, real-time data, and expert knowledge to set competitive and profitable odds that attract bettors while managing the company's risk exposure."
+	},
+	{
+		"name": "Risk Management",
+		"description": "This crucial unit monitors betting patterns, identifies potential fraudulent activities, and adjusts betting limits to minimize financial risks. They work closely with the odds compilation team to ensure the company maintains a balanced book and protects against significant losses from sharp bettors or unexpected outcomes."
+	},
+	{
+		"name": "Sportsbook Operations",
+		"description": "This team manages the day-to-day running of both physical and online sportsbooks. They oversee bet placement, payout processing, and customer support specific to sports betting inquiries. Their focus is on providing a seamless betting experience while adhering to regulatory requirements."
+	},
+	{
+		"name": "In-Play Trading",
+		"description": "This specialized unit handles live betting markets, making split-second decisions to adjust odds and betting options as events unfold in real-time. They require a unique blend of sports knowledge, quick decision-making skills, and the ability to operate under pressure."
+	},
+	{
+		"name": "Betting Product Development",
+		"description": "This innovative department creates new betting markets, prop bets, and wagering options to keep the offering fresh and engaging. They analyze market trends, customer preferences, and emerging sports to develop unique betting products that differentiate the company from competitors."
+	},
+	{
+		"name": "Integrity Monitoring",
+		"description": "This department works to maintain the integrity of sports betting by detecting and preventing match-fixing, insider betting, and other forms of corruption. They collaborate with sports governing bodies, law enforcement agencies, and other stakeholders to ensure fair play and protect the reputation of both the sports and betting industries."
+	},
+	{
+		"name": "Responsible Gaming",
+		"description": "This unit develops and implements policies and tools to promote responsible betting behavior. They create self-exclusion programs, betting limits, and educational resources to help prevent problem gambling while ensuring compliance with regulatory requirements related to player protection."
+	},
+	{
+		"name": "Betting Analytics",
+		"description": "This department uses advanced data analysis techniques to gain insights into betting patterns, customer behavior, and market trends. They provide valuable information to other departments to optimize odds, improve risk management, and enhance the overall betting product offering."
+	},
+	{
+		"name": "Betting Platform Technology",
+		"description": "This team develops and maintains the proprietary software and systems that power the sports betting operations. They focus on creating robust, scalable, and secure platforms that can handle high volumes of bets, real-time odds updates, and seamless integration with various data providers and payment systems."
+	},
+	{
+		"name": "Sports Data Procurement",
+		"description": "This specialized unit sources and manages relationships with sports data providers, ensuring access to accurate and timely information for odds compilation, in-play trading, and results verification. They negotiate contracts, monitor data quality, and integrate feeds into the betting platform."
+	},
+	{
+		"name": "Betting Compliance",
+		"description": "This department ensures that all sports betting operations adhere to the complex and often varying regulations across different jurisdictions. They stay abreast of legislative changes, obtain and maintain necessary licenses, and implement processes to meet age verification, anti-money laundering, and other regulatory requirements specific to sports betting."
+	},
+	{
+		"name": "VIP Betting Management",
+		"description": "This exclusive team caters to high-stakes bettors, providing personalized services, custom betting limits, and tailored promotions. They require a deep understanding of both customer relationship management and advanced betting strategies to effectively serve and retain these valuable clients."
+	}
+]
