@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Enterprise Architecture Design",
+		"description": "This area focuses on creating a holistic blueprint of your organization's IT landscape, aligning technology with business goals. It provides a strategic roadmap for integrating systems, processes, and data across the enterprise, ensuring scalability and agility in the face of evolving business needs."
+	},
+	{
+		"name": "Technology Stack Optimization",
+		"description": "This department specializes in evaluating and refining your company's technology stack to maximize efficiency and ROI. It involves analyzing current and emerging technologies to create a tailored ecosystem that supports your business objectives while minimizing redundancies and technical debt."
+	},
+	{
+		"name": "Digital Transformation Strategy",
+		"description": "This unit is dedicated to charting your organization's course through the digital landscape. It develops comprehensive strategies to leverage emerging technologies, reimagine business processes, and create new digital-first business models, ensuring your company remains competitive in an increasingly digital world."
+	},
+	{
+		"name": "IT Governance Framework Development",
+		"description": "This area focuses on creating robust governance structures for your IT operations. It establishes policies, procedures, and decision-making frameworks that ensure IT investments align with business goals, comply with regulations, and manage risks effectively."
+	},
+	{
+		"name": "Cloud Architecture Planning",
+		"description": "This department specializes in designing and implementing cloud-based architectures tailored to your organization's needs. It develops strategies for cloud adoption, migration, and optimization, ensuring scalability, cost-efficiency, and enhanced performance of your IT infrastructure."
+	},
+	{
+		"name": "API Strategy and Integration",
+		"description": "This unit focuses on developing comprehensive API strategies to enhance connectivity and data flow within your organization and with external partners. It designs integration architectures that enable seamless communication between diverse systems, fostering innovation and creating new business opportunities."
+	},
+	{
+		"name": "IT Portfolio Management",
+		"description": "This area is dedicated to optimizing your organization's IT investments. It involves assessing, prioritizing, and managing IT projects and assets to ensure they deliver maximum business value, align with strategic objectives, and maintain a balanced risk profile."
+	},
+	{
+		"name": "Enterprise Data Architecture",
+		"description": "This department specializes in designing comprehensive data architectures that enable effective data management, governance, and utilization across your organization. It develops strategies for data integration, quality, and analytics to drive data-driven decision-making and unlock new business insights."
+	},
+	{
+		"name": "Emerging Technology Integration",
+		"description": "This unit focuses on identifying and integrating cutting-edge technologies into your IT architecture. It assesses the potential impact and feasibility of technologies like AI, IoT, and blockchain, developing strategies to incorporate them into your existing IT landscape to drive innovation and competitive advantage."
+	},
+	{
+		"name": "IT Resilience and Business Continuity Planning",
+		"description": "This area is dedicated to designing IT architectures and strategies that ensure business continuity in the face of disruptions. It involves developing robust disaster recovery plans, implementing redundancy measures, and creating resilient IT infrastructures that can withstand and quickly recover from various threats and challenges."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Clinical Triage Support",
+		"description": "This department handles incoming calls related to medical symptoms and health concerns. Staffed by trained nurses or medical professionals, it provides initial assessments and directs patients to appropriate care levels, potentially reducing unnecessary emergency room visits and optimizing healthcare resource allocation."
+	},
+	{
+		"name": "Medical Claims Processing",
+		"description": "This specialized unit manages inquiries and issues related to healthcare insurance claims. They navigate the complex landscape of medical billing codes, insurance policies, and healthcare regulations to resolve disputes, explain coverage details, and facilitate smoother transactions between healthcare providers, insurers, and patients."
+	},
+	{
+		"name": "Telehealth Coordination",
+		"description": "As virtual healthcare gains prominence, this department manages the logistics of remote medical consultations. They schedule video appointments, ensure technical readiness for both patients and healthcare providers, and coordinate follow-up actions such as prescription deliveries or in-person referrals."
+	},
+	{
+		"name": "Patient Care Navigation",
+		"description": "This team guides patients through complex treatment plans or healthcare systems. They help coordinate multiple appointments, explain treatment options, and ensure patients understand their care journey, ultimately improving patient outcomes and satisfaction."
+	},
+	{
+		"name": "Healthcare Compliance Hotline",
+		"description": "This confidential service allows healthcare workers, patients, or the public to report potential violations of healthcare regulations, ethical concerns, or safety issues. The team manages these sensitive communications and initiates appropriate investigative or corrective actions."
+	},
+	{
+		"name": "Medical Device Support",
+		"description": "This specialized technical support unit assists patients with the use, maintenance, and troubleshooting of home medical devices such as insulin pumps, CPAP machines, or remote monitoring equipment. They bridge the gap between medical expertise and technical knowledge."
+	},
+	{
+		"name": "Prescription Management",
+		"description": "This department handles inquiries related to medication refills, drug interactions, side effects, and pharmacy coordination. They work closely with healthcare providers and pharmacies to ensure patients receive the right medications at the right time."
+	},
+	{
+		"name": "Health Information Management",
+		"description": "This team manages patient requests for medical records, ensures compliance with data privacy regulations like HIPAA, and coordinates the secure transfer of health information between healthcare providers, insurers, and patients."
+	},
+	{
+		"name": "Preventive Care Outreach",
+		"description": "This proactive unit conducts outbound calls to remind patients about scheduled screenings, vaccinations, or follow-up appointments. They play a crucial role in population health management and disease prevention strategies."
+	},
+	{
+		"name": "Mental Health Crisis Support",
+		"description": "This specialized team provides immediate support for callers experiencing mental health crises. Staffed by trained counselors or mental health professionals, they offer emergency interventions, suicide prevention support, and connections to long-term mental health resources."
+	},
+	{
+		"name": "Healthcare Interpreter Services",
+		"description": "This department provides real-time language interpretation for non-English speaking patients, ensuring effective communication between patients and healthcare providers. They navigate not just linguistic differences but also cultural nuances in healthcare contexts."
+	},
+	{
+		"name": "Chronic Disease Management",
+		"description": "This team supports patients with long-term health conditions, providing regular check-ins, medication reminders, lifestyle advice, and coordination with healthcare providers to manage chronic diseases effectively and prevent complications."
+	}
+]

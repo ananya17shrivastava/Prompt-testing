@@ -1,0 +1,42 @@
+[
+	{
+		"name": "High Net Worth Client Services",
+		"description": "This department focuses exclusively on catering to the complex financial needs of high net worth individuals and families. It provides personalized, white-glove service to clients with significant investable assets, offering tailored solutions that go beyond traditional banking services."
+	},
+	{
+		"name": "Family Office Support",
+		"description": "This specialized unit assists ultra-high net worth families in managing their wealth across generations. It provides comprehensive services including investment management, tax planning, philanthropy advice, and coordination of legal and accounting services, essentially acting as a one-stop-shop for all financial matters of wealthy families."
+	},
+	{
+		"name": "Private Banking Relationship Management",
+		"description": "This department cultivates and maintains long-term relationships with affluent clients. It offers personalized financial advice, exclusive investment opportunities, and premium banking services, focusing on building trust and providing bespoke solutions to meet the unique needs of each high-value client."
+	},
+	{
+		"name": "Wealth Transfer and Succession Planning",
+		"description": "This unit specializes in helping wealthy clients plan for the transfer of their assets to future generations or charitable causes. It provides expert guidance on estate planning, trust services, and tax-efficient wealth transfer strategies, ensuring the client's legacy is preserved and distributed according to their wishes."
+	},
+	{
+		"name": "Alternative Investments Division",
+		"description": "This department focuses on non-traditional investment options typically favored by high net worth clients. It provides access to and manages investments in private equity, hedge funds, real estate, and other alternative assets, offering opportunities for portfolio diversification and potentially higher returns."
+	},
+	{
+		"name": "Philanthropic Advisory Services",
+		"description": "This specialized unit assists wealthy clients in structuring and managing their charitable giving. It provides guidance on establishing private foundations, donor-advised funds, and impact investing strategies, helping clients align their wealth with their values and maximize their philanthropic impact."
+	},
+	{
+		"name": "Lifestyle and Concierge Services",
+		"description": "This unique department goes beyond financial services to cater to the lifestyle needs of wealthy clients. It offers exclusive access to luxury experiences, art advisory, real estate consultation, and other high-end services, enhancing the overall value proposition for discerning clients."
+	},
+	{
+		"name": "Multi-Currency Management",
+		"description": "This specialized unit helps high net worth clients with international interests manage their wealth across multiple currencies. It provides strategies for currency hedging, multi-currency accounts, and global investment opportunities, catering to the needs of clients with a global financial footprint."
+	},
+	{
+		"name": "Specialized Lending Solutions",
+		"description": "This department offers bespoke lending services tailored to the unique needs of wealthy clients. It provides solutions such as art financing, yacht and aircraft loans, and other forms of asset-backed lending that traditional banking departments typically don't offer."
+	},
+	{
+		"name": "Executive Financial Services",
+		"description": "This unit caters specifically to the financial needs of corporate executives and entrepreneurs. It provides specialized services such as stock option planning, deferred compensation strategies, and liquidity management for individuals with complex compensation structures and concentrated wealth positions."
+	}
+]

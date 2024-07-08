@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Survey Design and Methodology",
+		"description": "This department specializes in crafting sophisticated research instruments and sampling methodologies. They ensure that data collection methods are statistically sound, unbiased, and tailored to extract the most valuable insights for clients."
+	},
+	{
+		"name": "Data Analytics and Modeling",
+		"description": "This team employs advanced statistical techniques and predictive modeling to transform raw data into actionable intelligence. They're the wizards who uncover hidden patterns and correlations that drive strategic decision-making."
+	},
+	{
+		"name": "Qualitative Research Operations",
+		"description": "This unit manages the nuanced world of focus groups, in-depth interviews, and ethnographic studies. They excel at extracting rich, contextual insights that numbers alone can't capture, providing a deeper understanding of consumer motivations and behaviors."
+	},
+	{
+		"name": "Syndicated Research Products",
+		"description": "This department develops and maintains standardized research products that are sold to multiple clients. They create valuable industry benchmarks and trend reports that become indispensable resources for entire sectors."
+	},
+	{
+		"name": "Custom Research Solutions",
+		"description": "This team crafts bespoke research projects tailored to individual client needs. They're the problem-solvers who design unique methodologies to address specific business challenges, often pushing the boundaries of traditional market research."
+	},
+	{
+		"name": "Research Technology and Innovation",
+		"description": "This cutting-edge department focuses on developing proprietary research tools and platforms. They leverage emerging technologies like AI, machine learning, and big data analytics to revolutionize how market research is conducted and delivered."
+	},
+	{
+		"name": "Respondent Panel Management",
+		"description": "This specialized unit recruits, maintains, and manages large pools of research participants. They ensure the quality and diversity of respondent panels, which are crucial for producing reliable and representative research results."
+	},
+	{
+		"name": "Research Ethics and Compliance",
+		"description": "This department safeguards the integrity of research practices, ensuring adherence to industry standards and data protection regulations. They play a critical role in maintaining the company's reputation and the trust of both clients and research participants."
+	},
+	{
+		"name": "Research Visualization and Reporting",
+		"description": "This creative team transforms complex data sets into compelling visual narratives. They specialize in crafting intuitive dashboards, infographics, and interactive reports that make research findings accessible and impactful for decision-makers."
+	},
+	{
+		"name": "Competitive Intelligence Unit",
+		"description": "This department focuses on gathering and analyzing information about market competitors. They provide strategic insights that help clients understand their market position, identify threats and opportunities, and gain a competitive edge."
+	},
+	{
+		"name": "Research Consulting and Advisory Services",
+		"description": "This high-level team works closely with clients to interpret research findings and translate them into strategic recommendations. They bridge the gap between data and action, helping clients leverage insights to drive business growth."
+	},
+	{
+		"name": "Emerging Markets Research",
+		"description": "This specialized unit focuses on conducting research in developing economies and niche markets. They navigate the unique challenges of data collection and analysis in less established markets, providing valuable insights for companies looking to expand globally."
+	}
+]

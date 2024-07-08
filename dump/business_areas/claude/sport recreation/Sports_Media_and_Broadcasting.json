@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Rights Acquisition",
+		"description": "This department focuses on securing broadcasting rights for sporting events, leagues, and tournaments. It's crucial for negotiating deals with sports organizations and managing the portfolio of content rights that form the backbone of sports media offerings."
+	},
+	{
+		"name": "Live Production",
+		"description": "Specializing in the real-time capture and transmission of sporting events, this area manages the technical aspects of live broadcasts, including camera work, instant replays, and on-the-fly editing to deliver immersive viewing experiences."
+	},
+	{
+		"name": "Sports Commentary",
+		"description": "This division recruits, trains, and manages a roster of expert commentators, analysts, and play-by-play announcers who provide real-time insights and narration during live sports broadcasts, enhancing viewer engagement."
+	},
+	{
+		"name": "Sports Data Analytics",
+		"description": "Focused on collecting, analyzing, and presenting in-depth statistics and performance metrics, this department provides valuable insights for both broadcasters and viewers, enriching the overall sports viewing experience."
+	},
+	{
+		"name": "Fantasy Sports Integration",
+		"description": "This innovative area develops and implements fantasy sports features within broadcasts and digital platforms, creating interactive experiences that boost viewer engagement and retention."
+	},
+	{
+		"name": "Sports Betting Content",
+		"description": "With the growing legalization of sports betting, this department creates content and tools to support responsible betting activities, including odds analysis, expert predictions, and real-time updates."
+	},
+	{
+		"name": "Highlight Production",
+		"description": "Specializing in rapid content creation, this team curates and packages key moments from live events into shareable highlights for social media and other platforms, extending the reach and impact of sports content."
+	},
+	{
+		"name": "Virtual Reality Sports",
+		"description": "This cutting-edge department focuses on developing immersive VR experiences for sports viewing, allowing fans to feel as if they're in the stadium or arena, revolutionizing remote spectatorship."
+	},
+	{
+		"name": "Sports Documentary Production",
+		"description": "Dedicated to creating in-depth, long-form content, this area produces documentaries and series that delve into the stories behind the sports, athletes, and significant events in sporting history."
+	},
+	{
+		"name": "E-Sports Coverage",
+		"description": "As competitive gaming grows in popularity, this specialized division focuses on broadcasting and producing content around e-sports events, catering to a new generation of digital sports enthusiasts."
+	},
+	{
+		"name": "Multi-Language Broadcasting",
+		"description": "This department manages the localization of sports content for global audiences, including commentary translation, cultural adaptation, and region-specific content creation."
+	},
+	{
+		"name": "Sports Archive Management",
+		"description": "Responsible for preserving, cataloging, and monetizing vast libraries of historical sports footage, this area ensures the longevity and accessibility of valuable sports content."
+	},
+	{
+		"name": "Athlete-Generated Content",
+		"description": "This innovative department works directly with athletes to create and distribute exclusive, behind-the-scenes content, offering unique perspectives and intimate access to sports personalities."
+	},
+	{
+		"name": "Interactive Graphics",
+		"description": "Specializing in creating dynamic, data-driven visual elements for live broadcasts, this team enhances viewer understanding and engagement through cutting-edge graphical representations of game stats, player information, and tactical analysis."
+	},
+	{
+		"name": "Sports Streaming Technology",
+		"description": "This department focuses on developing and maintaining robust streaming platforms capable of handling high-volume, low-latency live sports broadcasts across various devices and network conditions."
+	}
+]

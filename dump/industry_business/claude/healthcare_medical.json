@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Clinical Operations",
+		"description": "This department oversees the day-to-day functioning of medical facilities, ensuring optimal patient care delivery. It manages staffing, resource allocation, and workflow optimization to maintain high-quality healthcare services while adhering to regulatory standards."
+	},
+	{
+		"name": "Medical Affairs",
+		"description": "A strategic function that bridges the gap between clinical development and commercialization. This department provides scientific expertise, engages with key opinion leaders, and supports evidence-based decision-making across the organization."
+	},
+	{
+		"name": "Health Information Management",
+		"description": "This crucial area focuses on the maintenance, storage, and security of patient health records. It ensures compliance with data privacy regulations while facilitating seamless information exchange among healthcare providers to support continuity of care."
+	},
+	{
+		"name": "Utilization Review",
+		"description": "This department evaluates the necessity, appropriateness, and efficiency of healthcare services. It plays a vital role in cost containment, quality assurance, and ensuring that medical interventions align with established clinical guidelines and best practices."
+	},
+	{
+		"name": "Patient Safety and Quality Improvement",
+		"description": "Dedicated to minimizing medical errors and enhancing overall care quality, this department implements systems and processes to identify, report, and address potential safety issues. It drives continuous improvement initiatives to elevate patient outcomes and satisfaction."
+	},
+	{
+		"name": "Biomedical Engineering",
+		"description": "This specialized department manages the lifecycle of medical equipment and technology. From procurement and maintenance to calibration and disposal, it ensures that all medical devices meet safety standards and operate at peak performance."
+	},
+	{
+		"name": "Clinical Research Administration",
+		"description": "Overseeing the planning, execution, and management of clinical trials, this department ensures compliance with ethical standards and regulatory requirements. It plays a crucial role in advancing medical knowledge and bringing innovative treatments to market."
+	},
+	{
+		"name": "Infection Control",
+		"description": "This department develops and implements strategies to prevent and control the spread of infections within healthcare settings. It educates staff, monitors compliance with hygiene protocols, and collaborates with public health authorities during outbreaks."
+	},
+	{
+		"name": "Telemedicine Services",
+		"description": "Focused on leveraging technology to provide remote healthcare services, this department manages the infrastructure, protocols, and training necessary for virtual consultations, remote monitoring, and digital health initiatives."
+	},
+	{
+		"name": "Medical Coding and Billing",
+		"description": "This specialized area ensures accurate translation of medical procedures and diagnoses into standardized codes for reimbursement and record-keeping purposes. It plays a critical role in revenue cycle management and compliance with healthcare payment systems."
+	},
+	{
+		"name": "Pharmacy Services",
+		"description": "Beyond traditional dispensing, this department manages medication safety, formulary development, and clinical pharmacy services. It collaborates with clinical teams to optimize drug therapies and implement medication management systems."
+	},
+	{
+		"name": "Case Management",
+		"description": "This department coordinates patient care across the continuum, ensuring efficient use of resources and smooth transitions between care settings. It advocates for patients, facilitates communication among providers, and helps navigate complex healthcare systems."
+	},
+	{
+		"name": "Bioethics Committee",
+		"description": "This multidisciplinary group addresses ethical dilemmas in patient care, research, and organizational policies. It provides guidance on complex medical decisions, ensuring alignment with ethical principles and legal requirements."
+	},
+	{
+		"name": "Medical Device Vigilance",
+		"description": "This department monitors the safety and performance of medical devices post-market. It collects and analyzes data on adverse events, initiates recalls when necessary, and collaborates with regulatory bodies to enhance device safety."
+	},
+	{
+		"name": "Clinical Documentation Improvement",
+		"description": "Focused on enhancing the quality and accuracy of patient records, this department works to ensure that clinical documentation accurately reflects the complexity of patient care, supporting proper coding, billing, and quality reporting."
+	}
+]

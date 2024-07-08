@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Spatial Computing Development",
+		"description": "This department focuses on creating software that understands and interacts with the physical world. It's crucial for developing AR/VR applications that seamlessly blend digital content with real environments, enabling immersive experiences that can revolutionize industries from manufacturing to healthcare."
+	},
+	{
+		"name": "Haptic Feedback Engineering",
+		"description": "This specialized team develops technologies that simulate touch sensations in virtual environments. Their work is essential for creating realistic and engaging AR/VR experiences, particularly in fields like remote surgery, industrial training, and advanced gaming applications."
+	},
+	{
+		"name": "Volumetric Capture",
+		"description": "This department specializes in creating three-dimensional representations of real-world objects and environments. Their expertise is vital for producing high-fidelity AR/VR content, enabling applications ranging from virtual tourism to immersive product demonstrations for e-commerce."
+	},
+	{
+		"name": "Optical System Design",
+		"description": "This team focuses on developing the complex lens systems used in AR/VR headsets. Their work is critical for creating devices that offer wide fields of view, high resolution, and minimal distortion, enhancing user comfort and immersion in virtual environments."
+	},
+	{
+		"name": "Motion Tracking and Gesture Recognition",
+		"description": "This department develops technologies that accurately track user movements and gestures in 3D space. Their work is fundamental to creating intuitive and responsive AR/VR interfaces, enabling natural interactions within virtual environments across various applications."
+	},
+	{
+		"name": "Virtual Environment Artistry",
+		"description": "This creative team specializes in designing and crafting immersive virtual worlds and augmented reality overlays. Their expertise is crucial for creating compelling and believable digital environments that enhance user engagement and drive adoption of AR/VR technologies."
+	},
+	{
+		"name": "Biometric Feedback Integration",
+		"description": "This department focuses on incorporating physiological data into AR/VR experiences. Their work is essential for developing applications that respond to users' emotional states or physical conditions, opening up possibilities in fields like mental health treatment and personalized fitness training."
+	},
+	{
+		"name": "Spatial Audio Engineering",
+		"description": "This team develops 3D sound technologies that create realistic audio environments in AR/VR applications. Their expertise is vital for enhancing immersion and providing crucial spatial cues in virtual environments, benefiting applications from virtual conferences to immersive entertainment."
+	},
+	{
+		"name": "AR/VR Content Distribution Platforms",
+		"description": "This department develops and manages specialized platforms for distributing AR/VR content. Their work is crucial for creating ecosystems that connect developers, content creators, and end-users, facilitating the growth and monetization of the AR/VR market."
+	},
+	{
+		"name": "Mixed Reality Interaction Design",
+		"description": "This team focuses on creating intuitive ways for users to interact with both virtual and real-world elements simultaneously. Their expertise is essential for developing seamless AR experiences that enhance productivity in fields like manufacturing, logistics, and architectural visualization."
+	},
+	{
+		"name": "Holographic Display Technology",
+		"description": "This department specializes in developing advanced display systems that project three-dimensional images into real space. Their work is pushing the boundaries of AR/VR technology, opening up new possibilities for applications in fields like medical imaging, engineering design, and public information displays."
+	},
+	{
+		"name": "Neural Interface Research",
+		"description": "This cutting-edge team explores technologies that allow direct communication between the human brain and AR/VR systems. While still largely experimental, their work has the potential to revolutionize how we interact with digital environments, offering unprecedented immersion and control in virtual spaces."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Educational Facility Planning",
+		"description": "This department specializes in designing and constructing educational institutions, from K-12 schools to universities. They focus on creating learning environments that foster student engagement, incorporate modern technology, and meet stringent safety standards. Their expertise lies in understanding the evolving needs of educational institutions and translating them into functional, inspiring spaces."
+	},
+	{
+		"name": "Healthcare Infrastructure Development",
+		"description": "This team is dedicated to planning and constructing healthcare facilities, including hospitals, clinics, and specialized medical centers. They possess in-depth knowledge of complex medical equipment integration, stringent hygiene requirements, and patient-centric design principles. Their work directly impacts the efficiency of healthcare delivery and patient outcomes."
+	},
+	{
+		"name": "Correctional Facility Engineering",
+		"description": "This specialized unit focuses on the unique challenges of constructing secure correctional institutions. They are experts in designing facilities that balance security measures with humane living conditions, incorporating advanced surveillance systems, and creating spaces that support rehabilitation programs. Their work requires a deep understanding of legal requirements and evolving correctional philosophies."
+	},
+	{
+		"name": "Government Building Compliance",
+		"description": "This department ensures that all institutional construction projects adhere to specific government regulations and standards. They navigate complex bureaucratic processes, manage security clearances, and implement specialized features required in government buildings. Their expertise is crucial in securing and executing government contracts."
+	},
+	{
+		"name": "Research Facility Integration",
+		"description": "This team specializes in constructing advanced research facilities for institutions such as universities, government agencies, and private research organizations. They focus on creating environments that support cutting-edge scientific work, incorporating specialized laboratory equipment, and ensuring precise environmental controls. Their work directly impacts the advancement of scientific research and innovation."
+	},
+	{
+		"name": "Cultural Institution Design",
+		"description": "This department is dedicated to creating spaces that preserve and showcase cultural heritage, such as museums, libraries, and performing arts centers. They blend architectural aesthetics with functional requirements, focusing on aspects like artifact preservation, visitor flow, and interactive exhibit spaces. Their work plays a crucial role in enhancing community cultural experiences."
+	},
+	{
+		"name": "Institutional Sustainability Implementation",
+		"description": "This specialized unit focuses on incorporating advanced sustainable practices in institutional buildings. They go beyond standard green building practices, implementing innovative technologies and design strategies that align with the long-term sustainability goals of educational, healthcare, and government institutions. Their work often involves pioneering new approaches to energy efficiency and environmental responsibility."
+	},
+	{
+		"name": "Accessibility and Inclusion Planning",
+		"description": "This team ensures that institutional buildings not only meet but exceed accessibility standards. They specialize in creating inclusive environments that cater to diverse user needs, including those with physical, sensory, or cognitive disabilities. Their expertise is crucial in designing spaces that promote equal access and participation in institutional settings."
+	},
+	{
+		"name": "Institutional Security Systems Integration",
+		"description": "This department focuses on incorporating advanced security measures into institutional buildings. They specialize in designing and implementing complex security systems that protect sensitive areas, manage access control, and ensure the safety of occupants. Their work is critical in high-security institutional environments like government buildings and research facilities."
+	},
+	{
+		"name": "Institutional Food Service Infrastructure",
+		"description": "This specialized unit designs and constructs large-scale food service facilities within institutional buildings. They focus on creating efficient, hygienic, and high-capacity kitchens and dining areas for schools, hospitals, and government complexes. Their expertise lies in balancing industrial-scale food preparation needs with institutional-specific requirements and regulations."
+	}
+]

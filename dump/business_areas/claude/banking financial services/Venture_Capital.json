@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Deal Sourcing and Screening",
+		"description": "This department focuses on identifying and evaluating potential investment opportunities. Your team here acts as the frontline scouts, sifting through numerous startups and emerging companies to find those with the highest growth potential. They're responsible for building and maintaining a robust pipeline of deals that align with your firm's investment thesis."
+	},
+	{
+		"name": "Due Diligence and Investment Analysis",
+		"description": "This specialized unit conducts in-depth investigations into potential investments. They're your risk mitigators, diving deep into a company's financials, market position, technology, and team to assess the viability and potential return on investment. Their thorough analysis forms the backbone of your investment decisions."
+	},
+	{
+		"name": "Portfolio Management and Value Creation",
+		"description": "This department goes beyond traditional asset management. Your team here actively works with portfolio companies, providing strategic guidance, operational support, and access to networks. They're focused on accelerating the growth of your investments and maximizing returns through hands-on involvement."
+	},
+	{
+		"name": "Fund Structuring and Fundraising",
+		"description": "This unit is crucial for the lifeblood of your VC firm. They design and structure new funds, develop compelling investment theses, and engage with limited partners (LPs) to raise capital. Their expertise in crafting attractive fund terms and maintaining investor relations is key to your firm's growth and sustainability."
+	},
+	{
+		"name": "Emerging Technologies Research",
+		"description": "This forward-looking department keeps your firm at the cutting edge. They're dedicated to understanding and predicting technological trends that could shape future investment opportunities. Their insights guide your investment strategy and help position your firm as a thought leader in the VC space."
+	},
+	{
+		"name": "Startup Ecosystem Development",
+		"description": "This unique unit focuses on nurturing the broader startup ecosystem. They organize mentorship programs, startup accelerators, and networking events. By fostering a thriving startup community, they indirectly create a fertile ground for future investment opportunities and enhance your firm's reputation in the entrepreneurial world."
+	},
+	{
+		"name": "Exit Strategy and IPO Advisory",
+		"description": "This specialized department focuses on maximizing returns through strategic exits. They work closely with portfolio companies to prepare for acquisitions or initial public offerings (IPOs). Their expertise in navigating complex exit processes and timing market conditions is crucial for realizing the full value of your investments."
+	},
+	{
+		"name": "Venture Debt Structuring",
+		"description": "This niche unit specializes in creating venture debt products, a unique form of financing that complements equity investments. They design flexible debt instruments that provide additional capital to portfolio companies without diluting equity, offering an alternative revenue stream for your firm."
+	},
+	{
+		"name": "Corporate Venture Capital (CVC) Liaison",
+		"description": "This department specializes in building and managing relationships with corporate partners interested in strategic investments. They facilitate co-investment opportunities, technology transfers, and potential acquisition deals, bridging the gap between your VC firm and larger corporations seeking innovation."
+	},
+	{
+		"name": "Impact Investment Analysis",
+		"description": "For VC firms focused on socially responsible investing, this unit evaluates potential investments not just for financial returns but also for their social and environmental impact. They develop metrics and frameworks to measure and report on the non-financial outcomes of your investments, catering to the growing demand for purpose-driven capital allocation."
+	}
+]

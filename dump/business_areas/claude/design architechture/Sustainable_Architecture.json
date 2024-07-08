@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Green Building Materials Research & Development",
+		"description": "This department focuses on identifying, testing, and implementing cutting-edge sustainable materials that minimize environmental impact while maintaining structural integrity and aesthetic appeal. It's crucial for staying ahead in the eco-friendly construction market and meeting increasingly stringent environmental regulations."
+	},
+	{
+		"name": "Energy Modeling and Simulation",
+		"description": "This specialized team uses advanced software to create detailed energy models of buildings, simulating their performance under various conditions. This allows for optimization of energy efficiency and helps clients understand long-term operational costs and environmental impact, which is essential for sustainable design decision-making."
+	},
+	{
+		"name": "Biophilic Design Integration",
+		"description": "This innovative department focuses on incorporating nature into architectural designs to improve occupant well-being and reduce environmental impact. They develop strategies to seamlessly blend natural elements with built environments, enhancing sustainability while creating spaces that foster human-nature connections."
+	},
+	{
+		"name": "Circular Economy Solutions",
+		"description": "This forward-thinking team develops strategies to implement circular economy principles in architectural projects. They focus on designing buildings and spaces that minimize waste, promote resource efficiency, and facilitate easy disassembly and material reuse at the end of a structure's life cycle."
+	},
+	{
+		"name": "Net-Zero Energy Systems Planning",
+		"description": "This department specializes in designing and implementing systems that allow buildings to produce as much energy as they consume. They integrate renewable energy sources, energy-efficient technologies, and smart building management systems to achieve net-zero or even net-positive energy performance."
+	},
+	{
+		"name": "Water Conservation and Management",
+		"description": "This team focuses on developing innovative water-saving solutions for buildings, including rainwater harvesting, greywater recycling, and efficient irrigation systems. They play a crucial role in reducing water consumption and promoting sustainable water use in architectural projects."
+	},
+	{
+		"name": "Indoor Environmental Quality Optimization",
+		"description": "This department concentrates on creating healthy indoor environments that minimize pollutants, optimize air quality, and enhance occupant comfort. They integrate advanced ventilation systems, non-toxic materials, and biophilic elements to promote well-being and productivity in sustainable buildings."
+	},
+	{
+		"name": "Passive Design Strategies",
+		"description": "This specialized team develops passive design solutions that leverage natural elements like sunlight, wind, and thermal mass to reduce energy consumption. They focus on optimizing building orientation, envelope design, and natural ventilation to minimize reliance on mechanical systems."
+	},
+	{
+		"name": "Sustainable Site Planning and Ecosystem Services",
+		"description": "This department specializes in integrating buildings harmoniously with their surrounding ecosystems. They focus on preserving biodiversity, managing stormwater naturally, and enhancing local habitats while minimizing the ecological footprint of architectural projects."
+	},
+	{
+		"name": "Life Cycle Assessment and Carbon Footprint Analysis",
+		"description": "This analytical team conducts comprehensive assessments of the environmental impact of buildings throughout their entire life cycle. They provide valuable insights for decision-making by quantifying carbon emissions, resource consumption, and overall sustainability performance from construction to demolition."
+	}
+]

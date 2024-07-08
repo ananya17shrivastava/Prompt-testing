@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Strategy Development Unit",
+		"description": "This specialized team focuses on crafting bespoke strategic frameworks tailored to each client's unique challenges and opportunities. They leverage deep industry insights and cutting-edge analytical tools to formulate actionable strategies that drive sustainable competitive advantage."
+	},
+	{
+		"name": "Client Engagement Management",
+		"description": "A dedicated department that oversees the entire lifecycle of client relationships, from initial contact to project completion and beyond. They ensure seamless communication, manage expectations, and cultivate long-term partnerships that extend beyond individual engagements."
+	},
+	{
+		"name": "Knowledge Management and Intellectual Capital",
+		"description": "This unit is responsible for capturing, organizing, and disseminating the firm's collective wisdom and proprietary methodologies. They develop and maintain a robust knowledge repository that enables consultants to leverage best practices and insights across diverse projects and industries."
+	},
+	{
+		"name": "Thought Leadership and Research",
+		"description": "A team dedicated to producing groundbreaking research, white papers, and industry analyses that position the firm as a thought leader. They identify emerging trends, develop innovative concepts, and contribute to shaping the future of business strategy."
+	},
+	{
+		"name": "Solution Design and Implementation",
+		"description": "This department specializes in translating high-level strategies into actionable implementation plans. They work closely with clients to design tailored solutions, develop change management strategies, and ensure successful execution of recommended initiatives."
+	},
+	{
+		"name": "Value Realization and Impact Assessment",
+		"description": "A specialized unit focused on quantifying and demonstrating the tangible impact of consulting engagements. They develop sophisticated metrics and assessment tools to measure the value created through strategic interventions and help clients articulate ROI to stakeholders."
+	},
+	{
+		"name": "Strategic Alliances and Ecosystem Management",
+		"description": "This team cultivates and manages partnerships with complementary service providers, technology vendors, and industry experts. They create a robust ecosystem that enhances the firm's capabilities and enables the delivery of comprehensive, end-to-end solutions to clients."
+	},
+	{
+		"name": "Rapid Response and Crisis Strategy",
+		"description": "A nimble unit dedicated to addressing urgent client needs and unforeseen market disruptions. They specialize in developing swift, actionable strategies to navigate crises, capitalize on sudden opportunities, or respond to unexpected competitive threats."
+	},
+	{
+		"name": "Digital Strategy and Transformation",
+		"description": "This forward-looking department focuses on helping clients navigate the complexities of digital disruption. They combine deep technological understanding with strategic acumen to guide organizations through digital transformation journeys and unlock new sources of value."
+	},
+	{
+		"name": "Sustainability and ESG Strategy",
+		"description": "A specialized team that helps clients integrate environmental, social, and governance considerations into their core business strategies. They develop innovative approaches to create long-term value while addressing global challenges and stakeholder expectations."
+	}
+]

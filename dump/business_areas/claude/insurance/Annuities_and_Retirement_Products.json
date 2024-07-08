@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Annuity Product Development",
+		"description": "This department focuses on creating innovative annuity products tailored to meet evolving retirement needs. They analyze market trends, demographic shifts, and regulatory changes to design competitive fixed, variable, and indexed annuities that provide income security for retirees."
+	},
+	{
+		"name": "Retirement Income Planning",
+		"description": "This specialized unit helps clients optimize their retirement income strategies. They develop sophisticated modeling tools and personalized plans that integrate annuities with other retirement assets, ensuring clients can maintain their desired lifestyle throughout retirement."
+	},
+	{
+		"name": "Longevity Risk Management",
+		"description": "This team addresses the unique challenges posed by increasing life expectancies. They employ advanced actuarial techniques and data analytics to accurately price products and manage the long-term financial risks associated with lifetime income guarantees."
+	},
+	{
+		"name": "Annuity Contract Administration",
+		"description": "This department handles the complex administrative tasks specific to annuity contracts. They manage policy issuance, premium collections, benefit calculations, and payout distributions, ensuring compliance with contract terms and regulatory requirements throughout the product lifecycle."
+	},
+	{
+		"name": "Retirement Education and Guidance",
+		"description": "This unit develops educational programs and tools to help clients understand the role of annuities in retirement planning. They create interactive platforms, workshops, and personalized consultations to guide individuals through the complexities of retirement income strategies."
+	},
+	{
+		"name": "Annuity Distribution Channel Management",
+		"description": "This team cultivates relationships with financial advisors, broker-dealers, and other intermediaries specializing in retirement products. They provide training, sales support, and marketing materials tailored to the unique features and benefits of annuity products."
+	},
+	{
+		"name": "Retirement Solutions Integration",
+		"description": "This department focuses on integrating annuity products with other retirement vehicles like 401(k)s and IRAs. They develop seamless rollover processes and create hybrid products that combine the features of traditional retirement accounts with the income security of annuities."
+	},
+	{
+		"name": "Guaranteed Lifetime Income Modeling",
+		"description": "This specialized unit uses advanced financial modeling techniques to design and price guaranteed lifetime income benefits. They analyze factors such as interest rates, market volatility, and policyholder behavior to create sustainable income guarantees."
+	},
+	{
+		"name": "Annuity Reinsurance and Risk Transfer",
+		"description": "This team manages the unique risks associated with long-term annuity guarantees. They develop reinsurance strategies and explore innovative risk transfer solutions to optimize capital efficiency and ensure long-term solvency."
+	},
+	{
+		"name": "Retirement Regulatory Compliance",
+		"description": "This department navigates the complex and ever-changing regulatory landscape specific to annuities and retirement products. They ensure product designs, marketing materials, and sales practices comply with state and federal regulations, including suitability requirements and disclosure mandates."
+	},
+	{
+		"name": "Annuity Valuation and Reserving",
+		"description": "This specialized unit develops and implements valuation methodologies specific to annuity products. They calculate reserves, perform cash flow testing, and conduct asset-liability management to ensure the company can meet its long-term obligations to annuity policyholders."
+	},
+	{
+		"name": "Retirement Income Distribution Strategies",
+		"description": "This team develops tax-efficient strategies for distributing retirement income from annuities and other sources. They create tools and guidelines to help clients optimize their income streams while minimizing tax liabilities throughout retirement."
+	}
+]

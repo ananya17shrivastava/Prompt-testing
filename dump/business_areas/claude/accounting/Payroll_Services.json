@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Payroll Tax Compliance",
+		"description": "This department focuses exclusively on staying up-to-date with ever-changing payroll tax laws and regulations across multiple jurisdictions. It ensures your company remains compliant with federal, state, and local tax requirements, minimizing the risk of costly penalties and audits."
+	},
+	{
+		"name": "Time and Attendance Integration",
+		"description": "This specialized team works on seamlessly integrating various time-tracking systems with payroll processing. They develop and maintain interfaces that accurately translate employee work hours into payable time, ensuring precise compensation for your workforce."
+	},
+	{
+		"name": "Garnishment Administration",
+		"description": "This unit manages the complex process of wage garnishments, including child support, tax levies, and creditor garnishments. They ensure proper deduction calculations, timely payments to appropriate agencies, and maintain compliance with garnishment laws to protect your company from legal issues."
+	},
+	{
+		"name": "Payroll Reporting and Analytics",
+		"description": "This department focuses on creating customized payroll reports and conducting in-depth analytics. They provide valuable insights into labor costs, overtime trends, and other payroll-related metrics, enabling data-driven decision-making for your organization's financial strategy."
+	},
+	{
+		"name": "Multi-State Payroll Processing",
+		"description": "This specialized team handles the intricacies of processing payroll for employees across multiple states. They manage varying tax rates, unemployment insurance requirements, and state-specific regulations to ensure accurate and compliant payroll processing for your geographically diverse workforce."
+	},
+	{
+		"name": "International Payroll Services",
+		"description": "This department specializes in managing payroll for multinational companies. They navigate the complexities of international labor laws, currency conversions, and expatriate compensation packages, ensuring your global workforce is paid accurately and in compliance with local regulations."
+	},
+	{
+		"name": "Payroll System Implementation and Migration",
+		"description": "This team focuses on implementing new payroll systems or migrating data from legacy systems. They manage the entire process, from initial assessment to data transfer and employee training, ensuring a smooth transition that minimizes disruptions to your payroll operations."
+	},
+	{
+		"name": "Payroll Disaster Recovery and Business Continuity",
+		"description": "This unit develops and maintains robust disaster recovery plans specifically for payroll operations. They ensure that your employees continue to receive timely and accurate pay even in the face of unforeseen events or system failures, safeguarding your company's reputation and employee satisfaction."
+	},
+	{
+		"name": "Payroll Fraud Detection and Prevention",
+		"description": "This specialized department employs advanced analytics and monitoring techniques to identify and prevent payroll fraud. They develop and implement controls to protect your company from various forms of payroll-related fraud, such as ghost employees or time theft."
+	},
+	{
+		"name": "Benefits Administration Integration",
+		"description": "This team focuses on integrating employee benefits data with payroll processing. They ensure accurate deductions for health insurance, retirement plans, and other benefits, while also managing complex calculations for items like flex spending accounts or health savings accounts."
+	},
+	{
+		"name": "Payroll Benchmarking and Optimization",
+		"description": "This department specializes in analyzing your payroll processes against industry best practices. They identify areas for improvement, recommend process optimizations, and help implement changes to enhance efficiency and reduce costs in your payroll operations."
+	},
+	{
+		"name": "Payroll Compliance Audit Support",
+		"description": "This unit provides specialized support during payroll compliance audits. They prepare necessary documentation, liaise with auditors, and manage the entire audit process to ensure smooth proceedings and favorable outcomes for your organization."
+	}
+]

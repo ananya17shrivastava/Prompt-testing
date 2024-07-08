@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Integrated Programming Team",
+		"description": "This specialized unit focuses on blending diverse functional requirements into cohesive mixed-use concepts. They orchestrate the delicate balance between residential, commercial, and public spaces, ensuring seamless integration and optimal synergy among different uses within a single development."
+	},
+	{
+		"name": "Vertical Zoning Specialists",
+		"description": "These experts navigate the complexities of stacking multiple functions within a single structure. They optimize space utilization, manage access points, and create efficient vertical circulation systems that cater to the unique needs of each use while maintaining overall harmony."
+	},
+	{
+		"name": "Placemaking and Public Realm Design",
+		"description": "This department crafts vibrant, engaging spaces that serve as the connective tissue between various uses. They focus on creating memorable experiences and fostering community interaction, which is crucial for the success of mixed-use developments."
+	},
+	{
+		"name": "Flexible Design Solutions Group",
+		"description": "This team develops adaptive architectural strategies that allow for easy reconfiguration of spaces over time. They ensure that the development can evolve with changing market demands and user preferences, maximizing long-term value and sustainability."
+	},
+	{
+		"name": "Mixed-Use Feasibility and Market Analysis",
+		"description": "This unit conducts comprehensive studies to determine the optimal mix of uses for a given location. They analyze market trends, demographic data, and economic factors to inform design decisions and ensure the development's long-term viability."
+	},
+	{
+		"name": "Cross-Functional Systems Integration",
+		"description": "This department specializes in harmonizing diverse building systems required for different uses. They develop innovative solutions for shared infrastructure, energy management, and smart building technologies that cater to the unique demands of each function within the development."
+	},
+	{
+		"name": "Tenant Mix Strategy",
+		"description": "This team works on curating the ideal combination of commercial tenants to create a thriving ecosystem within the development. They focus on attracting complementary businesses that enhance the overall user experience and drive foot traffic across different components of the project."
+	},
+	{
+		"name": "Live-Work-Play Concept Development",
+		"description": "This unit crafts holistic lifestyle solutions that seamlessly blend residential, work, and leisure spaces. They focus on creating environments that support modern, integrated lifestyles and foster a sense of community within the development."
+	},
+	{
+		"name": "Mixed-Use Sustainability and Wellness",
+		"description": "This department develops strategies to enhance the overall well-being of occupants across various uses. They implement green building practices, biophilic design elements, and wellness features that cater to the diverse needs of residents, workers, and visitors."
+	},
+	{
+		"name": "24/7 Activation Planning",
+		"description": "This team focuses on creating round-the-clock vibrancy within the development. They strategize ways to maintain activity and engagement across different times of day and week, ensuring the project remains lively and attractive to various user groups."
+	}
+]

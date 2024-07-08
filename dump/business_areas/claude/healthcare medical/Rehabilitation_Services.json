@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Functional Capacity Evaluation Unit",
+		"description": "This specialized department focuses on assessing patients' physical abilities and limitations in relation to their work or daily activities. It provides crucial data for developing targeted rehabilitation plans and determining return-to-work readiness, directly impacting both patient outcomes and organizational efficiency."
+	},
+	{
+		"name": "Adaptive Equipment and Assistive Technology Center",
+		"description": "This innovative department is dedicated to sourcing, customizing, and training patients on the use of adaptive devices and cutting-edge assistive technologies. It plays a pivotal role in enhancing patients' independence and quality of life, while also positioning your organization at the forefront of rehabilitation technology."
+	},
+	{
+		"name": "Vocational Rehabilitation Services",
+		"description": "This department bridges the gap between medical recovery and workforce reintegration. It offers tailored programs to help patients develop new skills, adapt to workplace modifications, or explore alternative career paths, ultimately contributing to improved long-term outcomes and reduced healthcare system burden."
+	},
+	{
+		"name": "Cognitive Rehabilitation Unit",
+		"description": "Focused on addressing cognitive impairments resulting from neurological conditions or injuries, this department employs specialized therapies and technologies to improve patients' memory, attention, and executive functioning. It represents a critical component in comprehensive brain injury rehabilitation programs."
+	},
+	{
+		"name": "Aquatic Therapy Center",
+		"description": "This purpose-built facility leverages the unique properties of water to provide low-impact, high-resistance exercises for patients with various conditions. It offers an alternative therapeutic environment that can accelerate recovery and expand your organization's treatment capabilities."
+	},
+	{
+		"name": "Driving Rehabilitation Program",
+		"description": "This specialized service assesses and retrains individuals who need to regain or adapt their driving skills following an injury or illness. It addresses a crucial aspect of patient independence and community reintegration, while also contributing to public safety."
+	},
+	{
+		"name": "Prosthetics and Orthotics Laboratory",
+		"description": "This in-house department focuses on the design, fabrication, and fitting of custom prosthetic limbs and orthotic devices. It allows for rapid, personalized solutions that can significantly enhance patient mobility and functionality, while also providing a potential revenue stream through innovation and patents."
+	},
+	{
+		"name": "Virtual Reality Rehabilitation Suite",
+		"description": "This cutting-edge department utilizes immersive technologies to create engaging, customizable rehabilitation exercises. It offers the potential for more effective and motivating therapy sessions, while also positioning your organization as a leader in technology-driven rehabilitation."
+	},
+	{
+		"name": "Home and Community Reintegration Unit",
+		"description": "This department specializes in preparing patients for the transition from inpatient care to independent living. It addresses practical challenges in patients' home and community environments, ensuring a smoother reintegration process and potentially reducing readmission rates."
+	},
+	{
+		"name": "Telerehabilitation Services",
+		"description": "This innovative department leverages digital technologies to provide remote rehabilitation services. It expands your organization's reach, improves access to care for patients in remote areas, and offers a cost-effective solution for long-term follow-up and maintenance therapy."
+	}
+]

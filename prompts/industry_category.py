@@ -1,11 +1,15 @@
 from typing import List, Dict
 import xml.etree.ElementTree as ET
 from db.mysql import fetch_prompt
+from typing import TypedDict
 
+class Prompt(TypedDict):
+    user_prompt: str
+    system_prompt: str
 
-def get_prompt(industry: str):
+def get_prompt(industry: str)-> Prompt:
     prompts = fetch_prompt("industry_category")
-    prompts[1] = prompts[1].replace("{{industry}}", industry)
+    prompts['system_prompt'] = prompts['system_prompt'].replace("{{industry}}", industry)
     # print(prompts)
     return prompts
 
@@ -14,6 +18,19 @@ def parser(llm_response: str) -> List[Dict[str, str]]:
     result = []
 
     for category in root.findall("INDUSTRY_CATEGORY"):
+        name = category.find('NAME').text
+        value = category.find('DESCRIPTION').text
+        # print(f"Name: {name}, Value: {value}")
+        result.append({"name": name, "description": value})
+
+    return result
+
+
+def business_parser(llm_response: str) -> List[Dict[str, str]]:
+    root = ET.fromstring(llm_response)
+    result = []
+
+    for category in root.findall("BUSINESS_AREA_NAME"):
         name = category.find('NAME').text
         value = category.find('DESCRIPTION').text
         # print(f"Name: {name}, Value: {value}")

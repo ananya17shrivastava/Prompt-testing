@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Commodity Transport Optimization",
+		"description": "This department focuses on maximizing efficiency in moving raw materials and finished products across various modes of transportation. It involves sophisticated modeling to balance cost, speed, and capacity constraints unique to bulk commodities like ores, minerals, and energy resources."
+	},
+	{
+		"name": "Remote Site Logistics",
+		"description": "Specializing in managing supply chains for isolated mining and energy extraction sites, this unit tackles the challenges of delivering equipment, personnel, and supplies to hard-to-reach locations. It requires expertise in extreme weather operations and often involves coordinating air, land, and sometimes sea transport."
+	},
+	{
+		"name": "Conveyor Systems Management",
+		"description": "This specialized department oversees the design, implementation, and maintenance of extensive conveyor belt systems used in mining operations. It's crucial for efficiently moving large volumes of extracted materials from pit to processing facilities or transport hubs."
+	},
+	{
+		"name": "Heavy Haul Rail Operations",
+		"description": "Focused on operating and maintaining dedicated rail networks for transporting bulk commodities, this unit manages specialized rolling stock, track infrastructure, and loading/unloading facilities designed for high-volume mineral and energy resource transport."
+	},
+	{
+		"name": "Slurry Pipeline Logistics",
+		"description": "This niche department handles the unique challenges of transporting minerals and ores in liquid form through pipelines. It involves managing pump stations, monitoring flow rates, and ensuring environmental compliance for this specialized form of material transport."
+	},
+	{
+		"name": "Port and Terminal Operations for Bulk Materials",
+		"description": "Overseeing the efficient loading and unloading of ships with bulk commodities, this unit manages specialized equipment like ship loaders, stockpile management systems, and coordinates with shipping lines for optimal vessel turnaround times."
+	},
+	{
+		"name": "Fly-In-Fly-Out (FIFO) Workforce Logistics",
+		"description": "This department manages the complex logistics of rotating workforces in remote mining and energy sites. It involves coordinating air charters, accommodation, and ground transport to ensure smooth crew changes and maintain operational continuity."
+	},
+	{
+		"name": "Dangerous Goods Transport Management",
+		"description": "Specializing in the safe transport of hazardous materials common in the resources sector, this unit ensures compliance with stringent regulations while optimizing routes and modes for materials like explosives, chemicals, and radioactive substances."
+	},
+	{
+		"name": "Mobile Equipment Relocation",
+		"description": "This department focuses on the logistics of moving large-scale mining and energy equipment between sites. It involves planning oversized loads, obtaining permits, and coordinating specialized transport for items like haul trucks, draglines, and drilling rigs."
+	},
+	{
+		"name": "In-Pit Logistics Coordination",
+		"description": "Managing the movement of materials within active mining operations, this unit optimizes the flow of ore and waste rock using a combination of haul trucks, conveyors, and other material handling systems to maximize extraction efficiency."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Sector Specialization Units",
+		"description": "Dedicated teams that focus exclusively on specific industries such as healthcare, energy, or telecommunications. They develop deep expertise in the nuances, regulations, and trends of their assigned sectors, allowing them to provide highly tailored strategic advice that generic consultants cannot match."
+	},
+	{
+		"name": "Regulatory Compliance Taskforces",
+		"description": "Specialized groups that stay abreast of industry-specific regulations and help clients navigate complex compliance landscapes. They're particularly crucial in heavily regulated industries like finance or pharmaceuticals, where non-compliance can result in severe penalties or reputational damage."
+	},
+	{
+		"name": "Industry Disruption Analysis Centers",
+		"description": "Forward-looking units that focus on identifying and analyzing potential disruptors in specific industries. They help clients anticipate and prepare for radical changes in their business environments, ensuring long-term sustainability and competitiveness."
+	},
+	{
+		"name": "Value Chain Optimization Departments",
+		"description": "Teams that specialize in analyzing and optimizing industry-specific value chains. They understand the unique challenges and opportunities within each sector's supply chain, helping clients streamline operations and maximize efficiency in ways that generalist consultants might overlook."
+	},
+	{
+		"name": "Industry-Specific Innovation Hubs",
+		"description": "Creative centers that focus on developing innovative solutions tailored to particular industries. They combine sector knowledge with cutting-edge technologies to create novel strategies that address industry-specific pain points and capitalize on emerging opportunities."
+	},
+	{
+		"name": "Competitive Intelligence Units",
+		"description": "Departments that provide in-depth analysis of industry-specific competitors and market dynamics. They offer insights that go beyond general market research, leveraging their deep understanding of sector-specific factors to give clients a true competitive edge."
+	},
+	{
+		"name": "Industry Convergence Strategy Teams",
+		"description": "Specialized groups that focus on areas where traditional industry boundaries are blurring. They help clients navigate the complexities of operating in evolving ecosystems, identifying new opportunities and potential threats as industries converge."
+	},
+	{
+		"name": "Sector-Specific Digital Transformation Squads",
+		"description": "Teams that specialize in how digitalization uniquely impacts and creates opportunities within specific industries. They help clients leverage digital technologies in ways that are most relevant and impactful for their particular sector."
+	},
+	{
+		"name": "Industry-Specific Sustainability Departments",
+		"description": "Units that focus on sustainability challenges and opportunities unique to particular industries. They help clients develop strategies that balance environmental and social responsibilities with profitability, considering sector-specific regulations and stakeholder expectations."
+	},
+	{
+		"name": "Cross-Industry Innovation Transfer Teams",
+		"description": "Unique departments that identify successful strategies or innovations from one industry and adapt them for use in another. They provide fresh perspectives and novel solutions by applying cross-pollinated ideas to industry-specific challenges."
+	}
+]

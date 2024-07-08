@@ -1,0 +1,42 @@
+[
+	{
+		"name": "University Relations Management",
+		"description": "This department focuses on building and maintaining strategic partnerships with target educational institutions. It's responsible for cultivating relationships with key university stakeholders, such as career services offices, faculty members, and student organizations. These connections are crucial for establishing a strong employer brand on campus and gaining preferential access to top talent."
+	},
+	{
+		"name": "Campus Event Planning and Execution",
+		"description": "This specialized team designs and implements campus-specific recruitment events, such as career fairs, information sessions, and networking mixers. They tailor these events to resonate with the unique culture of each institution, ensuring maximum engagement with potential candidates and effectively showcasing your company's opportunities to students."
+	},
+	{
+		"name": "Internship Program Development",
+		"description": "This department creates and manages comprehensive internship programs designed to attract and nurture student talent. They develop structured learning experiences that align with academic curricula, providing students with valuable real-world experience while allowing your company to evaluate potential future full-time hires in a low-risk environment."
+	},
+	{
+		"name": "Student Ambassador Program",
+		"description": "This innovative area focuses on identifying and training current employees or interns to serve as brand ambassadors on their respective campuses. These ambassadors act as liaisons between your company and the student body, providing peer-to-peer recruitment and enhancing your organization's visibility and appeal among potential candidates."
+	},
+	{
+		"name": "Academic Curriculum Integration",
+		"description": "This forward-thinking department works closely with university faculty to integrate real-world business challenges and projects into academic coursework. By collaborating on curriculum development, your company can showcase its expertise, identify top performers, and cultivate a talent pipeline aligned with your specific needs."
+	},
+	{
+		"name": "Campus-Specific Employer Branding",
+		"description": "This team develops targeted employer branding strategies tailored to resonate with the unique values and aspirations of student populations at different institutions. They create campus-specific marketing materials, social media campaigns, and messaging that highlight your company's culture, opportunities, and appeal to emerging professionals."
+	},
+	{
+		"name": "Early Talent Assessment Center",
+		"description": "This specialized unit designs and implements assessment methodologies specifically geared towards evaluating the potential of students and recent graduates. They develop campus-appropriate evaluation tools, such as case competitions, hackathons, and group exercises, to identify high-potential candidates who may not yet have extensive work experience."
+	},
+	{
+		"name": "Graduate Development Program Design",
+		"description": "This department creates structured, multi-year development programs designed to accelerate the growth of recent graduates within your organization. They map out rotational assignments, mentorship opportunities, and targeted training initiatives to nurture and retain top campus talent, grooming them for future leadership roles."
+	},
+	{
+		"name": "Campus Analytics and Insights",
+		"description": "This data-driven team focuses on analyzing the effectiveness of campus recruitment efforts across different institutions. They track key performance indicators, such as yield rates, quality of hires, and return on investment for various campus initiatives, providing actionable insights to optimize your campus recruitment strategy continually."
+	},
+	{
+		"name": "Student Engagement Technology",
+		"description": "This innovative department develops and implements cutting-edge technological solutions specifically designed to engage with student populations. They create interactive virtual campus tours, AI-powered chatbots for student inquiries, and gamified assessment tools that appeal to tech-savvy young professionals while streamlining the recruitment process."
+	}
+]

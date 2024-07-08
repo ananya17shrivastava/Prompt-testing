@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Competitive Intelligence Unit",
+		"description": "This specialized team focuses on gathering, analyzing, and interpreting data about your competitors and market landscape. They provide you with actionable insights to stay ahead of industry trends and outmaneuver rivals, ensuring your organization maintains a competitive edge in an ever-evolving business environment."
+	},
+	{
+		"name": "Strategic Transformation Office",
+		"description": "This department is dedicated to orchestrating large-scale organizational changes that align with your long-term vision. They work closely with you to identify opportunities for radical innovation, business model pivots, and disruptive strategies that can propel your company into new markets or revolutionize existing ones."
+	},
+	{
+		"name": "Corporate Portfolio Optimization Group",
+		"description": "This team specializes in evaluating and fine-tuning your company's portfolio of businesses, products, or services. They provide data-driven recommendations on which assets to invest in, divest, or reallocate resources to, ensuring your organization's portfolio is optimally balanced for maximum growth and profitability."
+	},
+	{
+		"name": "Blue Ocean Strategy Team",
+		"description": "This innovative unit focuses on identifying untapped market spaces and creating new demand. They work with you to develop strategies that move your organization away from saturated, highly competitive markets (red oceans) and towards uncontested market spaces (blue oceans), fostering rapid growth and high-profit margins."
+	},
+	{
+		"name": "Strategic Foresight Department",
+		"description": "This forward-thinking team employs advanced scenario planning and trend analysis techniques to anticipate future market shifts and disruptions. They provide you with long-term strategic guidance, helping your organization prepare for multiple potential futures and stay ahead of the curve in an uncertain business landscape."
+	},
+	{
+		"name": "M&A Strategy Integration Unit",
+		"description": "This specialized group focuses on the strategic aspects of mergers and acquisitions, beyond just financial considerations. They work with you to identify potential acquisition targets that align with your long-term vision, and develop integration strategies that maximize synergies and cultural fit, ensuring successful post-merger outcomes."
+	},
+	{
+		"name": "Ecosystem Strategy Division",
+		"description": "This innovative department helps you navigate the increasingly interconnected business world by developing strategies for creating, participating in, or leading business ecosystems. They provide guidance on forming strategic partnerships, platform strategies, and collaborative business models that can exponentially increase your organization's reach and impact."
+	},
+	{
+		"name": "Corporate Venture Strategy Team",
+		"description": "This unit specializes in developing strategies for corporate venture capital initiatives. They work with you to identify promising startups for investment or acquisition, align these opportunities with your organization's strategic goals, and create frameworks for successfully integrating external innovation into your company."
+	},
+	{
+		"name": "Geopolitical Strategy Advisory",
+		"description": "This expert team helps you navigate the complex interplay between business and geopolitics. They provide strategic advice on how global political events, policy changes, and international relations can impact your business, helping you make informed decisions in an increasingly volatile global landscape."
+	},
+	{
+		"name": "Sustainability Integration Strategy Group",
+		"description": "This forward-thinking department focuses on embedding sustainability into your core business strategy. They work with you to develop long-term plans that balance profitability with environmental and social responsibility, helping you future-proof your organization and capitalize on the growing demand for sustainable business practices."
+	}
+]

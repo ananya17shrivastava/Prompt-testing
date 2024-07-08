@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Ergonomic Solutions Division",
+		"description": "This department focuses on developing and sourcing cutting-edge ergonomic office equipment to enhance employee comfort and productivity. They stay ahead of workplace wellness trends, ensuring your company provides the most innovative solutions for employee health and efficiency."
+	},
+	{
+		"name": "Sustainable Office Materials Unit",
+		"description": "Dedicated to sourcing and promoting eco-friendly office supplies, this unit helps your company meet sustainability goals while maintaining operational efficiency. They identify and vet suppliers of recyclable, biodegradable, and low-impact materials to reduce your organization's environmental footprint."
+	},
+	{
+		"name": "Office Technology Integration Team",
+		"description": "This specialized team works on seamlessly integrating various office equipment with existing IT infrastructure. They ensure that printers, scanners, and other devices work harmoniously with your company's software systems, maximizing productivity and minimizing technical hiccups."
+	},
+	{
+		"name": "Custom Branding and Personalization Department",
+		"description": "Focused on elevating your company's brand presence through office supplies, this department creates bespoke solutions for branded stationery, promotional items, and customized office equipment. They help maintain a cohesive brand image across all touchpoints within the workplace."
+	},
+	{
+		"name": "Office Space Optimization Consultancy",
+		"description": "This unique consultancy service helps clients maximize their office space utilization through strategic equipment placement and supply management. They provide data-driven recommendations to enhance workflow and create more efficient work environments."
+	},
+	{
+		"name": "Equipment Lifecycle Management Division",
+		"description": "Specializing in the full lifecycle of office equipment, this division handles everything from initial procurement to maintenance, upgrades, and eventual recycling or disposal. They ensure your company always has the most appropriate and cost-effective equipment solutions."
+	},
+	{
+		"name": "Supply Chain Innovation Lab",
+		"description": "This forward-thinking unit experiments with new technologies and methodologies to streamline the supply chain for office equipment and supplies. They work on implementing cutting-edge solutions like IoT-enabled inventory management and predictive analytics for supply forecasting."
+	},
+	{
+		"name": "Workplace Acoustics and Privacy Solutions Team",
+		"description": "Addressing the growing need for sound management in open office layouts, this team develops and sources innovative products to enhance acoustic comfort and privacy. They provide solutions ranging from sound-absorbing materials to white noise systems and privacy booths."
+	},
+	{
+		"name": "Adaptive Office Equipment Division",
+		"description": "Focused on inclusivity, this division specializes in sourcing and developing office equipment and supplies that cater to employees with diverse abilities. They ensure your workplace is accessible and comfortable for all team members, regardless of physical capabilities."
+	},
+	{
+		"name": "Office Air Quality and Sanitization Unit",
+		"description": "In response to growing health concerns, this unit focuses on equipment and supplies that improve indoor air quality and maintain a hygienic office environment. They source advanced air purification systems, touchless equipment, and antimicrobial office supplies to create a healthier workplace."
+	}
+]

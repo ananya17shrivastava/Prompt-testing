@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Historical Preservation Unit",
+		"description": "This specialized team focuses on maintaining the authenticity and integrity of historically significant structures. They possess in-depth knowledge of period-specific construction techniques, materials, and architectural styles, ensuring that renovations align with historical accuracy while meeting modern safety standards."
+	},
+	{
+		"name": "Architectural Salvage Department",
+		"description": "This department is responsible for identifying, recovering, and repurposing valuable architectural elements from buildings slated for demolition or extensive renovation. They play a crucial role in preserving historical artifacts and reducing waste, while also providing unique materials for restoration projects."
+	},
+	{
+		"name": "Material Matching and Replication Division",
+		"description": "This highly specialized unit excels in sourcing or custom-creating materials that match the original components of a structure. They utilize advanced techniques to replicate everything from ornate moldings to vintage tiles, ensuring seamless integration of new elements with existing architecture."
+	},
+	{
+		"name": "Conservation Science Laboratory",
+		"description": "This cutting-edge facility employs experts in material science and chemistry to analyze and develop preservation strategies for delicate or deteriorating building components. They conduct in-depth studies on material degradation and devise innovative solutions to extend the lifespan of historical structures."
+	},
+	{
+		"name": "Period-Specific Craftsmanship Training Center",
+		"description": "This unique educational arm of the organization focuses on preserving and passing down traditional building techniques and artisanal skills. It ensures that the company maintains a workforce capable of executing authentic restorations across various historical periods."
+	},
+	{
+		"name": "Adaptive Reuse Planning Team",
+		"description": "This forward-thinking group specializes in reimagining and repurposing historical structures for modern use. They balance preservation requirements with contemporary needs, creating innovative designs that breathe new life into old buildings while respecting their historical significance."
+	},
+	{
+		"name": "Heritage Compliance and Liaison Office",
+		"description": "This department navigates the complex regulatory landscape surrounding historical renovations. They work closely with local preservation societies, government agencies, and other stakeholders to ensure projects meet all legal and ethical standards for historical preservation."
+	},
+	{
+		"name": "Archival Research and Documentation Unit",
+		"description": "This team of historians and researchers delves into historical records, photographs, and architectural drawings to inform accurate restorations. They also meticulously document ongoing projects, creating valuable resources for future preservation efforts."
+	},
+	{
+		"name": "Non-Invasive Assessment Technologies Division",
+		"description": "This high-tech unit employs advanced, non-destructive testing methods such as ground-penetrating radar, infrared thermography, and 3D laser scanning to assess structural integrity and hidden features of historical buildings without causing damage."
+	},
+	{
+		"name": "Patina Preservation and Restoration Workshop",
+		"description": "This specialized workshop focuses on maintaining or recreating the natural aging process of materials. They employ techniques to preserve or simulate the weathered appearance of surfaces, ensuring renovated elements blend seamlessly with the existing patina of historical structures."
+	}
+]

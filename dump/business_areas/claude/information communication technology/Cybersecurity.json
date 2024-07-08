@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Threat Intelligence",
+		"description": "This department focuses on gathering, analyzing, and disseminating information about current and potential cybersecurity threats. It provides crucial insights to help organizations stay ahead of emerging risks and adapt their security strategies accordingly."
+	},
+	{
+		"name": "Incident Response",
+		"description": "This team is responsible for managing and mitigating cybersecurity incidents when they occur. They develop and implement response plans, conduct forensic investigations, and work to minimize damage and restore normal operations as quickly as possible."
+	},
+	{
+		"name": "Penetration Testing",
+		"description": "Also known as \"ethical hacking,\" this department simulates real-world cyberattacks to identify vulnerabilities in an organization's systems and networks. Their findings help strengthen overall security posture and prevent potential breaches."
+	},
+	{
+		"name": "Security Operations Center (SOC)",
+		"description": "The SOC serves as the central hub for monitoring and managing an organization's cybersecurity operations. This team continuously monitors networks, systems, and applications for potential security threats and responds to alerts in real-time."
+	},
+	{
+		"name": "Vulnerability Management",
+		"description": "This department is responsible for identifying, assessing, and prioritizing security vulnerabilities across an organization's IT infrastructure. They work to patch and mitigate these vulnerabilities to reduce the risk of exploitation by threat actors."
+	},
+	{
+		"name": "Cryptography",
+		"description": "This specialized team focuses on developing and implementing encryption algorithms and protocols to protect sensitive data and communications. They play a crucial role in ensuring the confidentiality and integrity of information assets."
+	},
+	{
+		"name": "Security Compliance",
+		"description": "This department ensures that an organization's cybersecurity practices align with relevant industry standards, regulations, and legal requirements. They conduct audits, develop policies, and manage the implementation of security controls to maintain compliance."
+	},
+	{
+		"name": "Identity and Access Management (IAM)",
+		"description": "The IAM team is responsible for managing user identities, authentication processes, and access controls across an organization's systems and applications. They work to ensure that only authorized individuals can access sensitive resources."
+	},
+	{
+		"name": "Security Awareness Training",
+		"description": "This department develops and delivers cybersecurity education programs for employees at all levels of the organization. They aim to create a culture of security awareness and reduce the risk of human error-related security incidents."
+	},
+	{
+		"name": "Cloud Security",
+		"description": "As organizations increasingly adopt cloud technologies, this team focuses on securing cloud-based infrastructure, applications, and data. They develop strategies to address unique security challenges associated with cloud environments."
+	},
+	{
+		"name": "IoT Security",
+		"description": "With the proliferation of Internet of Things (IoT) devices, this department specializes in securing connected devices and their ecosystems. They address unique challenges related to device authentication, data protection, and network segmentation in IoT environments."
+	},
+	{
+		"name": "Cyber Threat Hunting",
+		"description": "This proactive team actively searches for hidden threats within an organization's networks and systems. They use advanced analytics and threat intelligence to identify and neutralize potential security breaches before they can cause significant damage."
+	},
+	{
+		"name": "Security Architecture",
+		"description": "This department designs and maintains the overall security infrastructure of an organization. They develop security frameworks, select appropriate technologies, and ensure that security measures are integrated seamlessly across all systems and processes."
+	},
+	{
+		"name": "Red Team Operations",
+		"description": "This specialized group simulates advanced, persistent threats to test an organization's detection and response capabilities. They conduct long-term, multi-faceted attack simulations to identify weaknesses in security defenses and processes."
+	},
+	{
+		"name": "Cyber Insurance and Risk Management",
+		"description": "This team assesses and quantifies cybersecurity risks, develops risk mitigation strategies, and manages cyber insurance policies. They play a crucial role in helping organizations understand and manage their cybersecurity risk exposure."
+	}
+]

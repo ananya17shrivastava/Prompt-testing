@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Power Systems Design and Integration",
+		"description": "This department focuses on developing large-scale electrical power generation, transmission, and distribution systems. It's crucial for ensuring reliable energy supply to cities, industries, and infrastructure projects."
+	},
+	{
+		"name": "Electromagnetic Compatibility (EMC) Testing",
+		"description": "This specialized unit conducts tests to ensure electronic devices don't interfere with each other or other electrical systems. It's essential for product compliance and quality assurance in an increasingly connected world."
+	},
+	{
+		"name": "Microelectronics Fabrication",
+		"description": "This high-tech department designs and produces miniaturized electronic circuits and components. It's at the forefront of technological advancement, driving innovations in consumer electronics, medical devices, and aerospace applications."
+	},
+	{
+		"name": "Smart Grid Technology",
+		"description": "This forward-thinking division develops intelligent power distribution systems that can self-monitor and optimize energy flow. It's key to modernizing power infrastructure and integrating renewable energy sources."
+	},
+	{
+		"name": "Electric Vehicle Powertrain Development",
+		"description": "This cutting-edge department focuses on designing and optimizing electric motors, battery systems, and power electronics for the rapidly growing electric vehicle market. It's crucial for automotive innovation and sustainability initiatives."
+	},
+	{
+		"name": "Photovoltaic Systems Engineering",
+		"description": "This specialized unit designs and implements solar power systems, from small-scale residential installations to large solar farms. It's vital for the transition to renewable energy sources and reducing carbon footprints."
+	},
+	{
+		"name": "Superconductivity Applications",
+		"description": "This advanced research department explores and develops applications for superconducting materials, which could revolutionize power transmission, medical imaging, and transportation sectors."
+	},
+	{
+		"name": "Electrical Insulation and Dielectrics",
+		"description": "This critical department focuses on developing and testing materials that prevent unwanted current flow in electrical systems. It's essential for safety and efficiency in power distribution and electronic device manufacturing."
+	},
+	{
+		"name": "Optoelectronics Design",
+		"description": "This innovative unit develops devices that source, detect, and control light, such as LEDs, laser diodes, and optical sensors. It's crucial for advancements in telecommunications, display technologies, and photonics."
+	},
+	{
+		"name": "Power Electronics and Motor Drives",
+		"description": "This department specializes in designing systems that control and convert electrical power for various applications, from industrial machinery to renewable energy systems. It's key to improving energy efficiency across multiple sectors."
+	},
+	{
+		"name": "Electromagnetic Field Analysis",
+		"description": "This advanced unit uses computational methods to analyze and predict electromagnetic field behavior in various systems. It's critical for antenna design, EMC compliance, and optimizing electrical equipment performance."
+	},
+	{
+		"name": "Electrical Bioengineering",
+		"description": "This interdisciplinary department applies electrical engineering principles to biological systems, developing technologies like neural interfaces and bioelectronic medicine. It's at the forefront of merging healthcare with cutting-edge technology."
+	}
+]

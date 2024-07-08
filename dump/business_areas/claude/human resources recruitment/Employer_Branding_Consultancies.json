@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Employer Brand Strategy Development",
+		"description": "This department focuses on crafting tailored strategies to enhance an organization's reputation as an employer of choice. They analyze current perceptions, identify key differentiators, and develop comprehensive plans to position the company as an attractive workplace in the competitive talent market."
+	},
+	{
+		"name": "Employee Value Proposition (EVP) Design",
+		"description": "Specialists in this area work on creating compelling EVPs that articulate the unique benefits and experiences offered to employees. They conduct in-depth research to uncover what truly matters to target talent pools and translate these insights into powerful messaging that resonates with potential candidates."
+	},
+	{
+		"name": "Employer Brand Identity Creation",
+		"description": "This creative team develops visual and verbal elements that bring the employer brand to life. They craft logos, color schemes, and design guidelines specifically for talent acquisition purposes, ensuring consistency across all employer branding touchpoints while aligning with the overall corporate identity."
+	},
+	{
+		"name": "Candidate Journey Mapping",
+		"description": "Experts here analyze and optimize the entire candidate experience, from initial awareness to onboarding. They identify pain points, opportunities for improvement, and design seamless, engaging interactions that reflect the employer brand at every stage of the recruitment process."
+	},
+	{
+		"name": "Internal Brand Activation",
+		"description": "This department focuses on embedding the employer brand within the organization. They develop strategies and initiatives to ensure current employees become brand ambassadors, creating a culture that authentically reflects the employer brand promise."
+	},
+	{
+		"name": "Employer Brand Content Studio",
+		"description": "This creative hub produces a wide range of employer branding content, including employee stories, day-in-the-life videos, culture showcases, and behind-the-scenes glimpses. They craft compelling narratives that bring the employer brand to life across various media channels."
+	},
+	{
+		"name": "Employer Brand Measurement and Analytics",
+		"description": "This data-driven team develops metrics and KPIs to measure the effectiveness of employer branding initiatives. They track brand perception, candidate quality, employee engagement, and other relevant factors to demonstrate ROI and guide strategy refinement."
+	},
+	{
+		"name": "Talent Competitor Intelligence",
+		"description": "This department conducts ongoing research on competitors' employer branding strategies, talent acquisition methods, and employee offerings. They provide valuable insights to help clients stay ahead in the war for talent and differentiate themselves effectively."
+	},
+	{
+		"name": "Employer Brand Training and Workshops",
+		"description": "This team designs and delivers customized training programs to help clients' HR teams, recruiters, and hiring managers effectively communicate and embody the employer brand. They ensure consistent brand representation across all candidate touchpoints."
+	},
+	{
+		"name": "Employer Brand Crisis Management",
+		"description": "This specialized unit helps organizations navigate and mitigate potential damage to their employer brand during challenging times. They develop strategies to address negative reviews, handle layoffs sensitively, and manage other situations that could impact employer reputation."
+	},
+	{
+		"name": "Diversity and Inclusion Branding",
+		"description": "Experts in this area focus on incorporating diversity, equity, and inclusion (DEI) principles into the employer brand. They develop strategies to authentically showcase the organization's commitment to DEI and attract a diverse talent pool."
+	},
+	{
+		"name": "Employer Brand Localization",
+		"description": "This team adapts global employer branding strategies for local markets, ensuring cultural relevance and resonance. They navigate the complexities of different cultural contexts while maintaining overall brand consistency across regions."
+	}
+]

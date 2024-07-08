@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Academic Affairs",
+		"description": "This department oversees the core educational mission of the institution, managing curriculum development, faculty appointments, and academic policies. It ensures the institution maintains high academic standards and aligns with accreditation requirements."
+	},
+	{
+		"name": "Research Administration",
+		"description": "Responsible for managing and supporting the institution's research activities, this department handles grant applications, research compliance, and intellectual property matters. It plays a crucial role in advancing the institution's research profile and securing funding."
+	},
+	{
+		"name": "Student Life and Campus Housing",
+		"description": "This area focuses on creating a holistic student experience outside the classroom, managing dormitories, student organizations, and campus events. It's essential for fostering a vibrant campus community and supporting student retention."
+	},
+	{
+		"name": "Alumni Relations",
+		"description": "This department maintains connections with graduates, organizing events, and leveraging alumni networks for institutional advancement. It's crucial for long-term engagement and potential fundraising opportunities."
+	},
+	{
+		"name": "Athletics Department",
+		"description": "Unique to many higher education institutions, this department manages sports teams, facilities, and compliance with athletic associations. It can be a significant source of revenue and brand visibility for the institution."
+	},
+	{
+		"name": "University Press",
+		"description": "Some institutions operate their own publishing houses, disseminating scholarly works and enhancing the institution's academic reputation. This department manages the entire publishing process, from manuscript selection to distribution."
+	},
+	{
+		"name": "Technology Transfer Office",
+		"description": "This office facilitates the commercialization of research discoveries and inventions developed within the institution. It manages patent applications, licensing agreements, and partnerships with industry."
+	},
+	{
+		"name": "Institutional Research",
+		"description": "This department collects, analyzes, and reports data about the institution's performance, student outcomes, and market position. It provides crucial insights for strategic decision-making and regulatory reporting."
+	},
+	{
+		"name": "Continuing Education",
+		"description": "This department focuses on providing educational opportunities for non-traditional students and working professionals. It often operates separately from traditional academic programs, offering certificates, workshops, and non-degree courses."
+	},
+	{
+		"name": "International Student Services",
+		"description": "This office supports the unique needs of international students, managing visa requirements, cultural adaptation programs, and compliance with immigration regulations."
+	},
+	{
+		"name": "Career Services",
+		"description": "While common in other educational settings, higher education career services are uniquely focused on post-graduate employment and often maintain relationships with graduate schools and major employers."
+	},
+	{
+		"name": "Endowment Management",
+		"description": "This function oversees the institution's long-term financial assets, making investment decisions to support the institution's financial sustainability and fund strategic initiatives."
+	},
+	{
+		"name": "Accreditation and Assessment",
+		"description": "This department ensures the institution meets and maintains accreditation standards, coordinating self-studies and external reviews. It's critical for the institution's credibility and ability to offer recognized degrees."
+	}
+]

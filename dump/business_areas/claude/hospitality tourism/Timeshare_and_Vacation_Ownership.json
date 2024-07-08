@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Timeshare Sales and Marketing",
+		"description": "This department focuses on the unique challenge of selling fractional ownership in vacation properties. It requires specialized strategies to communicate the value proposition of long-term vacation commitments and shared ownership models to potential buyers."
+	},
+	{
+		"name": "Owner Services",
+		"description": "Dedicated to managing relationships with timeshare owners, this department handles owner communications, reservation assistance, and resolves ownership-related issues. It's crucial for maintaining customer satisfaction and loyalty in a long-term ownership model."
+	},
+	{
+		"name": "Exchange Program Management",
+		"description": "This area oversees partnerships with exchange companies and manages the process of allowing owners to trade their timeshare weeks or points for stays at other properties within a network. It's a key differentiator in the timeshare industry that enhances product flexibility."
+	},
+	{
+		"name": "Timeshare Financing",
+		"description": "Specializing in providing financing options for timeshare purchases, this department develops and manages unique lending products tailored to the timeshare industry's needs, often involving long-term payment plans."
+	},
+	{
+		"name": "Deed and Title Management",
+		"description": "This department handles the complex legal aspects of timeshare ownership, managing property deeds, titles, and ensuring compliance with local real estate laws specific to fractional ownership."
+	},
+	{
+		"name": "Points System Administration",
+		"description": "For companies using a points-based system, this area manages the allocation, tracking, and redemption of vacation points, ensuring fair usage and availability across the owner base."
+	},
+	{
+		"name": "Resale and Secondary Market Operations",
+		"description": "This department manages the resale of timeshare units, either on behalf of the company or assisting owners in reselling their timeshares, navigating the unique challenges of the timeshare secondary market."
+	},
+	{
+		"name": "Timeshare Property Development",
+		"description": "Focused on identifying, acquiring, and developing properties specifically for timeshare use, this area requires expertise in creating spaces that cater to the unique needs of shared ownership and high-turnover occupancy."
+	},
+	{
+		"name": "Vacation Club Management",
+		"description": "This department oversees the operation of vacation clubs, managing membership programs, benefits, and ensuring the delivery of promised vacation experiences to club members."
+	},
+	{
+		"name": "Owner Education and Onboarding",
+		"description": "Specialized in educating new timeshare owners about their purchase, usage rights, and how to maximize their ownership benefits, this area is crucial for owner satisfaction and reducing post-purchase dissonance."
+	},
+	{
+		"name": "Inventory Management and Forecasting",
+		"description": "This department manages the complex task of balancing owner usage rights with rental availability, requiring sophisticated forecasting models unique to the timeshare industry's cyclical nature."
+	},
+	{
+		"name": "Exit Program Management",
+		"description": "A relatively new area in the industry, this department manages programs designed to provide ethical and structured ways for owners to exit their timeshare contracts, addressing a key industry challenge."
+	}
+]

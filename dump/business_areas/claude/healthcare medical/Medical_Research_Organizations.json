@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Translational Research Unit",
+		"description": "This department bridges the gap between laboratory discoveries and clinical applications. It focuses on transforming scientific findings into practical medical solutions, accelerating the \"bench-to-bedside\" process. This unit is crucial for ensuring that groundbreaking research translates into tangible patient benefits."
+	},
+	{
+		"name": "Clinical Trials Management",
+		"description": "Dedicated to designing, implementing, and overseeing clinical trials, this department is the backbone of medical research organizations. It manages all aspects of human studies, from protocol development to data analysis, ensuring compliance with regulatory standards and ethical guidelines."
+	},
+	{
+		"name": "Biospecimen Repository",
+		"description": "This specialized unit manages the collection, processing, storage, and distribution of biological samples. It's a critical resource for researchers, providing high-quality, well-characterized specimens that fuel scientific discoveries and support personalized medicine initiatives."
+	},
+	{
+		"name": "Bioinformatics and Data Science Division",
+		"description": "This cutting-edge department leverages advanced computational tools to analyze complex biological data. It plays a pivotal role in interpreting large-scale genomic, proteomic, and metabolomic datasets, driving insights that can lead to new therapeutic targets and diagnostic tools."
+	},
+	{
+		"name": "Research Ethics and Compliance Office",
+		"description": "Unique to research organizations, this department ensures all studies adhere to ethical standards and regulatory requirements. It oversees institutional review boards, manages conflicts of interest, and maintains the integrity of research processes."
+	},
+	{
+		"name": "Grant Writing and Management",
+		"description": "This specialized unit focuses on securing and managing research funding. It crafts compelling grant proposals, liaises with funding bodies, and ensures proper allocation and reporting of research funds, which is crucial for sustaining long-term research initiatives."
+	},
+	{
+		"name": "Technology Transfer Office",
+		"description": "This department manages the organization's intellectual property portfolio. It identifies patentable discoveries, negotiates licensing agreements, and facilitates the commercialization of research outcomes, bridging the gap between academic research and industry applications."
+	},
+	{
+		"name": "Core Facilities Management",
+		"description": "This unit oversees shared research resources and cutting-edge technologies. It manages specialized equipment and services, such as next-generation sequencing or high-throughput screening facilities, ensuring efficient utilization and maintenance of costly research infrastructure."
+	},
+	{
+		"name": "Preclinical Research Division",
+		"description": "This department focuses on animal studies and in vitro experiments that precede human trials. It's responsible for early-stage drug development, toxicology studies, and proof-of-concept research, providing crucial data for advancing potential therapies to clinical trials."
+	},
+	{
+		"name": "Research Participant Recruitment and Engagement",
+		"description": "This specialized unit focuses on identifying, recruiting, and retaining study participants. It develops strategies to engage diverse populations in clinical research, addressing one of the most challenging aspects of conducting successful clinical trials."
+	},
+	{
+		"name": "Scientific Communications and Outreach",
+		"description": "This department is responsible for disseminating research findings to the scientific community and the public. It manages scientific publications, conference presentations, and public engagement initiatives, enhancing the organization's reputation and impact in the field."
+	},
+	{
+		"name": "Regulatory Affairs for Research",
+		"description": "This unit navigates the complex landscape of research regulations. It ensures compliance with national and international research standards, manages regulatory submissions for clinical trials, and liaises with regulatory bodies to facilitate smooth research operations."
+	}
+]

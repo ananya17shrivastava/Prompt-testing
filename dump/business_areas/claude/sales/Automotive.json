@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Vehicle Configuration Systems",
+		"description": "This department focuses on developing and maintaining sophisticated software platforms that allow customers to customize their vehicles online. These systems need to be user-friendly while accurately reflecting available options, pricing, and inventory. They're crucial for modern automotive sales, as they bridge the gap between digital browsing and in-dealership purchases."
+	},
+	{
+		"name": "Automotive Finance and Insurance (F&I)",
+		"description": "While many industries have finance departments, the automotive F&I division is unique in its complexity. This team specializes in creating and managing a wide array of financing options, extended warranties, and insurance products specifically tailored to vehicle purchases. They play a critical role in maximizing profitability per unit sold."
+	},
+	{
+		"name": "Fleet Sales Division",
+		"description": "This specialized department caters to bulk vehicle sales for corporate clients, government agencies, and rental companies. They require a deep understanding of fleet management needs, volume pricing strategies, and long-term service agreements that are specific to the automotive industry."
+	},
+	{
+		"name": "Certified Pre-Owned (CPO) Programs",
+		"description": "This unit manages the certification process for used vehicles, a concept unique to automotive sales. They oversee rigorous inspection protocols, refurbishment processes, and warranty programs that add value to pre-owned vehicles, creating a distinct market segment between new and used car sales."
+	},
+	{
+		"name": "Automotive Remarketing",
+		"description": "This department handles the strategic resale of off-lease, fleet, and rental vehicles. They utilize industry-specific channels like auto auctions and dealer-only platforms to optimize the value recovery of vehicles returning to the market."
+	},
+	{
+		"name": "In-Vehicle Technology Integration",
+		"description": "As vehicles become more technologically advanced, this team ensures that sales staff are well-versed in explaining complex in-car systems to customers. They also work on strategies to upsell technology packages and connected services unique to the automotive sector."
+	},
+	{
+		"name": "Electric Vehicle (EV) Transition Management",
+		"description": "This emerging department focuses on managing the shift towards electric vehicles. They develop strategies for educating both sales teams and customers about EV technology, charging infrastructure, and government incentives specific to electric cars."
+	},
+	{
+		"name": "Dealership Network Management",
+		"description": "Unlike many other industries, automotive sales often rely heavily on independent dealership networks. This department manages these complex relationships, ensuring brand consistency, setting sales targets, and providing support across a geographically dispersed network of semi-autonomous sales points."
+	},
+	{
+		"name": "Automotive Trade-In Valuation",
+		"description": "This specialized unit develops and maintains systems for accurately valuing trade-in vehicles. They use industry-specific tools and databases to assess vehicle condition, market demand, and depreciation factors unique to the automotive market."
+	},
+	{
+		"name": "Service Contract Sales",
+		"description": "While many industries offer warranties, the automotive sector has a distinct department focused on selling complex, long-term service contracts. These teams develop and market comprehensive care packages that cover maintenance, repairs, and roadside assistance, often extending well beyond standard warranty periods."
+	},
+	{
+		"name": "Mobility Solutions Division",
+		"description": "As the automotive industry evolves, this forward-thinking department explores and develops new business models beyond traditional car ownership. They focus on services like car-sharing, subscription-based vehicle access, and integrated mobility platforms that are reshaping the automotive sales landscape."
+	}
+]

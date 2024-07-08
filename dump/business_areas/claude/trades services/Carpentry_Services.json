@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Custom Millwork Division",
+		"description": "This specialized department focuses on creating bespoke wooden components and fixtures. It caters to high-end clients seeking unique, made-to-order items such as custom cabinetry, ornate moldings, or intricate wooden staircases. This division requires highly skilled craftsmen and state-of-the-art woodworking machinery to deliver premium products that set your carpentry services apart from general contractors."
+	},
+	{
+		"name": "Timber Frame Construction Unit",
+		"description": "This niche department specializes in the design and construction of timber frame structures. It combines traditional woodworking techniques with modern engineering principles to create stunning, durable buildings. This unit requires expertise in structural timber design, joinery techniques, and an understanding of load-bearing wood construction, offering a unique service that bridges historical craftsmanship with contemporary architecture."
+	},
+	{
+		"name": "Wood Restoration and Preservation Team",
+		"description": "This specialized group focuses on the restoration and preservation of wooden structures and artifacts. They possess expertise in identifying wood types, understanding decay mechanisms, and applying appropriate restoration techniques. This team is crucial for projects involving historical buildings, antique furniture restoration, or the rehabilitation of wooden structures damaged by time or environmental factors."
+	},
+	{
+		"name": "Sustainable Woodworking Department",
+		"description": "This forward-thinking division concentrates on eco-friendly carpentry practices. It sources responsibly harvested timber, utilizes reclaimed wood, and implements zero-waste production methods. This department also explores innovative, sustainable materials like bamboo or engineered wood products, positioning your company at the forefront of green building practices in the carpentry sector."
+	},
+	{
+		"name": "CNC Woodworking and Digital Fabrication Unit",
+		"description": "This high-tech department leverages computer numerical control (CNC) machinery and digital design tools to produce precise, complex wooden components. It bridges traditional carpentry with modern manufacturing techniques, allowing for the creation of intricate designs and patterns that would be challenging or impossible to achieve manually. This unit can significantly enhance productivity and open up new design possibilities for your carpentry services."
+	},
+	{
+		"name": "Wood Species Specialization Team",
+		"description": "This unique department focuses on working with specific wood species, particularly rare or challenging types. The team possesses in-depth knowledge of the properties, handling, and finishing techniques for various wood species. This expertise allows your company to take on specialized projects that require working with exotic hardwoods, reclaimed timber, or wood types with unique characteristics, setting you apart in the market."
+	},
+	{
+		"name": "Architectural Woodwork Consulting Division",
+		"description": "This advisory unit provides expert consultation on integrating woodwork into architectural designs. They collaborate with architects and designers to ensure wooden elements complement and enhance overall building aesthetics and functionality. This division positions your company as thought leaders in the intersection of carpentry and architecture, potentially leading to high-value contracts and partnerships."
+	},
+	{
+		"name": "Wood Upcycling and Repurposing Department",
+		"description": "This innovative division focuses on transforming discarded wooden materials into valuable products. They specialize in sourcing and repurposing old timber, creating unique furniture pieces, or incorporating reclaimed wood into new construction projects. This department not only contributes to sustainability efforts but also taps into the growing market for products with character and history."
+	},
+	{
+		"name": "Traditional Joinery and Hand Tools Workshop",
+		"description": "This specialized workshop preserves and practices traditional carpentry techniques using hand tools and classic joinery methods. It caters to clients seeking authentically crafted wooden products or historical reproductions. This department differentiates your services by offering a blend of heritage craftsmanship in an industry increasingly dominated by machine-produced work."
+	},
+	{
+		"name": "Wood-Based Acoustic Solutions Team",
+		"description": "This niche department specializes in designing and implementing wooden acoustic solutions for various spaces. They combine carpentry skills with acoustic engineering principles to create custom wood paneling, diffusers, and resonators. This unique offering can position your company as experts in enhancing sound quality in concert halls, recording studios, or high-end residential spaces through carpentry."
+	}
+]

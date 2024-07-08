@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Grant Management and Compliance",
+		"description": "This department focuses on the intricate process of managing grants, which are a crucial funding source for many non-profits. It ensures compliance with grant requirements, tracks spending, and prepares detailed reports for grantors. This area is critical for maintaining funding streams and demonstrating responsible stewardship of resources."
+	},
+	{
+		"name": "Donor Fund Accounting",
+		"description": "This specialized area manages the complex task of tracking and reporting on funds from various donors, each potentially with different restrictions or designations. It ensures that donor intentions are honored and that funds are used appropriately, maintaining transparency and trust with your supporter base."
+	},
+	{
+		"name": "Volunteer Value Accounting",
+		"description": "This unique department quantifies and reports on the economic value of volunteer contributions. By assigning monetary values to volunteer hours and skills, it provides a more comprehensive picture of your organization's true operational scale and impact, which can be crucial for fundraising and stakeholder reporting."
+	},
+	{
+		"name": "Program-Based Budgeting and Reporting",
+		"description": "This area focuses on aligning financial resources with specific programs or missions, rather than traditional departmental structures. It allows for clearer tracking of how funds are used to achieve your organization's goals, providing valuable insights for strategic decision-making and impact assessment."
+	},
+	{
+		"name": "In-Kind Donations Management",
+		"description": "This department specializes in valuing, tracking, and reporting non-cash donations, which can be a significant portion of a non-profit's support. It ensures proper recognition of these contributions and compliance with relevant accounting standards, enhancing your organization's financial transparency."
+	},
+	{
+		"name": "Restricted Fund Monitoring",
+		"description": "This critical area oversees funds that donors or grantors have designated for specific purposes. It ensures that these funds are used as intended and not commingled with general operating funds, maintaining your organization's integrity and compliance with donor wishes."
+	},
+	{
+		"name": "Tax-Exempt Status Compliance",
+		"description": "This department focuses on maintaining your organization's tax-exempt status by ensuring compliance with relevant regulations. It oversees activities to prevent jeopardizing your status, manages required filings, and advises on potential risks to your tax-exempt designation."
+	},
+	{
+		"name": "Functional Expense Allocation",
+		"description": "This specialized area manages the complex task of allocating expenses across program services, management and general, and fundraising categories. This allocation is crucial for accurate financial statements and for demonstrating to stakeholders how resources are being used to further your mission."
+	},
+	{
+		"name": "Pledge Accounting",
+		"description": "This department manages the unique accounting challenges associated with pledge promises, including multi-year pledges. It ensures proper recognition of revenue, manages pledge receivables, and accounts for the probability of collection, providing a more accurate picture of your organization's financial position."
+	},
+	{
+		"name": "Endowment Fund Management",
+		"description": "This area oversees the accounting for endowment funds, including tracking principal amounts, investment returns, and spending rates. It ensures compliance with donor restrictions and relevant laws, while also providing crucial information for long-term financial planning and sustainability."
+	}
+]

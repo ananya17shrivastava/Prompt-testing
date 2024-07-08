@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Rapid Response Unit",
+		"description": "A specialized team dedicated to immediate crisis intervention. This unit mobilizes quickly to assess the situation, stabilize operations, and implement short-term measures to prevent further damage. They're your first line of defense when time is of the essence."
+	},
+	{
+		"name": "Stakeholder Communication Hub",
+		"description": "A centralized department focused on managing crisis-related communications with all stakeholders. They craft and disseminate timely, transparent messages to maintain trust and mitigate reputational damage during turbulent times."
+	},
+	{
+		"name": "Liquidity Management Center",
+		"description": "Experts in this area focus on rapid cash flow optimization and emergency funding strategies. They work to ensure your organization remains financially viable during crises, exploring unconventional financing options and aggressive cost-cutting measures."
+	},
+	{
+		"name": "Operational Triage Division",
+		"description": "This team specializes in quickly identifying and addressing critical operational weaknesses exposed by a crisis. They prioritize and streamline core business functions to maintain essential operations under duress."
+	},
+	{
+		"name": "Regulatory Compliance Taskforce",
+		"description": "A group dedicated to navigating the complex regulatory landscape during crises, especially in highly regulated industries. They ensure your organization remains compliant while implementing rapid changes, minimizing legal risks during turnaround efforts."
+	},
+	{
+		"name": "Cultural Transformation Unit",
+		"description": "Experts who focus on reshaping organizational culture to support turnaround efforts. They work to align employee mindsets with new strategic directions, fostering resilience and adaptability in the face of significant change."
+	},
+	{
+		"name": "Crisis Simulation Laboratory",
+		"description": "A forward-thinking department that develops and runs crisis simulations to prepare your organization for potential future disruptions. They create tailored scenarios to test and improve your crisis response capabilities."
+	},
+	{
+		"name": "Rapid Innovation Incubator",
+		"description": "This unit specializes in fast-tracking innovative solutions to address crisis-specific challenges. They leverage agile methodologies to quickly develop and implement new products, services, or processes that can aid in the turnaround process."
+	},
+	{
+		"name": "Supply Chain Resilience Team",
+		"description": "Experts focused on quickly restructuring and reinforcing supply chains during crises. They work to identify vulnerabilities, diversify suppliers, and implement contingency plans to ensure business continuity."
+	},
+	{
+		"name": "Crisis-Driven M&A Unit",
+		"description": "A specialized team that identifies and executes strategic acquisitions or divestitures necessitated by a crisis. They focus on rapid due diligence and integration to capitalize on opportunities or shed non-core assets for survival."
+	},
+	{
+		"name": "Psychological Support and Resilience Division",
+		"description": "This unique department addresses the mental health and well-being of your workforce during crises. They develop programs to support employee resilience, maintain morale, and foster a positive mindset crucial for successful turnarounds."
+	},
+	{
+		"name": "Post-Crisis Transition Planning",
+		"description": "A forward-looking team that begins planning for the post-crisis landscape even while managing the current situation. They focus on positioning your organization for long-term success and sustainable growth once the immediate crisis has passed."
+	}
+]

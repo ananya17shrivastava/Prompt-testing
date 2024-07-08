@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Certification Standards Development",
+		"description": "This department focuses on creating and refining eco-certification criteria specific to farming animal conservation. They stay abreast of the latest research and best practices to ensure standards remain cutting-edge and effective in promoting sustainable animal husbandry."
+	},
+	{
+		"name": "On-Site Auditing and Compliance",
+		"description": "A specialized team that conducts thorough on-farm assessments to verify adherence to eco-certification standards. They evaluate animal welfare, environmental impact, and sustainable practices, providing detailed reports to inform certification decisions."
+	},
+	{
+		"name": "Label Design and Trademark Management",
+		"description": "This creative unit develops visually appealing and informative eco-labels that effectively communicate certification status to consumers. They also manage trademark rights and usage guidelines to protect the integrity of the certification brand."
+	},
+	{
+		"name": "Chain of Custody Verification",
+		"description": "Experts in this department track certified products from farm to shelf, ensuring the integrity of eco-labeled items throughout the supply chain. They implement robust traceability systems to prevent fraud and maintain consumer trust."
+	},
+	{
+		"name": "Farmer Education and Support",
+		"description": "A dedicated team that provides training and resources to help farmers meet and maintain eco-certification standards. They offer guidance on sustainable practices, animal welfare improvements, and documentation requirements."
+	},
+	{
+		"name": "Consumer Awareness and Marketing",
+		"description": "This department creates targeted campaigns to educate consumers about the meaning and value of eco-certification labels in the farming animals conservation sector. They work to build brand recognition and trust in the certification program."
+	},
+	{
+		"name": "Stakeholder Engagement and Partnerships",
+		"description": "A strategic unit that fosters relationships with key industry players, including retailers, policymakers, and NGOs. They work to increase adoption of eco-certification standards and collaborate on initiatives to advance sustainable farming practices."
+	},
+	{
+		"name": "Certification Technology and Data Management",
+		"description": "This tech-savvy team develops and maintains digital platforms for managing the certification process, from application to approval. They also analyze certification data to identify trends and opportunities for program improvement."
+	},
+	{
+		"name": "Impact Assessment and Reporting",
+		"description": "A research-focused department that measures and quantifies the environmental and animal welfare benefits of eco-certified farms. They produce comprehensive reports to demonstrate the value of certification to stakeholders and the public."
+	},
+	{
+		"name": "Accreditation and Quality Assurance",
+		"description": "This unit ensures the integrity and consistency of the certification process itself. They conduct internal audits, manage accreditation with relevant bodies, and continuously refine procedures to maintain the highest standards of quality and reliability."
+	}
+]

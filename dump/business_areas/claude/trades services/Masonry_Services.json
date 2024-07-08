@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Stone Fabrication Workshop",
+		"description": "A specialized facility where raw stone materials are cut, shaped, and finished to meet specific project requirements. This department is crucial for creating custom stonework and ensuring precise dimensions for complex masonry projects."
+	},
+	{
+		"name": "Mortar Mixing Station",
+		"description": "A dedicated area for preparing various types of mortar mixes tailored to different masonry applications. This department is essential for maintaining consistent quality and strength in masonry structures."
+	},
+	{
+		"name": "Historical Restoration Division",
+		"description": "A specialized team focused on preserving and restoring historic masonry structures. This department requires expertise in traditional techniques and materials, as well as knowledge of conservation principles."
+	},
+	{
+		"name": "Brick and Block Laying Crew",
+		"description": "A highly skilled team of masons specializing in the precise placement and alignment of bricks and concrete blocks. This department is fundamental to the core services offered by masonry companies."
+	},
+	{
+		"name": "Decorative Masonry Design Studio",
+		"description": "A creative space where intricate masonry patterns, mosaics, and ornamental features are conceptualized and planned. This department adds value through unique aesthetic offerings."
+	},
+	{
+		"name": "Refractory Services Unit",
+		"description": "A specialized team dealing with heat-resistant masonry applications, such as fireplaces, kilns, and industrial furnaces. This department requires expertise in high-temperature materials and construction techniques."
+	},
+	{
+		"name": "Tuckpointing and Repointing Division",
+		"description": "A dedicated team focusing on the maintenance and repair of existing masonry structures through the replacement of deteriorated mortar joints. This department is crucial for extending the lifespan of masonry buildings."
+	},
+	{
+		"name": "Stone Veneer Installation Team",
+		"description": "A specialized crew trained in the application of thin stone veneers to various surfaces, offering a cost-effective alternative to full stone masonry. This department caters to the growing demand for lightweight stone aesthetics."
+	},
+	{
+		"name": "Masonry Cleaning and Restoration Unit",
+		"description": "A team equipped with specialized tools and techniques for cleaning, restoring, and preserving masonry surfaces. This department is essential for maintaining the appearance and integrity of masonry structures."
+	},
+	{
+		"name": "Structural Masonry Engineering Department",
+		"description": "An in-house team of engineers specializing in load-bearing masonry design and analysis. This department ensures the structural integrity and code compliance of complex masonry projects."
+	},
+	{
+		"name": "Custom Masonry Formwork Shop",
+		"description": "A workshop dedicated to creating specialized formwork and templates for unique masonry shapes and structures. This department enables the execution of complex architectural designs in masonry."
+	},
+	{
+		"name": "Masonry Material Testing Laboratory",
+		"description": "An on-site facility for testing the quality, strength, and compatibility of various masonry materials. This department ensures compliance with industry standards and project specifications."
+	}
+]

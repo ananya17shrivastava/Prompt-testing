@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Catastrophe Modeling",
+		"description": "This department utilizes advanced statistical and computational techniques to predict and quantify potential losses from natural disasters and large-scale events. It's crucial for risk assessment, pricing, and capital allocation decisions, helping your company stay resilient in the face of major catastrophes."
+	},
+	{
+		"name": "Personal Lines Underwriting",
+		"description": "Focused on individual consumers, this department assesses risks and determines premiums for home, auto, and other personal insurance products. It's the frontline of your retail business, balancing risk appetite with market competitiveness to drive profitable growth."
+	},
+	{
+		"name": "Commercial Lines Underwriting",
+		"description": "This team specializes in evaluating and pricing risks for businesses, from small enterprises to large corporations. They're key to your B2B strategy, requiring deep industry knowledge and the ability to tailor coverage to complex business needs."
+	},
+	{
+		"name": "Claims Fraud Investigation",
+		"description": "This specialized unit employs advanced analytics and investigative techniques to detect and prevent fraudulent claims. Their work is critical in maintaining the integrity of your claims process and protecting your bottom line from unwarranted payouts."
+	},
+	{
+		"name": "Loss Control Services",
+		"description": "This department works proactively with policyholders to identify and mitigate potential risks. By helping clients prevent losses, they not only reduce claims but also enhance customer relationships and loyalty."
+	},
+	{
+		"name": "Reinsurance Management",
+		"description": "This team manages your company's risk transfer strategies, negotiating treaties and facultative arrangements with reinsurers. Their work is crucial in optimizing your risk portfolio and ensuring financial stability in the face of large or catastrophic losses."
+	},
+	{
+		"name": "Actuarial Reserving",
+		"description": "This department focuses on estimating future claim liabilities, ensuring your company maintains adequate reserves. Their work is critical for financial stability, regulatory compliance, and informed decision-making on pricing and risk acceptance."
+	},
+	{
+		"name": "Product Development for P&C",
+		"description": "This innovative team designs new insurance products and modifies existing ones to meet evolving market needs. They're essential in keeping your offering competitive and relevant in a rapidly changing risk landscape."
+	},
+	{
+		"name": "Property Inspection",
+		"description": "This field-based team conducts on-site assessments of insured properties. Their work is crucial for accurate risk evaluation, pricing, and loss prevention, particularly for high-value or complex properties."
+	},
+	{
+		"name": "Subrogation",
+		"description": "This department pursues recovery of claim payments from third parties responsible for losses. Their work directly impacts your bottom line by recouping costs and maintaining fair premium rates for policyholders."
+	},
+	{
+		"name": "Catastrophe Response Team",
+		"description": "This rapid-response unit mobilizes during major disasters to assess damages and expedite claims processing. They're crucial in fulfilling your promise to policyholders when they need you most, enhancing your reputation and customer satisfaction."
+	},
+	{
+		"name": "Environmental Risk Assessment",
+		"description": "This specialized team evaluates potential environmental liabilities associated with insured properties or businesses. Their expertise is critical in managing complex risks related to pollution, contamination, and environmental regulations."
+	}
+]

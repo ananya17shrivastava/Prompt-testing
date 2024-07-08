@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Archival Research and Documentation",
+		"description": "This department specializes in uncovering and analyzing historical records, photographs, and architectural drawings to inform accurate restoration projects. It's crucial for understanding the original design intent and construction methods of historic structures."
+	},
+	{
+		"name": "Period-Specific Materials Sourcing",
+		"description": "This team focuses on identifying and procuring authentic or historically accurate materials for restoration projects. They maintain a network of specialized suppliers and artisans who can provide rare or discontinued building materials."
+	},
+	{
+		"name": "Conservation Technology",
+		"description": "This cutting-edge department employs advanced technologies like 3D scanning, ground-penetrating radar, and spectral imaging to analyze historic structures non-invasively. Their work is essential for understanding hidden structural issues and original finishes."
+	},
+	{
+		"name": "Adaptive Reuse Planning",
+		"description": "This strategic unit develops innovative solutions for repurposing historic buildings while maintaining their cultural significance. They balance modern functionality with historical integrity, ensuring sustainable use of heritage structures."
+	},
+	{
+		"name": "Heritage Compliance and Advocacy",
+		"description": "This department navigates the complex landscape of preservation laws, liaising with government agencies and heritage organizations. They ensure projects meet stringent preservation standards while advocating for the importance of historic conservation."
+	},
+	{
+		"name": "Craftsmanship and Traditional Techniques",
+		"description": "This specialized team preserves and applies traditional building techniques and craftsmanship. They maintain a roster of skilled artisans and provide training in nearly-lost arts like hand plastering or timber framing."
+	},
+	{
+		"name": "Artifact Conservation",
+		"description": "This department focuses on preserving and restoring historical elements within buildings, such as murals, decorative plasterwork, or original fixtures. They employ specialized conservation techniques to maintain these irreplaceable features."
+	},
+	{
+		"name": "Period Landscape Restoration",
+		"description": "This unit specializes in researching and recreating historical landscapes and gardens. They understand period-appropriate plant species, layout designs, and maintenance techniques to restore outdoor spaces to their original glory."
+	},
+	{
+		"name": "Architectural Forensics",
+		"description": "This investigative team uncovers hidden aspects of historic structures, analyzing paint layers, construction methods, and material composition to piece together a building's evolution over time."
+	},
+	{
+		"name": "Heritage Tourism Development",
+		"description": "This forward-thinking department works on strategies to make restored historic sites economically viable through tourism. They develop engaging visitor experiences that balance preservation with public access and education."
+	},
+	{
+		"name": "Disaster Preparedness for Heritage Sites",
+		"description": "This crucial team develops strategies to protect historic structures from natural disasters and climate change impacts. They create custom risk assessment models and implement preventive measures to safeguard irreplaceable cultural assets."
+	},
+	{
+		"name": "Digital Heritage Preservation",
+		"description": "This innovative department uses advanced digital technologies to create detailed virtual records of historic structures. They develop immersive VR experiences and comprehensive digital archives, ensuring that even if physical structures are lost, their essence is preserved for future generations."
+	}
+]

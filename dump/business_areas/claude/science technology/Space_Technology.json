@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Spacecraft Systems Engineering",
+		"description": "This department focuses on the design, development, and integration of complex spacecraft systems. It's responsible for ensuring that all components work seamlessly together, from propulsion to life support systems. Your team here will be at the forefront of pushing the boundaries of what's possible in space exploration and satellite technology."
+	},
+	{
+		"name": "Launch Vehicle Operations",
+		"description": "This critical area manages the preparation, execution, and post-launch analysis of space missions. It's the nerve center for coordinating with launch facilities, ensuring payload integration, and overseeing mission control operations. Your launch vehicle team will be instrumental in getting your technology off the ground \u2013 literally."
+	},
+	{
+		"name": "Space Debris Mitigation",
+		"description": "As orbital congestion becomes a growing concern, this department develops technologies and strategies to reduce space debris and protect active satellites. Your experts here will be working on innovative solutions like debris removal systems and collision avoidance technologies, safeguarding the future of space operations."
+	},
+	{
+		"name": "Microgravity Research",
+		"description": "This unique division conducts experiments and develops technologies that leverage the microgravity environment of space. Your team will be exploring new frontiers in materials science, biotechnology, and physics, potentially uncovering groundbreaking discoveries that are impossible to achieve on Earth."
+	},
+	{
+		"name": "Space Mining and Resource Utilization",
+		"description": "This forward-thinking department focuses on developing technologies for extracting and utilizing resources from celestial bodies. Your specialists will be working on revolutionary concepts like asteroid mining and in-situ resource utilization, paving the way for sustainable space exploration and potential off-world colonization."
+	},
+	{
+		"name": "Space Tourism Operations",
+		"description": "As commercial space travel becomes a reality, this department manages the logistics, training, and execution of space tourism missions. Your team will be at the cutting edge of creating unforgettable experiences for civilian space travelers while ensuring their safety and comfort in the challenging space environment."
+	},
+	{
+		"name": "Satellite Constellation Management",
+		"description": "This specialized area oversees the deployment, maintenance, and coordination of large satellite networks. Your experts here will be responsible for optimizing coverage, managing inter-satellite communications, and ensuring the seamless operation of complex orbital systems that provide global services."
+	},
+	{
+		"name": "Deep Space Communication Systems",
+		"description": "This department develops and maintains advanced communication technologies for long-distance space missions. Your team will be pushing the boundaries of data transmission capabilities, working on cutting-edge solutions like optical communication and quantum entanglement to keep our most distant spacecraft connected."
+	},
+	{
+		"name": "Extraterrestrial Habitat Design",
+		"description": "This innovative division focuses on creating sustainable living environments for long-duration space missions or potential off-world settlements. Your specialists will be tackling unique challenges in life support systems, radiation protection, and psychological well-being for astronauts in extreme isolation."
+	},
+	{
+		"name": "Space Weather Forecasting",
+		"description": "This crucial department monitors and predicts space weather phenomena that can impact both space-based and terrestrial technologies. Your team will be developing advanced modeling techniques and early warning systems to protect critical infrastructure from solar storms and other cosmic events."
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Fund Accounting Management",
+		"description": "This specialized department focuses on managing and tracking separate funds allocated for specific purposes within government entities. It ensures that resources are used as intended and helps maintain transparency in public spending."
+	},
+	{
+		"name": "Grant Compliance Office",
+		"description": "This office oversees the complex web of federal, state, and local grant regulations. It ensures that your organization adheres to strict compliance requirements, safeguarding against potential audit findings and maintaining eligibility for future funding."
+	},
+	{
+		"name": "Budgetary Control Unit",
+		"description": "This unit is responsible for implementing and monitoring budgetary controls unique to government entities. It helps your organization stay within appropriated limits and provides crucial oversight to prevent overspending of public funds."
+	},
+	{
+		"name": "Encumbrance Accounting Division",
+		"description": "This division manages the encumbrance process, which is critical in government accounting. It tracks financial commitments made before actual expenditures occur, helping to prevent over-allocation of resources and ensuring fiscal responsibility."
+	},
+	{
+		"name": "Modified Accrual Accounting Team",
+		"description": "This specialized team implements the modified accrual basis of accounting, a method unique to governmental funds. They ensure that your financial statements accurately reflect the organization's short-term focus on current financial resources."
+	},
+	{
+		"name": "Government-Wide Financial Reporting Unit",
+		"description": "This unit prepares comprehensive annual financial reports (CAFRs) and other government-wide statements. They provide a holistic view of your organization's financial position, bridging the gap between fund-level and entity-wide reporting."
+	},
+	{
+		"name": "Performance Measurement Analytics",
+		"description": "This forward-thinking department focuses on linking financial data with non-financial performance metrics. They help demonstrate the value and efficiency of your programs to stakeholders, including taxpayers and oversight bodies."
+	},
+	{
+		"name": "Intergovernmental Transactions Coordination",
+		"description": "This specialized group manages the complex web of financial interactions between different levels of government. They ensure accurate accounting for shared services, transfers, and other intergovernmental financial activities."
+	},
+	{
+		"name": "Capital Asset Management for Public Infrastructure",
+		"description": "This department focuses on the unique aspects of accounting for public infrastructure and other governmental capital assets. They manage depreciation, impairment assessments, and reporting for assets with exceptionally long useful lives."
+	},
+	{
+		"name": "Special Revenue Fund Administration",
+		"description": "This team oversees the accounting for special revenue funds, which are used to account for specific revenue sources that are legally restricted for particular purposes. They ensure proper segregation and reporting of these dedicated resources."
+	},
+	{
+		"name": "Debt Service Monitoring Unit",
+		"description": "This unit specializes in managing the accounting for long-term debt obligations unique to government entities. They track bond issuances, monitor debt service requirements, and ensure compliance with debt covenants and legal limitations."
+	}
+]

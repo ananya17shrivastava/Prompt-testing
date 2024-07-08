@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Regenerative Grazing Systems Management",
+		"description": "This department focuses on implementing and overseeing rotational grazing practices that mimic natural herbivore patterns. It's responsible for designing pasture layouts, managing livestock movements, and monitoring soil health to enhance carbon sequestration and biodiversity."
+	},
+	{
+		"name": "Integrated Pest Management (IPM) for Livestock",
+		"description": "This specialized unit develops and implements eco-friendly pest control strategies for livestock, reducing reliance on chemical pesticides. They work on biological control methods, habitat modification, and resistant breed selection to maintain animal health while minimizing environmental impact."
+	},
+	{
+		"name": "Sustainable Feed Production and Management",
+		"description": "This department oversees the cultivation and sourcing of sustainable, locally-produced feed for livestock. They focus on reducing the carbon footprint of animal nutrition by implementing innovative crop rotation systems, exploring alternative protein sources, and optimizing feed efficiency."
+	},
+	{
+		"name": "Water Conservation and Management for Livestock",
+		"description": "This unit is dedicated to developing and implementing water-efficient systems for livestock farming. They design and maintain rainwater harvesting systems, implement precision watering technologies, and manage wastewater treatment and recycling processes specific to animal operations."
+	},
+	{
+		"name": "Animal Welfare and Sustainable Housing Design",
+		"description": "This department focuses on creating and maintaining housing systems that prioritize animal welfare while minimizing environmental impact. They design energy-efficient structures, implement natural ventilation systems, and develop sustainable bedding solutions tailored to different species' needs."
+	},
+	{
+		"name": "Sustainable Manure Management and Biogas Production",
+		"description": "This specialized unit oversees the collection, treatment, and utilization of animal waste in an environmentally friendly manner. They manage composting systems, design and operate biogas digesters, and develop strategies for optimal nutrient recycling in crop production."
+	},
+	{
+		"name": "Carbon Footprint Reduction and Offset Programs",
+		"description": "This department is responsible for measuring, monitoring, and reducing the carbon footprint of livestock operations. They implement energy-efficient technologies, manage carbon offset projects such as agroforestry, and develop strategies to achieve carbon neutrality in animal farming."
+	},
+	{
+		"name": "Sustainable Breeding and Genetics Program",
+		"description": "This unit focuses on developing breeding strategies that enhance animals' adaptability to sustainable farming practices. They work on selecting traits for feed efficiency, disease resistance, and climate resilience while maintaining genetic diversity and preserving heritage breeds."
+	},
+	{
+		"name": "Holistic Farm Ecosystem Management",
+		"description": "This department takes a systems approach to integrate livestock farming with other sustainable practices. They design and implement agroforestry systems, manage silvopasture projects, and create synergies between crop production, animal husbandry, and natural habitat conservation."
+	},
+	{
+		"name": "Sustainable Animal Health and Natural Remedies",
+		"description": "This specialized unit develops and implements holistic health management strategies for livestock. They focus on preventive care, explore the use of natural remedies and probiotics, and work on reducing antibiotic use through improved animal welfare and nutrition practices."
+	}
+]

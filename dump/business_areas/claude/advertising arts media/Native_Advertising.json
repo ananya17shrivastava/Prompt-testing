@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Native Content Strategy",
+		"description": "This department focuses on developing strategies that seamlessly integrate branded content into the user experience of various digital platforms. They work to ensure that native ads align with the look, feel, and function of the media in which they appear, maximizing engagement without disrupting the user's journey."
+	},
+	{
+		"name": "Publisher Relationship Management",
+		"description": "This team specializes in building and maintaining relationships with high-quality publishers and media outlets. They negotiate placements, ensure brand safety, and work to expand the network of available native advertising opportunities across diverse platforms and audiences."
+	},
+	{
+		"name": "Content Discovery Optimization",
+		"description": "This unit is dedicated to enhancing the visibility and relevance of native ads within content discovery platforms. They employ advanced algorithms and machine learning techniques to improve ad placement and increase the likelihood of user engagement with sponsored content."
+	},
+	{
+		"name": "Native Ad Format Innovation",
+		"description": "This department focuses on creating and refining new native ad formats that push the boundaries of traditional advertising. They develop innovative ways to present branded content that resonates with audiences across various devices and platforms while maintaining the integrity of the user experience."
+	},
+	{
+		"name": "Native Analytics and Attribution",
+		"description": "This specialized team develops and implements advanced analytics tools and attribution models specific to native advertising. They provide insights into the performance of native campaigns, helping to measure engagement, brand lift, and conversion rates in ways that traditional advertising metrics cannot capture."
+	},
+	{
+		"name": "Native Programmatic Solutions",
+		"description": "This unit focuses on developing and managing programmatic technologies specifically designed for native advertising. They work on creating automated systems that can deliver personalized native content at scale while maintaining the contextual relevance crucial to native advertising success."
+	},
+	{
+		"name": "Native Content Studio",
+		"description": "This creative department specializes in producing high-quality, platform-specific content that aligns with both the brand's message and the host platform's style. They focus on creating engaging, valuable content that doesn't feel like traditional advertising, often collaborating with publishers to ensure authenticity."
+	},
+	{
+		"name": "Native Ad Compliance and Disclosure",
+		"description": "This department ensures that native advertising campaigns comply with regulatory requirements and industry best practices regarding disclosure and transparency. They work to maintain the delicate balance between effective advertising and ethical considerations in native content."
+	},
+	{
+		"name": "Influencer Integration for Native Campaigns",
+		"description": "This team focuses on identifying and collaborating with influencers to create authentic native content. They develop strategies to seamlessly integrate influencer partnerships into native advertising campaigns, ensuring that the content feels genuine and resonates with the influencer's audience."
+	},
+	{
+		"name": "Cross-Platform Native Synchronization",
+		"description": "This department specializes in creating cohesive native advertising experiences across multiple platforms and devices. They ensure that native campaigns maintain consistency and effectiveness whether viewed on social media, news sites, mobile apps, or other digital environments."
+	}
+]

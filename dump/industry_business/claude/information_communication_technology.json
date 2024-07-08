@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Network Operations Center (NOC)",
+		"description": "The nerve center of ICT operations, responsible for monitoring and managing network infrastructure 24/7. It ensures optimal performance, detects and resolves issues, and maintains service quality across complex telecommunications systems."
+	},
+	{
+		"name": "Spectrum Management",
+		"description": "This department oversees the allocation and efficient use of radio frequency spectrum, a critical and finite resource in the ICT industry. They work on frequency planning, interference mitigation, and regulatory compliance to maximize spectrum utilization."
+	},
+	{
+		"name": "Telecom Fraud Prevention",
+		"description": "Specialized teams focus on detecting, preventing, and mitigating telecom-specific fraud, such as SIM swapping, subscription fraud, and international revenue share fraud (IRSF). They employ advanced analytics and AI to protect both the company and its customers."
+	},
+	{
+		"name": "Device and OS Compatibility",
+		"description": "This unit ensures that services and applications are compatible with a wide range of devices and operating systems. They conduct extensive testing and optimization to guarantee seamless user experiences across diverse hardware and software ecosystems."
+	},
+	{
+		"name": "Content Delivery Network (CDN) Management",
+		"description": "CDN teams optimize the delivery of digital content, reducing latency and improving user experience. They manage a distributed network of servers to efficiently deliver web content, streaming media, and other digital assets to end-users."
+	},
+	{
+		"name": "Interconnection and Peering",
+		"description": "This department manages relationships and technical connections with other network operators. They negotiate peering agreements, manage internet exchange points, and optimize traffic routing to ensure efficient data transfer across the global internet."
+	},
+	{
+		"name": "Telecom Regulatory Affairs",
+		"description": "Specialists in this area navigate the complex and ever-changing landscape of telecommunications regulations. They ensure compliance with national and international laws, manage spectrum licenses, and represent the company's interests in regulatory discussions."
+	},
+	{
+		"name": "Radio Access Network (RAN) Engineering",
+		"description": "RAN engineers design, optimize, and maintain the wireless network infrastructure. They focus on maximizing coverage, capacity, and quality of service for mobile networks, working with technologies like 4G, 5G, and beyond."
+	},
+	{
+		"name": "Over-The-Top (OTT) Services Integration",
+		"description": "This team manages the integration and delivery of OTT services, such as messaging apps and streaming platforms, over the company's network. They work on ensuring quality of service for these third-party applications while optimizing network resources."
+	},
+	{
+		"name": "Telecom Billing Systems",
+		"description": "Specialized billing teams manage complex rating and charging systems unique to the telecom industry. They handle intricate billing scenarios like roaming charges, data usage, and bundled services, ensuring accurate and timely billing for millions of customers."
+	},
+	{
+		"name": "Network Virtualization and SDN",
+		"description": "This department focuses on implementing and managing software-defined networking (SDN) and network function virtualization (NFV). They work on transforming traditional hardware-based network functions into software-based solutions, increasing flexibility and efficiency."
+	},
+	{
+		"name": "IoT Connectivity Management",
+		"description": "As the Internet of Things (IoT) grows, this team manages the unique challenges of connecting and managing millions of IoT devices. They handle issues like device provisioning, data management, and ensuring reliable connectivity for diverse IoT applications."
+	}
+]

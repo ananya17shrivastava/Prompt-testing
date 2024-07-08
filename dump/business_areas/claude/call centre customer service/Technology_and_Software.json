@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Technical Support Escalation Team",
+		"description": "This specialized unit handles complex technical issues that frontline agents cannot resolve. They possess advanced knowledge of software systems, hardware configurations, and intricate technological ecosystems. This team is crucial for maintaining customer satisfaction in high-stakes situations and reducing churn rates among tech-savvy clients."
+	},
+	{
+		"name": "Software Version Control Department",
+		"description": "This department manages the various versions of software products that customers may be using. They ensure that support agents are equipped with the knowledge to assist users across different software iterations, maintaining a seamless support experience regardless of the product version in question."
+	},
+	{
+		"name": "API and Integration Support Division",
+		"description": "Focused on assisting customers with API implementations and software integrations, this division is vital for B2B clients. They help troubleshoot connection issues, guide developers through integration processes, and ensure smooth interoperability between the company's software and third-party applications."
+	},
+	{
+		"name": "Beta Testing and Feedback Coordination Unit",
+		"description": "This unit manages communication between early adopters or beta testers and the development team. They collect, analyze, and prioritize user feedback, playing a crucial role in product refinement and ensuring that customer insights directly influence software improvements."
+	},
+	{
+		"name": "License and Subscription Management Team",
+		"description": "Specializing in handling inquiries related to software licensing, subscription models, and access rights, this team ensures that customers can fully utilize their purchased products. They manage complex licensing structures and help resolve any activation or authentication issues."
+	},
+	{
+		"name": "Custom Software Configuration Department",
+		"description": "This department assists clients with tailoring software solutions to their specific needs. They guide customers through personalization options, advise on best practices for customization, and troubleshoot issues arising from unique configurations."
+	},
+	{
+		"name": "Software Update and Patch Support Group",
+		"description": "Dedicated to assisting customers with software updates and patches, this group ensures smooth transitions between versions. They provide guidance on update processes, troubleshoot update-related issues, and communicate the benefits of new features or security enhancements."
+	},
+	{
+		"name": "Data Migration and Backup Assistance Team",
+		"description": "This specialized team helps customers with data transfer between software versions or platforms. They provide expert advice on backup procedures, assist with data recovery, and ensure that critical information is preserved during software transitions or upgrades."
+	},
+	{
+		"name": "User Interface Navigation Support Unit",
+		"description": "Focused on guiding customers through complex software interfaces, this unit helps users maximize productivity by effectively utilizing all features. They provide tutorials, explain advanced functionalities, and assist with customizing user experiences within the software."
+	},
+	{
+		"name": "Software Performance Optimization Team",
+		"description": "This team addresses issues related to software speed, efficiency, and resource utilization. They help customers optimize their software setup, troubleshoot performance bottlenecks, and provide recommendations for hardware or system configurations to enhance software performance."
+	}
+]

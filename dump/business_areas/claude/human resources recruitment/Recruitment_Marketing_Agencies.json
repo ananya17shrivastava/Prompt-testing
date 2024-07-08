@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Employer Branding Strategy",
+		"description": "This department focuses on developing and implementing strategies to enhance an organization's reputation as an employer of choice. They work closely with clients to create compelling employer value propositions and narratives that resonate with target talent pools."
+	},
+	{
+		"name": "Recruitment Content Creation",
+		"description": "Specializing in crafting engaging content specifically for recruitment purposes, this team produces a wide range of materials such as job descriptions, career site copy, social media posts, and recruitment videos. Their goal is to attract and engage potential candidates through compelling storytelling."
+	},
+	{
+		"name": "Candidate Experience Design",
+		"description": "This innovative department is dedicated to mapping and optimizing every touchpoint in the candidate journey. They design seamless, positive experiences from initial awareness through application and onboarding, ensuring that potential hires remain engaged and enthusiastic throughout the process."
+	},
+	{
+		"name": "Recruitment Analytics and Insights",
+		"description": "Focusing on data-driven decision-making in recruitment marketing, this team leverages advanced analytics tools to measure campaign effectiveness, identify trends, and provide actionable insights to optimize recruitment strategies and ROI."
+	},
+	{
+		"name": "Programmatic Job Advertising",
+		"description": "This specialized unit manages automated, real-time bidding for job ad placements across various digital platforms. They utilize sophisticated algorithms to optimize ad spend and maximize visibility among targeted candidate segments."
+	},
+	{
+		"name": "Recruitment Events and Experiential Marketing",
+		"description": "Dedicated to creating immersive experiences that showcase an employer's brand and culture, this team designs and executes both virtual and in-person recruitment events, career fairs, and interactive employer brand activations."
+	},
+	{
+		"name": "Talent Community Management",
+		"description": "This department focuses on building and nurturing long-term relationships with potential candidates through talent networks and communities. They develop strategies to keep passive candidates engaged and informed about future opportunities."
+	},
+	{
+		"name": "Recruitment Technology Integration",
+		"description": "Specializing in the latest recruitment marketing technologies, this team helps clients select, implement, and optimize various tools and platforms to enhance their recruitment marketing efforts and create a cohesive tech stack."
+	},
+	{
+		"name": "Diversity and Inclusion Recruitment Marketing",
+		"description": "This dedicated unit develops targeted strategies and campaigns to attract diverse talent pools, ensuring that recruitment marketing efforts align with and support clients' diversity and inclusion initiatives."
+	},
+	{
+		"name": "Recruitment Social Media Management",
+		"description": "Focusing exclusively on leveraging social media for talent acquisition, this team manages clients' recruitment-specific social media presence, creates engaging content, and develops strategies to build relationships with potential candidates through various social platforms."
+	},
+	{
+		"name": "Recruitment SEO and SEM",
+		"description": "This specialized department optimizes clients' career sites and job postings for search engines, ensuring maximum visibility for job seekers. They also manage paid search campaigns specifically tailored to recruitment needs."
+	},
+	{
+		"name": "Employee Advocacy Program Development",
+		"description": "This innovative team creates and implements programs that transform employees into brand ambassadors for recruitment purposes. They develop strategies and tools to encourage employees to share job openings and company culture content within their networks."
+	}
+]

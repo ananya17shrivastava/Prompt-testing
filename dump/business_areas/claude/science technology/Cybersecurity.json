@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Threat Intelligence",
+		"description": "This department focuses on gathering, analyzing, and disseminating information about current and potential cybersecurity threats. It provides crucial insights to help organizations stay ahead of emerging risks and adapt their security strategies accordingly."
+	},
+	{
+		"name": "Incident Response",
+		"description": "This team is responsible for managing and mitigating cybersecurity incidents when they occur. They develop and implement response plans, conduct forensic analysis, and work to minimize damage and restore normal operations as quickly as possible."
+	},
+	{
+		"name": "Penetration Testing",
+		"description": "Also known as \"ethical hacking,\" this department simulates real-world cyberattacks to identify vulnerabilities in an organization's systems and networks. Their findings help strengthen overall security posture and prevent potential breaches."
+	},
+	{
+		"name": "Security Operations Center (SOC)",
+		"description": "The SOC serves as the central hub for monitoring and managing an organization's cybersecurity operations. This team continuously monitors networks, systems, and applications for potential security threats and responds to alerts in real-time."
+	},
+	{
+		"name": "Cryptography",
+		"description": "This specialized department focuses on developing and implementing encryption algorithms and protocols to protect sensitive data. They work on creating secure communication channels and ensuring data confidentiality, integrity, and authenticity."
+	},
+	{
+		"name": "Malware Analysis",
+		"description": "This team specializes in analyzing malicious software to understand its behavior, capabilities, and potential impact. Their work helps in developing effective countermeasures and improving overall threat detection capabilities."
+	},
+	{
+		"name": "Security Compliance",
+		"description": "This department ensures that an organization's cybersecurity practices align with relevant industry standards, regulations, and legal requirements. They conduct regular audits and assessments to maintain compliance and reduce legal and reputational risks."
+	},
+	{
+		"name": "Identity and Access Management (IAM)",
+		"description": "The IAM team focuses on developing and implementing policies and technologies to manage user identities, authentication, and access controls across an organization's digital assets. They play a crucial role in preventing unauthorized access and data breaches."
+	},
+	{
+		"name": "Cloud Security",
+		"description": "As organizations increasingly adopt cloud technologies, this department specializes in securing cloud-based infrastructure, applications, and data. They develop strategies to address unique challenges associated with cloud environments and ensure seamless security across hybrid and multi-cloud setups."
+	},
+	{
+		"name": "IoT Security",
+		"description": "With the proliferation of Internet of Things (IoT) devices, this team focuses on securing the growing network of connected devices. They develop strategies to protect against vulnerabilities in IoT ecosystems and ensure the integrity of data collected and transmitted by these devices."
+	},
+	{
+		"name": "Security Awareness Training",
+		"description": "This department designs and implements cybersecurity education programs for employees across the organization. They focus on cultivating a security-conscious culture and equipping staff with the knowledge and skills to recognize and respond to potential threats."
+	},
+	{
+		"name": "Cyber Threat Hunting",
+		"description": "This proactive team actively searches for hidden threats that may have evaded traditional security measures. They use advanced analytics and threat intelligence to identify and neutralize potential threats before they can cause significant damage."
+	},
+	{
+		"name": "Secure Software Development",
+		"description": "This department focuses on integrating security practices into the software development lifecycle. They work closely with development teams to ensure that security is built into applications from the ground up, rather than being added as an afterthought."
+	},
+	{
+		"name": "Digital Forensics",
+		"description": "This specialized team is responsible for collecting, preserving, and analyzing digital evidence related to cybersecurity incidents. Their work is crucial for understanding the scope and impact of breaches, as well as supporting potential legal proceedings."
+	},
+	{
+		"name": "Vulnerability Management",
+		"description": "This department is responsible for identifying, assessing, and prioritizing vulnerabilities across an organization's IT infrastructure. They work on developing and implementing strategies to address these vulnerabilities, reducing the overall attack surface."
+	}
+]

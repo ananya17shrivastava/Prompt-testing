@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Actuarial Services for Life Products",
+		"description": "This department focuses on the complex calculations and risk assessments specific to life insurance products. They develop mortality tables, determine premium rates, and ensure the long-term financial stability of life insurance offerings. Their expertise is crucial for product pricing and reserve calculations unique to the extended time horizons of life policies."
+	},
+	{
+		"name": "Underwriting for Longevity Risks",
+		"description": "Unlike other insurance types, life underwriting specializes in assessing an individual's life expectancy. This team evaluates medical histories, lifestyle factors, and genetic predispositions to accurately price policies and manage the company's exposure to longevity risks. Their decisions directly impact the profitability and sustainability of the life insurance portfolio."
+	},
+	{
+		"name": "Cash Value Management",
+		"description": "This specialized unit oversees the investment and growth of cash value components in permanent life insurance policies. They develop strategies to maximize returns within regulatory constraints, balancing policyholder interests with company profitability. Their expertise in long-term investment management is crucial for products like whole life and universal life insurance."
+	},
+	{
+		"name": "Policy Loan Administration",
+		"description": "Unique to certain life insurance products, this department manages the complex process of policy loans. They oversee loan applications, determine interest rates, monitor outstanding balances, and ensure compliance with regulatory requirements. Their work directly impacts policyholder satisfaction and the company's cash flow management."
+	},
+	{
+		"name": "Beneficiary Services",
+		"description": "This dedicated team handles the sensitive process of death benefit claims and payouts. They verify claim authenticity, manage beneficiary communications, and facilitate smooth benefit distributions. Their role is critical in upholding the company's promise to policyholders and maintaining a positive brand image during emotionally challenging times."
+	},
+	{
+		"name": "Life Settlement Operations",
+		"description": "This specialized unit deals with the secondary market for life insurance policies. They evaluate policy sale requests, determine fair market values, and manage transactions with life settlement companies. Their work requires a deep understanding of policy valuation and regulatory compliance specific to the life insurance sector."
+	},
+	{
+		"name": "Annuity Product Development",
+		"description": "While related to life insurance, this department focuses on creating and managing annuity products. They design income streams for policyholders, balancing guaranteed payouts with investment returns. Their expertise in longevity risk and long-term financial planning is essential for developing competitive annuity offerings."
+	},
+	{
+		"name": "Policyholder Dividend Management",
+		"description": "Specific to mutual life insurance companies, this team oversees the complex process of determining and distributing policyholder dividends. They analyze company performance, set dividend scales, and ensure equitable distribution among policyholders. Their work directly impacts customer satisfaction and the company's mutual structure."
+	},
+	{
+		"name": "Life Insurance Trust Services",
+		"description": "This department provides specialized support for life insurance trusts, often used in estate planning. They assist in trust creation, policy management within trusts, and coordinate with legal and tax professionals. Their expertise helps high-net-worth clients optimize their life insurance for wealth transfer and tax efficiency."
+	},
+	{
+		"name": "Accelerated Benefit Administration",
+		"description": "This unit manages the unique feature of accelerated death benefits in life insurance policies. They handle requests for early payouts due to terminal illness or long-term care needs, balancing policyholder needs with financial implications for the company. Their work requires sensitivity to policyholder circumstances and expertise in policy adjustments."
+	}
+]

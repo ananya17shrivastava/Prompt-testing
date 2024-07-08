@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Community Needs Assessment",
+		"description": "This department focuses on identifying and analyzing the specific needs of target communities. It employs various research methodologies to gather data on social, economic, and environmental factors affecting community well-being. The insights generated here drive strategic decision-making and program development across the organization."
+	},
+	{
+		"name": "Grassroots Mobilization",
+		"description": "This team specializes in engaging community members at the ground level. They develop strategies to empower local residents, fostering a sense of ownership and participation in community development initiatives. Their work is crucial for ensuring sustainable, community-driven change."
+	},
+	{
+		"name": "Social Impact Measurement",
+		"description": "This department develops and implements frameworks to quantify the organization's impact on community well-being. They create custom metrics and evaluation tools that go beyond traditional ROI measures, providing leadership with a comprehensive understanding of the organization's effectiveness in achieving its social mission."
+	},
+	{
+		"name": "Capacity Building Services",
+		"description": "This unit focuses on strengthening the abilities of local organizations and community leaders. They design and deliver tailored training programs, mentorship initiatives, and resource-sharing platforms to enhance the community's capacity for self-directed development and problem-solving."
+	},
+	{
+		"name": "Cross-Sector Partnership Development",
+		"description": "This team specializes in forging strategic alliances with government agencies, private sector entities, and other non-profits. They identify synergies between different sectors and negotiate collaborative projects that leverage diverse resources for community benefit."
+	},
+	{
+		"name": "Sustainable Funding Strategies",
+		"description": "This department goes beyond traditional fundraising to develop innovative, long-term funding models. They explore social enterprise opportunities, impact investing partnerships, and community-owned revenue streams to ensure the financial sustainability of development initiatives."
+	},
+	{
+		"name": "Cultural Competence and Inclusion",
+		"description": "This unit ensures that all community development efforts are culturally appropriate and inclusive. They provide internal training, develop culturally sensitive programming, and create strategies for engaging marginalized groups within the community."
+	},
+	{
+		"name": "Community Resilience Planning",
+		"description": "This department focuses on enhancing a community's ability to withstand and recover from various shocks and stresses. They develop comprehensive resilience strategies that address economic, social, and environmental vulnerabilities unique to each community."
+	},
+	{
+		"name": "Participatory Program Design",
+		"description": "This team specializes in creating community development programs using participatory methodologies. They facilitate community-led design processes, ensuring that initiatives are truly reflective of local needs, values, and aspirations."
+	},
+	{
+		"name": "Knowledge Management and Best Practices",
+		"description": "This department captures, analyzes, and disseminates learnings from various community development projects. They create knowledge-sharing platforms and develop best practice guidelines that inform future initiatives and contribute to the broader field of community development."
+	}
+]

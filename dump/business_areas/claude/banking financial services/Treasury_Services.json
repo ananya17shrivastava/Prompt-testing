@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Cash Management Solutions",
+		"description": "This department focuses on developing and implementing sophisticated tools and services to help corporate clients optimize their cash flow, liquidity, and working capital. It goes beyond basic banking services, offering tailored solutions for complex multinational corporations and their unique treasury needs."
+	},
+	{
+		"name": "Global Liquidity Management",
+		"description": "This specialized unit designs strategies and products to help large corporations manage their liquidity across multiple countries, currencies, and time zones. It addresses the challenges of cross-border cash pooling, netting, and concentration, ensuring efficient use of funds on a global scale."
+	},
+	{
+		"name": "Trade Finance Operations",
+		"description": "This department handles the intricate processes involved in facilitating international trade for corporate clients. It manages complex financial instruments like letters of credit, guarantees, and supply chain finance solutions, mitigating risks associated with global commerce."
+	},
+	{
+		"name": "Payment and Collection Factory",
+		"description": "This innovative area focuses on centralizing and streamlining payment and collection processes for large corporations. It designs and implements solutions that consolidate multiple payment types, formats, and channels into a single, efficient system, reducing costs and improving visibility."
+	},
+	{
+		"name": "Treasury Technology Integration",
+		"description": "This department specializes in integrating advanced treasury management systems with clients' existing ERP and financial software. It ensures seamless connectivity and data flow between corporate treasuries and their banking partners, enhancing automation and real-time decision-making capabilities."
+	},
+	{
+		"name": "Regulatory Compliance and Reporting for Treasury",
+		"description": "This unit focuses on helping corporate clients navigate the complex landscape of international treasury regulations. It provides solutions for compliance with various reporting requirements, sanctions screening, and anti-money laundering (AML) regulations specific to treasury operations."
+	},
+	{
+		"name": "Working Capital Advisory Services",
+		"description": "This consultative department offers expert guidance to help corporations optimize their working capital management. It analyzes clients' cash conversion cycles, supply chain finance opportunities, and liquidity structures to recommend tailored strategies for improving financial efficiency."
+	},
+	{
+		"name": "Virtual Account Management",
+		"description": "This innovative area develops and manages virtual account structures that allow large corporations to streamline their account management processes. It enables clients to create a centralized account structure with multiple virtual accounts, improving reconciliation, reducing bank accounts, and enhancing cash visibility."
+	},
+	{
+		"name": "Treasury Risk Management Solutions",
+		"description": "This specialized unit designs and implements sophisticated tools for managing treasury-related risks, including foreign exchange, interest rate, and commodity price fluctuations. It offers both advisory services and technological solutions to help corporate treasuries effectively hedge their financial exposures."
+	},
+	{
+		"name": "Escrow and Trust Services for Corporate Treasury",
+		"description": "This department manages complex escrow arrangements and trust structures specifically designed for corporate treasury needs. It handles large-scale, multi-party transactions, mergers and acquisitions, and other sophisticated financial arrangements requiring impartial fund management and disbursement."
+	}
+]

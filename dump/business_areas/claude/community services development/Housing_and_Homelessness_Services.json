@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Rapid Rehousing Programs",
+		"description": "These initiatives focus on quickly moving individuals and families experiencing homelessness into permanent housing. Your team will need to develop strategies for identifying suitable housing options, negotiating with landlords, and providing short-term financial assistance to clients."
+	},
+	{
+		"name": "Permanent Supportive Housing",
+		"description": "This department manages long-term housing solutions for chronically homeless individuals with disabilities. You'll oversee the integration of housing and support services, ensuring clients maintain stable housing while addressing their complex needs."
+	},
+	{
+		"name": "Emergency Shelter Operations",
+		"description": "This critical unit manages temporary accommodation for those in immediate housing crisis. Your role involves overseeing shelter capacity, safety protocols, and coordinating with other services to help clients transition to more stable housing."
+	},
+	{
+		"name": "Housing First Implementation",
+		"description": "This innovative approach prioritizes providing housing to individuals before addressing other issues. Your team will develop and implement strategies that align with this philosophy, focusing on removing barriers to housing access."
+	},
+	{
+		"name": "Homelessness Prevention Services",
+		"description": "This proactive department works to identify and assist individuals at risk of becoming homeless. You'll oversee programs that provide financial assistance, mediation with landlords, and other interventions to prevent homelessness before it occurs."
+	},
+	{
+		"name": "Street Outreach Coordination",
+		"description": "This unit manages teams that engage with unsheltered homeless individuals. Your focus will be on developing strategies to build trust, provide immediate assistance, and connect people to housing and support services."
+	},
+	{
+		"name": "Housing Navigation Services",
+		"description": "This specialized department assists clients in finding and securing appropriate housing. Your team will develop relationships with landlords, help clients complete housing applications, and provide guidance through the move-in process."
+	},
+	{
+		"name": "Coordinated Entry System Management",
+		"description": "This department oversees the centralized system for assessing and prioritizing individuals for housing and services. You'll manage the implementation of assessment tools, coordinate with partner agencies, and ensure fair and efficient allocation of resources."
+	},
+	{
+		"name": "Landlord Engagement and Retention",
+		"description": "This crucial unit focuses on building and maintaining relationships with property owners and managers. Your team will develop incentives, address concerns, and create a network of housing options for your clients."
+	},
+	{
+		"name": "Housing Stabilization Services",
+		"description": "This department provides ongoing support to formerly homeless individuals to help them maintain their housing. You'll oversee case management, life skills training, and crisis intervention to prevent returns to homelessness."
+	},
+	{
+		"name": "Specialized Housing for Vulnerable Populations",
+		"description": "This unit develops and manages housing programs tailored to specific groups such as youth, veterans, or domestic violence survivors. You'll need to understand the unique needs of these populations and create appropriate housing and support models."
+	},
+	{
+		"name": "Housing Quality and Safety Inspections",
+		"description": "This department ensures that all housing placements meet safety and quality standards. Your team will conduct regular inspections, work with property owners on improvements, and maintain compliance with local and federal regulations."
+	}
+]

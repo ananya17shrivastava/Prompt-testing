@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Asset Servicing Operations",
+		"description": "This department focuses on the intricate processes of safeguarding and administering clients' financial assets. It's the backbone of custodian services, ensuring the accurate tracking, reporting, and management of diverse asset classes across global markets."
+	},
+	{
+		"name": "Corporate Actions Processing",
+		"description": "This specialized unit handles complex corporate events that affect securities holdings, such as mergers, acquisitions, and stock splits. Their expertise is crucial in navigating the intricate landscape of global corporate actions to protect and maximize client investments."
+	},
+	{
+		"name": "Securities Lending",
+		"description": "This revenue-generating department facilitates the temporary transfer of securities to borrowers, enhancing portfolio returns for clients while maintaining stringent risk management protocols. It's a sophisticated operation that requires deep market knowledge and robust operational infrastructure."
+	},
+	{
+		"name": "Fund Accounting and Administration",
+		"description": "This department provides critical support to investment funds, handling NAV calculations, financial reporting, and regulatory compliance. Their expertise ensures the smooth operation of funds and accurate valuation of assets under custody."
+	},
+	{
+		"name": "Global Custody Network Management",
+		"description": "This team oversees relationships with sub-custodians and depositories worldwide. They're responsible for maintaining a robust global network that enables efficient cross-border transactions and asset safekeeping in various jurisdictions."
+	},
+	{
+		"name": "Depository Receipts Services",
+		"description": "This specialized unit manages the issuance and cancellation of depository receipts, facilitating international investment. They play a crucial role in bridging global capital markets and enabling companies to access foreign investment."
+	},
+	{
+		"name": "Transfer Agency Services",
+		"description": "This department manages shareholder records, processes subscriptions and redemptions, and handles dividend distributions for mutual funds and other investment vehicles. They serve as a critical link between fund managers and investors."
+	},
+	{
+		"name": "Collateral Management",
+		"description": "This unit specializes in the complex task of managing and optimizing collateral for various financial transactions. They ensure efficient use of clients' assets while mitigating counterparty risks in an increasingly regulated environment."
+	},
+	{
+		"name": "Performance and Risk Analytics",
+		"description": "This department provides sophisticated analysis of investment performance and risk exposure for institutional clients. Their insights help asset owners and managers make informed decisions and meet regulatory requirements."
+	},
+	{
+		"name": "Alternative Investment Services",
+		"description": "This specialized team caters to the unique needs of hedge funds, private equity, and other alternative investment vehicles. They provide tailored custody, administration, and reporting services for these complex, often illiquid assets."
+	},
+	{
+		"name": "ETF Services",
+		"description": "This unit focuses on the specific requirements of Exchange-Traded Funds, handling creation/redemption processes, index tracking, and regulatory compliance. Their expertise is crucial in supporting this rapidly growing investment vehicle."
+	},
+	{
+		"name": "Transition Management",
+		"description": "This department assists institutional investors in efficiently restructuring large portfolios. They minimize transaction costs and market impact during significant changes in investment strategy or asset allocation."
+	}
+]

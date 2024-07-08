@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Land Acquisition",
+		"description": "This department focuses on identifying, evaluating, and securing prime real estate for development. It's crucial for maintaining a robust project pipeline and ensuring the company's long-term growth potential."
+	},
+	{
+		"name": "Property Development",
+		"description": "This team oversees the transformation of raw land or existing structures into valuable real estate assets. They manage the entire development process, from conceptualization to completion, ensuring projects align with market demands and company objectives."
+	},
+	{
+		"name": "Construction Management",
+		"description": "This department coordinates and supervises all aspects of the building process, ensuring projects are completed on time, within budget, and to the highest quality standards. They're the linchpin between design vision and real-world execution."
+	},
+	{
+		"name": "Architectural Design",
+		"description": "This in-house team creates innovative and functional designs for residential, commercial, or industrial properties. They blend aesthetics with practicality, ensuring projects stand out in the market while meeting regulatory requirements."
+	},
+	{
+		"name": "Urban Planning",
+		"description": "These specialists work on larger-scale projects, focusing on community development and infrastructure integration. They ensure our developments contribute positively to the broader urban landscape and comply with local zoning laws."
+	},
+	{
+		"name": "Building Information Modeling (BIM)",
+		"description": "This cutting-edge department utilizes advanced 3D modeling technology to create detailed digital representations of physical spaces. They enhance project visualization, improve collaboration, and optimize resource allocation."
+	},
+	{
+		"name": "Sustainability and Green Building",
+		"description": "This forward-thinking team focuses on incorporating environmentally friendly practices and materials into our projects. They ensure our developments meet or exceed green building standards, appealing to eco-conscious clients and reducing long-term operational costs."
+	},
+	{
+		"name": "Property Valuation",
+		"description": "These experts assess the market value of properties, both for acquisition purposes and to inform pricing strategies for our developments. Their insights are crucial for maximizing return on investment and maintaining competitive positioning."
+	},
+	{
+		"name": "Tenant Improvement",
+		"description": "This specialized team focuses on customizing commercial spaces to meet the specific needs of tenants. They play a crucial role in attracting and retaining high-value commercial clients by creating tailored, functional environments."
+	},
+	{
+		"name": "Facilities Management",
+		"description": "This department oversees the ongoing operation and maintenance of completed properties, ensuring they remain in top condition and continue to meet the evolving needs of occupants. They're key to preserving asset value and tenant satisfaction over time."
+	},
+	{
+		"name": "Real Estate Investment Trust (REIT) Management",
+		"description": "For companies structured as REITs, this team manages the portfolio of income-producing real estate assets, focusing on maximizing returns for shareholders while maintaining compliance with REIT regulations."
+	},
+	{
+		"name": "Prefabrication and Modular Construction",
+		"description": "This innovative department focuses on off-site construction techniques, producing building components in controlled factory settings. They drive efficiency, reduce on-site construction time, and open up new market opportunities."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Vehicle Technical Support",
+		"description": "This specialized department handles complex inquiries related to vehicle functionality, diagnostics, and troubleshooting. Your team here needs to be well-versed in various automotive systems, from engine management to advanced driver assistance systems (ADAS), ensuring customers receive accurate and timely solutions to their technical issues."
+	},
+	{
+		"name": "Recall and Safety Notifications",
+		"description": "This critical unit manages communication and support for vehicle recalls and safety-related issues. Your team will be responsible for disseminating vital information to customers, scheduling service appointments, and addressing concerns related to vehicle safety, ultimately safeguarding your brand's reputation and customer trust."
+	},
+	{
+		"name": "Connected Car Services",
+		"description": "As vehicles become increasingly connected, this department focuses on supporting customers with in-vehicle technology, including infotainment systems, mobile app integration, and over-the-air updates. Your team will need to stay ahead of rapidly evolving automotive tech trends to provide top-notch assistance."
+	},
+	{
+		"name": "Vehicle Configuration and Customization",
+		"description": "This department assists customers in navigating the often complex process of configuring and customizing their vehicles. Your team will guide customers through various options, from trim levels to accessories, ensuring they make informed decisions that align with their preferences and budget."
+	},
+	{
+		"name": "Automotive Financing and Leasing Support",
+		"description": "This specialized unit handles inquiries related to vehicle financing, leasing options, and payment plans. Your team will need to be well-versed in automotive financial products and regulations to provide accurate information and support to customers throughout their vehicle acquisition journey."
+	},
+	{
+		"name": "Electric Vehicle (EV) Specialist Team",
+		"description": "As the automotive industry shifts towards electrification, this dedicated department focuses on addressing unique concerns related to electric vehicles. Your team will need expertise in EV charging infrastructure, battery technology, and range management to effectively support this growing customer segment."
+	},
+	{
+		"name": "Fleet Management Support",
+		"description": "This department caters to business customers managing vehicle fleets. Your team will need to understand the complexities of fleet operations, including maintenance scheduling, vehicle tracking, and compliance issues, to provide tailored support to these high-value clients."
+	},
+	{
+		"name": "Automotive Parts and Accessories",
+		"description": "This specialized unit handles inquiries related to genuine OEM parts and accessories. Your team will need in-depth knowledge of various vehicle models and their components to assist customers in identifying and ordering the correct parts for their specific needs."
+	},
+	{
+		"name": "Vehicle History and Documentation",
+		"description": "This department manages inquiries related to vehicle history reports, service records, and documentation. Your team will play a crucial role in helping customers access and understand important information about their vehicles, supporting both new and used car owners."
+	},
+	{
+		"name": "Automotive Warranty and Extended Coverage",
+		"description": "This unit specializes in handling inquiries about vehicle warranties and extended coverage plans. Your team will need to be well-versed in the intricacies of warranty terms, coverage limits, and claim processes to effectively assist customers in protecting their automotive investments."
+	}
+]

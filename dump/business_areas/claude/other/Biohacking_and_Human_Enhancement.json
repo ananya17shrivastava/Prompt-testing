@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Neurotechnology Development",
+		"description": "This department focuses on creating cutting-edge brain-computer interfaces and neural implants. Your team will be at the forefront of merging human cognition with artificial intelligence, potentially revolutionizing how we process information and interact with technology."
+	},
+	{
+		"name": "Genetic Optimization",
+		"description": "This division specializes in developing gene editing techniques and personalized genomics solutions. Your experts will work on unlocking human potential through genetic enhancements, potentially offering services to improve physical and cognitive capabilities."
+	},
+	{
+		"name": "Biofeedback Systems",
+		"description": "This unit designs advanced biofeedback devices and software for optimizing human performance. Your team will create tools that allow individuals to monitor and control various physiological processes, enhancing overall well-being and productivity."
+	},
+	{
+		"name": "Nootropics Research and Development",
+		"description": "This department is dedicated to discovering and formulating cognitive enhancers. Your scientists will explore novel compounds and combinations to boost mental performance, potentially creating the next generation of smart drugs for the commercial market."
+	},
+	{
+		"name": "Cybernetic Integration",
+		"description": "This cutting-edge division focuses on merging human biology with advanced robotics and AI. Your engineers will develop prosthetics, exoskeletons, and other augmentations that push the boundaries of human physical capabilities."
+	},
+	{
+		"name": "Longevity Solutions",
+		"description": "This unit is committed to extending human lifespan and improving quality of life. Your researchers will explore anti-aging therapies, from telomere manipulation to senolytic drugs, potentially revolutionizing healthcare and human longevity."
+	},
+	{
+		"name": "Biohacking Education and Outreach",
+		"description": "This department develops educational programs and community engagement initiatives. Your team will create content, workshops, and events to educate the public about biohacking, ensuring responsible adoption of human enhancement technologies."
+	},
+	{
+		"name": "Ethical Compliance and Bioethics",
+		"description": "This crucial division navigates the complex ethical landscape of human enhancement. Your experts will develop guidelines, assess potential societal impacts, and ensure all innovations align with ethical standards and regulations."
+	},
+	{
+		"name": "Quantified Self Analytics",
+		"description": "This unit creates advanced personal data collection and analysis tools. Your data scientists will develop algorithms and platforms to help individuals track and optimize various aspects of their lives, from sleep patterns to cognitive performance."
+	},
+	{
+		"name": "Biohacking Hardware Engineering",
+		"description": "This department designs and manufactures specialized devices for personal biohacking. Your engineers will create innovative wearables, implantables, and other hardware solutions that enable individuals to monitor and enhance their biological functions."
+	},
+	{
+		"name": "Synthetic Biology Integration",
+		"description": "This cutting-edge division explores the integration of synthetic biology with human enhancement. Your team will develop novel biological circuits and engineered organisms that can interface with human biology, potentially creating new avenues for enhancement and therapy."
+	},
+	{
+		"name": "Consciousness Expansion Research",
+		"description": "This unique department investigates methods to expand human consciousness and perception. Your researchers will explore technologies and techniques that could potentially unlock hidden cognitive abilities or alter states of consciousness for enhanced creativity and problem-solving."
+	}
+]

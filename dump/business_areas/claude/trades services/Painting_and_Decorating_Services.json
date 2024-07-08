@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Color Consultation Services",
+		"description": "A specialized department focused on providing expert advice on color schemes, palettes, and combinations. This team works closely with clients to understand their preferences, analyze lighting conditions, and recommend optimal color choices that align with current trends and enhance the overall aesthetic of spaces."
+	},
+	{
+		"name": "Faux Finishing Division",
+		"description": "This specialized unit is dedicated to creating unique, high-end decorative finishes that mimic materials like marble, wood, or textured surfaces. The team employs advanced techniques and specialized tools to deliver custom, luxurious appearances that elevate interior spaces beyond standard paint applications."
+	},
+	{
+		"name": "Wallpaper Installation and Removal",
+		"description": "A dedicated department handling the intricate processes of wallpaper selection, preparation, installation, and removal. This team stays current with the latest wallpaper trends, adhesive technologies, and removal techniques to ensure flawless results and minimal damage to underlying surfaces."
+	},
+	{
+		"name": "Specialty Coatings Application",
+		"description": "This division focuses on the application of advanced, high-performance coatings for specific purposes such as fire-retardant, anti-microbial, or eco-friendly paints. The team is trained in handling these specialized products and understanding their unique application requirements and benefits."
+	},
+	{
+		"name": "Historical Restoration Team",
+		"description": "A specialized group of experts dedicated to the preservation and restoration of historical buildings and heritage sites. This team possesses in-depth knowledge of period-specific techniques, materials, and color palettes to authentically restore and maintain the integrity of historically significant structures."
+	},
+	{
+		"name": "Texture and Plaster Artistry",
+		"description": "This department specializes in creating custom textured finishes and ornamental plasterwork. The team employs artistic techniques to produce unique wall textures, decorative moldings, and intricate plaster designs that add depth and character to interior spaces."
+	},
+	{
+		"name": "Exterior Painting and Weatherproofing",
+		"description": "A specialized unit focused on the unique challenges of exterior painting, including surface preparation, weather-resistant coatings, and long-lasting finishes. This team is well-versed in dealing with various exterior materials and environmental factors that impact paint durability."
+	},
+	{
+		"name": "Spray Painting and Airless Application",
+		"description": "This division specializes in high-efficiency paint application methods using advanced spray technologies. The team is skilled in preparing spaces for spray application, selecting appropriate equipment, and achieving smooth, even finishes on large surfaces or intricate architectural elements."
+	},
+	{
+		"name": "Eco-Friendly and Low-VOC Solutions",
+		"description": "A department dedicated to environmentally conscious painting and decorating solutions. This team stays abreast of the latest eco-friendly products, application techniques, and certifications to provide sustainable options that meet both aesthetic and environmental requirements."
+	},
+	{
+		"name": "Custom Stenciling and Mural Creation",
+		"description": "This specialized unit focuses on creating bespoke decorative elements through stenciling techniques and hand-painted murals. The team works closely with clients to design and execute unique, personalized artwork that transforms spaces and adds distinctive character to interiors."
+	}
+]

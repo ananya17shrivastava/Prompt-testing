@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Pest Identification and Analysis Unit",
+		"description": "This specialized department focuses on accurately identifying various pest species and analyzing their behavior patterns. It's crucial for developing targeted treatment strategies and staying ahead of emerging pest threats in different regions."
+	},
+	{
+		"name": "Integrated Pest Management (IPM) Planning Division",
+		"description": "This forward-thinking unit develops comprehensive, environmentally-friendly pest control strategies. They balance chemical treatments with biological controls and habitat modification techniques to provide long-term, sustainable solutions for clients."
+	},
+	{
+		"name": "Pesticide Formulation and Application Research Team",
+		"description": "This innovative group works on developing and testing new pesticide formulations and application methods. They focus on improving efficacy while minimizing environmental impact and ensuring compliance with evolving regulations."
+	},
+	{
+		"name": "Pest-Specific Treatment Squads",
+		"description": "These specialized teams are experts in dealing with specific pest categories (e.g., rodents, insects, birds). They possess in-depth knowledge of the target pests' biology, behavior, and most effective control methods, ensuring precise and efficient service delivery."
+	},
+	{
+		"name": "Entomological Laboratory",
+		"description": "This state-of-the-art facility conducts research on insect pests, their life cycles, and resistance patterns. It plays a crucial role in developing cutting-edge pest control techniques and staying ahead of pest adaptations to traditional treatments."
+	},
+	{
+		"name": "Wildlife Exclusion and Habitat Modification Unit",
+		"description": "This unique department focuses on preventing pest infestations through structural modifications and habitat alteration. They specialize in identifying and sealing entry points, as well as recommending landscape changes to deter pests."
+	},
+	{
+		"name": "Pest Control Equipment Engineering Division",
+		"description": "This innovative team designs, develops, and maintains specialized equipment for pest control applications. They work on creating more efficient, precise, and environmentally-friendly tools for pest management professionals."
+	},
+	{
+		"name": "Pest Monitoring and Surveillance Systems Department",
+		"description": "This high-tech unit develops and implements advanced monitoring systems using sensors, cameras, and data analytics. They provide early detection and real-time tracking of pest activities, enabling proactive and targeted interventions."
+	},
+	{
+		"name": "Fumigation and Large-Scale Treatment Operations",
+		"description": "This specialized department handles complex, large-scale pest control operations such as fumigations for shipping containers, warehouses, or entire buildings. They manage the logistics, safety protocols, and execution of these high-risk, high-reward services."
+	},
+	{
+		"name": "Pest Control Regulatory Compliance and Certification Unit",
+		"description": "This critical department ensures the company's operations adhere to local, state, and federal regulations regarding pesticide use and application. They also manage ongoing certification and training programs for pest control technicians."
+	},
+	{
+		"name": "Urban Pest Management Strategy Team",
+		"description": "This forward-looking group focuses on developing strategies for pest control in densely populated urban environments. They address unique challenges such as multi-unit dwellings, commercial complexes, and the interface between urban and natural habitats."
+	},
+	{
+		"name": "Eco-Friendly and Organic Pest Control Division",
+		"description": "This specialized unit caters to the growing demand for chemical-free pest control solutions. They develop and implement strategies using natural predators, plant-based repellents, and other environmentally conscious methods to manage pest populations."
+	}
+]

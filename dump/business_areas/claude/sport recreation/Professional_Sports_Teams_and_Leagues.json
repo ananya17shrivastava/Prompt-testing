@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Player Personnel and Scouting",
+		"description": "This department focuses on identifying, evaluating, and acquiring top athletic talent. It's responsible for draft strategies, player trades, and maintaining a competitive roster. The scouting network extends globally, ensuring the team has access to the best emerging talent."
+	},
+	{
+		"name": "Salary Cap Management",
+		"description": "A critical function that oversees the team's adherence to league-imposed salary restrictions. This department strategically allocates financial resources to player contracts while maintaining compliance with complex league rules, ensuring the team remains competitive without facing penalties."
+	},
+	{
+		"name": "Game Day Operations",
+		"description": "This unit manages all aspects of live event execution, from coordinating team logistics to overseeing in-stadium entertainment. They ensure a seamless, engaging experience for fans attending games, balancing athletic competition with spectator enjoyment."
+	},
+	{
+		"name": "League Compliance and Governance",
+		"description": "A specialized department that navigates the intricate rules and regulations set by the league. They manage relationships with league officials, handle dispute resolutions, and ensure the team's operations align with league-wide policies and standards."
+	},
+	{
+		"name": "Performance Analytics",
+		"description": "This cutting-edge department leverages advanced statistics and data analysis to gain competitive advantages. They provide insights on player performance, opponent strategies, and game tactics, informing coaching decisions and long-term team strategy."
+	},
+	{
+		"name": "Athlete Development",
+		"description": "Focused on nurturing talent, this department oversees player training regimens, skill development programs, and transition support for rookies. They work to maximize each athlete's potential and extend their professional careers."
+	},
+	{
+		"name": "Draft Strategy and Management",
+		"description": "This specialized unit is dedicated to the annual player draft process. They conduct in-depth analyses of prospective players, develop draft strategies, and manage the team's draft picks to secure future talent."
+	},
+	{
+		"name": "Collective Bargaining Negotiations",
+		"description": "A crucial department that represents the team's interests in league-wide labor negotiations with players' unions. They navigate complex discussions on salary structures, player benefits, and league revenue sharing."
+	},
+	{
+		"name": "Franchise Relocation and Expansion",
+		"description": "This strategic unit evaluates opportunities for team relocation or league expansion. They assess market viability, negotiate with local governments, and manage the logistical challenges of moving or establishing a professional sports franchise."
+	},
+	{
+		"name": "Media Rights Management",
+		"description": "This department handles the negotiation and management of broadcast and streaming rights for team games and content. They work to maximize revenue from media partnerships while ensuring broad access for fans."
+	},
+	{
+		"name": "Competitive Balance Initiatives",
+		"description": "A forward-thinking unit that works on maintaining league-wide competitiveness. They participate in discussions on draft lottery systems, revenue sharing models, and other mechanisms designed to prevent dominant teams from monopolizing success."
+	},
+	{
+		"name": "In-House Medical and Recovery",
+		"description": "This specialized medical team focuses on athlete health, injury prevention, and recovery. They employ cutting-edge treatments and technologies specifically tailored to the unique needs of professional athletes in their sport."
+	}
+]

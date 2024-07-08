@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Algorithm Development Team",
+		"description": "This specialized unit focuses on creating and refining the proprietary matching algorithms that power recruitment technology platforms. They work on enhancing candidate-job fit predictions, improving search relevance, and developing AI-driven screening capabilities to streamline the hiring process."
+	},
+	{
+		"name": "Applicant Tracking System (ATS) Integration Department",
+		"description": "This team specializes in developing seamless integrations between the recruitment technology platform and various ATS solutions used by clients. They ensure smooth data flow, synchronization, and compatibility across different systems to enhance user experience and efficiency."
+	},
+	{
+		"name": "Candidate Experience Design Team",
+		"description": "Dedicated to optimizing the job seeker's journey through the recruitment technology platform, this group focuses on creating intuitive interfaces, personalized job recommendations, and engaging application processes to attract and retain top talent for clients."
+	},
+	{
+		"name": "Data Privacy and Compliance Unit",
+		"description": "This department ensures that the recruitment technology adheres to global data protection regulations and industry-specific compliance standards. They develop and implement robust data handling protocols, manage consent mechanisms, and stay abreast of evolving privacy laws."
+	},
+	{
+		"name": "Recruitment Analytics and Insights Division",
+		"description": "This team specializes in developing advanced analytics tools and dashboards that provide clients with actionable insights into their recruitment processes. They focus on creating predictive models, benchmarking capabilities, and data visualization tools to help organizations make data-driven hiring decisions."
+	},
+	{
+		"name": "Talent Pool Management Systems",
+		"description": "This unit develops and maintains sophisticated databases and CRM-like systems designed specifically for managing and nurturing talent pools. They create features for candidate segmentation, automated engagement, and long-term relationship building between employers and potential candidates."
+	},
+	{
+		"name": "AI-Driven Interview Technology Department",
+		"description": "This innovative team focuses on developing AI-powered interview tools, including video interview analysis, chatbots for initial screening, and automated scheduling systems. They work on natural language processing and machine learning models to assess candidate responses and predict job fit."
+	},
+	{
+		"name": "Recruitment Process Automation (RPA) Team",
+		"description": "This group specializes in identifying and automating repetitive tasks within the recruitment workflow. They develop intelligent bots and workflow automation tools to handle resume parsing, initial candidate outreach, and other time-consuming administrative tasks."
+	},
+	{
+		"name": "Sourcing Technology Innovation Lab",
+		"description": "This forward-thinking unit explores and develops cutting-edge sourcing technologies. They work on AI-driven web scraping tools, social media integration for passive candidate identification, and innovative approaches to expand and diversify talent pools."
+	},
+	{
+		"name": "Recruitment Marketplace Ecosystem Team",
+		"description": "This department focuses on building and maintaining a robust ecosystem of third-party integrations and partnerships. They develop APIs, manage vendor relationships, and create a seamless marketplace experience that allows clients to access a wide range of complementary recruitment tools and services."
+	}
+]

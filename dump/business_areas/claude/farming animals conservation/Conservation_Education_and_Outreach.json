@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Immersive Learning Programs",
+		"description": "This department designs and implements hands-on experiences that allow visitors to engage directly with farm animals and conservation practices. These programs go beyond traditional educational approaches, offering participants a deep, experiential understanding of sustainable farming and animal welfare."
+	},
+	{
+		"name": "Agricultural Heritage Preservation",
+		"description": "This specialized unit focuses on documenting and showcasing traditional farming methods and rare livestock breeds. It plays a crucial role in maintaining cultural connections to agricultural practices while educating the public on the importance of genetic diversity in farm animals."
+	},
+	{
+		"name": "Youth Engagement and Future Farmers Initiative",
+		"description": "This department develops targeted programs to inspire and educate young people about sustainable farming and animal conservation. It aims to cultivate the next generation of conservation-minded farmers and agricultural professionals through workshops, mentorship programs, and hands-on experiences."
+	},
+	{
+		"name": "Virtual Reality (VR) Farm Tours",
+		"description": "This innovative team creates immersive VR experiences that allow people to explore sustainable farms and interact with animals virtually. This technology enables broader outreach, reaching audiences who may not have physical access to farms, and provides a unique platform for conservation education."
+	},
+	{
+		"name": "Livestock Ambassador Program",
+		"description": "This department trains and manages a network of volunteer \"animal ambassadors\" - specific farm animals that serve as living educational tools. These animals, along with their handlers, participate in outreach events, school visits, and public demonstrations to foster connections between people and farm animals."
+	},
+	{
+		"name": "Conservation Storytelling and Media Production",
+		"description": "This creative unit produces compelling multimedia content that tells the stories of farm animal conservation efforts. They create documentaries, podcasts, and social media campaigns that highlight success stories, challenges, and the importance of sustainable farming practices."
+	},
+	{
+		"name": "Farmer-to-Public Communication Training",
+		"description": "This department provides specialized training to farmers and conservation professionals, equipping them with the skills to effectively communicate complex conservation concepts to the general public. This ensures that those directly involved in conservation work can serve as powerful advocates and educators."
+	},
+	{
+		"name": "Interactive Conservation Exhibits",
+		"description": "This team designs and maintains dynamic, hands-on exhibits that showcase farm animal conservation efforts. These exhibits, which may be permanent or traveling, use cutting-edge technology and interactive elements to engage visitors and convey important conservation messages."
+	},
+	{
+		"name": "Farm Animal Welfare Education",
+		"description": "This specialized unit focuses on educating the public about the specific welfare needs of different farm animal species. They develop curricula and outreach programs that highlight the importance of animal welfare in sustainable farming practices."
+	},
+	{
+		"name": "Sustainable Farming Demonstration Sites",
+		"description": "This department manages living laboratories where sustainable farming practices and animal conservation techniques are demonstrated in real-world settings. These sites serve as educational hubs for farmers, students, and the general public to observe and learn about best practices in action."
+	}
+]

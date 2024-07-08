@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Green Building Certification Management",
+		"description": "This department focuses on obtaining and maintaining various green building certifications such as LEED, BREEAM, or WELL. They ensure properties meet stringent sustainability standards, enhancing marketability and value while reducing environmental impact."
+	},
+	{
+		"name": "Energy Performance Optimization",
+		"description": "This team specializes in analyzing and improving the energy efficiency of buildings. They implement cutting-edge technologies and strategies to minimize energy consumption, reduce operational costs, and meet increasingly strict regulatory requirements."
+	},
+	{
+		"name": "Sustainable Materials Sourcing",
+		"description": "This division is responsible for identifying, vetting, and procuring environmentally friendly construction materials. They work closely with suppliers to ensure the use of recycled, renewable, and low-impact materials throughout the development process."
+	},
+	{
+		"name": "Water Conservation and Management",
+		"description": "This department develops and implements innovative water-saving solutions, including rainwater harvesting, greywater recycling, and smart irrigation systems. Their efforts significantly reduce water consumption and associated costs while promoting environmental stewardship."
+	},
+	{
+		"name": "Waste Reduction and Circular Economy Initiatives",
+		"description": "This team focuses on minimizing waste generation during construction and operation. They develop strategies for recycling, upcycling, and repurposing materials, as well as implementing circular economy principles in property management."
+	},
+	{
+		"name": "Biodiversity and Ecosystem Services",
+		"description": "This specialized unit works on integrating natural elements into building designs, such as green roofs, living walls, and urban gardens. They also develop strategies to protect and enhance local ecosystems, contributing to improved air quality and occupant well-being."
+	},
+	{
+		"name": "Carbon Footprint Analysis and Mitigation",
+		"description": "This department is dedicated to measuring, reporting, and reducing the carbon emissions associated with property development and operations. They develop strategies to achieve carbon neutrality or net-zero emissions, aligning with global climate goals."
+	},
+	{
+		"name": "Sustainable Transportation Integration",
+		"description": "This team focuses on incorporating eco-friendly transportation solutions into property designs. They plan for electric vehicle charging infrastructure, bike-sharing programs, and improved connectivity to public transit, reducing the overall carbon footprint of occupants."
+	},
+	{
+		"name": "Occupant Health and Well-being Optimization",
+		"description": "This division specializes in creating indoor environments that promote physical and mental health. They focus on factors such as air quality, natural lighting, thermal comfort, and biophilic design to enhance occupant productivity and satisfaction."
+	},
+	{
+		"name": "Resilience and Climate Adaptation Planning",
+		"description": "This forward-thinking department assesses potential climate-related risks and develops strategies to enhance property resilience. They plan for extreme weather events, sea-level rise, and other climate change impacts to ensure long-term sustainability and value preservation."
+	},
+	{
+		"name": "Sustainable Community Engagement",
+		"description": "This team works on fostering relationships with local communities to promote sustainable practices beyond property boundaries. They develop programs for education, outreach, and collaboration to create a positive impact on the surrounding area and enhance the property's social sustainability."
+	},
+	{
+		"name": "Green Lease Administration",
+		"description": "This specialized department focuses on developing and managing lease agreements that align tenant and landlord interests in sustainability. They create incentives for energy efficiency, waste reduction, and other environmentally friendly practices within the leasing structure."
+	}
+]

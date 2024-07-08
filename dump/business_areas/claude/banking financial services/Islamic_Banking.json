@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Shariah Compliance Department",
+		"description": "This critical department ensures all banking products, services, and operations adhere to Islamic law principles. It works closely with Shariah scholars to interpret religious guidelines and develop compliant financial solutions. The department's role is crucial in maintaining the bank's integrity and credibility within the Islamic finance ecosystem."
+	},
+	{
+		"name": "Islamic Product Development",
+		"description": "This innovative unit focuses on creating financial products that align with Shariah principles while meeting modern banking needs. They design alternatives to conventional banking products, such as Murabaha (cost-plus financing), Ijara (leasing), and Musharakah (partnership financing). Their work is essential for staying competitive and relevant in the Islamic finance market."
+	},
+	{
+		"name": "Zakat Management",
+		"description": "This specialized department handles the collection and distribution of Zakat, the obligatory charitable contribution in Islam. They calculate Zakat for the bank and its customers, ensure proper allocation of funds, and maintain transparency in the process. This service enhances the bank's social responsibility profile and strengthens community relationships."
+	},
+	{
+		"name": "Qard Hasan Administration",
+		"description": "This unit manages interest-free loans (Qard Hasan) provided for welfare purposes. They assess applications, disburse funds, and oversee repayments. This service demonstrates the bank's commitment to social welfare and ethical banking practices, setting it apart from conventional banks."
+	},
+	{
+		"name": "Sukuk Issuance and Management",
+		"description": "This department specializes in structuring, issuing, and managing Sukuk (Islamic bonds). They ensure these investment certificates comply with Shariah principles while meeting market demands. Their expertise is crucial for capital raising and investment activities in the Islamic finance sector."
+	},
+	{
+		"name": "Takaful Coordination",
+		"description": "This unit liaises with Islamic insurance (Takaful) providers to offer Shariah-compliant insurance products to customers. They coordinate product development, marketing, and claims processing, ensuring a comprehensive financial services offering that aligns with Islamic principles."
+	},
+	{
+		"name": "Islamic Treasury Management",
+		"description": "This department manages the bank's liquidity and investments in compliance with Shariah law. They develop and implement strategies for profit-sharing investment accounts, avoiding interest-based instruments. Their role is vital in maintaining the bank's financial health while adhering to Islamic finance principles."
+	},
+	{
+		"name": "Shariah Audit",
+		"description": "This independent department conducts regular audits to ensure all bank operations and transactions comply with Shariah principles. They identify non-compliance issues, recommend corrective actions, and report to the Shariah Supervisory Board. Their work is essential for maintaining the bank's credibility and regulatory compliance."
+	},
+	{
+		"name": "Islamic Wealth Management",
+		"description": "This specialized unit provides Shariah-compliant wealth management services, including estate planning, waqf (endowment) management, and Islamic investment advisory. They cater to high-net-worth individuals seeking to grow and preserve their wealth in accordance with Islamic principles."
+	},
+	{
+		"name": "Islamic Microfinance",
+		"description": "This department focuses on providing Shariah-compliant microfinance solutions to support small businesses and entrepreneurs. They develop and implement programs that combine Islamic finance principles with microfinance best practices, contributing to financial inclusion and economic development."
+	}
+]

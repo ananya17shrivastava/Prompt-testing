@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Production Line Optimization",
+		"description": "This department focuses on maximizing efficiency and output of assembly lines. They analyze workflows, implement lean manufacturing principles, and continuously improve production processes to reduce waste and increase productivity."
+	},
+	{
+		"name": "Modular Assembly Systems",
+		"description": "Specialists in this area design and implement flexible, adaptable assembly systems that can be quickly reconfigured to accommodate different product variations or entirely new product lines, enhancing the facility's agility in responding to market demands."
+	},
+	{
+		"name": "Automated Guided Vehicle (AGV) Integration",
+		"description": "This team is responsible for incorporating AGVs into the assembly and production environment. They design traffic patterns, implement control systems, and ensure seamless integration with existing production processes to enhance material movement efficiency."
+	},
+	{
+		"name": "Collaborative Robotics Implementation",
+		"description": "Experts in this department focus on integrating collaborative robots (cobots) into assembly processes. They identify tasks suitable for human-robot collaboration, design safe work environments, and program cobots to work alongside human operators, improving productivity and ergonomics."
+	},
+	{
+		"name": "In-line Quality Assurance",
+		"description": "This specialized unit develops and implements real-time quality control measures directly within the production line. They utilize advanced sensors, machine vision systems, and data analytics to detect and address quality issues immediately, reducing defects and improving overall product quality."
+	},
+	{
+		"name": "Just-in-Sequence (JIS) Logistics",
+		"description": "This department manages the precise sequencing of parts and components to match the exact order of products on the assembly line. They coordinate with suppliers and internal logistics to ensure that the right parts arrive at the right workstation at the right time, minimizing inventory and streamlining production."
+	},
+	{
+		"name": "Ergonomics and Human Factors Engineering",
+		"description": "This team focuses on optimizing the interaction between workers and their assembly environment. They design workstations, tools, and processes that reduce physical strain, improve comfort, and enhance productivity while minimizing the risk of work-related injuries."
+	},
+	{
+		"name": "Production Simulation and Digital Twin Development",
+		"description": "Specialists in this area create virtual replicas of the assembly and production facilities. They use advanced simulation software to test process changes, optimize layouts, and predict outcomes before implementing changes in the physical environment, reducing risks and costs associated with production modifications."
+	},
+	{
+		"name": "Energy Management and Sustainability in Production",
+		"description": "This department is dedicated to reducing the energy consumption and environmental impact of assembly and production processes. They implement energy-efficient technologies, optimize resource usage, and develop sustainable practices specific to the manufacturing environment."
+	},
+	{
+		"name": "Predictive Maintenance for Assembly Equipment",
+		"description": "This team utilizes advanced analytics and IoT sensors to predict and prevent equipment failures in the assembly line. They develop maintenance schedules based on real-time data, minimizing unexpected downtime and optimizing the lifespan of production machinery."
+	},
+	{
+		"name": "Assembly Process Standardization",
+		"description": "Experts in this area develop and implement standardized work procedures across different assembly lines and facilities. They create detailed, replicable processes that ensure consistency in product quality, regardless of where the assembly takes place within the organization."
+	},
+	{
+		"name": "Kitting and Pre-assembly Operations",
+		"description": "This specialized unit focuses on preparing and organizing components into kits before they reach the main assembly line. They optimize the pre-assembly process to reduce complexity on the main line, improve efficiency, and minimize errors in component selection."
+	}
+]

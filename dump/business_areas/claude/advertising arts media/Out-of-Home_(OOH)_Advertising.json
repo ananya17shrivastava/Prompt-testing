@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Location Analytics and Planning",
+		"description": "This department focuses on identifying and analyzing high-value outdoor locations for ad placement. They use advanced geospatial tools and foot traffic data to determine optimal sites for maximum visibility and audience reach, ensuring your advertising investments yield the highest possible ROI."
+	},
+	{
+		"name": "Structural Engineering and Installation",
+		"description": "This specialized team manages the complex process of designing, constructing, and installing large-format outdoor advertising structures. They ensure that billboards, digital displays, and other OOH media are not only visually impactful but also structurally sound and compliant with local regulations."
+	},
+	{
+		"name": "Illumination and Power Management",
+		"description": "Dedicated to optimizing the visibility and energy efficiency of OOH displays, this department develops cutting-edge lighting solutions and power management systems. They work to enhance ad visibility during both day and night while minimizing energy consumption and operational costs."
+	},
+	{
+		"name": "Weather-Resistant Design",
+		"description": "This innovative team focuses on creating durable OOH advertising materials that can withstand various weather conditions. They develop and implement technologies to protect outdoor ads from sun damage, rain, wind, and temperature fluctuations, ensuring long-lasting, high-quality displays."
+	},
+	{
+		"name": "Digital OOH (DOOH) Content Management",
+		"description": "Specializing in the dynamic world of digital out-of-home advertising, this department manages the scheduling, deployment, and real-time updating of content across networks of digital billboards and screens. They enable agile, context-aware advertising campaigns that can respond to factors like time of day, weather, or current events."
+	},
+	{
+		"name": "Street Furniture and Transit Media Integration",
+		"description": "This team focuses on seamlessly incorporating advertising into urban environments through bus shelters, benches, kiosks, and transit vehicles. They work closely with city planners and transit authorities to create advertising solutions that enhance rather than detract from public spaces."
+	},
+	{
+		"name": "Audience Measurement and Verification",
+		"description": "Utilizing advanced technologies like cameras, sensors, and mobile data, this department provides accurate, real-time metrics on OOH ad viewership and engagement. They deliver crucial insights that allow you to measure campaign effectiveness and demonstrate concrete ROI to clients."
+	},
+	{
+		"name": "Regulatory Compliance and Permitting",
+		"description": "This specialized legal and administrative team navigates the complex landscape of outdoor advertising regulations. They secure necessary permits, ensure compliance with local zoning laws and advertising standards, and manage relationships with regulatory bodies to keep your OOH operations running smoothly."
+	},
+	{
+		"name": "Mobile Integration and Retargeting",
+		"description": "This forward-thinking department develops strategies to connect OOH advertising with mobile devices. They create interactive campaigns that allow viewers to engage with outdoor ads via their smartphones, and implement retargeting techniques to reinforce OOH messaging through other digital channels."
+	},
+	{
+		"name": "Eco-Friendly OOH Solutions",
+		"description": "Focused on sustainability, this team develops environmentally responsible OOH advertising solutions. They research and implement green technologies such as solar-powered displays, biodegradable materials, and carbon-neutral production processes, aligning your OOH strategies with corporate sustainability goals and consumer expectations."
+	}
+]

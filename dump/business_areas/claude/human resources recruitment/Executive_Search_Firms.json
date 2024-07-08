@@ -1,0 +1,50 @@
+[
+	{
+		"name": "C-Suite Talent Mapping",
+		"description": "A specialized department focused on continuously mapping and tracking high-level executives across industries. This team maintains an up-to-date database of C-suite talent, their career trajectories, and potential availability, enabling swift identification of suitable candidates for top-tier positions."
+	},
+	{
+		"name": "Board Practice",
+		"description": "A dedicated unit specializing in the recruitment and placement of board members and non-executive directors. This team possesses deep knowledge of corporate governance, regulatory requirements, and the unique dynamics of board composition across various industries and company sizes."
+	},
+	{
+		"name": "Leadership Assessment Center",
+		"description": "An in-house facility equipped with advanced psychometric tools and assessment methodologies specifically designed to evaluate executive-level candidates. This center conducts comprehensive evaluations of leadership potential, strategic thinking abilities, and cultural fit for high-stakes placements."
+	},
+	{
+		"name": "Succession Planning Advisory",
+		"description": "A strategic consulting arm that works closely with client organizations to develop long-term succession plans for key executive positions. This team helps identify internal talent, assess external market conditions, and create roadmaps for seamless leadership transitions."
+	},
+	{
+		"name": "Executive Onboarding Support",
+		"description": "A specialized division dedicated to ensuring the successful integration of placed executives into their new roles. This team provides tailored onboarding programs, cultural assimilation support, and ongoing coaching to maximize the effectiveness of newly placed leaders."
+	},
+	{
+		"name": "Compensation Intelligence Unit",
+		"description": "A research-driven department focused on gathering, analyzing, and providing insights on executive compensation trends across industries and geographies. This team offers valuable data to inform competitive remuneration packages for high-level placements."
+	},
+	{
+		"name": "Diversity and Inclusion in Leadership",
+		"description": "A dedicated practice area specializing in identifying and placing diverse executive talent. This team develops strategies to broaden the pool of underrepresented candidates for top-tier positions and advises clients on creating inclusive leadership environments."
+	},
+	{
+		"name": "Cross-Border Executive Search",
+		"description": "A specialized unit equipped to handle complex international executive placements. This team navigates cultural nuances, legal requirements, and global talent pools to facilitate cross-border leadership appointments."
+	},
+	{
+		"name": "Executive Career Transition Services",
+		"description": "A discreet department offering personalized support to executives in career transitions. This team provides high-touch services such as personal branding, strategic career planning, and exclusive networking opportunities for senior leaders."
+	},
+	{
+		"name": "Thought Leadership and Executive Insights",
+		"description": "A content-driven division focused on producing cutting-edge research, whitepapers, and thought leadership pieces on executive leadership trends, challenges, and best practices. This team positions the firm as a knowledge leader in the executive search space."
+	},
+	{
+		"name": "Executive Search Technology Innovation",
+		"description": "A forward-thinking department dedicated to developing and implementing advanced technologies specifically for executive search processes. This team creates proprietary tools for candidate sourcing, assessment, and matching at the leadership level."
+	},
+	{
+		"name": "Confidential Search Operations",
+		"description": "A highly secure and discreet unit specializing in handling sensitive executive searches that require utmost confidentiality. This team employs advanced security measures and protocols to manage high-profile placements without market disruption."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Verification Research Team",
+		"description": "This specialized unit focuses exclusively on authenticating and corroborating candidate-provided information. They employ advanced investigative techniques and maintain extensive databases to ensure the accuracy of employment history, educational qualifications, and professional credentials."
+	},
+	{
+		"name": "Criminal Record Check Division",
+		"description": "This department manages the complex process of searching and interpreting criminal records across multiple jurisdictions. They navigate the intricate legal landscape surrounding criminal background checks, ensuring compliance with local, state, and federal regulations while providing actionable insights to clients."
+	},
+	{
+		"name": "International Screening Operations",
+		"description": "This global-focused team specializes in conducting background checks across international borders. They possess expertise in navigating diverse legal systems, cultural nuances, and data privacy regulations to deliver comprehensive screening results for multinational corporations and global hiring initiatives."
+	},
+	{
+		"name": "Adverse Action Compliance Unit",
+		"description": "This department manages the sensitive process of adverse action notifications when negative information is uncovered during background checks. They ensure strict adherence to Fair Credit Reporting Act (FCRA) requirements and other relevant regulations, minimizing legal risks for clients while maintaining candidate rights."
+	},
+	{
+		"name": "Source Verification Specialists",
+		"description": "This team focuses on direct verification of information from primary sources. They develop and maintain relationships with educational institutions, employers, and licensing bodies worldwide to obtain first-hand confirmation of candidate credentials and history."
+	},
+	{
+		"name": "Continuous Monitoring Services",
+		"description": "This innovative department provides ongoing screening solutions, continuously monitoring employees for new criminal activities, license status changes, or other relevant updates. They leverage advanced technologies to alert clients to potential risks in real-time, enhancing workplace safety and compliance."
+	},
+	{
+		"name": "Screening Technology Integration Team",
+		"description": "This technical unit specializes in seamlessly integrating background screening processes with clients' existing HR systems and Applicant Tracking Systems (ATS). They develop custom APIs and ensure smooth data flow, enhancing efficiency and user experience for both employers and candidates."
+	},
+	{
+		"name": "Drug Testing Coordination Center",
+		"description": "This department manages the logistical complexities of drug screening programs. They coordinate with collection sites, laboratories, and Medical Review Officers (MROs) to ensure accurate, timely, and compliant drug testing results for clients across various industries and regulatory environments."
+	},
+	{
+		"name": "Screening Analytics and Reporting Division",
+		"description": "This data-driven team focuses on extracting valuable insights from screening data. They develop customized reports and analytics dashboards, helping clients identify hiring trends, assess risk patterns, and optimize their background check processes for improved decision-making."
+	},
+	{
+		"name": "Candidate Dispute Resolution Center",
+		"description": "This specialized unit handles disputes raised by candidates regarding their background check results. They conduct thorough reinvestigations, liaise with information sources, and ensure fair resolution of discrepancies, maintaining the integrity of the screening process while addressing candidate concerns."
+	},
+	{
+		"name": "Industry-Specific Compliance Experts",
+		"description": "This team of legal and compliance professionals focuses on industry-specific screening requirements. They stay abreast of evolving regulations in sectors such as healthcare, finance, and education, providing tailored guidance to ensure clients meet their unique compliance obligations."
+	},
+	{
+		"name": "Social Media Screening Unit",
+		"description": "This modern department specializes in conducting ethical and compliant social media background checks. They employ advanced AI and human analysis to screen candidates' online presence, providing insights into professional conduct and potential reputational risks while adhering to privacy laws and ethical guidelines."
+	}
+]

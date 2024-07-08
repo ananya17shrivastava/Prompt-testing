@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Spatial Computing Development",
+		"description": "This department focuses on creating and optimizing algorithms that allow AR/VR devices to understand and interact with the physical world. Your spatial computing team will be crucial in developing solutions that seamlessly blend digital content with real-world environments, enhancing user immersion and interaction."
+	},
+	{
+		"name": "Haptic Feedback Engineering",
+		"description": "This specialized unit works on developing tactile sensations for AR/VR experiences. Your haptic feedback engineers will be instrumental in creating realistic touch sensations, adding a new dimension to virtual interactions and significantly enhancing user engagement."
+	},
+	{
+		"name": "Volumetric Capture Studios",
+		"description": "This department is responsible for creating three-dimensional representations of real-world objects and people for use in AR/VR environments. Your volumetric capture team will be essential in producing high-quality, immersive content that can be integrated into various AR/VR applications."
+	},
+	{
+		"name": "AR/VR Content Ecosystem Management",
+		"description": "This team oversees the creation, curation, and distribution of AR/VR content. Your ecosystem managers will be critical in building and maintaining a robust library of experiences, ensuring your platform remains competitive and engaging for users."
+	},
+	{
+		"name": "Immersive User Experience (UX) Design",
+		"description": "This department specializes in designing intuitive and engaging interfaces for AR/VR environments. Your immersive UX designers will play a crucial role in creating user-friendly experiences that leverage the unique capabilities of AR/VR technologies."
+	},
+	{
+		"name": "AR/VR Hardware Integration",
+		"description": "This team focuses on ensuring compatibility between AR/VR software and various hardware devices. Your hardware integration specialists will be vital in maximizing the reach and accessibility of your AR/VR solutions across different platforms and devices."
+	},
+	{
+		"name": "Spatial Audio Engineering",
+		"description": "This department develops 3D sound systems that enhance the realism of AR/VR experiences. Your spatial audio engineers will be key in creating immersive soundscapes that respond dynamically to user movements and interactions within virtual environments."
+	},
+	{
+		"name": "AR/VR Ethics and Safety Compliance",
+		"description": "This unit addresses the unique ethical and safety concerns associated with AR/VR technologies. Your ethics and safety compliance team will be essential in developing guidelines and protocols to ensure responsible use of AR/VR, protecting users and your company's reputation."
+	},
+	{
+		"name": "Virtual World Building",
+		"description": "This department creates expansive, interactive virtual environments for various applications. Your virtual world builders will be crucial in developing rich, detailed digital spaces that serve as the foundation for immersive experiences across industries."
+	},
+	{
+		"name": "AR/VR Training and Simulation",
+		"description": "This team specializes in developing AR/VR solutions for training and simulation purposes. Your training and simulation experts will be instrumental in creating realistic, risk-free environments for skills development and scenario practice across various sectors."
+	},
+	{
+		"name": "Holographic Display Technology",
+		"description": "This department focuses on developing and improving holographic projection systems for AR applications. Your holographic display team will be vital in pushing the boundaries of visual fidelity and creating more convincing augmented reality overlays."
+	},
+	{
+		"name": "Gesture and Eye-Tracking Interface Development",
+		"description": "This unit works on creating natural, intuitive control systems for AR/VR experiences. Your gesture and eye-tracking specialists will be key in developing innovative ways for users to interact with virtual content, enhancing usability and immersion."
+	}
+]

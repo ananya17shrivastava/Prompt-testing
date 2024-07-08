@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Emergency Response Coordination",
+		"description": "This department is the nerve center of disaster relief operations. It's responsible for rapidly mobilizing resources and personnel when disaster strikes. The team needs to be adept at real-time decision-making and have the ability to coordinate multiple moving parts under extreme pressure."
+	},
+	{
+		"name": "Disaster Risk Assessment and Mapping",
+		"description": "This forward-thinking unit is crucial for proactive disaster management. They utilize cutting-edge technology and data analysis to identify potential disaster-prone areas and populations at risk. Their work informs strategic planning and resource allocation, potentially saving countless lives and millions in resources."
+	},
+	{
+		"name": "Rapid Needs Assessment",
+		"description": "When disaster hits, this team is the eyes and ears on the ground. They quickly deploy to affected areas to gather critical information about immediate needs, damages, and local capacities. Their swift and accurate assessments are vital for tailoring the organization's response and appealing to donors."
+	},
+	{
+		"name": "Logistics and Supply Chain Management for Disaster Relief",
+		"description": "This department is the lifeline of relief efforts. They manage the complex task of procuring, storing, and distributing emergency supplies in often challenging environments. Their expertise in handling time-sensitive, life-saving goods is unique to this field and critical to the mission's success."
+	},
+	{
+		"name": "Emergency Shelter and Temporary Housing",
+		"description": "This specialized unit focuses on providing immediate shelter solutions in the aftermath of disasters. They deal with unique challenges like rapid deployment of temporary structures, management of large-scale displacement, and transitioning to more permanent housing solutions."
+	},
+	{
+		"name": "Search and Rescue Operations",
+		"description": "This high-stakes department requires specialized training and equipment. They conduct time-critical operations to locate and extract survivors from disaster-stricken areas. Their work often involves coordinating with local authorities and international teams in complex, hazardous environments."
+	},
+	{
+		"name": "Post-Disaster Mental Health Services",
+		"description": "This department addresses the often-overlooked psychological impact of disasters. They provide immediate crisis counseling and long-term mental health support tailored to disaster survivors and relief workers. Their work is crucial for the holistic recovery of affected communities."
+	},
+	{
+		"name": "Disaster Resilience Education",
+		"description": "This forward-looking department focuses on empowering communities to better withstand future disasters. They develop and implement educational programs on disaster preparedness, often tailored to local contexts and specific types of disasters. Their work is key to breaking the cycle of vulnerability."
+	},
+	{
+		"name": "Emergency Communications Systems",
+		"description": "In disaster scenarios, communication can mean the difference between life and death. This department specializes in setting up and maintaining robust communication networks in disaster-affected areas where normal infrastructure has been compromised. Their expertise in rapidly deployable, resilient communication systems is unique to this field."
+	},
+	{
+		"name": "Disaster Debris Management",
+		"description": "Often overlooked but crucial for recovery, this department handles the massive task of managing and disposing of debris left in a disaster's wake. They deal with unique challenges like hazardous materials, environmental concerns, and the sheer scale of post-disaster clean-up operations."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Tort Liability Analysis Unit",
+		"description": "This specialized team focuses on evaluating and predicting potential tort liabilities for policyholders. They stay abreast of legal trends, precedent-setting cases, and emerging risks that could impact your clients' exposure to lawsuits. Their insights are crucial for accurate pricing and risk assessment in liability policies."
+	},
+	{
+		"name": "Professional Indemnity Underwriting",
+		"description": "This department specializes in assessing and pricing risks associated with professional errors and omissions. They have deep expertise in various professional fields, enabling them to understand the unique risks faced by doctors, lawyers, architects, and other professionals. Their work is essential for tailoring policies that protect against malpractice claims and professional negligence suits."
+	},
+	{
+		"name": "Product Liability Risk Engineering",
+		"description": "This team of experts focuses on evaluating the potential risks associated with manufactured products. They work closely with policyholders to assess product design, manufacturing processes, and quality control measures. Their recommendations help mitigate risks and can significantly reduce the likelihood of costly product liability claims."
+	},
+	{
+		"name": "Environmental Liability Assessment",
+		"description": "This specialized unit deals with the complex and evolving field of environmental liability. They assess risks related to pollution, contamination, and environmental damage, helping businesses navigate the intricate landscape of environmental regulations and potential liabilities."
+	},
+	{
+		"name": "Cyber Liability Threat Intelligence",
+		"description": "This cutting-edge department focuses on the rapidly evolving world of cyber risks. They monitor emerging digital threats, assess clients' cybersecurity measures, and provide insights on potential vulnerabilities. Their work is crucial in developing and pricing cyber liability policies that protect against data breaches, cyber attacks, and other digital risks."
+	},
+	{
+		"name": "Directors and Officers (D&O) Liability Governance",
+		"description": "This specialized team focuses on the unique risks faced by corporate leaders. They analyze corporate governance structures, regulatory compliance, and potential conflicts of interest to assess the liability exposure of directors and officers. Their expertise is crucial in tailoring D&O policies that protect corporate leadership from personal liability."
+	},
+	{
+		"name": "Employment Practices Liability Consulting",
+		"description": "This department specializes in assessing and mitigating risks related to employment practices. They stay current on labor laws, workplace regulations, and emerging trends in employment-related litigation. Their insights help businesses protect themselves against claims of discrimination, harassment, wrongful termination, and other employment-related issues."
+	},
+	{
+		"name": "Contractual Liability Analysis",
+		"description": "This team focuses on evaluating the liability risks embedded in various contracts and agreements. They work closely with legal experts to assess indemnification clauses, liability transfers, and other contractual obligations that could impact liability exposure. Their work is crucial in understanding and pricing risks associated with contractual liabilities."
+	},
+	{
+		"name": "Public Liability Risk Mapping",
+		"description": "This unit specializes in assessing and visualizing public liability risks for businesses that interact with the general public. They create detailed risk maps that highlight potential hazards and liability exposures in public spaces, events, and operations. Their work is essential for businesses looking to mitigate risks associated with public interactions and potential accidents."
+	},
+	{
+		"name": "Reputational Harm Liability Modeling",
+		"description": "This innovative department focuses on the emerging field of reputational harm liability. They develop models to assess and quantify the potential financial impact of reputational damage resulting from various incidents. Their work is crucial in developing policies that protect businesses against the financial consequences of reputational harm."
+	}
+]

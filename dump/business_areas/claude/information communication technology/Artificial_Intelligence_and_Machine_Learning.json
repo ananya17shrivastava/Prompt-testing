@@ -1,0 +1,50 @@
+[
+	{
+		"name": "AI Ethics and Governance",
+		"description": "This department focuses on developing and implementing ethical guidelines for AI systems, ensuring responsible AI development, and addressing potential societal impacts. It works to maintain transparency, fairness, and accountability in AI applications, crucial for building trust with stakeholders and complying with emerging regulations."
+	},
+	{
+		"name": "AI Model Development",
+		"description": "This team specializes in creating, training, and refining machine learning models. They work on cutting-edge algorithms and architectures to solve complex problems, improve prediction accuracy, and enhance decision-making capabilities across various business applications."
+	},
+	{
+		"name": "Neural Architecture Search",
+		"description": "This innovative department automates the design of neural network architectures, optimizing AI model performance for specific tasks. By leveraging advanced algorithms, they reduce the time and expertise required for manual model design, accelerating AI development and deployment."
+	},
+	{
+		"name": "Explainable AI (XAI)",
+		"description": "This unit focuses on developing AI systems that can provide clear, interpretable explanations for their decisions and outputs. They work to demystify the \"black box\" nature of complex AI models, crucial for building trust, meeting regulatory requirements, and enabling human oversight in critical applications."
+	},
+	{
+		"name": "AI Hardware Acceleration",
+		"description": "This specialized team designs and optimizes hardware solutions specifically for AI and machine learning workloads. They develop custom chips, accelerators, and architectures to dramatically improve the speed and efficiency of AI computations, enabling more powerful and cost-effective AI applications."
+	},
+	{
+		"name": "Federated Learning",
+		"description": "This department develops techniques for training AI models across decentralized devices or servers without exchanging raw data. This approach addresses privacy concerns and regulatory requirements by allowing model improvements while keeping sensitive data localized."
+	},
+	{
+		"name": "Reinforcement Learning Applications",
+		"description": "This team focuses on developing AI systems that learn through interaction with environments, particularly useful for robotics, autonomous systems, and complex decision-making scenarios. They create agents capable of optimizing behavior in dynamic, uncertain conditions."
+	},
+	{
+		"name": "AI-Human Interaction Design",
+		"description": "This department specializes in creating intuitive, effective interfaces between AI systems and human users. They focus on natural language processing, computer vision, and multimodal interaction to enable seamless collaboration between humans and AI, enhancing productivity and user experience."
+	},
+	{
+		"name": "Automated Machine Learning (AutoML)",
+		"description": "This unit develops tools and platforms that automate the end-to-end process of applying machine learning to real-world problems. They aim to democratize AI by making it accessible to non-experts, accelerating the adoption of AI across various business functions."
+	},
+	{
+		"name": "Quantum Machine Learning",
+		"description": "This cutting-edge department explores the intersection of quantum computing and machine learning. They develop algorithms and approaches that leverage quantum properties to potentially solve problems intractable for classical computers, pushing the boundaries of AI capabilities."
+	},
+	{
+		"name": "Edge AI Development",
+		"description": "This team focuses on creating AI solutions that can run on edge devices with limited computational resources. They optimize models and develop techniques for efficient inference on smartphones, IoT devices, and other constrained environments, enabling real-time, low-latency AI applications."
+	},
+	{
+		"name": "AI Model Monitoring and Maintenance",
+		"description": "This department ensures the ongoing performance and reliability of deployed AI models. They develop systems to detect model drift, adapt to changing data distributions, and maintain model accuracy over time, crucial for sustaining the value of AI investments in production environments."
+	}
+]

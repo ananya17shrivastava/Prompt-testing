@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Genetic Engineering Lab",
+		"description": "This cutting-edge department focuses on manipulating DNA to create novel organisms or modify existing ones. It's the cornerstone of many biotechnology innovations, enabling the development of genetically modified crops, gene therapies, and engineered microorganisms for various applications."
+	},
+	{
+		"name": "Bioinformatics Division",
+		"description": "This specialized unit combines biology, computer science, and data analysis to interpret complex biological data. It's crucial for genomic research, drug discovery, and personalized medicine, providing insights that drive innovation and product development."
+	},
+	{
+		"name": "Bioprocess Engineering Team",
+		"description": "This team optimizes the production of biologics, including vaccines, therapeutic proteins, and cell-based products. They design and scale up manufacturing processes, ensuring efficient and cost-effective production of biotechnology products."
+	},
+	{
+		"name": "Synthetic Biology Department",
+		"description": "This forward-thinking division designs and constructs new biological parts, devices, and systems. It's at the forefront of creating artificial biological systems for research, engineering, and medical applications, pushing the boundaries of what's possible in biotechnology."
+	},
+	{
+		"name": "Biomaterials Research Unit",
+		"description": "This innovative department develops materials that interact with biological systems. They create advanced materials for tissue engineering, drug delivery systems, and medical implants, bridging the gap between biotechnology and materials science."
+	},
+	{
+		"name": "Nanobiotechnology Lab",
+		"description": "This cutting-edge lab combines nanotechnology with biotechnology, developing microscopic tools and materials for medical and biological applications. Their work includes nanoparticle-based drug delivery systems and nanoscale biosensors for diagnostics."
+	},
+	{
+		"name": "Metabolic Engineering Group",
+		"description": "This specialized team focuses on optimizing cellular metabolic pathways. They work on enhancing the production of valuable compounds in microorganisms and plants, crucial for developing bio-based fuels, chemicals, and pharmaceuticals."
+	},
+	{
+		"name": "Protein Engineering Division",
+		"description": "This department designs and produces custom proteins with enhanced or novel functions. Their work is vital for developing new enzymes for industrial processes, improving protein-based therapeutics, and creating protein-based materials."
+	},
+	{
+		"name": "Stem Cell Research and Development",
+		"description": "This pioneering division explores the potential of stem cells for regenerative medicine and drug discovery. They work on developing stem cell therapies, disease modeling, and high-throughput screening platforms for drug development."
+	},
+	{
+		"name": "Biosensors and Bioelectronics Team",
+		"description": "This innovative group develops devices that combine biological components with electronic systems. They create cutting-edge diagnostic tools, environmental monitors, and biocomputing devices, bridging biology and electronics."
+	},
+	{
+		"name": "Bioremediation Research Unit",
+		"description": "This environmentally-focused department develops biological solutions for environmental cleanup. They engineer microorganisms and plants to degrade pollutants, offering sustainable alternatives to traditional chemical remediation methods."
+	},
+	{
+		"name": "Algal Biotechnology Division",
+		"description": "This specialized unit explores the potential of algae for various applications. They work on developing algae-based biofuels, nutraceuticals, and biomaterials, tapping into a sustainable and versatile biological resource."
+	}
+]

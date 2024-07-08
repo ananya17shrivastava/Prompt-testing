@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Skills Assessment Center",
+		"description": "This department focuses on evaluating incoming students' practical abilities and technical knowledge. It employs industry-specific assessment tools and simulations to gauge learners' baseline competencies, helping tailor training programs to individual needs and ensuring optimal skill development."
+	},
+	{
+		"name": "Industry Partnership Office",
+		"description": "This specialized unit cultivates and maintains relationships with local businesses, trade unions, and industry associations. It ensures curriculum alignment with current industry needs, facilitates apprenticeship placements, and coordinates guest lectures from industry experts to enhance the practical relevance of training programs."
+	},
+	{
+		"name": "Equipment and Workshop Management",
+		"description": "This department oversees the procurement, maintenance, and upgrading of specialized tools, machinery, and workshop facilities. It ensures that students have access to industry-standard equipment, creating a realistic training environment that mirrors actual workplace conditions."
+	},
+	{
+		"name": "Certification and Licensure Support",
+		"description": "This unit assists students in navigating industry-specific certification processes and licensure requirements. It provides exam preparation resources, coordinates with certifying bodies, and helps graduates demonstrate their qualifications to potential employers through recognized credentials."
+	},
+	{
+		"name": "Hands-on Training Coordination",
+		"description": "This department organizes and oversees practical training sessions, laboratory work, and simulated workplace scenarios. It ensures that theoretical knowledge is effectively translated into practical skills, maintaining a balance between classroom instruction and hands-on experience."
+	},
+	{
+		"name": "Career Transition Services",
+		"description": "This specialized office focuses on supporting students' transition from training to employment. It offers job placement assistance, resume building workshops tailored to specific trades, and maintains a network of industry contacts to facilitate direct hiring opportunities for graduates."
+	},
+	{
+		"name": "Continuing Education for Trades",
+		"description": "This unit develops and manages ongoing education programs for working professionals in various trades. It offers short-term courses, workshops, and seminars to help tradespeople stay current with evolving industry standards, new technologies, and regulatory changes."
+	},
+	{
+		"name": "Safety and Compliance Training",
+		"description": "This department ensures that all vocational programs incorporate relevant safety protocols and comply with industry regulations. It develops and implements safety training modules, conducts regular safety audits of training facilities, and keeps abreast of changing safety standards across different trades."
+	},
+	{
+		"name": "Technical Curriculum Development",
+		"description": "This specialized team focuses on creating and updating curriculum content that is highly technical and trade-specific. It works closely with industry advisors to ensure that course materials reflect current best practices, emerging technologies, and specific skills required in various vocational fields."
+	},
+	{
+		"name": "Apprenticeship Coordination Office",
+		"description": "This office manages relationships with employers offering apprenticeship opportunities. It oversees the integration of on-the-job training with classroom instruction, ensures compliance with apprenticeship regulations, and monitors student progress throughout their apprenticeship periods."
+	}
+]

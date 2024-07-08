@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Hydrometallurgy Operations",
+		"description": "This department focuses on extracting metals from ores using aqueous solutions. It's crucial for processing complex or low-grade ores that aren't suitable for conventional smelting. Your hydrometallurgy team will be responsible for leaching, solvent extraction, and electrowinning processes, ensuring optimal metal recovery while minimizing environmental impact."
+	},
+	{
+		"name": "Pyrometallurgy Division",
+		"description": "This unit handles high-temperature processing of ores and concentrates. Your pyrometallurgy experts will oversee smelting, roasting, and refining operations, crucial for producing high-purity metals. They'll need to balance production efficiency with strict emissions control to meet environmental regulations."
+	},
+	{
+		"name": "Mineral Separation Technologies",
+		"description": "This specialized department develops and implements advanced techniques for separating valuable minerals from waste rock. Your team will work on cutting-edge technologies like magnetic separation, flotation, and gravity concentration, constantly innovating to improve recovery rates and process efficiency."
+	},
+	{
+		"name": "Refinery Process Control",
+		"description": "This high-tech unit manages the intricate control systems that ensure consistent product quality in your refining operations. Your process control specialists will optimize automated systems, implement real-time monitoring, and develop predictive maintenance strategies to minimize downtime and maximize throughput."
+	},
+	{
+		"name": "Tailings Management and Resource Recovery",
+		"description": "This forward-thinking department focuses on extracting additional value from processing waste while ensuring environmental compliance. Your team will develop innovative methods to recover residual minerals from tailings, implement dry stacking techniques, and explore opportunities for repurposing waste materials."
+	},
+	{
+		"name": "Precious Metals Recovery",
+		"description": "This specialized unit focuses on extracting and refining high-value metals like gold, silver, and platinum group metals. Your precious metals team will employ advanced techniques such as cyanidation, carbon-in-pulp, and electrorefining to maximize recovery of these valuable resources while ensuring strict security protocols."
+	},
+	{
+		"name": "Concentrate Handling and Blending",
+		"description": "This department manages the receipt, storage, and blending of mineral concentrates from various sources. Your team will optimize feed mixtures for downstream processes, ensuring consistent quality and maximizing overall plant efficiency. They'll also manage logistics and quality control for incoming concentrates."
+	},
+	{
+		"name": "Refinery Emissions Control",
+		"description": "This critical unit focuses on minimizing and treating emissions from refining processes. Your emissions control experts will implement cutting-edge technologies like scrubbers, electrostatic precipitators, and catalytic converters to ensure compliance with increasingly stringent environmental regulations while maintaining operational efficiency."
+	},
+	{
+		"name": "Product Finishing and Packaging",
+		"description": "This department handles the final stages of refined product preparation. Your team will oversee processes like casting, pelletizing, or powder production, ensuring products meet exact customer specifications. They'll also manage quality control, packaging, and labeling to meet industry standards and customer requirements."
+	},
+	{
+		"name": "Refinery Water Management",
+		"description": "This specialized unit focuses on water conservation, treatment, and reuse within refining operations. Your water management team will implement advanced technologies for process water recycling, wastewater treatment, and zero liquid discharge systems, crucial for maintaining your social license to operate in water-stressed regions."
+	}
+]

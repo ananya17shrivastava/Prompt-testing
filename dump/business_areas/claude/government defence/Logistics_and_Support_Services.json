@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Expeditionary Logistics",
+		"description": "This department focuses on rapidly deployable supply chain solutions for military operations in remote or hostile environments. It's crucial for ensuring troops have access to essential resources in challenging conditions, often requiring innovative approaches to transportation and distribution."
+	},
+	{
+		"name": "Defense Asset Management",
+		"description": "This area specializes in tracking, maintaining, and optimizing the vast array of military equipment and resources. It's essential for ensuring readiness and cost-effectiveness across the entire defense inventory, from vehicles to weaponry."
+	},
+	{
+		"name": "Military Food Services",
+		"description": "This unique department manages the complex task of feeding troops in various settings, from bases to field operations. It involves large-scale meal planning, nutrition optimization, and adapting to diverse operational environments."
+	},
+	{
+		"name": "Contingency Contracting",
+		"description": "This specialized unit handles rapid procurement and contracting during crisis situations or military operations. It requires agility in decision-making and a deep understanding of both military needs and supplier capabilities."
+	},
+	{
+		"name": "Retrograde Operations",
+		"description": "This department manages the complex process of returning military equipment and personnel from overseas deployments. It involves reverse logistics, refurbishment, and strategic planning to ensure efficient resource reallocation."
+	},
+	{
+		"name": "Defense Transportation System Management",
+		"description": "This area oversees the intricate network of transportation modes used for moving military personnel and equipment globally. It requires expertise in multimodal logistics and coordination with various international entities."
+	},
+	{
+		"name": "Operational Energy Management",
+		"description": "This department focuses on optimizing energy use in military operations, balancing operational effectiveness with sustainability. It involves innovative solutions for power generation and distribution in diverse and often challenging environments."
+	},
+	{
+		"name": "Military Housing and Facilities Management",
+		"description": "This specialized area manages the unique requirements of military living quarters and operational facilities worldwide. It involves understanding specific military needs and regulations while ensuring comfort and functionality."
+	},
+	{
+		"name": "Depot-Level Maintenance",
+		"description": "This department handles the most complex maintenance and overhaul operations for military equipment. It requires advanced technical expertise and the ability to manage large-scale, long-term maintenance projects."
+	},
+	{
+		"name": "Defense Logistics Information Systems",
+		"description": "This area focuses on developing and maintaining specialized software and IT systems for military logistics. It involves creating secure, interoperable solutions that can function in various operational environments."
+	},
+	{
+		"name": "Prepositioned Stock Management",
+		"description": "This unique department manages strategically placed caches of military equipment and supplies around the world. It's crucial for rapid response capabilities and requires expertise in long-term storage and maintenance in diverse climates."
+	},
+	{
+		"name": "Military Packaging and Preservation",
+		"description": "This specialized area focuses on developing and implementing packaging solutions for military equipment that can withstand extreme conditions and long-term storage. It's critical for maintaining equipment readiness and longevity."
+	}
+]

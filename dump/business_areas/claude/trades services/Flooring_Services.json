@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Flooring Material Procurement",
+		"description": "This department focuses on sourcing and acquiring a diverse range of flooring materials, including hardwood, laminate, vinyl, tile, and carpet. It requires specialized knowledge of material quality, durability, and pricing to ensure cost-effective procurement while maintaining high standards."
+	},
+	{
+		"name": "Floor Design and Consultation",
+		"description": "A dedicated team that works directly with clients to conceptualize and plan flooring projects. They provide expert advice on material selection, patterns, and layouts, considering factors such as foot traffic, moisture levels, and aesthetic preferences to create tailored flooring solutions."
+	},
+	{
+		"name": "Subfloor Preparation",
+		"description": "This specialized unit is responsible for assessing and preparing the subfloor before installation. They handle tasks such as leveling, moisture testing, and applying appropriate underlayments, ensuring a stable foundation for the final flooring product."
+	},
+	{
+		"name": "Custom Flooring Fabrication",
+		"description": "A department focused on creating bespoke flooring solutions, such as intricate inlays, custom patterns, or unique material combinations. This team combines craftsmanship with modern technology to deliver one-of-a-kind flooring designs that meet specific client requirements."
+	},
+	{
+		"name": "Floor Restoration and Refinishing",
+		"description": "This division specializes in breathing new life into existing floors. They employ techniques such as sanding, staining, and applying protective coatings to restore worn or damaged flooring to its former glory, extending its lifespan and enhancing its appearance."
+	},
+	{
+		"name": "Sustainable Flooring Solutions",
+		"description": "A forward-thinking department dedicated to researching, developing, and implementing eco-friendly flooring options. They focus on materials and installation methods that minimize environmental impact while meeting client demands for sustainable building practices."
+	},
+	{
+		"name": "Flooring Maintenance Education",
+		"description": "This unique team develops educational programs and resources for clients, teaching them proper care and maintenance techniques for their newly installed floors. This service ensures longevity of the flooring and builds long-term customer relationships."
+	},
+	{
+		"name": "Specialty Flooring Installation",
+		"description": "A highly skilled team that handles complex or unconventional flooring projects, such as raised access floors, anti-static flooring for tech environments, or specialized sports surfaces. They possess advanced technical knowledge and experience in niche flooring applications."
+	},
+	{
+		"name": "Floor Testing and Quality Assurance",
+		"description": "This department is responsible for conducting rigorous tests on installed flooring to ensure it meets industry standards and client specifications. They perform assessments such as slip resistance testing, durability checks, and moisture barrier effectiveness evaluations."
+	},
+	{
+		"name": "Flooring Waste Management and Recycling",
+		"description": "A dedicated unit that focuses on responsible disposal and recycling of flooring materials removed during renovations or replacements. They develop partnerships with recycling facilities and implement strategies to minimize landfill waste from flooring projects."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Air Freight Operations",
+		"description": "This department oversees the core function of air cargo services, managing the movement of goods via aircraft. It's responsible for optimizing cargo space utilization, route planning, and ensuring timely deliveries across global air networks. This team works closely with airlines and airport authorities to streamline operations and maximize efficiency."
+	},
+	{
+		"name": "Aircraft Load Planning",
+		"description": "Specialized in the intricate task of balancing cargo weight and distribution within aircraft, this department ensures optimal fuel efficiency and adherence to safety regulations. They use advanced software and expertise to maximize cargo capacity while maintaining aircraft performance and stability."
+	},
+	{
+		"name": "Air Cargo Security Compliance",
+		"description": "With stringent regulations surrounding air freight, this department focuses on implementing and maintaining security protocols specific to air cargo. They work to prevent unauthorized access, ensure proper screening of goods, and comply with international air security standards."
+	},
+	{
+		"name": "Perishables Handling",
+		"description": "This specialized unit manages the transportation of time-sensitive and temperature-controlled goods. They oversee the use of specialized containers, monitor environmental conditions, and ensure rapid processing to maintain the integrity of perishable cargo throughout the air transport journey."
+	},
+	{
+		"name": "Dangerous Goods Management",
+		"description": "Focused on the safe handling and transportation of hazardous materials by air, this department ensures compliance with IATA Dangerous Goods Regulations. They manage special packaging requirements, documentation, and staff training specific to air transport of dangerous goods."
+	},
+	{
+		"name": "Air Charter Services",
+		"description": "This department handles bespoke air cargo solutions, arranging dedicated aircraft for unique or urgent shipments. They work with a network of aircraft operators to provide tailored solutions for oversized cargo, time-critical shipments, or special projects that require dedicated air transport."
+	},
+	{
+		"name": "ULD (Unit Load Device) Management",
+		"description": "Specializing in the logistics of air cargo containers and pallets, this team oversees the inventory, maintenance, and efficient circulation of ULDs. They play a crucial role in optimizing cargo space and ensuring the smooth flow of goods between different modes of transport."
+	},
+	{
+		"name": "Air Cargo Tracking and Visibility",
+		"description": "This department leverages cutting-edge technology to provide real-time tracking and visibility of air cargo shipments. They develop and maintain systems that offer customers detailed insights into their shipments' location, condition, and estimated arrival times throughout the air transport process."
+	},
+	{
+		"name": "Interline and Airline Partnerships",
+		"description": "Focused on building and managing relationships with airlines and other air cargo providers, this team negotiates agreements, manages capacity allocation, and ensures seamless connectivity for shipments requiring multiple air carriers."
+	},
+	{
+		"name": "Air Freight Customs Brokerage",
+		"description": "This specialized unit handles the complex customs clearance processes specific to air cargo. They manage documentation, ensure compliance with international trade regulations, and facilitate swift clearance to minimize ground time for air shipments."
+	},
+	{
+		"name": "Air Cargo Insurance and Claims",
+		"description": "This department manages the unique risks associated with air freight, offering specialized insurance products and handling claims specific to air cargo losses or damages. They assess risks, process claims, and work to minimize financial exposure in the high-value, time-sensitive air cargo sector."
+	},
+	{
+		"name": "Air Cargo Ground Handling Coordination",
+		"description": "This team manages the critical interface between air and ground operations, coordinating with airport ground handlers to ensure efficient loading, unloading, and transfer of cargo. They work to minimize aircraft turnaround times and optimize the flow of goods through air cargo terminals."
+	}
+]

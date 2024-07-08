@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Loan Origination Department",
+		"description": "This department is the frontline of mortgage banking, responsible for initiating and processing new mortgage applications. It's where customer relationships begin and where the foundation for revenue generation is laid. The efficiency and effectiveness of this department directly impact market share and profitability."
+	},
+	{
+		"name": "Underwriting Division",
+		"description": "The underwriting division is the risk management cornerstone of mortgage banking. These specialists assess loan applications, evaluate borrower creditworthiness, and determine the level of risk associated with each mortgage. Their decisions are crucial in maintaining a healthy loan portfolio and ensuring regulatory compliance."
+	},
+	{
+		"name": "Secondary Market Operations",
+		"description": "This specialized unit manages the sale of mortgages to investors or government-sponsored entities. It's a critical function that allows the bank to replenish its capital, spread risk, and continue lending. The performance of this department can significantly influence the bank's liquidity and overall financial health."
+	},
+	{
+		"name": "Mortgage Servicing Rights (MSR) Management",
+		"description": "This unique division oversees the bank's portfolio of mortgage servicing rights. It's responsible for valuing these assets, hedging against interest rate risks, and making strategic decisions about retaining or selling servicing rights. The performance of this unit can have a substantial impact on the bank's balance sheet and income statement."
+	},
+	{
+		"name": "Loss Mitigation Department",
+		"description": "Focused on managing troubled mortgages, this department works to minimize losses on defaulted loans. They negotiate with borrowers, implement loan modification programs, and oversee foreclosure processes when necessary. Their effectiveness is crucial in maintaining the quality of the loan portfolio and minimizing credit losses."
+	},
+	{
+		"name": "Mortgage Compliance Unit",
+		"description": "This specialized compliance team focuses exclusively on the complex and ever-changing regulations specific to mortgage lending. They ensure adherence to laws such as the Truth in Lending Act, Real Estate Settlement Procedures Act, and state-specific mortgage regulations. Their work is vital in avoiding costly regulatory penalties and maintaining the bank's reputation."
+	},
+	{
+		"name": "Appraisal Management Department",
+		"description": "This department manages relationships with independent appraisers and ensures the integrity of property valuations. They play a crucial role in risk management by verifying that loan amounts are appropriately aligned with property values, helping to protect the bank's interests in the event of default."
+	},
+	{
+		"name": "Mortgage Product Development Team",
+		"description": "This innovative unit is responsible for creating and refining mortgage products to meet market demands and stay competitive. They analyze market trends, consumer needs, and regulatory constraints to design mortgage offerings that balance profitability with customer appeal and risk management."
+	},
+	{
+		"name": "Mortgage Fraud Detection Unit",
+		"description": "This specialized team uses advanced analytics and investigative techniques to identify and prevent mortgage fraud. Their work is crucial in protecting the bank from financial losses and reputational damage associated with fraudulent loan applications or property flipping schemes."
+	},
+	{
+		"name": "Mortgage-Backed Securities (MBS) Structuring Department",
+		"description": "For larger mortgage banks, this department packages loans into securities for sale to investors. They design MBS products, determine tranching structures, and work closely with rating agencies. Their expertise is critical in creating attractive investment products and managing the bank's long-term funding strategy."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Resident Life Enrichment",
+		"description": "This department focuses on creating and implementing engaging activities and programs that enhance the quality of life for long-term care residents. It's crucial for maintaining cognitive function, social connections, and overall well-being of elderly or disabled individuals in extended care settings."
+	},
+	{
+		"name": "Aging in Place Services",
+		"description": "This specialized unit develops and manages programs that allow seniors to remain in their preferred living environment as they age. It coordinates a range of support services, from home modifications to personalized care plans, enabling individuals to maintain independence while receiving necessary assistance."
+	},
+	{
+		"name": "Memory Care Specialization",
+		"description": "Dedicated to providing specialized care for individuals with Alzheimer's, dementia, or other cognitive impairments, this department designs secure environments, implements memory-enhancing activities, and trains staff in specific communication and care techniques tailored to these residents' unique needs."
+	},
+	{
+		"name": "Restorative Nursing",
+		"description": "This department focuses on maintaining or improving residents' functional abilities through specialized nursing interventions. It develops individualized programs to help residents regain or retain skills necessary for daily living, promoting independence and quality of life in long-term care settings."
+	},
+	{
+		"name": "Palliative Care Integration",
+		"description": "This unit specializes in integrating palliative care principles into long-term care settings. It focuses on enhancing comfort, managing symptoms, and improving quality of life for residents with chronic or life-limiting conditions, while also providing support to their families."
+	},
+	{
+		"name": "Transitional Care Management",
+		"description": "This department oversees the smooth transition of residents between different levels of care within the long-term care facility or to and from external healthcare providers. It ensures continuity of care, manages documentation, and coordinates with various healthcare professionals to optimize resident outcomes."
+	},
+	{
+		"name": "Adult Day Services",
+		"description": "This division manages programs that provide daytime care and activities for seniors or disabled adults who live at home but require supervision and support during the day. It offers a vital service that complements long-term residential care and supports family caregivers."
+	},
+	{
+		"name": "Respite Care Coordination",
+		"description": "This specialized unit manages short-term care services for long-term care residents, providing temporary relief for their regular caregivers. It coordinates schedules, ensures continuity of care, and maintains a pool of qualified temporary caregivers to support this essential service."
+	},
+	{
+		"name": "Long-term Care Ombudsman Liaison",
+		"description": "This department serves as the primary point of contact with long-term care ombudsmen, who advocate for residents' rights and quality of care. It facilitates communication, addresses concerns, and implements improvements based on ombudsman feedback to enhance resident care and satisfaction."
+	},
+	{
+		"name": "Intergenerational Program Management",
+		"description": "This innovative department develops and oversees programs that bring together long-term care residents with younger generations. It fosters meaningful interactions, combats social isolation, and promotes mutual learning and understanding between different age groups within the care setting."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Port Operations and Logistics",
+		"description": "This department manages the complex choreography of ship docking, passenger embarkation/disembarkation, and cargo loading/unloading at various ports of call. It's crucial for maintaining schedule integrity and ensuring smooth transitions between sea and land experiences."
+	},
+	{
+		"name": "Onboard Revenue Management",
+		"description": "This specialized team focuses on maximizing revenue from onboard amenities such as casinos, specialty restaurants, spa services, and shore excursions. They develop pricing strategies and promotional activities unique to the captive audience environment of a cruise ship."
+	},
+	{
+		"name": "Maritime Compliance and Safety",
+		"description": "This department ensures adherence to international maritime laws, environmental regulations, and safety standards specific to passenger vessels. They manage everything from waste disposal protocols to emergency evacuation procedures, critical for maintaining the cruise line's reputation and operational license."
+	},
+	{
+		"name": "Itinerary Planning and Development",
+		"description": "This strategic unit designs cruise routes, balancing factors such as seasonal weather patterns, port availability, fuel efficiency, and passenger appeal. They work to create unique and attractive voyages that differentiate the cruise line in a competitive market."
+	},
+	{
+		"name": "Onboard Entertainment Production",
+		"description": "This creative department produces and manages large-scale shows, activities, and events specifically designed for cruise ship venues. They cater to diverse passenger demographics and create immersive experiences that can only be found at sea."
+	},
+	{
+		"name": "Ship Refurbishment and Dry Dock Management",
+		"description": "This specialized team oversees the periodic renovation and upgrading of cruise ships during dry dock periods. They manage complex projects that must be completed within tight timeframes to minimize revenue loss from out-of-service vessels."
+	},
+	{
+		"name": "Cruise Ship Provisioning",
+		"description": "This logistics-focused department manages the intricate supply chain required to stock cruise ships with food, beverages, and other consumables for thousands of passengers and crew members for extended periods at sea."
+	},
+	{
+		"name": "Onboard Retail Operations",
+		"description": "This unit manages the unique aspects of retail operations at sea, including duty-free shopping, limited inventory management, and creating exclusive product offerings that cater to the cruise demographic."
+	},
+	{
+		"name": "Maritime Crew Management",
+		"description": "This department handles the complex task of staffing ships with international crew members, managing rotations, training, and compliance with maritime labor laws across multiple jurisdictions."
+	},
+	{
+		"name": "Shipboard Technology Integration",
+		"description": "This team oversees the implementation and maintenance of specialized technologies unique to cruise ships, such as satellite communications, onboard navigation systems, and passenger management software designed for maritime use."
+	}
+]

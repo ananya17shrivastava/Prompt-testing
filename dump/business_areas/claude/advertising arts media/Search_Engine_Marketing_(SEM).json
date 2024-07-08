@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Keyword Strategy Team",
+		"description": "This specialized unit focuses on identifying, analyzing, and selecting the most effective keywords for SEM campaigns. They stay ahead of search trends, competitor strategies, and algorithm changes to ensure optimal visibility and ROI for clients' paid search efforts."
+	},
+	{
+		"name": "Ad Copy Optimization Department",
+		"description": "Dedicated to crafting compelling, concise ad copy that maximizes click-through rates within the constraints of search engine character limits. This team continuously tests and refines messaging to improve performance and align with ever-evolving search engine policies."
+	},
+	{
+		"name": "Quality Score Management Unit",
+		"description": "This group concentrates on improving and maintaining high quality scores for clients' ads and landing pages. They work to enhance relevance, user experience, and ad performance metrics to reduce costs and improve ad positioning in search results."
+	},
+	{
+		"name": "Bid Management Specialists",
+		"description": "These experts focus on developing and implementing sophisticated bidding strategies across various search platforms. They utilize advanced algorithms and machine learning to optimize bid adjustments in real-time, maximizing campaign performance and budget efficiency."
+	},
+	{
+		"name": "Search Engine Liaison Team",
+		"description": "This department maintains direct relationships with major search engines like Google and Bing. They stay informed about platform updates, beta features, and policy changes, ensuring the agency can leverage new opportunities and maintain compliance for clients."
+	},
+	{
+		"name": "Negative Keyword Analysis Group",
+		"description": "Specializing in identifying and implementing negative keywords, this team works to refine campaign targeting and prevent wasted ad spend. They continuously analyze search query reports and industry trends to improve the efficiency of SEM campaigns."
+	},
+	{
+		"name": "Ad Extension Optimization Unit",
+		"description": "Focused on maximizing the use and performance of various ad extensions offered by search engines. This team develops strategies to enhance ad visibility and click-through rates through effective implementation of sitelinks, callouts, structured snippets, and other extension types."
+	},
+	{
+		"name": "Landing Page Conversion Specialists",
+		"description": "This group concentrates on optimizing landing pages specifically for SEM traffic. They work to improve page load speeds, user experience, and conversion rates, ensuring a seamless transition from ad click to desired action."
+	},
+	{
+		"name": "Search Auction Insights Team",
+		"description": "Dedicated to analyzing competitor behavior in search auctions, this team provides strategic insights on market positioning, share of voice, and competitive bidding strategies. They help inform campaign adjustments to maintain or improve market share in search results."
+	},
+	{
+		"name": "Cross-Channel Search Integration Unit",
+		"description": "This department focuses on aligning SEM efforts with other digital channels, such as SEO, display advertising, and social media. They develop strategies to create synergies across channels, ensuring a cohesive and efficient overall digital marketing approach."
+	},
+	{
+		"name": "SEM Analytics and Attribution Modeling",
+		"description": "Specializing in advanced analytics and multi-touch attribution modeling for search campaigns, this team provides in-depth insights into campaign performance and ROI. They develop custom reporting solutions and data visualization tools to inform strategic decision-making."
+	},
+	{
+		"name": "Automated Rules and Scripts Development",
+		"description": "This technical team creates and maintains automated rules and custom scripts for SEM platforms. They work to improve campaign efficiency, automate routine tasks, and implement advanced optimization strategies that go beyond standard platform capabilities."
+	}
+]

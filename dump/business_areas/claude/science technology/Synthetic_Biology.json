@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Genome Design and Engineering",
+		"description": "This department focuses on creating and modifying genetic sequences to produce desired traits or functions in organisms. It's the core of synthetic biology, where your team designs biological systems from scratch or re-engineers existing ones for specific purposes."
+	},
+	{
+		"name": "Biosynthesis Pathway Optimization",
+		"description": "Here, your experts work on fine-tuning metabolic pathways in organisms to enhance the production of valuable compounds. This department is crucial for improving yield and efficiency in bio-based manufacturing processes."
+	},
+	{
+		"name": "DNA Synthesis and Assembly",
+		"description": "This area specializes in the physical creation of designed DNA sequences. Your team here uses cutting-edge technologies to synthesize and assemble large DNA constructs, which are fundamental building blocks for synthetic biology applications."
+	},
+	{
+		"name": "Biofoundry Operations",
+		"description": "This department manages your automated biological engineering facilities. It's where high-throughput experimentation and prototyping of biological designs take place, significantly accelerating the design-build-test-learn cycle in your synthetic biology projects."
+	},
+	{
+		"name": "Biosecurity and Biocontainment",
+		"description": "This critical department ensures that your synthetic biology operations adhere to strict safety protocols. They develop and implement measures to prevent unintended release of engineered organisms and protect against potential misuse of synthetic biology technologies."
+	},
+	{
+		"name": "Xenobiology Research",
+		"description": "This forward-thinking department explores the creation of novel biological systems using non-standard biochemical structures. Their work could lead to the development of organisms with entirely new properties or functions not found in nature."
+	},
+	{
+		"name": "Biocomputing and Cellular Logic",
+		"description": "This innovative area focuses on engineering cells to perform computational functions. Your team here develops biological circuits and cellular systems that can process information and respond to complex inputs, paving the way for living computers and smart biosensors."
+	},
+	{
+		"name": "Synthetic Genomics",
+		"description": "This department works on creating and manipulating entire genomes. Their efforts could lead to the development of minimal genomes for more efficient bio-production or even entirely synthetic organisms tailored for specific industrial applications."
+	},
+	{
+		"name": "Directed Evolution Platforms",
+		"description": "This specialized unit develops and operates systems for accelerated evolution of biological components. They create high-throughput screening methods to rapidly evolve enzymes, proteins, or entire organisms with desired properties for various applications."
+	},
+	{
+		"name": "Biological CAD (Computer-Aided Design)",
+		"description": "This department develops and maintains software tools specifically designed for modeling and designing biological systems. Their work is crucial in predicting the behavior of engineered biological systems and optimizing designs before physical implementation."
+	},
+	{
+		"name": "Synthetic Ecosystem Engineering",
+		"description": "This forward-looking department focuses on designing and creating artificial ecosystems. They work on engineering complex interactions between multiple engineered organisms, potentially leading to more robust and efficient bio-production systems or novel approaches to environmental remediation."
+	}
+]

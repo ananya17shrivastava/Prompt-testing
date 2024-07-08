@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Medical Equipment Integration Planning",
+		"description": "This specialized department focuses on seamlessly incorporating complex medical equipment into healthcare facility designs. Your team here ensures that cutting-edge medical technologies are not just accommodated but optimized within the architectural layout, enhancing both functionality and patient care outcomes."
+	},
+	{
+		"name": "Infection Control Design",
+		"description": "A critical unit dedicated to creating environments that minimize the spread of infections. This team develops innovative architectural solutions to support stringent hygiene protocols, incorporating features like specialized air filtration systems and antimicrobial surfaces to safeguard patient and staff health."
+	},
+	{
+		"name": "Therapeutic Environment Design",
+		"description": "This forward-thinking department concentrates on crafting spaces that actively contribute to patient healing and well-being. They leverage evidence-based design principles to create environments that reduce stress, promote recovery, and improve overall patient experiences."
+	},
+	{
+		"name": "Clinical Workflow Optimization",
+		"description": "A specialized team that analyzes and enhances the efficiency of healthcare delivery through architectural design. They work closely with medical professionals to create layouts that streamline patient flow, reduce staff fatigue, and maximize operational efficiency in healthcare settings."
+	},
+	{
+		"name": "Adaptable Healthcare Space Planning",
+		"description": "This innovative department focuses on designing flexible healthcare environments that can quickly adapt to changing medical needs or crisis situations. They develop modular and convertible spaces that can transform to accommodate sudden surges in patient volumes or evolving treatment modalities."
+	},
+	{
+		"name": "Biophilic Healthcare Design",
+		"description": "A cutting-edge unit dedicated to integrating nature and natural elements into healthcare environments. This team creates designs that connect patients and staff with the outdoors, incorporating features like healing gardens, natural light, and organic materials to promote faster recovery and improved mental health."
+	},
+	{
+		"name": "Medical Technology Future-Proofing",
+		"description": "This forward-looking department specializes in creating healthcare spaces that can easily accommodate future technological advancements. They design infrastructure and spaces with the flexibility to integrate emerging medical technologies, ensuring your facilities remain at the forefront of healthcare innovation."
+	},
+	{
+		"name": "Patient-Centered Design Research",
+		"description": "A dedicated research unit that conducts in-depth studies on patient experiences and outcomes in relation to architectural design. This team provides data-driven insights to inform design decisions, ensuring that your healthcare facilities are optimized for patient satisfaction and clinical effectiveness."
+	},
+	{
+		"name": "Healthcare Sustainability and Wellness Integration",
+		"description": "This specialized department focuses on creating environmentally responsible healthcare facilities that also promote wellness. They develop strategies to reduce energy consumption, minimize waste, and create health-promoting environments that benefit patients, staff, and the surrounding community."
+	},
+	{
+		"name": "Specialized Care Environment Design",
+		"description": "A niche team that designs highly specialized healthcare spaces such as operating theaters, intensive care units, and diagnostic imaging suites. They possess deep knowledge of the unique requirements for these complex medical environments, ensuring optimal functionality and compliance with stringent healthcare regulations."
+	}
+]

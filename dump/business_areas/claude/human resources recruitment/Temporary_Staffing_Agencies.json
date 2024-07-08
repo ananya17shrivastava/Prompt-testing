@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Rapid Deployment Team",
+		"description": "This specialized unit focuses on quickly mobilizing and placing temporary workers in response to urgent client needs. They excel at matching available talent with short-notice requests, ensuring minimal disruption to client operations during unexpected staff shortages or sudden workload increases."
+	},
+	{
+		"name": "Workforce Flexibility Solutions",
+		"description": "This department develops strategies to help clients manage fluctuating labor demands. They create customized plans that blend temporary, part-time, and full-time staff to optimize workforce costs and productivity, adapting to seasonal trends and market volatility."
+	},
+	{
+		"name": "Compliance and Co-employment Risk Management",
+		"description": "This team navigates the complex legal landscape surrounding temporary employment. They ensure adherence to labor laws, manage co-employment risks, and develop policies to protect both the agency and its clients from potential legal issues unique to temporary staffing arrangements."
+	},
+	{
+		"name": "Temporary-to-Permanent Transition Services",
+		"description": "This group facilitates the smooth conversion of temporary workers to permanent employees when clients wish to retain top talent. They manage the transition process, including contract negotiations, performance evaluations, and integration support."
+	},
+	{
+		"name": "On-site Staffing Management",
+		"description": "This division provides dedicated on-site staffing coordinators for large-scale client operations. These professionals manage day-to-day temporary workforce needs, handle time and attendance, and serve as a direct link between the client and the staffing agency."
+	},
+	{
+		"name": "Payrolling Services",
+		"description": "This department specializes in managing payroll for client-identified temporary workers. They handle all aspects of employment administration, including onboarding, benefits, taxes, and compliance, allowing clients to outsource the employment relationship while retaining control over worker selection."
+	},
+	{
+		"name": "High-Volume Staffing Solutions",
+		"description": "This team focuses on meeting large-scale temporary staffing needs, often for industrial, manufacturing, or seasonal retail clients. They develop processes for efficiently recruiting, screening, and onboarding large numbers of workers simultaneously."
+	},
+	{
+		"name": "Temporary Staff Training and Development",
+		"description": "This innovative department creates rapid upskilling programs for temporary workers, enhancing their value to clients and improving job performance. They focus on quick, effective training methods that can be applied across various industries and job roles."
+	},
+	{
+		"name": "Temporary Workforce Analytics",
+		"description": "This data-driven team provides insights into temporary staffing trends, productivity metrics, and cost-effectiveness. They help clients optimize their use of temporary staff through advanced analytics and predictive modeling."
+	},
+	{
+		"name": "Temporary Staff Engagement and Retention",
+		"description": "This group develops strategies to maintain high levels of engagement and retention among temporary workers. They create programs that foster loyalty, improve job satisfaction, and reduce turnover, even within the context of short-term assignments."
+	},
+	{
+		"name": "Assignment Extension and Redeployment",
+		"description": "This department focuses on maximizing the utilization of temporary workers by managing assignment extensions and identifying opportunities for redeployment. They work to reduce idle time between assignments and increase overall billable hours."
+	},
+	{
+		"name": "Temporary Staffing Technology Integration",
+		"description": "This team specializes in implementing and managing technology solutions specific to temporary staffing, such as shift scheduling software, mobile time-tracking apps, and temporary worker portals. They ensure seamless integration with client systems for efficient workforce management."
+	}
+]

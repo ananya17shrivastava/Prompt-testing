@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Pre-Construction Planning",
+		"description": "This department focuses on the critical phase before breaking ground. It involves detailed site analysis, feasibility studies, and project scope definition. Your pre-construction team will be instrumental in setting the foundation for successful project execution, mitigating risks, and optimizing resources from the outset."
+	},
+	{
+		"name": "Building Information Modeling (BIM)",
+		"description": "A cutting-edge department that utilizes advanced 3D modeling technology to create digital representations of physical spaces. Your BIM team will enhance project visualization, improve coordination between various trades, and streamline the construction process, ultimately leading to cost savings and improved project outcomes."
+	},
+	{
+		"name": "Sustainable Construction",
+		"description": "This specialized unit focuses on environmentally friendly building practices and materials. Your sustainable construction team will be crucial in meeting growing demand for green buildings, ensuring compliance with environmental regulations, and potentially opening up new market opportunities in the eco-conscious construction sector."
+	},
+	{
+		"name": "Heavy Equipment Management",
+		"description": "A department dedicated to overseeing the acquisition, maintenance, and deployment of large-scale construction machinery. This team will be vital in optimizing equipment utilization, reducing downtime, and ensuring that your projects have the right tools at the right time, contributing significantly to operational efficiency and cost management."
+	},
+	{
+		"name": "Structural Engineering",
+		"description": "While engineering is common in many industries, structural engineering is particularly crucial in construction services. This department focuses on designing and analyzing load-bearing structures, ensuring buildings can withstand various stresses. Your structural engineering team will be key in guaranteeing the safety and longevity of your construction projects."
+	},
+	{
+		"name": "Site Logistics and Material Flow",
+		"description": "This department specializes in managing the complex choreography of materials, equipment, and personnel on construction sites. Your site logistics team will be instrumental in optimizing workflow, reducing waste, and ensuring that your projects run smoothly and efficiently, even in challenging or confined urban environments."
+	},
+	{
+		"name": "Prefabrication and Modular Construction",
+		"description": "A forward-thinking department that focuses on off-site construction of building components. Your prefabrication team will drive innovation in your company, potentially reducing on-site construction time, improving quality control, and opening up new market segments in modular and prefab construction."
+	},
+	{
+		"name": "Demolition and Site Preparation",
+		"description": "This specialized unit handles the crucial first steps of many construction projects. Your demolition and site preparation team will be responsible for clearing existing structures, managing hazardous materials, and preparing sites for new construction, setting the stage for successful project execution."
+	},
+	{
+		"name": "Vertical Transportation Systems",
+		"description": "A niche department focusing on the design, installation, and maintenance of elevators, escalators, and other vertical transportation systems in high-rise buildings. This team will be crucial for your company's competitiveness in urban and commercial construction projects."
+	},
+	{
+		"name": "Building Envelope Specialists",
+		"description": "This department concentrates on the critical interface between a building's interior and exterior. Your building envelope team will be key in ensuring energy efficiency, moisture control, and overall building performance, contributing to the long-term success and sustainability of your projects."
+	}
+]

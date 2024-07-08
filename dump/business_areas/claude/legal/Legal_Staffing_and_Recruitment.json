@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Legal Talent Acquisition Specialists",
+		"description": "These professionals focus exclusively on identifying and attracting top-tier legal talent. They possess in-depth knowledge of legal specializations, law firm hierarchies, and the unique skills required for various legal roles. Their expertise goes beyond general recruitment, as they understand the nuances of legal career paths and can effectively match candidates with specific legal positions."
+	},
+	{
+		"name": "Bar Admission Verification Unit",
+		"description": "This specialized department ensures that all placed legal professionals have the necessary bar admissions for their roles. They stay up-to-date with changing bar requirements across jurisdictions and verify candidates' credentials. This unit is crucial for maintaining compliance and ensuring that staffed attorneys can practice legally in their assigned locations."
+	},
+	{
+		"name": "Legal Project Staffing Division",
+		"description": "This team specializes in assembling temporary legal teams for large-scale projects or cases. They understand the ebb and flow of legal work and can quickly mobilize a group of qualified professionals for document reviews, due diligence, or litigation support. Their expertise lies in matching skill sets to project requirements and managing the logistics of short-term legal staffing."
+	},
+	{
+		"name": "Continuing Legal Education (CLE) Coordination",
+		"description": "This department focuses on ensuring that placed legal professionals maintain their required CLE credits. They track CLE requirements for different jurisdictions, organize relevant training sessions, and coordinate with law firms to ensure compliance. This service adds value by helping maintain the eligibility and competence of placed legal professionals."
+	},
+	{
+		"name": "Legal Technology Proficiency Assessment",
+		"description": "This unit evaluates candidates' proficiency in legal-specific software and technologies. They stay current with the latest legal tech tools and can assess a candidate's ability to use e-discovery platforms, case management software, and other specialized legal applications. This ensures that placed professionals can seamlessly integrate into modern legal work environments."
+	},
+	{
+		"name": "Conflict Check Specialists",
+		"description": "These professionals conduct thorough conflict checks for potential placements, ensuring that candidates don't have conflicts of interest with the hiring firm or its clients. This specialized service is crucial in maintaining ethical standards and preventing potential legal issues arising from improper placements."
+	},
+	{
+		"name": "Practice Area Transition Consultants",
+		"description": "This team assists legal professionals in transitioning between different practice areas. They understand the transferable skills within the legal field and can guide attorneys looking to switch specializations. This unique service helps broaden the candidate pool and provides valuable career development support to legal professionals."
+	},
+	{
+		"name": "Legal Culture Fit Analysis",
+		"description": "This department assesses the cultural fit between candidates and law firms or legal departments. They understand the unique cultures of different legal environments and can match personalities and work styles to ensure long-term placement success. This goes beyond typical recruitment by focusing on the specific dynamics of legal workplaces."
+	},
+	{
+		"name": "Diversity and Inclusion in Legal Recruitment",
+		"description": "This specialized unit focuses on promoting diversity and inclusion specifically within the legal profession. They understand the unique challenges and opportunities for diversity in law firms and corporate legal departments, and develop targeted strategies to attract and retain diverse legal talent."
+	},
+	{
+		"name": "Legal Career Trajectory Planning",
+		"description": "This department provides long-term career planning services specifically for legal professionals. They understand the unique career paths within the legal industry, from associate to partner tracks, in-house transitions, and alternative legal careers. This service helps both candidates and employers plan for long-term professional development and succession planning."
+	}
+]

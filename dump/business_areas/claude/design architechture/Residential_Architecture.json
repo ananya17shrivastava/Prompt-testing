@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Custom Home Design Studio",
+		"description": "This specialized unit focuses exclusively on creating bespoke residential designs tailored to individual client needs. It's the creative hub where innovative living spaces are conceived, balancing aesthetics with functionality to craft unique homes that reflect each client's lifestyle and preferences."
+	},
+	{
+		"name": "Residential Sustainability Integration Team",
+		"description": "This forward-thinking department specializes in incorporating cutting-edge sustainable technologies and practices into home designs. They ensure that residential projects not only meet but exceed energy efficiency standards, integrating features like solar panels, smart home systems, and eco-friendly materials seamlessly into architectural plans."
+	},
+	{
+		"name": "Residential Code Compliance Unit",
+		"description": "This crucial team navigates the complex landscape of residential building codes and zoning regulations. They ensure that all home designs adhere to local, state, and federal requirements, mitigating legal risks and streamlining the approval process for residential projects."
+	},
+	{
+		"name": "Home Renovation and Addition Specialists",
+		"description": "This department focuses on transforming existing residential spaces. They specialize in reimagining and expanding homes, skillfully blending new elements with existing structures to create cohesive, updated living environments that meet modern needs while respecting the original architecture."
+	},
+	{
+		"name": "Residential Landscape Integration Division",
+		"description": "This unique unit bridges the gap between interior and exterior design in residential projects. They specialize in creating seamless transitions between indoor and outdoor living spaces, designing elements like patios, decks, and gardens that complement and enhance the overall home architecture."
+	},
+	{
+		"name": "Multi-Generational Living Design Team",
+		"description": "This innovative department focuses on creating flexible home designs that accommodate multiple generations under one roof. They specialize in developing layouts that offer privacy, accessibility, and shared spaces, catering to the growing trend of extended families living together."
+	},
+	{
+		"name": "Residential Virtual Reality Showcase Department",
+		"description": "This cutting-edge team utilizes VR technology to create immersive, 3D walkthroughs of residential designs. This allows clients to experience and interact with their future homes before construction begins, facilitating better decision-making and client satisfaction."
+	},
+	{
+		"name": "Custom Storage Solutions Unit",
+		"description": "This specialized department focuses on maximizing space efficiency in residential designs. They develop innovative storage solutions tailored to each home, integrating clever storage options that enhance functionality without compromising aesthetics."
+	},
+	{
+		"name": "Residential Acoustics and Sound Design Team",
+		"description": "This niche department specializes in optimizing the acoustic properties of residential spaces. They design homes with sound insulation and audio enhancement in mind, creating peaceful living environments and dedicated areas for home entertainment or music enthusiasts."
+	},
+	{
+		"name": "Smart Home Integration Specialists",
+		"description": "This forward-looking team focuses on seamlessly incorporating smart home technologies into residential designs. They work on integrating automated systems for lighting, climate control, security, and entertainment, ensuring homes are not just beautiful but also technologically advanced and user-friendly."
+	}
+]

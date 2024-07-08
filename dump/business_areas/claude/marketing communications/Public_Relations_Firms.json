@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Media Relations",
+		"description": "This department specializes in cultivating and maintaining relationships with journalists, editors, and media outlets. They craft compelling narratives and pitch stories to secure favorable coverage for clients, enhancing their public image and brand visibility."
+	},
+	{
+		"name": "Crisis Management",
+		"description": "A dedicated team that specializes in mitigating reputational damage during challenging situations. They develop rapid response strategies, manage communication flow, and work to restore public trust in the aftermath of controversies or emergencies."
+	},
+	{
+		"name": "Thought Leadership Development",
+		"description": "This unit focuses on positioning clients as industry experts and visionaries. They create opportunities for executives to share insights through speaking engagements, bylined articles, and other platforms, elevating the client's profile and credibility."
+	},
+	{
+		"name": "Influencer Relations",
+		"description": "A specialized team that identifies and cultivates relationships with key opinion leaders, bloggers, and social media influencers. They orchestrate collaborations to amplify client messages and reach targeted audiences through trusted third-party voices."
+	},
+	{
+		"name": "Public Affairs",
+		"description": "This department navigates the intersection of business and government, helping clients understand and influence policy decisions. They develop strategies to engage with policymakers, shape public opinion on legislative issues, and manage advocacy campaigns."
+	},
+	{
+		"name": "Community Relations",
+		"description": "A team dedicated to fostering positive relationships between clients and their local communities. They develop and implement corporate social responsibility initiatives, manage philanthropic efforts, and create goodwill through strategic community engagement."
+	},
+	{
+		"name": "Reputation Management",
+		"description": "This unit focuses on proactively shaping and maintaining a client's public image. They monitor public sentiment, address potential reputational threats, and develop long-term strategies to build and protect brand equity."
+	},
+	{
+		"name": "Message Development and Training",
+		"description": "A specialized group that crafts key messages and narratives for clients. They also provide media training and coaching for executives, ensuring consistent and effective communication across all channels and touchpoints."
+	},
+	{
+		"name": "Investor Relations",
+		"description": "This department manages communication between public companies and their investors. They develop strategies to attract investment, communicate financial performance, and maintain transparency with shareholders and the financial community."
+	},
+	{
+		"name": "Environmental, Social, and Governance (ESG) Communications",
+		"description": "A growing area that helps clients articulate and promote their sustainability and corporate responsibility initiatives. They develop strategies to communicate ESG performance, engage stakeholders, and position clients as responsible corporate citizens."
+	}
+]

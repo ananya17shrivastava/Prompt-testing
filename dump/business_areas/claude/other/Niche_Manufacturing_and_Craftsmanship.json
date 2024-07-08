@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Artisan Development",
+		"description": "This department focuses on nurturing and developing skilled craftspeople. It's responsible for identifying, recruiting, and training artisans with specialized skills unique to your niche products. The goal is to maintain a pool of highly skilled workers who can produce high-quality, handcrafted items that set your brand apart in the market."
+	},
+	{
+		"name": "Custom Design Studio",
+		"description": "This specialized unit works on creating bespoke designs for discerning clients. It's staffed by designers who understand both traditional craftsmanship techniques and modern design trends, allowing your company to offer truly unique, personalized products that cater to high-end markets and individual customer preferences."
+	},
+	{
+		"name": "Materials Sourcing and Authentication",
+		"description": "This department is crucial for ensuring the authenticity and quality of raw materials used in your niche products. They work on establishing relationships with specialty suppliers, verifying the provenance of rare or unique materials, and ensuring compliance with any relevant regulations regarding material sourcing and use."
+	},
+	{
+		"name": "Heritage Preservation",
+		"description": "This unit is dedicated to maintaining and documenting traditional manufacturing techniques and designs. They work on preserving historical craftsmanship methods, often collaborating with cultural institutions or museums. This department ensures your company maintains its connection to traditional craftsmanship while adapting to modern market demands."
+	},
+	{
+		"name": "Limited Edition Production Planning",
+		"description": "This department specializes in planning and executing limited production runs of exclusive items. They manage the delicate balance between maintaining product exclusivity and meeting market demand, often working closely with marketing to create buzz around these special releases."
+	},
+	{
+		"name": "Artisanal Quality Control",
+		"description": "Unlike mass manufacturing QC, this department focuses on maintaining the highest standards of craftsmanship in each individual piece. They develop specialized quality metrics that take into account the unique characteristics of handcrafted items, ensuring consistency in quality while preserving the individuality of each piece."
+	},
+	{
+		"name": "Craft Innovation Lab",
+		"description": "This forward-thinking department explores ways to blend traditional craftsmanship with cutting-edge technologies. They experiment with new materials, techniques, and tools that could enhance your products or production processes without compromising the artisanal nature of your offerings."
+	},
+	{
+		"name": "Apprenticeship Program Management",
+		"description": "This department oversees the recruitment, training, and development of apprentices. They design comprehensive programs that pass down specialized skills and knowledge from master craftspeople to the next generation, ensuring the longevity of your craft and maintaining your company's expertise."
+	},
+	{
+		"name": "Artisan Wellness and Ergonomics",
+		"description": "This specialized unit focuses on the unique health and safety needs of your skilled craftspeople. They develop ergonomic solutions for craft-specific tasks, implement wellness programs tailored to artisans, and work on preventing repetitive strain injuries common in detailed handwork."
+	},
+	{
+		"name": "Craft Story and Product Provenance",
+		"description": "This department is responsible for documenting the story behind each product or collection. They create detailed narratives about the inspiration, design process, and craftsmanship involved in each piece, adding value to your products by highlighting their unique origins and the skilled work that goes into them."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Cyber Threat Intelligence",
+		"description": "This department focuses on gathering, analyzing, and disseminating intelligence about potential cyber threats to national security. It provides critical insights to decision-makers, enabling proactive defense strategies and rapid response to emerging digital dangers."
+	},
+	{
+		"name": "Offensive Cyber Operations",
+		"description": "This highly specialized unit develops and executes cyber attacks against adversary networks and systems. It's responsible for creating sophisticated malware, exploiting vulnerabilities, and conducting covert digital operations to support national security objectives."
+	},
+	{
+		"name": "Information Warfare Strategy",
+		"description": "This department crafts comprehensive strategies to protect national interests in the information domain. It coordinates efforts across multiple agencies to counter disinformation campaigns, protect critical infrastructure, and maintain information superiority in both peacetime and conflict scenarios."
+	},
+	{
+		"name": "Cyber Forensics and Attribution",
+		"description": "This unit specializes in investigating cyber incidents, analyzing digital evidence, and attributing attacks to specific threat actors. Their work is crucial for understanding adversary tactics and informing diplomatic, economic, or military responses to cyber aggression."
+	},
+	{
+		"name": "Electronic Warfare Integration",
+		"description": "This department focuses on integrating traditional electronic warfare capabilities with cyber operations. They develop technologies and tactics to exploit the electromagnetic spectrum for both offensive and defensive purposes in the digital battlespace."
+	},
+	{
+		"name": "Cyber Resilience Engineering",
+		"description": "This team designs and implements systems to ensure critical government and military networks can withstand and recover from sophisticated cyber attacks. They focus on creating redundant, self-healing infrastructures that can operate effectively even under sustained assault."
+	},
+	{
+		"name": "Information Operations Planning",
+		"description": "This unit plans and coordinates information operations campaigns to influence adversary decision-making processes. They leverage a combination of cyber, psychological, and electronic warfare techniques to shape the information environment in favor of national interests."
+	},
+	{
+		"name": "Quantum Computing Security",
+		"description": "This forward-looking department researches and develops quantum-resistant cryptographic systems and explores the potential of quantum computing for both offensive and defensive cyber operations. Their work is crucial for maintaining long-term information security in the face of emerging technologies."
+	},
+	{
+		"name": "AI-Driven Cyber Defense",
+		"description": "This innovative team leverages artificial intelligence and machine learning to enhance cyber defense capabilities. They develop autonomous systems for threat detection, incident response, and predictive analysis of potential cyber vulnerabilities."
+	},
+	{
+		"name": "Cyber Supply Chain Risk Management",
+		"description": "This department focuses on identifying and mitigating risks in the global technology supply chain. They work to ensure the integrity and security of hardware and software components used in critical defense systems, protecting against hidden vulnerabilities or backdoors."
+	},
+	{
+		"name": "Social Media Manipulation Analysis",
+		"description": "This unit specializes in detecting and countering coordinated disinformation campaigns on social media platforms. They employ advanced analytics to identify bot networks, track influence operations, and develop strategies to protect the integrity of public discourse."
+	},
+	{
+		"name": "Cyber Deterrence Policy",
+		"description": "This department develops policies and frameworks for cyber deterrence, working to prevent adversaries from launching attacks by demonstrating the capability and willingness to impose significant costs in response. They balance technical, diplomatic, and strategic considerations to create effective deterrence postures."
+	}
+]

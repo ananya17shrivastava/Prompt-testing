@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Reservoir Engineering",
+		"description": "This department focuses on optimizing the extraction of resources from underground reservoirs. They analyze geological data, fluid dynamics, and pressure systems to maximize resource recovery while minimizing environmental impact. Their expertise is crucial for long-term production planning and asset valuation."
+	},
+	{
+		"name": "Wellbore Operations",
+		"description": "This team specializes in the design, implementation, and maintenance of wellbores \u2013 the critical pathways for extracting resources from underground reservoirs. They oversee drilling operations, well completion, and workover activities to ensure optimal production rates and well integrity throughout the asset's lifecycle."
+	},
+	{
+		"name": "Enhanced Recovery Techniques",
+		"description": "This innovative department develops and implements advanced methods to extract additional resources from mature fields. They employ cutting-edge technologies such as chemical injection, thermal recovery, and gas injection to increase production rates and extend the economic life of reservoirs."
+	},
+	{
+		"name": "Subsea Systems",
+		"description": "For offshore operations, this specialized unit manages the complex network of underwater equipment and infrastructure required for resource extraction. They oversee the installation, maintenance, and operation of subsea trees, manifolds, and pipelines, ensuring seamless production in challenging marine environments."
+	},
+	{
+		"name": "Production Chemistry",
+		"description": "This department focuses on managing the chemical aspects of resource extraction and production. They develop tailored solutions to address issues such as scale formation, corrosion, and emulsion stability, optimizing production efficiency and protecting valuable assets from chemical-related damage."
+	},
+	{
+		"name": "Flow Assurance",
+		"description": "This critical team ensures the uninterrupted flow of resources from the reservoir to the point of sale. They analyze and mitigate risks associated with hydrate formation, wax deposition, and other flow-restricting phenomena, maintaining production rates and preventing costly shutdowns."
+	},
+	{
+		"name": "Artificial Lift Systems",
+		"description": "This department specializes in designing and implementing systems to enhance production rates when natural reservoir pressure is insufficient. They select, install, and optimize various artificial lift methods such as gas lift, electric submersible pumps, and progressive cavity pumps to maximize resource recovery."
+	},
+	{
+		"name": "Downhole Monitoring and Control",
+		"description": "This high-tech unit focuses on real-time data acquisition and control of downhole conditions. They deploy advanced sensors and control systems to optimize production parameters, detect anomalies, and enable rapid response to changing reservoir conditions, enhancing overall production efficiency."
+	},
+	{
+		"name": "Produced Water Management",
+		"description": "This environmental-focused department handles the treatment and disposal of water produced alongside oil and gas. They develop strategies to minimize water production, implement treatment technologies, and explore beneficial reuse options, ensuring regulatory compliance and reducing environmental impact."
+	},
+	{
+		"name": "Resource-Specific Processing",
+		"description": "This department tailors processing techniques to the unique characteristics of extracted resources. For example, in oil sands operations, they manage bitumen extraction and upgrading processes, while in coal bed methane production, they focus on dewatering and gas separation techniques."
+	},
+	{
+		"name": "Geomechanics and Fracture Stimulation",
+		"description": "This specialized team analyzes rock mechanics and designs fracture stimulation treatments to enhance resource recovery. They optimize hydraulic fracturing operations, considering factors such as stress fields, rock properties, and fluid dynamics to maximize production rates while minimizing environmental impact."
+	},
+	{
+		"name": "In-Situ Extraction Technologies",
+		"description": "For unconventional resources, this innovative department develops and implements in-situ extraction methods. They specialize in techniques such as steam-assisted gravity drainage (SAGD) for heavy oil recovery or in-situ leaching for certain mineral extractions, minimizing surface disturbance and optimizing resource recovery."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Genome Design and Engineering",
+		"description": "This department focuses on creating and modifying genetic sequences to produce desired traits or functions in organisms. It's the cornerstone of synthetic biology, allowing us to \"program\" living systems for specific purposes, from producing novel materials to developing new therapies."
+	},
+	{
+		"name": "Biofoundry Operations",
+		"description": "A biofoundry is our high-throughput facility for designing, building, and testing biological systems. This department manages automated platforms that rapidly prototype and optimize engineered organisms, significantly accelerating the design-build-test cycle in bioengineering projects."
+	},
+	{
+		"name": "Biosafety and Biocontainment",
+		"description": "This critical unit ensures that our engineered organisms and synthetic biological systems are safely contained and do not pose risks to the environment or human health. They develop and implement stringent protocols for handling genetically modified organisms and synthetic DNA constructs."
+	},
+	{
+		"name": "Metabolic Engineering",
+		"description": "This team specializes in redesigning metabolic pathways in organisms to produce valuable compounds or optimize existing biological processes. Their work is crucial for developing bio-based production systems for chemicals, fuels, and pharmaceuticals."
+	},
+	{
+		"name": "Synthetic Genomics",
+		"description": "This cutting-edge department works on creating entirely synthetic genomes or significantly redesigned ones. Their efforts could lead to the development of minimal genomes for industrial applications or the resurrection of extinct species."
+	},
+	{
+		"name": "Biocomputing and Biological Circuit Design",
+		"description": "This innovative unit focuses on engineering biological systems to perform computational functions. They design genetic circuits that can process information and respond to stimuli, potentially leading to living sensors or smart therapeutics."
+	},
+	{
+		"name": "Directed Evolution and Protein Engineering",
+		"description": "This department harnesses the power of evolution in a controlled laboratory setting to develop proteins with enhanced or novel functions. Their work is crucial for creating better enzymes for industrial processes or improved therapeutic proteins."
+	},
+	{
+		"name": "Xenobiology",
+		"description": "This forward-thinking team explores the creation of novel biological systems using non-standard biochemical building blocks. Their research could lead to the development of organisms with expanded genetic codes or alternative biochemistries."
+	},
+	{
+		"name": "Bioprocess Scale-up and Optimization",
+		"description": "This department bridges the gap between laboratory-scale synthetic biology and industrial-scale production. They work on scaling up engineered biological systems and optimizing bioprocesses for commercial viability."
+	},
+	{
+		"name": "Synthetic Ecology",
+		"description": "This unique unit studies and designs artificial ecosystems using engineered organisms. Their work could lead to more resilient and productive agricultural systems or novel approaches to environmental remediation."
+	},
+	{
+		"name": "Regulatory Affairs and Bioethics",
+		"description": "This crucial department navigates the complex regulatory landscape surrounding synthetic biology and engages with ethical considerations. They ensure our innovations comply with regulations and address societal concerns about engineered biological systems."
+	},
+	{
+		"name": "Bio-CAD and Modeling",
+		"description": "This team develops and utilizes advanced computational tools for designing and predicting the behavior of synthetic biological systems. Their work is essential for improving the efficiency and predictability of our bioengineering efforts."
+	}
+]

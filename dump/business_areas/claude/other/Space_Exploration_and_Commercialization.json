@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Spacecraft Design and Engineering",
+		"description": "This department focuses on conceptualizing, designing, and engineering spacecraft for various missions. It requires a blend of cutting-edge aerospace technology, materials science, and innovative problem-solving to create vehicles capable of withstanding the harsh conditions of space while fulfilling mission objectives."
+	},
+	{
+		"name": "Launch Systems Development",
+		"description": "This critical area is responsible for creating and refining the systems needed to propel payloads into orbit and beyond. It involves developing rocket propulsion technologies, launch vehicles, and associated ground support equipment to ensure safe and efficient access to space."
+	},
+	{
+		"name": "Space Habitat Engineering",
+		"description": "This department specializes in designing and constructing habitable environments for long-duration space missions or potential off-world colonies. It addresses unique challenges such as life support systems, radiation shielding, and artificial gravity to ensure human survival in extraterrestrial environments."
+	},
+	{
+		"name": "Asteroid Mining Operations",
+		"description": "This forward-thinking division focuses on identifying, accessing, and extracting valuable resources from asteroids and other celestial bodies. It involves developing specialized equipment for in-situ resource utilization and establishing logistical frameworks for transporting extracted materials back to Earth or to space-based manufacturing facilities."
+	},
+	{
+		"name": "Microgravity Research and Development",
+		"description": "This department leverages the unique properties of microgravity environments to conduct groundbreaking research and develop novel products. It explores opportunities in fields such as materials science, pharmaceuticals, and biotechnology that can benefit from space-based experimentation and manufacturing."
+	},
+	{
+		"name": "Space Tourism Services",
+		"description": "This customer-facing division is dedicated to developing and operating space tourism experiences for private individuals. It encompasses everything from suborbital flights to potential lunar excursions, focusing on safety, comfort, and creating once-in-a-lifetime experiences for paying customers."
+	},
+	{
+		"name": "Orbital Debris Management",
+		"description": "This crucial department addresses the growing concern of space debris by developing technologies and strategies for tracking, avoiding, and removing orbital debris. It plays a vital role in ensuring the long-term sustainability of space activities and protecting valuable space assets."
+	},
+	{
+		"name": "Extraterrestrial Communication Systems",
+		"description": "This specialized area focuses on developing and maintaining communication systems capable of transmitting data across vast distances in space. It involves creating advanced antenna designs, signal processing technologies, and protocols to enable reliable communication between Earth and deep space missions."
+	},
+	{
+		"name": "Space-Based Solar Power Systems",
+		"description": "This innovative department works on harnessing solar energy in space and transmitting it to Earth or other space-based facilities. It involves developing large-scale solar collectors, power conversion systems, and wireless power transmission technologies to provide clean, abundant energy from space."
+	},
+	{
+		"name": "Planetary Protection and Contamination Control",
+		"description": "This critical department ensures that space exploration activities comply with international planetary protection policies. It develops protocols and technologies to prevent biological contamination of celestial bodies during exploration missions and protects Earth from potential extraterrestrial contaminants brought back by sample return missions."
+	},
+	{
+		"name": "Space Weather Forecasting and Mitigation",
+		"description": "This department focuses on predicting and mitigating the effects of space weather phenomena, such as solar flares and geomagnetic storms, on space assets and Earth-based technologies. It involves developing advanced monitoring systems, predictive models, and protective measures to safeguard critical infrastructure."
+	},
+	{
+		"name": "In-Space Manufacturing",
+		"description": "This cutting-edge division develops technologies and processes for manufacturing products directly in space. It explores the unique advantages of microgravity and vacuum environments for creating novel materials, structures, and components that are difficult or impossible to produce on Earth."
+	}
+]

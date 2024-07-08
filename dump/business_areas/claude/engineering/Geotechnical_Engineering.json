@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Soil Mechanics Laboratory",
+		"description": "This specialized facility is the cornerstone of geotechnical engineering operations. It houses advanced equipment for analyzing soil properties, enabling your team to make critical decisions about foundation design and soil stability. This department provides the data necessary for risk mitigation and cost-effective construction planning."
+	},
+	{
+		"name": "In-Situ Testing Division",
+		"description": "This field-based unit conducts on-site soil and rock investigations, offering real-time data crucial for project feasibility and design. By leveraging cutting-edge technologies like cone penetration testing and pressure meter analysis, this division provides insights that can significantly reduce construction risks and optimize project timelines."
+	},
+	{
+		"name": "Geohazard Assessment Team",
+		"description": "This expert group specializes in identifying and evaluating geological risks such as landslides, sinkholes, and liquefaction potential. Their work is essential for strategic planning in high-risk areas, helping to safeguard investments and ensure long-term project viability."
+	},
+	{
+		"name": "Foundation Design Unit",
+		"description": "This department focuses on creating bespoke foundation solutions for challenging soil conditions. Their expertise in deep foundations, retaining structures, and ground improvement techniques can lead to substantial cost savings and enhanced structural integrity for your projects."
+	},
+	{
+		"name": "Geosynthetics Application Center",
+		"description": "This innovative unit specializes in the integration of geosynthetic materials in construction projects. Their work can lead to more sustainable and cost-effective solutions for soil reinforcement, erosion control, and environmental protection."
+	},
+	{
+		"name": "Earthquake Engineering Division",
+		"description": "This specialized team focuses on seismic hazard analysis and earthquake-resistant design. Their expertise is crucial for projects in seismically active regions, ensuring structural resilience and regulatory compliance."
+	},
+	{
+		"name": "Geotechnical Instrumentation and Monitoring Unit",
+		"description": "This department designs and implements advanced monitoring systems for large-scale projects. Their work provides real-time data on soil behavior and structural performance, enabling proactive risk management and informed decision-making throughout the project lifecycle."
+	},
+	{
+		"name": "Numerical Modeling and Simulation Team",
+		"description": "This high-tech unit utilizes advanced computer modeling to predict soil-structure interaction and analyze complex geotechnical scenarios. Their work can significantly reduce uncertainties in design and construction, leading to optimized solutions and improved project outcomes."
+	},
+	{
+		"name": "Ground Improvement Technologies Division",
+		"description": "This specialized group focuses on developing and implementing innovative techniques for enhancing soil properties. Their expertise in methods such as dynamic compaction, soil mixing, and grouting can transform challenging sites into viable construction locations, expanding your project possibilities."
+	},
+	{
+		"name": "Geoenvironmental Engineering Department",
+		"description": "This unit addresses the intersection of geotechnical and environmental concerns. They specialize in contaminated land assessment, remediation strategies, and sustainable geotechnical solutions, helping your company navigate complex environmental regulations while maintaining project feasibility."
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "CBRN Threat Assessment Unit",
+		"description": "This specialized team focuses on analyzing and predicting potential chemical, biological, radiological, and nuclear threats. They provide critical intelligence to inform strategic decision-making and resource allocation."
+	},
+	{
+		"name": "Decontamination Systems Development",
+		"description": "This department is dedicated to creating cutting-edge decontamination technologies and protocols. Their work ensures rapid and effective cleanup of CBRN agents, minimizing long-term environmental and health impacts."
+	},
+	{
+		"name": "CBRN Sensor Technology Innovation",
+		"description": "This group spearheads the development of advanced detection and identification systems for CBRN agents. Their innovations are crucial for early warning and rapid response capabilities."
+	},
+	{
+		"name": "Protective Equipment Engineering",
+		"description": "This team designs and improves personal protective equipment (PPE) specifically for CBRN scenarios. Their work directly impacts the safety and effectiveness of first responders and military personnel in contaminated environments."
+	},
+	{
+		"name": "CBRN Training Simulation",
+		"description": "This department creates immersive, realistic training scenarios using advanced simulation technologies. They ensure that personnel are well-prepared for the unique challenges of CBRN incidents."
+	},
+	{
+		"name": "CBRN Medical Countermeasures Research",
+		"description": "This specialized research unit focuses on developing medical treatments and prophylactics for CBRN exposures. Their work is critical for mitigating the health impacts of CBRN incidents."
+	},
+	{
+		"name": "CBRN Forensics and Attribution",
+		"description": "This team develops methods and technologies for identifying the origin of CBRN agents used in attacks. Their work is essential for deterrence and international accountability."
+	},
+	{
+		"name": "CBRN Environmental Remediation",
+		"description": "This department specializes in long-term cleanup and restoration of areas affected by CBRN incidents. They develop strategies to minimize ecological damage and restore habitability."
+	},
+	{
+		"name": "CBRN Policy and Compliance",
+		"description": "This unit ensures that all CBRN defense activities comply with international treaties and regulations. They also work on shaping future policies related to CBRN threats and responses."
+	},
+	{
+		"name": "CBRN Incident Command Systems",
+		"description": "This team develops specialized command and control systems for managing CBRN incidents. Their work ensures effective coordination and communication during complex, multi-agency responses."
+	},
+	{
+		"name": "CBRN Public Communication Strategies",
+		"description": "This department focuses on developing effective communication plans for CBRN incidents. They work to ensure accurate, timely information dissemination to minimize panic and misinformation during crises."
+	},
+	{
+		"name": "CBRN Supply Chain Security",
+		"description": "This unit works on securing the supply chain for CBRN defense equipment and materials. They develop strategies to prevent the diversion of dual-use technologies and ensure the integrity of critical supplies."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Tenant Mix Optimization",
+		"description": "This department focuses on strategically curating the ideal combination of residential, commercial, and retail tenants to maximize synergies and create a vibrant, self-sustaining community within the mixed-use development. The team analyzes market trends, consumer behavior, and demographic data to ensure a diverse and complementary tenant mix that enhances overall property value and user experience."
+	},
+	{
+		"name": "Vertical Integration Management",
+		"description": "This specialized unit oversees the seamless integration of various property uses within a single development. They coordinate the design, construction, and operation of different components (e.g., residential, office, retail) to ensure efficient use of space, shared amenities, and cohesive functionality across all levels of the property."
+	},
+	{
+		"name": "Mixed-Use Amenities Planning",
+		"description": "This department is responsible for conceptualizing and implementing shared amenities that cater to the diverse needs of residential, commercial, and retail tenants. They focus on creating unique, multi-functional spaces that foster community interaction, enhance user experience, and differentiate the property from single-use developments."
+	},
+	{
+		"name": "Cross-Sector Leasing Strategies",
+		"description": "This team develops innovative leasing strategies that leverage the synergies between different property uses. They create packages and incentives that attract complementary tenants across sectors, fostering a mutually beneficial ecosystem within the mixed-use development."
+	},
+	{
+		"name": "Integrated Building Systems Management",
+		"description": "This department oversees the design, implementation, and maintenance of integrated building systems that cater to the diverse needs of multiple property uses. They ensure efficient resource allocation, energy management, and technological integration across residential, commercial, and retail components."
+	},
+	{
+		"name": "Mixed-Use Placemaking and Programming",
+		"description": "This creative team focuses on developing and executing placemaking strategies and programming initiatives that activate shared spaces and create a sense of community within the mixed-use development. They curate events, installations, and experiences that appeal to diverse user groups and enhance the overall value proposition of the property."
+	},
+	{
+		"name": "Multi-Use Space Flexibility Planning",
+		"description": "This forward-thinking department designs and implements strategies for creating flexible, adaptable spaces that can transition between different uses as market demands change. They focus on future-proofing the development by incorporating modular design elements and convertible spaces that can evolve with shifting tenant needs."
+	},
+	{
+		"name": "Cross-Sector Risk Management",
+		"description": "This specialized risk management team addresses the unique challenges and opportunities presented by the integration of multiple property uses. They develop comprehensive risk mitigation strategies that account for the interdependencies between different sectors and potential cascading effects of disruptions across the mixed-use ecosystem."
+	},
+	{
+		"name": "Integrated Waste and Sustainability Management",
+		"description": "This department develops and implements holistic sustainability strategies that leverage the diverse waste streams and resource consumption patterns of multiple property uses. They focus on creating closed-loop systems, implementing innovative recycling programs, and maximizing energy efficiency across the entire mixed-use development."
+	},
+	{
+		"name": "Mixed-Use Transportation and Accessibility Planning",
+		"description": "This team focuses on developing comprehensive transportation and accessibility solutions that cater to the diverse needs of residential, commercial, and retail users. They design integrated parking systems, implement multi-modal transportation options, and ensure seamless connectivity between different components of the mixed-use development."
+	}
+]

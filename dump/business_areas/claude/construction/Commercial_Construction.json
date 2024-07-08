@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Tenant Improvement Division",
+		"description": "This specialized unit focuses on customizing existing commercial spaces to meet the specific needs of new tenants. It requires a deep understanding of corporate client requirements, rapid turnaround times, and the ability to work within occupied buildings without disrupting ongoing business operations."
+	},
+	{
+		"name": "Mixed-Use Development Team",
+		"description": "This team specializes in planning and executing complex projects that combine multiple commercial functions, such as retail, office, and hospitality, within a single development. They must balance diverse stakeholder interests and navigate intricate zoning regulations to create cohesive, profitable spaces."
+	},
+	{
+		"name": "Corporate Interiors Department",
+		"description": "This department concentrates on designing and building out office spaces for large corporations. They must stay abreast of the latest workplace trends, understand corporate culture nuances, and deliver environments that enhance productivity and employee satisfaction."
+	},
+	{
+		"name": "Retail Construction Unit",
+		"description": "This unit focuses on building and renovating retail spaces, from individual stores to large shopping centers. They must understand brand aesthetics, consumer behavior, and the unique challenges of constructing spaces that optimize foot traffic and sales potential."
+	},
+	{
+		"name": "Restaurant and Food Service Construction Team",
+		"description": "This specialized team handles the unique requirements of restaurant and food service facility construction. They must be well-versed in health and safety regulations, commercial kitchen design, and creating inviting dining atmospheres that align with various culinary concepts."
+	},
+	{
+		"name": "Data Center Construction Division",
+		"description": "This division specializes in building highly technical and secure facilities for housing computer systems and associated components. They must understand complex cooling systems, power requirements, and stringent security protocols essential for these mission-critical facilities."
+	},
+	{
+		"name": "Healthcare Facilities Construction Unit",
+		"description": "This unit focuses on constructing medical offices, clinics, and hospitals. They must be knowledgeable about stringent healthcare regulations, specialized medical equipment installation, and creating sterile environments crucial for patient care and safety."
+	},
+	{
+		"name": "Sustainable Commercial Building Team",
+		"description": "This team specializes in constructing environmentally friendly commercial buildings. They must be experts in green building technologies, LEED certification processes, and innovative sustainable design practices that appeal to eco-conscious corporate clients."
+	},
+	{
+		"name": "Adaptive Reuse Department",
+		"description": "This department focuses on transforming existing, often historical, buildings into modern commercial spaces. They must balance preservation requirements with contemporary business needs, often requiring creative problem-solving and specialized restoration techniques."
+	},
+	{
+		"name": "High-Rise Commercial Construction Unit",
+		"description": "This unit specializes in constructing tall commercial buildings in urban environments. They must be adept at managing the unique challenges of vertical construction, including advanced elevator systems, wind resistance, and complex urban logistics."
+	},
+	{
+		"name": "Commercial Parking Structure Division",
+		"description": "This division focuses on building multi-level parking facilities for commercial areas. They must understand traffic flow optimization, integrate smart parking technologies, and design structures that complement surrounding commercial architecture."
+	},
+	{
+		"name": "Corporate Campus Development Team",
+		"description": "This team specializes in creating expansive, multi-building corporate headquarters. They must excel at master planning, understand the needs of large-scale employee populations, and create environments that foster innovation and corporate culture."
+	}
+]

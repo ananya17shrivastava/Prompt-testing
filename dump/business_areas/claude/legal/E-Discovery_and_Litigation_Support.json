@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Data Collection and Preservation",
+		"description": "This department focuses on the critical task of identifying, collecting, and preserving electronically stored information (ESI) relevant to legal matters. They employ specialized tools and methodologies to ensure data integrity and defensibility throughout the e-discovery process, mitigating risks associated with spoliation or data loss."
+	},
+	{
+		"name": "Early Case Assessment (ECA)",
+		"description": "The ECA team conducts preliminary analysis of collected data to help legal teams and clients make informed decisions about case strategy and resource allocation. They utilize advanced analytics to identify key custodians, date ranges, and potential smoking gun documents, enabling more efficient and cost-effective litigation management."
+	},
+	{
+		"name": "Technology-Assisted Review (TAR)",
+		"description": "This cutting-edge department leverages artificial intelligence and machine learning algorithms to expedite document review processes. By training the system to recognize relevant documents, TAR significantly reduces review time and costs while maintaining or improving accuracy compared to traditional manual review methods."
+	},
+	{
+		"name": "Forensic Analysis",
+		"description": "The forensic analysis team employs specialized techniques to uncover hidden, deleted, or manipulated electronic evidence. Their expertise is crucial in cases involving digital fraud, intellectual property theft, or other technology-related disputes, providing invaluable insights that can make or break a case."
+	},
+	{
+		"name": "Data Processing and Hosting",
+		"description": "This department manages the technical infrastructure required to process, index, and host vast amounts of electronic data for review and production. They ensure data security, system performance, and scalability to meet the demanding requirements of complex litigation and regulatory investigations."
+	},
+	{
+		"name": "Managed Review Services",
+		"description": "This team oversees large-scale document review projects, employing a combination of technology and human expertise to efficiently identify relevant and privileged documents. They develop review protocols, manage review teams, and implement quality control measures to ensure consistent and accurate results."
+	},
+	{
+		"name": "Production and Presentation",
+		"description": "This department handles the final stages of the e-discovery process, preparing documents for production to opposing counsel or regulatory bodies. They manage complex production specifications, implement redactions, and create compelling visual presentations of electronic evidence for use in court or settlement negotiations."
+	},
+	{
+		"name": "Legal Project Management",
+		"description": "Specialized project managers in this department oversee the entire e-discovery lifecycle, coordinating between various internal teams, outside counsel, and clients. They develop and implement workflows, manage budgets, and ensure compliance with court-ordered deadlines and discovery obligations."
+	},
+	{
+		"name": "E-Discovery Advisory Services",
+		"description": "This consulting arm provides strategic guidance to clients on e-discovery best practices, information governance, and litigation readiness. They help organizations develop defensible and cost-effective e-discovery programs, leveraging industry expertise to navigate the complex intersection of law and technology."
+	},
+	{
+		"name": "Cross-Border Data Management",
+		"description": "This specialized team addresses the unique challenges of managing electronic data across multiple jurisdictions. They navigate complex international data privacy laws, such as GDPR, ensuring compliance while meeting discovery obligations in global litigation and investigations."
+	},
+	{
+		"name": "Social Media and Mobile Device Discovery",
+		"description": "This emerging department focuses on the collection and analysis of data from social media platforms and mobile devices. They develop innovative techniques to capture and preserve ephemeral data, location information, and app-specific content that may be crucial to modern litigation."
+	},
+	{
+		"name": "Blockchain and Cryptocurrency Forensics",
+		"description": "This cutting-edge team specializes in investigating and analyzing transactions on blockchain networks and cryptocurrency exchanges. Their expertise is invaluable in cases involving digital assets, financial crimes, or regulatory compliance in the rapidly evolving world of decentralized finance."
+	}
+]

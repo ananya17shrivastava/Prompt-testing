@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Sliding Fee Scale Management",
+		"description": "This department is responsible for implementing and maintaining a sliding fee discount program, ensuring that services are affordable for all patients regardless of their ability to pay. They develop and adjust fee scales based on federal poverty guidelines, patient income, and family size, balancing financial sustainability with the mission of providing accessible care."
+	},
+	{
+		"name": "Enabling Services Coordination",
+		"description": "This unit focuses on non-clinical services that support patients in accessing and benefiting from healthcare. They manage transportation assistance, translation services, health education, and case management, addressing social determinants of health that are crucial for underserved populations."
+	},
+	{
+		"name": "Community Health Worker Program",
+		"description": "This department recruits, trains, and deploys community health workers who serve as liaisons between the health center and the local community. These workers provide culturally appropriate health education, conduct outreach, and help patients navigate the healthcare system, enhancing community engagement and improving health outcomes."
+	},
+	{
+		"name": "340B Drug Pricing Program Management",
+		"description": "This specialized unit oversees participation in the federal 340B Drug Pricing Program, which allows eligible health centers to purchase outpatient drugs at significantly reduced prices. They ensure compliance with program requirements, manage inventory, and leverage savings to expand services or reduce medication costs for patients."
+	},
+	{
+		"name": "Migrant Health Services",
+		"description": "This department caters specifically to the healthcare needs of migrant and seasonal agricultural workers and their families. They develop mobile clinic strategies, coordinate with farms and agricultural businesses, and provide targeted health services that address the unique challenges faced by this transient population."
+	},
+	{
+		"name": "School-Based Health Center Coordination",
+		"description": "This unit manages partnerships with local schools to establish and operate on-site health clinics. They coordinate staffing, equipment, and services to provide convenient, accessible healthcare to students, addressing both acute and chronic health issues that may impact academic performance."
+	},
+	{
+		"name": "Homeless Health Initiative",
+		"description": "This department focuses on delivering healthcare services to homeless individuals and families. They develop street outreach programs, coordinate with shelters and social services, and design interventions that address the complex health needs of this vulnerable population, often integrating medical care with housing assistance and mental health support."
+	},
+	{
+		"name": "Special Population Health Programs",
+		"description": "This unit develops and implements targeted health programs for specific underserved groups such as LGBTQ+ individuals, refugees, or individuals with HIV/AIDS. They create culturally sensitive care models, establish community partnerships, and ensure that these populations receive comprehensive, non-discriminatory healthcare services."
+	},
+	{
+		"name": "Integrated Behavioral Health Coordination",
+		"description": "While many healthcare organizations offer mental health services, this department specializes in fully integrating behavioral health into primary care within the community health center setting. They develop workflows for universal screening, same-day consultations, and collaborative care models that address the high prevalence of mental health issues in underserved communities."
+	},
+	{
+		"name": "Community Needs Assessment and Strategic Planning",
+		"description": "This department conducts regular, in-depth assessments of community health needs and develops strategic plans to address identified gaps. They engage with diverse stakeholders, analyze health disparities, and align the center's services with the evolving needs of the specific communities served, ensuring responsiveness and relevance in service delivery."
+	}
+]

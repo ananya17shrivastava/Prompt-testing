@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Contaminated Land Rehabilitation",
+		"description": "This department focuses on restoring polluted or degraded mining sites to their natural state or preparing them for alternative uses. It involves complex soil treatment processes, revegetation strategies, and long-term monitoring to ensure successful ecosystem recovery."
+	},
+	{
+		"name": "Mine Closure Planning",
+		"description": "This specialized unit develops comprehensive strategies for decommissioning mining operations, ensuring environmental compliance, and minimizing long-term ecological impacts. It addresses challenges unique to the industry, such as acid mine drainage management and tailings facility closure."
+	},
+	{
+		"name": "Groundwater Remediation",
+		"description": "This team tackles the intricate task of purifying contaminated groundwater resulting from mining activities. They employ cutting-edge technologies like in-situ chemical oxidation, bioremediation, and pump-and-treat systems to restore aquifers and protect surrounding ecosystems."
+	},
+	{
+		"name": "Tailings Management",
+		"description": "This department oversees the safe storage, treatment, and disposal of mine tailings \u2013 the waste material left after ore processing. They develop innovative solutions for tailings dam construction, dry stacking, and paste backfill to minimize environmental risks and maximize resource recovery."
+	},
+	{
+		"name": "Acid Mine Drainage (AMD) Control",
+		"description": "This specialized unit focuses on preventing and mitigating the formation of acidic water from exposed sulfide minerals in mine waste. They implement strategies such as water treatment plants, passive treatment systems, and predictive modeling to manage this mining-specific environmental challenge."
+	},
+	{
+		"name": "Biodiversity Offset Programs",
+		"description": "This department designs and implements conservation initiatives to compensate for unavoidable biodiversity losses caused by mining operations. They work on habitat restoration, species relocation, and creating protected areas to achieve a net positive impact on local ecosystems."
+	},
+	{
+		"name": "Mine Waste Upcycling",
+		"description": "This innovative unit explores opportunities to repurpose mining waste materials for beneficial uses. They develop processes to extract valuable elements from tailings, convert waste rock into construction materials, or use mine water for agriculture, turning environmental liabilities into assets."
+	},
+	{
+		"name": "Geochemical Risk Assessment",
+		"description": "This team specializes in evaluating the potential for harmful element release from mined materials and waste rock. They conduct predictive modeling and develop mitigation strategies to prevent long-term environmental contamination specific to mining activities."
+	},
+	{
+		"name": "Post-Mining Land Use Planning",
+		"description": "This department focuses on transforming former mine sites into valuable community assets. They develop strategies for repurposing mine infrastructure, creating recreational areas, or establishing renewable energy projects, ensuring a positive legacy beyond the mine's operational life."
+	},
+	{
+		"name": "Environmental Emergency Response",
+		"description": "This specialized unit is trained to handle mining-specific environmental incidents such as tailings dam failures, chemical spills, or sudden acid mine drainage events. They develop rapid response protocols and maintain specialized equipment to minimize ecological damage during crises."
+	},
+	{
+		"name": "Fugitive Dust Management",
+		"description": "This team addresses the unique challenge of controlling dust emissions from mining operations, including open-pit excavations, haul roads, and ore processing facilities. They implement innovative dust suppression techniques and monitoring systems to protect air quality and worker health."
+	},
+	{
+		"name": "Artisanal and Small-Scale Mining (ASM) Environmental Support",
+		"description": "This department provides guidance and resources to improve environmental practices in informal or small-scale mining operations. They develop appropriate technologies and training programs to reduce mercury use, manage tailings, and promote responsible resource extraction in ASM communities."
+	}
+]

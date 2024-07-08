@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Network Operations Support",
+		"description": "This department focuses on handling customer inquiries and issues related to network connectivity, signal strength, and service outages. It's crucial for maintaining customer satisfaction by quickly addressing technical problems that directly impact service quality."
+	},
+	{
+		"name": "Device Provisioning and Activation",
+		"description": "This team specializes in assisting customers with activating new devices, transferring services to new phones, and troubleshooting device-specific issues. They play a vital role in ensuring a smooth onboarding experience for new customers and retaining existing ones during device upgrades."
+	},
+	{
+		"name": "Data and Internet Services Support",
+		"description": "As telecommunications companies expand their offerings, this department becomes essential for addressing concerns related to broadband speeds, data caps, and connectivity issues for home and business internet services. They help maintain the company's competitive edge in the growing data services market."
+	},
+	{
+		"name": "Roaming and International Services",
+		"description": "This specialized unit handles inquiries about international calling plans, roaming charges, and connectivity issues for customers traveling abroad. They're crucial for supporting global business travelers and maintaining revenue streams from international services."
+	},
+	{
+		"name": "Spectrum Management Support",
+		"description": "This department deals with customer inquiries related to frequency allocation, interference issues, and regulatory compliance. They play a critical role in ensuring optimal network performance and adherence to telecommunications regulations."
+	},
+	{
+		"name": "VoIP and Unified Communications Support",
+		"description": "As businesses increasingly adopt VoIP and unified communications solutions, this team becomes vital for addressing technical issues, feature requests, and integration concerns for these advanced telecommunication services."
+	},
+	{
+		"name": "Mobile App and Self-Service Portal Support",
+		"description": "This unit focuses on assisting customers with the company's mobile apps and online self-service portals, helping to drive digital adoption and reduce call volumes to traditional support channels."
+	},
+	{
+		"name": "IoT and M2M Support",
+		"description": "With the growth of Internet of Things (IoT) and Machine-to-Machine (M2M) communications, this department specializes in addressing connectivity and data transmission issues for smart devices and industrial applications."
+	},
+	{
+		"name": "5G and Emerging Technologies Support",
+		"description": "This forward-looking team handles inquiries and issues related to 5G networks and other cutting-edge telecommunications technologies, positioning the company as an industry leader and supporting early adopters."
+	},
+	{
+		"name": "Telecommunications Equipment Leasing Support",
+		"description": "This department manages customer inquiries related to leased telecommunications equipment, including installation, maintenance, and upgrade options, helping to maintain an additional revenue stream for the company."
+	},
+	{
+		"name": "Fiber Optic Services Support",
+		"description": "As fiber optic networks expand, this specialized team addresses customer questions and concerns related to fiber installations, speeds, and service quality, supporting the company's infrastructure investments."
+	},
+	{
+		"name": "Satellite Communications Support",
+		"description": "This niche department handles inquiries related to satellite phone services, broadband, and TV offerings, catering to customers in remote areas or those requiring global coverage."
+	}
+]

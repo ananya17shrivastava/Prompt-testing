@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Reactor Core Design",
+		"description": "This department focuses on developing and optimizing nuclear reactor cores, ensuring efficient and safe power generation. It's crucial for maximizing energy output while maintaining stringent safety standards, directly impacting your facility's performance and regulatory compliance."
+	},
+	{
+		"name": "Nuclear Fuel Management",
+		"description": "This area oversees the entire lifecycle of nuclear fuel, from procurement to spent fuel handling. It's essential for maintaining operational continuity, minimizing waste, and adhering to strict international regulations, ultimately affecting your bottom line and environmental footprint."
+	},
+	{
+		"name": "Radiation Protection Services",
+		"description": "This specialized department ensures the safety of personnel and the environment from ionizing radiation. It's critical for maintaining regulatory compliance, protecting your workforce, and safeguarding your company's reputation in an industry where safety is paramount."
+	},
+	{
+		"name": "Nuclear Waste Management",
+		"description": "This unit handles the complex task of processing, storing, and disposing of radioactive waste. It's vital for environmental stewardship, regulatory compliance, and maintaining public trust, directly impacting your company's long-term sustainability and social license to operate."
+	},
+	{
+		"name": "Nuclear Safeguards and Security",
+		"description": "This department focuses on protecting nuclear materials and facilities from theft, sabotage, and unauthorized access. It's essential for national security, international treaty compliance, and maintaining public confidence in your operations."
+	},
+	{
+		"name": "Neutronics Analysis",
+		"description": "This highly specialized area deals with the behavior and distribution of neutrons in nuclear reactors. It's crucial for optimizing reactor performance, predicting fuel behavior, and ensuring safe operations, directly impacting your facility's efficiency and safety margins."
+	},
+	{
+		"name": "Nuclear Instrumentation and Control",
+		"description": "This department develops and maintains the sophisticated systems that monitor and control nuclear reactors. It's essential for ensuring safe operations, optimizing performance, and providing real-time data for decision-making, directly affecting your operational efficiency and risk management."
+	},
+	{
+		"name": "Radioisotope Production",
+		"description": "This unique area focuses on producing radioactive isotopes for medical, industrial, and research applications. It represents a potential revenue stream beyond power generation and contributes to broader societal benefits, enhancing your company's diversification and public image."
+	},
+	{
+		"name": "Nuclear Decommissioning Services",
+		"description": "This department specializes in the complex process of safely retiring nuclear facilities at the end of their operational life. It's crucial for managing long-term liabilities, ensuring environmental remediation, and maintaining regulatory compliance throughout the facility's lifecycle."
+	},
+	{
+		"name": "Nuclear Emergency Response",
+		"description": "This critical unit prepares for and responds to potential nuclear incidents or accidents. It's essential for risk management, regulatory compliance, and maintaining public trust, directly impacting your company's resilience and crisis management capabilities."
+	}
+]

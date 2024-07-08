@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Claims Investigation Unit",
+		"description": "This specialized team focuses exclusively on investigating workers' compensation claims. They employ advanced forensic techniques and collaborate with medical professionals to verify the legitimacy and extent of workplace injuries, ensuring fair compensation while protecting against fraudulent claims."
+	},
+	{
+		"name": "Return-to-Work Program Management",
+		"description": "This department develops and oversees tailored programs to facilitate injured employees' safe and timely return to the workplace. They work closely with employers, medical providers, and claimants to create modified duty plans, reducing claim duration and costs while promoting workforce productivity."
+	},
+	{
+		"name": "Workplace Safety Consulting",
+		"description": "A team of safety experts who provide on-site risk assessments and customized safety recommendations to policyholders. Their proactive approach helps businesses minimize workplace hazards, potentially reducing the frequency and severity of claims while fostering a culture of safety."
+	},
+	{
+		"name": "Medical Case Management",
+		"description": "This unit consists of specialized nurses and healthcare professionals who oversee the medical aspects of workers' compensation claims. They ensure injured workers receive appropriate care, manage treatment plans, and coordinate with healthcare providers to optimize recovery outcomes and control medical costs."
+	},
+	{
+		"name": "Ergonomics and Injury Prevention",
+		"description": "A dedicated team of ergonomics specialists who assess workplace environments and job tasks to identify potential injury risks. They provide tailored recommendations for ergonomic improvements, helping businesses prevent repetitive strain injuries and other common workplace health issues."
+	},
+	{
+		"name": "Occupational Disease Assessment",
+		"description": "This specialized group focuses on evaluating and managing claims related to long-term occupational diseases. They possess in-depth knowledge of industry-specific health risks and collaborate with medical experts to assess the causality and progression of work-related illnesses."
+	},
+	{
+		"name": "State-Specific Compliance",
+		"description": "A department dedicated to navigating the complex and varied workers' compensation regulations across different states. They ensure the company's policies and practices align with state-specific requirements, helping clients maintain compliance and avoid potential legal issues."
+	},
+	{
+		"name": "Experience Modification Rate (EMR) Consulting",
+		"description": "This team of analysts specializes in helping businesses understand and improve their Experience Modification Rate. They provide strategic advice on how to lower EMRs through improved safety practices and claims management, potentially reducing premium costs for policyholders."
+	},
+	{
+		"name": "Vocational Rehabilitation Coordination",
+		"description": "A unit that focuses on assisting injured workers who cannot return to their previous roles. They coordinate with vocational experts to assess transferable skills, provide retraining opportunities, and facilitate job placement, aiming to minimize long-term disability claims and promote workforce reintegration."
+	},
+	{
+		"name": "Catastrophic Injury Management",
+		"description": "This specialized team handles complex, high-severity claims involving catastrophic injuries. They provide intensive case management, coordinate specialized medical care, and manage long-term care needs, focusing on optimizing outcomes for severely injured workers while controlling costs."
+	}
+]

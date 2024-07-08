@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Underwater Warfare Systems",
+		"description": "This department focuses on developing and integrating advanced sonar technologies, torpedo systems, and anti-submarine warfare capabilities. It's crucial for maintaining naval superiority in subsurface combat scenarios."
+	},
+	{
+		"name": "Naval Architecture and Marine Engineering",
+		"description": "This specialized unit designs and optimizes ship hulls, propulsion systems, and overall vessel structures. Their work ensures our naval assets are efficient, seaworthy, and capable of meeting complex mission requirements."
+	},
+	{
+		"name": "Naval Combat Management Systems",
+		"description": "This team develops integrated command and control systems specifically for naval vessels. Their work enables seamless coordination of shipboard weapons, sensors, and communication systems in high-stress combat situations."
+	},
+	{
+		"name": "Maritime Electronic Warfare",
+		"description": "This department creates sophisticated systems to detect, analyze, and counter enemy electronic signals in the maritime domain. Their innovations are critical for protecting our naval assets from advanced threats."
+	},
+	{
+		"name": "Naval Missile Integration",
+		"description": "This unit specializes in adapting and integrating missile systems for naval platforms. They ensure our ships can effectively deploy and manage various missile types, enhancing overall combat capabilities."
+	},
+	{
+		"name": "Shipboard Power and Propulsion Systems",
+		"description": "This department develops advanced power generation and propulsion technologies specific to naval vessels. Their work is essential for improving ship performance, endurance, and operational flexibility."
+	},
+	{
+		"name": "Naval Unmanned Systems",
+		"description": "This team focuses on developing autonomous and remotely operated systems for naval applications. Their innovations range from underwater drones to unmanned surface vessels, expanding our naval capabilities without risking personnel."
+	},
+	{
+		"name": "Maritime Cybersecurity",
+		"description": "This unit specializes in protecting naval systems from cyber threats. They develop robust security measures for shipboard networks and ensure the integrity of critical naval communication and control systems."
+	},
+	{
+		"name": "Naval Acoustics Research",
+		"description": "This department conducts cutting-edge research in underwater acoustics. Their work is crucial for improving sonar performance, reducing ship noise signatures, and enhancing overall underwater warfare capabilities."
+	},
+	{
+		"name": "Naval Fire Control Systems",
+		"description": "This team develops precision targeting and weapons control systems specifically for naval platforms. Their work ensures our ships can accurately engage threats in various combat scenarios."
+	},
+	{
+		"name": "Maritime Surveillance and Reconnaissance",
+		"description": "This unit focuses on developing advanced sensor systems and data fusion technologies for naval applications. Their innovations enhance situational awareness and threat detection capabilities in maritime environments."
+	},
+	{
+		"name": "Naval Damage Control and Survivability",
+		"description": "This department develops systems and strategies to improve ship survivability in combat situations. Their work includes advanced firefighting systems, hull integrity management, and emergency response technologies."
+	},
+	{
+		"name": "Naval Communications and Data Links",
+		"description": "This team specializes in developing robust, secure communication systems for naval fleets. Their work ensures seamless information exchange between ships, aircraft, and shore facilities in challenging maritime environments."
+	},
+	{
+		"name": "Naval Simulation and Training Systems",
+		"description": "This unit creates advanced simulation technologies for naval personnel training. Their systems allow for realistic, cost-effective training scenarios that prepare our sailors for complex operational challenges."
+	},
+	{
+		"name": "Maritime Robotics and Automation",
+		"description": "This department focuses on developing robotic systems for naval applications, such as automated maintenance, cargo handling, and hazardous material management. Their innovations improve efficiency and safety aboard naval vessels."
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Index Modeling and Design",
+		"description": "This department focuses on developing and refining the specific indices or parameters that trigger payouts in parametric insurance policies. They work on creating robust, objective, and verifiable metrics that accurately represent the insured risk, ensuring that the product remains both viable for the insurer and valuable for the policyholder."
+	},
+	{
+		"name": "Trigger Event Monitoring",
+		"description": "This specialized unit is responsible for continuously tracking and analyzing the predefined parameters or indices. They utilize advanced technologies and data sources to monitor events in real-time, ensuring swift and accurate identification of trigger events that lead to policy payouts."
+	},
+	{
+		"name": "Rapid Claims Processing Automation",
+		"description": "Unlike traditional claims departments, this area focuses on developing and maintaining automated systems that instantly process claims based on predefined triggers. The goal is to minimize human intervention and enable near-instantaneous payouts when trigger conditions are met."
+	},
+	{
+		"name": "Parametric Product Development",
+		"description": "This innovative department works on creating new parametric insurance products tailored to specific risks and client needs. They collaborate with various stakeholders to design policies that balance client protection, market demand, and company profitability in this unique insurance model."
+	},
+	{
+		"name": "Index Data Partnerships",
+		"description": "This team is responsible for establishing and managing relationships with external data providers and organizations that supply crucial information for parametric indices. They ensure the reliability, accuracy, and timeliness of data sources that form the backbone of parametric insurance products."
+	},
+	{
+		"name": "Blockchain Integration for Parametric Contracts",
+		"description": "This cutting-edge department focuses on leveraging blockchain technology to create smart contracts for parametric insurance policies. They work on developing transparent, tamper-proof systems that automatically execute policy terms and payouts based on predefined conditions."
+	},
+	{
+		"name": "Parametric Risk Modeling",
+		"description": "Unlike traditional actuarial departments, this specialized unit develops risk models specifically for parametric insurance products. They focus on analyzing historical data, predicting future events, and quantifying the likelihood of trigger events to inform product pricing and risk management strategies."
+	},
+	{
+		"name": "Parametric Reinsurance Structuring",
+		"description": "This department specializes in designing and negotiating reinsurance arrangements unique to parametric insurance. They focus on creating innovative structures that help manage the distinct risk profile of parametric products, ensuring the company's long-term stability and capacity to offer these specialized policies."
+	},
+	{
+		"name": "Regulatory Compliance for Parametric Products",
+		"description": "This team navigates the evolving regulatory landscape specific to parametric insurance. They work on ensuring compliance with emerging regulations, advocating for favorable policy frameworks, and addressing unique legal challenges associated with this innovative insurance model."
+	},
+	{
+		"name": "Parametric Customer Education",
+		"description": "This department focuses on educating potential clients and partners about the unique value proposition of parametric insurance. They develop targeted communication strategies and materials to explain complex concepts in accessible terms, helping to drive market adoption and understanding of these innovative products."
+	}
+]
