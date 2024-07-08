@@ -98,7 +98,9 @@ def find_industries() -> List[Industry]:
 class BusinessArea(TypedDict):
     business_area_id: str
     business_area_name: str
+    industry_category_id: str
     industry_category_name: str
+    industry_id: str
     industry_name: str
 
 def find_business_areas() -> List[BusinessArea]:
@@ -114,11 +116,13 @@ def find_business_areas() -> List[BusinessArea]:
             SELECT 
             ba.id AS business_area_id,
             ba.name AS business_area_name,
+            ic.id AS industry_category_id,
             ic.name AS industry_category_name,
+            i.id AS industry_id,
             i.name AS industry_name
         FROM 
             business_areas ba
-        JOIN 
+        LEFT JOIN 
             industry_categories ic ON ba.industry_category_id = ic.id COLLATE utf8mb4_unicode_ci
         JOIN 
             industries i ON ba.industry_id = i.id COLLATE utf8mb4_unicode_ci
@@ -149,11 +153,14 @@ def find_business_areas() -> List[BusinessArea]:
         results = my_cursor.fetchall()
         print(results)
 
-        for business_area_id, business_area_name, industry_category_name, industry_name in results:
+        for (business_area_id, business_area_name, industry_category_id, 
+             industry_category_name, industry_id, industry_name) in results:
             business_areas.append({
                 "business_area_id": business_area_id,
                 "business_area_name": business_area_name.replace('_', ' '),
-                "industry_category_name": industry_category_name.replace('_', ' '),
+                "industry_category_id": industry_category_id,
+                "industry_category_name": industry_category_name,
+                "industry_id": industry_id,
                 "industry_name": industry_name.replace('_', ' ')
             })
 
@@ -254,7 +261,68 @@ def insert_industry_business_areas(name: str, description: str, industry_id: str
             conn.close()
 
 
-    
+def insert_usecase(name:str,description:str,business_area_id:str,industry_category_id:str,industry_id:str,urls: List[str]):
+    conn=create_db_connection()
+    my_cursor=conn.cursor()
+    try:
+        check_query = """
+            SELECT id FROM cases
+            WHERE business_area_id = %s and name = %s
+        """
+        my_cursor.execute(check_query, (business_area_id, name,))
+        existing_record = my_cursor.fetchone()
+
+        if not existing_record:
+            # category_id = str(uuid.uuid4())
+            insert_query = """
+                INSERT INTO cases
+                (id, name,industry_id,created_at,organization_creator_id,description,industry_category_id,business_area_id) 
+                VALUES (%s, %s, %s, NOW(), %s, %s, %s, %s)
+            """
+            usecase_id = str(uuid.uuid4())
+            organization_creator_id='user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+            
+            my_cursor.execute(insert_query, (usecase_id, name, industry_id,organization_creator_id,description,industry_category_id,business_area_id))
+            print(f"Inserted Name: {name}, Industry ID: {industry_id}, Industry_category_id:{industry_category_id}, business_area_id: {business_area_id}")
+            for url in urls:
+                insert_url(url,usecase_id)
+
+        conn.commit()
+        print("Operation completed successfully.")
+
+    except Exception as e:
+        conn.rollback()
+        print(f"An error occurred: {str(e)}")
+        raise e
+
+    finally:
+        my_cursor.close()
+        conn.close()
+
+def insert_url(url: str, usecase_id: str):
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        
+        id = str(uuid.uuid4())
+
+        query = "INSERT INTO research_sources (id, case_id, url) VALUES (%s, %s, %s)"
+        values = (id, usecase_id, url)
+
+        my_cursor.execute(query, values)
+        conn.commit()
+
+        print(f"URL inserted successfully for {usecase_id}")  
+
+    except Error as e:
+        print(f"Error: {e}")
+
+    finally:
+        if conn.is_connected(): 
+            my_cursor.close()
+            conn.close()
+
 
 
 def delete_all_industry_category(industry_id: str):
@@ -327,6 +395,15 @@ def get_api_key(key_name: str):
     else:
         raise ValueError(f"No API key found for {key_name}")
 
+
+
+# from langfuse import Langfuse
+
+# langfuse = Langfuse(
+#   secret_key="sk-lf-bd87adfb-1b98-41c3-8952-700e09b521df",
+#   public_key="pk-lf-f630c131-97e4-46af-b68d-efe27548c910",
+#   host="https://cloud.langfuse.com"
+# )
 
 class Prompt(TypedDict):
     user_prompt: str

@@ -23,15 +23,16 @@ def get_usecase_prompt(industry_name: str, industry_category_name: str, business
     
     return prompt
 
-def usecase_parser(llm_response: str) -> List[Dict[str, str]]:
+def usecase_parser(llm_response: str) -> List[Dict[str, object]]:
     root = ET.fromstring(llm_response)
     result = []
 
-    for category in root.findall("USECASE"):
-        name = category.find('NAME').text
-        value = category.find('DESCRIPTION').text
-        # print(f"Name: {name}, Value: {value}")
-        result.append({"name": name, "description": value})
+    for usecase in root.findall("USECASE"):
+        result.append({
+            "name": usecase.find('NAME').text,
+            "description": usecase.find('DESCRIPTION').text,
+            "urls": [url.text for url in usecase.find('URLS')]
+        })
 
     return result
 

@@ -1,4 +1,4 @@
-from db.mysql import fetch_prompt
+from db.fetchprompts import fetch_prompt
 from typing import TypedDict
 
 
