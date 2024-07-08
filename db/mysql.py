@@ -95,6 +95,61 @@ def find_industries() -> List[Industry]:
     return industries
 
 
+class Industry_Category(TypedDict):
+    category_name: str
+    industry_name: str
+    industry_id: str
+    industry_category_id: str
+
+def find_industry_categories() -> List[Industry_Category]:
+    conn = None
+    my_cursor = None
+    industry_categories: List[Industry_Category] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        query = """
+            SELECT 
+                ic.name AS category_name,
+                i.name AS industry_name,
+                ic.industry_id,
+                ic.id AS industry_category_id
+            FROM 
+                industry_categories ic
+            JOIN 
+                industries i ON ic.industry_id = i.id
+            WHERE 
+                i.id != 'be4f80ec-3678-4bf2-b6b6-f5e69301a95c'
+            """
+
+        my_cursor.execute(query)
+
+        results = my_cursor.fetchall()
+
+        for category_name, industry_name, industry_id, industry_category_id in results:
+            category_name = category_name.replace('_', ' ')
+            industry_name = industry_name.replace('_', ' ')
+            industry_categories.append({
+                "category_name": category_name,
+                "industry_name": industry_name,
+                "industry_id": industry_id,
+                "industry_category_id": industry_category_id
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching industry_categories: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return industry_categories
+
+
 class BusinessArea(TypedDict):
     business_area_id: str
     business_area_name: str
