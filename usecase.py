@@ -4,8 +4,8 @@ from pathlib import Path
 from llms.perplexity import PERPLEXITY_MODEL
 from llms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from llms.gpt import GPT4_MODEL
-from prompts.business_usecase import get_usecase_prompt,usecase_parser
-from prompts.usecase_xml import get_xmlprompt
+from prompts.business_usecase import get_usecase_prompt,usecase_parser, get_xmlprompt
+# from prompts.usecase_xml import get_xmlprompt
 import json
 import os
 from db.mysql import find_business_areas,insert_usecase

@@ -5,8 +5,8 @@ from llms.index import invoke_llm, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_GPT, LLM_PR
 from llms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from llms.gpt import GPT4_MODEL
 from llms.perplexity import PERPLEXITY_MODEL
-from prompts.industry_category import get_prompt, parser as industry_parser
-from prompts.xml_prompt import get_xmlprompt
+from prompts.industry_category import get_prompt, parser as industry_parser, get_xmlprompt
+# from prompts.xml_prompt import get_xmlprompt
 from pathlib import Path
 from db.mysql import insert_industry_category, find_industries, delete_all_industry_category
 from prompts.industry_category_summary import get_prompt as get_prompt_summary

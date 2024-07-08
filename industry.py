@@ -5,11 +5,11 @@ from pathlib import Path
 from llms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from llms.gpt import GPT4_MODEL
 from llms.perplexity import PERPLEXITY_MODEL
-from prompts.business_area_xml import get_xmlprompt
+# from prompts.business_area_xml import get_xmlprompt
 from prompts.industry_category import business_parser 
 import json
 import os
-from prompts.industry_business_area import get_industry_business_area
+from prompts.industry_business_area import get_industry_business_area, get_xmlprompt
 async def main():
     industries=find_industries()
     for industryObj in industries:

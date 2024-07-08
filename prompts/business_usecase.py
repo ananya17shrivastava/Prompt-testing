@@ -36,6 +36,33 @@ def usecase_parser(llm_response: str) -> List[Dict[str, object]]:
 
     return result
 
+def get_xmlprompt(test_result:str)->str:
+    # prompts = fetch_prompt("usecase_xml")
+    # prompts['user_prompt'] = prompts['user_prompt'].replace("{{test_result}}", test_result)
+    # return prompts['user_prompt']
+    prompt = f"""You are tasked with presenting test results in a specific XML format. Your goal is to organize the information into usecases and present it in a structured manner.
+    Here is the test result you will be working with:
+    <test_result>
+    {test_result}
+    </test_result>
+    You must present this information in the following XML format:
+    <RESPONSE>
+        <USECASE>
+            <NAME>name of business area</NAME>
+            <DESCRIPTION>description of business area</DESCRIPTION>
+            <URLS>
+                <URL>url1</URL>
+                <URL>url2</URL>
+                <!-- Repeat URL tag for each URL -->
+            </URLS>
+        </USECASE>
+        <!-- Repeat the USECASE structure for each usecase -->
+    </RESPONSE>
+    IMPORTANT: It's crucial to send the response in strict XML format. No additional text should be included outside the XML structure.
+    CRITICAL: Do not use any unescaped ampersand (&) character in the file or any other character that makes parsing of xml document difficult. Use &amp; for ampersands, &lt; for <, and &gt; for > within text content."""
+
+    return prompt
+
 
 
 # system_prompt=Acting as an expert analyst provide me as many use cases as you 
