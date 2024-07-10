@@ -1,12 +1,12 @@
-from db.mysql import fetch_prompt
+from db.fetchprompts import fetch_prompt
 from typing import TypedDict
 
 class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-def get_industry_business_area(industry_name:str)-> Prompt:
-    prompts=fetch_prompt("industry_business_area")
+async def get_industry_business_area(industry_name:str)-> Prompt:
+    prompts=await fetch_prompt("industry_business_area")
     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry}}",industry_name)
     return prompts
 

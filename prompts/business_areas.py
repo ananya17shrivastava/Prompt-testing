@@ -7,8 +7,8 @@ class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-def get_business_prompt(industry_name:str,industry_category_name:str)->Prompt:
-    prompts=fetch_prompt("business_areas")
+async def get_business_prompt(industry_name:str,industry_category_name:str)->Prompt:
+    prompts=await fetch_prompt("business_areas")
     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_category_name}}",industry_category_name)
     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_name}}",industry_name)
     return prompts

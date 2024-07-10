@@ -60,11 +60,136 @@ def create_db_connection():
 
 #     return industry_id
 
+class AISolution(TypedDict):
+    solution_id: str
+    solution_name: str
+    usecase_name: str
+    usecase_description: str
+    industry_category_name: str
+    industry_name: str
+
+def find_aisolutions() -> List[AISolution]:
+    conn = None
+    my_cursor = None
+    ai_solutions: List[AISolution] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+            SELECT 
+                s.id AS solution_id,
+                s.name AS solution_name,
+                c.name AS usecase_name,
+                c.description AS usecase_description,
+                ic.name AS industry_category_name,
+                i.name AS industry_name
+            FROM 
+                solutions s
+            JOIN 
+                case_to_solution cts ON s.id = cts.solution_id
+            JOIN 
+                cases c ON cts.case_id = c.id
+            JOIN 
+                industries i ON c.industry_id = i.id
+            JOIN 
+                industry_categories ic ON c.industry_category_id = ic.id
+            WHERE 
+                s.ai_generated = 1 AND s.id='006ef88b-15a2-4ea3-9348-09b5dc30396d';
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+
+        for row in results:
+            ai_solutions.append({
+                "solution_id": row['solution_id'],
+                "solution_name": row['solution_name'].replace('_', ' '),
+                "usecase_name": row['usecase_name'].replace('_', ' '),
+                "usecase_description": row['usecase_description'],
+                "industry_category_name": row['industry_category_name'].replace('_', ' '),
+                "industry_name": row['industry_name'].replace('_', ' ')
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching AI solutions: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return ai_solutions
+
+    
+
+class Usecase(TypedDict):
+    case_id:str
+    name: str
+    description: str
+    industry_name: str
+    industry_category_name: str
+
+def find_usecases() -> List[Usecase]:
+    conn = None
+    my_cursor = None
+    usecases: List[Usecase] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+            SELECT 
+                c.id AS case_id,
+                c.name AS name,
+                c.description AS description,
+                ic.name AS industry_category_name,
+                i.name AS industry_name
+            FROM 
+                cases c
+            JOIN 
+                industry_categories ic ON c.industry_category_id = ic.id
+            JOIN 
+                industries i ON c.industry_id = i.id
+            WHERE 
+                i.id = '744bec80-9eda-4319-bfd6-51d50d407c3e'
+            ORDER BY 
+                i.name, ic.name, c.name;
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+        print(results)
+
+        for row in results:
+            usecases.append({
+                "case_id":row['case_id'],
+                "name": row['name'].replace('_', ' '),
+                "description": row['description'],
+                "industry_category_name": row['industry_category_name'].replace('_', ' '),
+                "industry_name": row['industry_name'].replace('_', ' ')
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching usecases: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return usecases
+
 
 class Industry(TypedDict):
     id: str
     name: str
-
 
 def find_industries() -> List[Industry]:
     conn = None
@@ -93,6 +218,88 @@ def find_industries() -> List[Industry]:
             conn.close()
 
     return industries
+
+def insert_solutions(case_id: str, name: str, url: str):
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        check_query = """
+        SELECT id FROM solutions
+        WHERE name = %s 
+        """
+        my_cursor.execute(check_query, (name,)) 
+        existing_record = my_cursor.fetchone()
+
+        if not existing_record:
+            # Insert new record
+            insert_query = """
+            INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
+            VALUES (%s, %s, NOW(), %s, %s, %s)
+            """
+            new_id = str(uuid.uuid4())
+            organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+            my_cursor.execute(insert_query, (new_id, name, organization_creator_id, url, 1))
+            conn.commit()
+            print(f"New solution inserted with id: {new_id}")
+            insert_in_case_to_solution(case_id, solution_id=new_id)
+        else:
+            existing_id = existing_record[0] 
+            print(f"Solution already exists by name {name} with id: {existing_id}")
+            insert_in_case_to_solution(case_id, solution_id=existing_id)
+
+    except Error as e:
+        print(f"An error occurred while inserting solutions: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+def insert_in_case_to_solution(case_id: str, solution_id: str):
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        check_query = """
+        SELECT id FROM case_to_solution
+        WHERE case_id = %s AND solution_id = %s
+        """
+        my_cursor.execute(check_query, (case_id, solution_id))  # Changed new_id to solution_id
+        existing_record = my_cursor.fetchall()
+
+        if not existing_record:
+            insert_query = """
+            INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
+            VALUES (%s, %s, %s, NOW())
+            """
+            new_id = str(uuid.uuid4())
+            my_cursor.execute(insert_query, (new_id, case_id, solution_id))
+            conn.commit()
+            print(f"New entry in case_to_solution with id: {new_id}")
+        else:
+            print(f"Solution already exists for case_id {case_id} and solution_id {solution_id}")
+
+    except Error as e:
+        print(f"An error occurred while inserting in case_to_solutions: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
 
 
 class Industry_Category(TypedDict):

@@ -9,7 +9,7 @@ from prompts.industry_category import get_prompt, parser as industry_parser, get
 # from prompts.xml_prompt import get_xmlprompt
 from pathlib import Path
 from db.mysql import insert_industry_category, find_industries, delete_all_industry_category
-from prompts.industry_category_summary import get_prompt as get_prompt_summary
+# from prompts.industry_category_summary import get_prompt as get_prompt_summary
 
 
 def read_json_file(file_path):
@@ -40,7 +40,7 @@ async def main():
 
         file_path = f"dump/{provider}/{industry_name.replace(' ', '_')}.json"
         if not Path(file_path).is_file():
-            prompts = get_prompt(industry_name)
+            prompts = await get_prompt(industry_name)
             # print(prompts)
             
             user_prompt = prompts['user_prompt']

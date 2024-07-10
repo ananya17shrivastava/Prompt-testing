@@ -7,6 +7,7 @@ from llms.gpt import GPT4_MODEL
 from prompts.business_usecase import get_usecase_prompt,usecase_parser, get_xmlprompt
 # from prompts.usecase_xml import get_xmlprompt
 import json
+import time
 import os
 from db.mysql import find_business_areas,insert_usecase
 
@@ -52,7 +53,7 @@ async def main():
                 model = PERPLEXITY_MODEL
 
 
-            prompts=get_usecase_prompt(industry_name,industry_category_name,business_area_name)
+            prompts=await get_usecase_prompt(industry_name,industry_category_name,business_area_name)
             # user_prompt=prompts[0]
             # system_prompt=prompts[1]
             user_prompt = prompts['user_prompt']
@@ -128,5 +129,15 @@ async def main():
 
 
 
-if __name__ == '__main__':
-    asyncio.run(main())
+# if __name__ == '__main__':
+#     asyncio.run(main())
+
+if __name__ == "__main__":
+    for _ in range(1000):
+        try:
+            asyncio.run(main())
+            break
+        except Exception as e:
+            print(e)
+            print('Restarting...')
+            time.sleep(15)

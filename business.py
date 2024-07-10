@@ -46,7 +46,7 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
             
-            prompts = get_business_prompt(industry_name,industry_category_name)
+            prompts = await get_business_prompt(industry_name,industry_category_name)
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
 

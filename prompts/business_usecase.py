@@ -1,6 +1,7 @@
-from db.mysql import fetch_prompt
+from db.fetchprompts import fetch_prompt
 from typing import List, Dict,TypedDict
 import xml.etree.ElementTree as ET
+import asyncio
 
 # def get_usecase_prompt(industry_name:str,industry_category_name:str,business_area_name:str):
 #     prompts=fetch_prompt("business_usecase")
@@ -14,8 +15,9 @@ class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-def get_usecase_prompt(industry_name: str, industry_category_name: str, business_area_name: str) -> Prompt:
-    prompt = fetch_prompt("business_usecase")
+async def get_usecase_prompt(industry_name: str, industry_category_name: str, business_area_name: str) -> Prompt:
+    prompt =await fetch_prompt("business_usecase")
+    # asyncio.run(getprompt(prompt_name))
     
     prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
     prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
