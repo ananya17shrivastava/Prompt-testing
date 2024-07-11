@@ -54,7 +54,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/844a57788d5447ad78b90bf2c8899d6b
+      CodeUri: s3://wapify-llm-stack/7c8723bb7c377906a499661b095dde36
       Description: lambda for solutions
       Timeout: 500
       MemorySize: 256
@@ -79,7 +79,7 @@ Resources:
     Properties:
       LayerName: blank-python-lib
       Description: Dependencies for the blank-python sample app.
-      ContentUri: s3://wapify-llm-stack/68ae853140fe8ffb66f8af075a087d75
+      ContentUri: s3://wapify-llm-stack/3d994f7aaf199ed51e3789f19975f7c4
       CompatibleRuntimes:
       - python3.8
   LambdaExecutionRole:
