@@ -1,0 +1,6 @@
+boto3
+jsonpickle
+mysql-connector-python
+langfuse
+openai
+anthropic

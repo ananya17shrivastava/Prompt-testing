@@ -67,6 +67,7 @@ class AISolution(TypedDict):
     usecase_description: str
     industry_category_name: str
     industry_name: str
+    case_id: str  
 
 def find_aisolutions() -> List[AISolution]:
     conn = None
@@ -82,6 +83,7 @@ def find_aisolutions() -> List[AISolution]:
                 s.id AS solution_id,
                 s.name AS solution_name,
                 c.name AS usecase_name,
+                c.id AS case_id,
                 c.description AS usecase_description,
                 ic.name AS industry_category_name,
                 i.name AS industry_name
@@ -109,7 +111,8 @@ def find_aisolutions() -> List[AISolution]:
                 "usecase_name": row['usecase_name'].replace('_', ' '),
                 "usecase_description": row['usecase_description'],
                 "industry_category_name": row['industry_category_name'].replace('_', ' '),
-                "industry_name": row['industry_name'].replace('_', ' ')
+                "industry_name": row['industry_name'].replace('_', ' '),
+                "case_id": row['case_id']  
             })
 
     except Error as e:
@@ -127,11 +130,12 @@ def find_aisolutions() -> List[AISolution]:
     
 
 class Usecase(TypedDict):
-    case_id:str
+    case_id: str
     name: str
     description: str
     industry_name: str
     industry_category_name: str
+    business_area_name: str
 
 def find_usecases() -> List[Usecase]:
     conn = None
@@ -148,13 +152,16 @@ def find_usecases() -> List[Usecase]:
                 c.name AS name,
                 c.description AS description,
                 ic.name AS industry_category_name,
-                i.name AS industry_name
+                i.name AS industry_name,
+                ba.name AS business_area_name
             FROM 
                 cases c
             JOIN 
                 industry_categories ic ON c.industry_category_id = ic.id
             JOIN 
                 industries i ON c.industry_id = i.id
+            JOIN  # Changed to INNER JOIN
+                business_areas ba ON c.business_area_id = ba.id
             WHERE 
                 i.id = '744bec80-9eda-4319-bfd6-51d50d407c3e'
             ORDER BY 
@@ -167,11 +174,12 @@ def find_usecases() -> List[Usecase]:
 
         for row in results:
             usecases.append({
-                "case_id":row['case_id'],
+                "case_id": row['case_id'],
                 "name": row['name'].replace('_', ' '),
                 "description": row['description'],
                 "industry_category_name": row['industry_category_name'].replace('_', ' '),
-                "industry_name": row['industry_name'].replace('_', ' ')
+                "industry_name": row['industry_name'].replace('_', ' '),
+                "business_area_name": row['business_area_name'].replace('_', ' ')
             })
 
     except Error as e:
@@ -300,6 +308,77 @@ def insert_in_case_to_solution(case_id: str, solution_id: str):
         if conn:
             conn.close()
 
+def insert_url_kpi(url: str, case_id: str,impact_kpi_id:str):
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        
+        id = str(uuid.uuid4())
+
+        query = "INSERT INTO research_sources (id, case_id, url,impact_kpi_id) VALUES (%s, %s, %s, %s)"
+        values = (id, case_id, url,impact_kpi_id)
+
+        my_cursor.execute(query, values)
+        conn.commit()
+
+        print(f"URL inserted successfully for kpi id {impact_kpi_id}")  
+
+    except Error as e:
+        print(f"Error: {e}")
+
+    finally:
+        if conn.is_connected(): 
+            my_cursor.close()
+            conn.close()
+
+def feed_kpi(solution_id: str, case_id: str, name: str, description: str, effect: str, unit: str, expected_impact: str, urls: List[str], type: str):
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        check_query = """
+        SELECT id FROM impact_kpis
+        WHERE case_id = %s AND solution_id = %s AND name = %s
+        """
+        my_cursor.execute(check_query, (case_id, solution_id, name)) 
+        existing_record = my_cursor.fetchone()
+
+        if not existing_record:
+            insert_query = """
+            INSERT INTO impact_kpis 
+            (id, solution_id, case_id, name, effect, unit, organization_creator_id, ai_generated, description, expected_impact, type) 
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """
+
+            organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+            new_id = str(uuid.uuid4())  
+            ai_generated = 1  
+
+            data = (new_id, solution_id, case_id, name, effect, unit, organization_creator_id, ai_generated, description, expected_impact, type)
+            my_cursor.execute(insert_query, data)
+            
+            for url in urls:
+                insert_url_kpi(url,case_id, impact_kpi_id=new_id)
+            
+            conn.commit()
+            print(f"New KPI inserted with ID: {new_id}")
+        else:
+            print(f"KPI already exists for case_id {case_id}, solution_id {solution_id}, and name {name}")
+
+    except Error as e:
+        print(f"An error occurred while inserting in impact_kpis: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
 
 
 class Industry_Category(TypedDict):

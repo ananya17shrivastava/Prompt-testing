@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "167aba3c-03c6-4e61-9374-08f295269f9b",
+      "receiptHandle": "AQEBUgIuaj/qQ0ycC8kWBvtQ875Yn6DrCigG/pTcWM7Cn87zsbcnWSV+XAKyDLqiVpiQ4L1zMsrfBOd1bve0xhHaksgoHI1DYjEUthsvToUddOfUGFz6TLEuty8B7+I2CMe1QTxcAzdZGeaL46JvyCatAvkSdUs/By9TAMW+blHA13Ll6vR3LURlWeqdWd0I50z/Da/WRSaDfZOREjP/bgoih5+z2P6LtSwLj6WuAr5qa9fnOD879QpL8PpWQkYPPFwZRQZeJ6yGvohzLs76D7dv5wSZ11htqPHlXZfg//4KY93W9BF9TO7FgLO7MVxyyMyYl4Vt9WcL7fDfPahzx9y0lUISyeHoSkdbsmDxoRaaykYN8KW30wkZLE7szs2Zi++9",
+      "body": "{\"id\": 12345, \"type\": \"example\", \"content\": \"This is a test JSON message\", \"timestamp\": \"2023-05-24T10:30:00Z\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1720614460001",
+        "SenderId": "AIDA6GBMBLU2OKCDJVBF7",
+        "ApproximateFirstReceiveTimestamp": "1720614460005"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "da67dc6125e4880741f6e1b2a62a919c",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:975049940276:llm-queue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
