@@ -49,7 +49,7 @@ Resources:
           MetricName: "MessageCount"
           MetricValue: "1"
 
-  MyLambdaFunction:
+  SolutionsLambda:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda_solutions.lambda_handler
@@ -114,7 +114,7 @@ Resources:
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
     Properties:
-      FunctionName: !Ref MyLambdaFunction
+      FunctionName: !Ref SolutionsLambda
       Action: lambda:InvokeFunction
       Principal: sqs.amazonaws.com
       SourceArn: !GetAtt MySQSQueue.Arn
@@ -123,13 +123,15 @@ Resources:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
       EventSourceArn: !GetAtt MySQSQueue.Arn
-      FunctionName: !Ref MyLambdaFunction
-      BatchSize: 2  # Change this to 2 to match the concurrency
-
+      FunctionName: !Ref SolutionsLambda
+      BatchSize: 10
+      ScalingConfig:
+        MaximumConcurrency: 3
+        
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
-      LogGroupName: !Sub "/aws/lambda/${MyLambdaFunction}"
+      LogGroupName: !Sub "/aws/lambda/${SolutionsLambda}"
       RetentionInDays: 7
 
 Outputs:
@@ -141,7 +143,7 @@ Outputs:
     Value: !GetAtt MySQSQueue.Arn
   LambdaFunctionARN:
     Description: ARN of the Lambda Function
-    Value: !GetAtt MyLambdaFunction.Arn
+    Value: !GetAtt SolutionsLambda.Arn
   SQSLogGroupARN:
     Description: ARN of the CloudWatch Log Group for SQS
     Value: !GetAtt SQSLogGroup.Arn

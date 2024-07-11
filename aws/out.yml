@@ -49,12 +49,12 @@ Resources:
       - MetricNamespace: SQSMetrics
         MetricName: MessageCount
         MetricValue: '1'
-  MyLambdaFunction:
+  SolutionsLambda:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/472f48b272a31d8199538b5feeeb37a8
+      CodeUri: s3://wapify-llm-stack/844a57788d5447ad78b90bf2c8899d6b
       Description: lambda for solutions
       Timeout: 500
       MemorySize: 256
@@ -121,7 +121,7 @@ Resources:
     Type: AWS::Lambda::Permission
     Properties:
       FunctionName:
-        Ref: MyLambdaFunction
+        Ref: SolutionsLambda
       Action: lambda:InvokeFunction
       Principal: sqs.amazonaws.com
       SourceArn:
@@ -136,13 +136,15 @@ Resources:
         - MySQSQueue
         - Arn
       FunctionName:
-        Ref: MyLambdaFunction
-      BatchSize: 2
+        Ref: SolutionsLambda
+      BatchSize: 10
+      ScalingConfig:
+        MaximumConcurrency: 3
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName:
-        Fn::Sub: /aws/lambda/${MyLambdaFunction}
+        Fn::Sub: /aws/lambda/${SolutionsLambda}
       RetentionInDays: 7
 Outputs:
   QueueURL:
@@ -159,7 +161,7 @@ Outputs:
     Description: ARN of the Lambda Function
     Value:
       Fn::GetAtt:
-      - MyLambdaFunction
+      - SolutionsLambda
       - Arn
   SQSLogGroupARN:
     Description: ARN of the CloudWatch Log Group for SQS
