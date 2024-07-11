@@ -15,6 +15,7 @@ try:
     # Create a JSON message
     message_dict = {
         "type": "solutions",
+        "use_case_id":"00010fdf-26d0-4953-bcba-3044faf2b770",
         "use_case_name" : "AI-facilitated Focus Groups",
         "use_case_description" : "Employ AI-powered tools to facilitate and analyze focus groups, providing insights into employee perceptions and sentiments.",
         "industry_name" : "consulting_strategy",

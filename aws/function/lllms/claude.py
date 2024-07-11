@@ -2,17 +2,7 @@ import os
 import anthropic
 from typing import List, Dict
 import xml.etree.ElementTree as ET
-# from db.mysql import get_api_key
 
-# load_dotenv()
-
-# assert os.environ.get("ANTHROPIC_API_KEY") != "", "ANTHROPIC_API_KEY is not set or is an empty string"
-
-
-# ANTHROPIC_API_KEY = get_api_key("ANTHROPIC_API_KEY")
-# client = anthropic.Anthropic(
-#     api_key=ANTHROPIC_API_KEY
-# )
 
 CLAUDE_SONNET_35 = "claude-3-5-sonnet-20240620"
 CLAUDE_HAIKU_3 = "claude-3-haiku-20240307"

@@ -1,10 +1,7 @@
 import os
-# import asyncio
 from langfuse import Langfuse
 from typing import List, Dict, Union,TypedDict
-# from dotenv import load_dotenv
 
-# load_dotenv()
 
 
 def connect_langfuse(secret_key:str,public_key:str):
