@@ -22,6 +22,7 @@ def call_llm_perplexity(API_KEY,messages: List[Dict[str, str]], model: str = PER
         max_tokens=max_tokens,
         temperature=temperature
     )
+    # print(response)
 
     print("PERPLEXITY PROMPT !")
     print(prompt_id)

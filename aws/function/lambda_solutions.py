@@ -90,6 +90,7 @@ class AISolution(TypedDict):
 def find_aisolutions(conn) -> List[AISolution]:
     my_cursor = None
     ai_solutions: List[AISolution] = []
+    print(conn.is_connected())
     if not conn.is_connected():
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
 
@@ -151,6 +152,7 @@ def lambda_handler(event, context):
     logger.info('## CONTEXT\r' + jsonpickle.encode(context))
 
     start_time = time.time()
+    conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
     print(conn.is_connected())
     res = find_aisolutions(conn=conn)
     
@@ -178,7 +180,7 @@ def lambda_handler(event, context):
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
         prompts=get_aisolutions_prompt(usecase_name,usecase_description,industry_name,industry_category_name)
-        print(prompts)
+        # print(prompts)
         user_prompt = prompts['user_prompt']
         system_prompt = prompts['system_prompt']
 
@@ -186,7 +188,7 @@ def lambda_handler(event, context):
             "role": "user",
             "content": user_prompt,
         }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
-        print(description_result)
+        # print(description_result)
         provider=LLM_PROVIDER_CLAUDE
         model = CLAUDE_HAIKU_3
 
@@ -194,9 +196,9 @@ def lambda_handler(event, context):
         result= invoke_llm(provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
+        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions",API_KEY=ANTHROPIC_API_KEY)
 
-        print(result)
+        # print(result)
         result = result.replace("&", "&amp;")
         json_result = aisolutions_parser(result)
         json_result = json.dumps(json_result, indent='\t')
@@ -213,9 +215,9 @@ def lambda_handler(event, context):
         competitor_result=invoke_llm(provider, model, [{
             "role": "user",
             "content": competitor_user_prompt,
-        }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=competitor_system_prompt)
-        print("competitor result ::")
-        print(competitor_result)
+        }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=competitor_system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        # print("competitor result ::")
+        # print(competitor_result)
 
 
         provider=LLM_PROVIDER_CLAUDE
@@ -225,14 +227,14 @@ def lambda_handler(event, context):
         result2=invoke_llm(provider, model, [{
                 "role": "user",
                 "content": competitor_xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
+        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions",API_KEY=ANTHROPIC_API_KEY)
 
         result2 = result2.replace("&", "&amp;")
         competitor_json_result = aisolutions_parser(result2)
         competitor_json_result = json.dumps(competitor_json_result, indent='\t')
 
-        print(competitor_json_result)
-        print(json_result)
+        # print(competitor_json_result)
+        # print(json_result)
 
         solutions = json.loads(json_result)
         competitors = json.loads(competitor_json_result)
@@ -247,7 +249,7 @@ def lambda_handler(event, context):
         # Iterate over competitors and append to combined_results
         for competitor in competitors:
             combined_results.append(competitor)
-
+        print("COMBINED _ RESULTS ARE ::")
         print(combined_results)
 
 

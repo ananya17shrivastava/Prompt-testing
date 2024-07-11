@@ -18,7 +18,7 @@ CLAUDE_SONNET_35 = "claude-3-5-sonnet-20240620"
 CLAUDE_HAIKU_3 = "claude-3-haiku-20240307"
 
 
-async def call_llm_claude(API_KEY:str,messages: List[Dict[str, str]], model: str, max_tokens: int, temperature: float = 0,prompt_id:str="",system_prompt: str="") -> str:
+def call_llm_claude(API_KEY:str,messages: List[Dict[str, str]], model: str, max_tokens: int, temperature: float = 0,prompt_id:str="",system_prompt: str="") -> str:
     client = anthropic.Anthropic(
         api_key=API_KEY
     )
