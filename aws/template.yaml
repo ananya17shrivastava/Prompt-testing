@@ -56,8 +56,8 @@ Resources:
       Runtime: python3.8
       CodeUri: function/.
       Description: lambda for solutions
-      Timeout: 500
-      MemorySize: 256
+      Timeout: 100
+      MemorySize: 180
       Role: !GetAtt LambdaExecutionRole.Arn
       Policies:
         - AWSLambdaBasicExecutionRole
@@ -126,7 +126,7 @@ Resources:
       FunctionName: !Ref SolutionsLambda
       BatchSize: 10
       ScalingConfig:
-        MaximumConcurrency: 3
+        MaximumConcurrency: 5
         
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup

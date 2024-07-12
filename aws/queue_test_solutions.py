@@ -19,6 +19,9 @@ def create_db_connection():
     )
     if conn.is_connected():
         print("Connection successful!")
+        conn.query('SET GLOBAL connect_timeout=28800')
+        conn.query('SET GLOBAL interactive_timeout=28800')
+        conn.query('SET GLOBAL wait_timeout=28800')
         return conn
     
 
@@ -40,26 +43,24 @@ def find_usecases() -> List[Usecase]:
         my_cursor = conn.cursor(dictionary=True)
         
         query = """
-            SELECT 
-                c.id AS case_id,
-                c.name AS name,
-                c.description AS description,
-                ic.name AS industry_category_name,
-                i.name AS industry_name,
-                ba.name AS business_area_name
-            FROM 
-                cases c
-            JOIN 
-                industry_categories ic ON c.industry_category_id = ic.id
-            JOIN 
-                industries i ON c.industry_id = i.id
-            JOIN  # Changed to INNER JOIN
-                business_areas ba ON c.business_area_id = ba.id
-            WHERE 
-                i.id = '6b278ac5-8a12-4ecc-a448-05beaec6ae9b'
-            ORDER BY 
-                i.name, ic.name, c.name;
-        """
+        SELECT 
+            c.id AS case_id,
+            c.name AS name,
+            c.description AS description,
+            ic.name AS industry_category_name,
+            i.name AS industry_name,
+            ba.name AS business_area_name
+        FROM 
+            cases c
+        JOIN 
+            industry_categories ic ON c.industry_category_id = ic.id
+        JOIN 
+            industries i ON c.industry_id = i.id
+        JOIN
+            business_areas ba ON c.business_area_id = ba.id
+        ORDER BY 
+            i.name, ic.name, c.name;
+    """
 
         my_cursor.execute(query)
         results = my_cursor.fetchall()

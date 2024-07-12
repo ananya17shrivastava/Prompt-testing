@@ -44,12 +44,13 @@
 import boto3
 import json
 from queue_test_solutions import find_usecases
+import uuid
 
 # Create an SQS client
 sqs = boto3.client('sqs')
 
 # Specify the queue name
-queue_name = 'llm-queue-2'
+queue_name = 'llm-queue'
 
 try:
     # Get the queue URL
@@ -57,46 +58,35 @@ try:
     queue_url = response['QueueUrl']
 
     entries = []
-    usecases=find_usecases()
+    usecases = find_usecases()
     print(usecases)
 
-    for i in range(100):
-        # Create a JSON message
-        usecase = usecases[i]
-
+    for usecase in usecases:
         # Create a JSON message
         message_dict = {
-            "type": f"solutions-{i}",
+            "type": "solutions",
             "use_case_id": usecase["case_id"],
             "use_case_name": usecase["name"],
             "use_case_description": usecase["description"],
             "industry_name": usecase["industry_name"],
             "industry_category_name": usecase["industry_category_name"],
-            "timestamp": "2023-05-24T10:30:00Z"
         }
-
 
         # Convert the dictionary to a JSON string
         message_body = json.dumps(message_dict)
 
         entries.append({
-            'Id': str(i),
+            'Id': str(uuid.uuid4()),  # Generate a unique ID
             'MessageBody': message_body
         })
 
-        # Send the JSON message to the queue
-        if i > 0 and i % 9 == 0:
+        # Send the JSON message to the queue in batches of 10
+        if len(entries) == 10:
             response = sqs.send_message_batch(
                 QueueUrl=queue_url,
                 Entries=entries
             )
-            entries = []
-            # response = sqs.send_message(
-            #     QueueUrl=queue_url,
-            #     MessageBody=message_body
-            # )
 
-            print(response)
             for success in response['Successful']:
                 print(f"JSON message sent. MessageId: {success['MessageId']}")
 
@@ -104,16 +94,14 @@ try:
                 for failure in response['Failed']:
                     print(f"Failed to send message. Code: {failure['Code']}, Message: {failure['Message']}")
 
-    if (len(entries) > 0):
+            entries = []  # Reset entries for the next batch
+
+    # Send any remaining messages
+    if entries:
         response = sqs.send_message_batch(
             QueueUrl=queue_url,
             Entries=entries
         )
-        entries = []
-        # response = sqs.send_message(
-        #     QueueUrl=queue_url,
-        #     MessageBody=message_body
-        # )
 
         for success in response['Successful']:
             print(f"JSON message sent. MessageId: {success['MessageId']}")

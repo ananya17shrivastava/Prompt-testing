@@ -18,6 +18,6 @@ def call_llm_perplexity(API_KEY,messages: List[Dict[str, str]], model: str = PER
         temperature=temperature
     )
 
-    print("PERPLEXITY PROMPT !")
-    print(prompt_id)
+    # print("PERPLEXITY PROMPT !")
+    # print(prompt_id)
     return response.choices[0].message.content.strip()

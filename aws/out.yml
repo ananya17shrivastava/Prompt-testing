@@ -54,10 +54,10 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/844a57788d5447ad78b90bf2c8899d6b
+      CodeUri: s3://wapify-llm-stack/ded646eb204c0edd96063fbcb729bfd4
       Description: lambda for solutions
-      Timeout: 500
-      MemorySize: 256
+      Timeout: 100
+      MemorySize: 180
       Role:
         Fn::GetAtt:
         - LambdaExecutionRole
@@ -139,7 +139,7 @@ Resources:
         Ref: SolutionsLambda
       BatchSize: 10
       ScalingConfig:
-        MaximumConcurrency: 3
+        MaximumConcurrency: 5
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:

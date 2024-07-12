@@ -3,6 +3,7 @@ import mysql.connector
 from typing import List, TypedDict
 import uuid
 import os
+from urllib.parse import urlparse
 
 
 def create_db_connection(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE):
@@ -10,9 +11,13 @@ def create_db_connection(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
         host=MYSQL_HOST,
         user=MYSQL_USER,
         password=MYSQL_PASSWORD,
-        database=MYSQL_DATABASE
+        database=MYSQL_DATABASE,
+        connection_timeout=1000
     )
     if conn.is_connected():
+        conn.query('SET GLOBAL connect_timeout=28800')
+        conn.query('SET GLOBAL interactive_timeout=28800')
+        conn.query('SET GLOBAL wait_timeout=28800')
         print("Connection successful!")
         return conn
 
@@ -186,7 +191,7 @@ def insert_solutions(case_id: str, name: str, url: str,conn):
         WHERE name = %s
         """
         my_cursor.execute(check_query, (name,))
-        existing_record = my_cursor.fetchone()
+        existing_record = my_cursor.fetchall()
 
         if not existing_record:
             # Insert new record
@@ -255,6 +260,87 @@ def insert_in_case_to_solution(case_id: str, solution_id: str,conn):
         # if conn:
         #     conn.close()
 
+
+def extract_name_from_url(url):
+    parsed_url = urlparse(url)
+    domain = parsed_url.netloc
+    
+    # Remove 'www.' if present
+    if domain.startswith('www.'):
+        domain = domain[4:]
+    
+    # Split by '.' and take all parts except the last if there are more than 2 parts
+    parts = domain.split('.')
+    if len(parts) > 2:
+        name = '.'.join(parts[:-1])
+    else:
+        name = domain
+    return name
+
+def bulk_insert_solutions(case_id: str, combined_results: list, conn):
+    my_cursor = None
+    try:
+        my_cursor = conn.cursor()
+
+        solutions_to_insert = []
+        case_to_solution_to_insert = []
+        organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+
+        for solution in combined_results:
+            url = solution['urls']
+            name = extract_name_from_url(url)
+
+            # Check if solution already exists
+            check_query = "SELECT id FROM solutions WHERE name = %s"
+            my_cursor.execute(check_query, (name,))
+            existing_records = my_cursor.fetchall()
+
+            if not existing_records:
+                new_id = str(uuid.uuid4())
+                solutions_to_insert.append((new_id, name, organization_creator_id, url, 1))
+                solution_id = new_id
+            else:
+                solution_id = existing_records[0][0]
+
+            # Check if case-to-solution relationship already exists
+            check_case_solution_query = """
+            SELECT id FROM case_to_solution
+            WHERE case_id = %s AND solution_id = %s
+            """
+            my_cursor.execute(check_case_solution_query, (case_id, solution_id))
+            existing_case_solutions = my_cursor.fetchall()
+
+            if not existing_case_solutions:
+                case_to_solution_to_insert.append((str(uuid.uuid4()), case_id, solution_id))
+
+        # Bulk insert into solutions table
+        if solutions_to_insert:
+            insert_solutions_query = """
+            INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
+            VALUES (%s, %s, NOW(), %s, %s, %s)
+            """
+            my_cursor.executemany(insert_solutions_query, solutions_to_insert)
+
+        # Bulk insert into case_to_solution table
+        if case_to_solution_to_insert:
+            insert_case_to_solution_query = """
+            INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
+            VALUES (%s, %s, %s, NOW())
+            """
+            my_cursor.executemany(insert_case_to_solution_query, case_to_solution_to_insert)
+
+        conn.commit()
+        print(f"Bulk insertion completed. {len(solutions_to_insert)} new solutions and {len(case_to_solution_to_insert)} case-to-solution relationships inserted.")
+
+    except Error as e:
+        print(f"An error occurred during bulk insertion: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
 
 # class Industry_Category(TypedDict):
 #     category_name: str

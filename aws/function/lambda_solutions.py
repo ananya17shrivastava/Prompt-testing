@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 
 from lllms.perplexity import call_llm_perplexity
 
-from db.mysql import get_api_key, create_db_connection, insert_solutions
+from db.mysql import get_api_key, create_db_connection, insert_solutions, bulk_insert_solutions
 from db.fetchprompts import fetch_prompt, connect_langfuse
 from Prompts.ai_solutions import get_aisolutions_prompt, get_xmlprompt, get_competitor_prompt, aisolutions_parser
 
@@ -81,6 +81,26 @@ def extract_name_from_url(url):
         name = domain
     return name
 
+def check_db(case_id: str, conn):
+    my_cursor = None
+    try:
+        my_cursor = conn.cursor()
+        
+        check_query = """
+        SELECT id FROM case_to_solution
+        WHERE case_id = %s 
+        """
+        my_cursor.execute(check_query, (case_id,))
+        existing_records = my_cursor.fetchall()
+        
+        # Fetch all results to ensure no unread result remains
+        my_cursor.fetchall()
+
+        return len(existing_records) > 0
+    finally:
+        if my_cursor:
+            my_cursor.close()
+
 def lambda_handler(event, context):
 
 
@@ -106,7 +126,11 @@ def lambda_handler(event, context):
         usecase_description=parsed_message.get('use_case_description', 'N/A')
         industry_name=parsed_message.get('industry_name', 'N/A')
         industry_category_name=parsed_message.get('industry_category_name', 'N/A')
-
+        conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        validation_id=check_db(case_id,conn)
+        if validation_id:
+            print("solution already exists !")
+            continue
         
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
@@ -178,12 +202,30 @@ def lambda_handler(event, context):
         print("COMBINED _ RESULTS ARE ::")
         print(combined_results)
 
-        for solution in combined_results:
-                url=solution['urls']
-                name = extract_name_from_url(url)
+        start_time_db = time.time()
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        print("--- %s Time for db connection ---" % (time.time() - start_time_db))
 
-                insert_solutions(case_id,name,url,conn)
+        start_time_insert = time.time()
+        bulk_insert_solutions(case_id, combined_results, conn)
+        print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
+        conn.close()
+        
+        # print("--- %s Time for db entry ---" % (time.time() - start_time_db))
         print("--- %s Time for ONE ITERATION ---" % (time.time() - start_time_whole))
+        
+        # for solution in combined_results:
+        #         url=solution['urls']
+        #         name = extract_name_from_url(url)
+        #         start_time_db = time.time()
+        #         conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        #         print("--- %s Time for db connection ---" % (time.time() - start_time_db))
+        #         start_time_insert = time.time()
+        #         insert_solutions(case_id,name,url,conn)
+        #         print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
+
+        
+    conn.close()
 
 
 
