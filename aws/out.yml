@@ -79,7 +79,7 @@ Resources:
     Properties:
       LayerName: blank-python-lib
       Description: Dependencies for the blank-python sample app.
-      ContentUri: s3://wapify-llm-stack/68ae853140fe8ffb66f8af075a087d75
+      ContentUri: s3://wapify-llm-stack/3d994f7aaf199ed51e3789f19975f7c4
       CompatibleRuntimes:
       - python3.8
   LambdaExecutionRole:
