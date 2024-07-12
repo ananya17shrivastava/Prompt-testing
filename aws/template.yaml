@@ -9,6 +9,12 @@ Parameters:
     Default: llm-queue
 
 Resources:
+  MyDLQ:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Sub "${QueueName}-dlq"
+      MessageRetentionPeriod: 1209600  # 14 days in seconds
+
   MySQSQueue:
     Type: AWS::SQS::Queue
     Properties:
@@ -17,6 +23,9 @@ Resources:
       MessageRetentionPeriod: 345600 # 4 days in seconds
       DelaySeconds: 0
       ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt MyDLQ.Arn
+        maxReceiveCount: 1  # Number of times a message is received before being sent to the DLQ
 
   SQSQueuePolicy:
     Type: AWS::SQS::QueuePolicy

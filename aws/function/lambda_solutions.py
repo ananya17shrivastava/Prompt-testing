@@ -1,7 +1,7 @@
 from botocore.exceptions import ClientError
 import logging
 import boto3
-# import jsonpickle
+import jsonpickle
 from lllms.index import invoke_llm, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_PERPLEXITY
 from lllms.claude import CLAUDE_HAIKU_3, CLAUDE_SONNET_35
 from lllms.perplexity import PERPLEXITY_MODEL
@@ -10,6 +10,7 @@ from typing import List
 import json
 from mysql.connector import Error
 from urllib.parse import urlparse
+import os
 
 from lllms.perplexity import call_llm_perplexity
 
@@ -107,7 +108,7 @@ def lambda_handler(event, context):
     
     conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
     print(conn.is_connected())
-
+    logger.info('## ENVIRONMENT VARIABLES\r' + jsonpickle.encode(dict(**os.environ)))
     # print("--- %s seconds ---" % (time.time() - start_time))
     print(event)
     for record in event['Records']:
@@ -207,13 +208,12 @@ def lambda_handler(event, context):
         print("--- %s Time for db connection ---" % (time.time() - start_time_db))
 
         start_time_insert = time.time()
-        bulk_insert_solutions(case_id, combined_results, conn)
+        bulk_insert_solutions(case_id, combined_results, conn, batch_size=1)
         print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
         conn.close()
-        
-        # print("--- %s Time for db entry ---" % (time.time() - start_time_db))
+
         print("--- %s Time for ONE ITERATION ---" % (time.time() - start_time_whole))
-        
+                
         # for solution in combined_results:
         #         url=solution['urls']
         #         name = extract_name_from_url(url)

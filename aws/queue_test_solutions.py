@@ -19,9 +19,11 @@ def create_db_connection():
     )
     if conn.is_connected():
         print("Connection successful!")
-        conn.query('SET GLOBAL connect_timeout=28800')
-        conn.query('SET GLOBAL interactive_timeout=28800')
-        conn.query('SET GLOBAL wait_timeout=28800')
+        cursor = conn.cursor()
+        cursor.execute('SET GLOBAL connect_timeout=28800')
+        cursor.execute('SET GLOBAL interactive_timeout=28800')
+        cursor.execute('SET GLOBAL wait_timeout=28800')
+        cursor.close()
         return conn
     
 

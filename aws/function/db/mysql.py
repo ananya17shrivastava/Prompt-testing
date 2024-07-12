@@ -12,12 +12,9 @@ def create_db_connection(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
         user=MYSQL_USER,
         password=MYSQL_PASSWORD,
         database=MYSQL_DATABASE,
-        connection_timeout=1000
+        connection_timeout=1000,
     )
     if conn.is_connected():
-        conn.query('SET GLOBAL connect_timeout=28800')
-        conn.query('SET GLOBAL interactive_timeout=28800')
-        conn.query('SET GLOBAL wait_timeout=28800')
         print("Connection successful!")
         return conn
 
@@ -277,11 +274,11 @@ def extract_name_from_url(url):
         name = domain
     return name
 
-def bulk_insert_solutions(case_id: str, combined_results: list, conn):
+def bulk_insert_solutions(case_id: str, combined_results: list, conn, batch_size=10):
     my_cursor = None
     try:
         my_cursor = conn.cursor()
-
+        
         solutions_to_insert = []
         case_to_solution_to_insert = []
         organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
@@ -313,24 +310,18 @@ def bulk_insert_solutions(case_id: str, combined_results: list, conn):
             if not existing_case_solutions:
                 case_to_solution_to_insert.append((str(uuid.uuid4()), case_id, solution_id))
 
-        # Bulk insert into solutions table
-        if solutions_to_insert:
-            insert_solutions_query = """
-            INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
-            VALUES (%s, %s, NOW(), %s, %s, %s)
-            """
-            my_cursor.executemany(insert_solutions_query, solutions_to_insert)
+            # Insert in batches of 10
+            if len(solutions_to_insert) >= batch_size:
+                insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
+                solutions_to_insert = []
+                case_to_solution_to_insert = []
 
-        # Bulk insert into case_to_solution table
-        if case_to_solution_to_insert:
-            insert_case_to_solution_query = """
-            INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
-            VALUES (%s, %s, %s, NOW())
-            """
-            my_cursor.executemany(insert_case_to_solution_query, case_to_solution_to_insert)
+        # Insert any remaining records
+        if solutions_to_insert or case_to_solution_to_insert:
+            insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
 
         conn.commit()
-        print(f"Bulk insertion completed. {len(solutions_to_insert)} new solutions and {len(case_to_solution_to_insert)} case-to-solution relationships inserted.")
+        print(f"Bulk insertion completed in batches of {batch_size}.")
 
     except Error as e:
         print(f"An error occurred during bulk insertion: {str(e)}")
@@ -341,6 +332,25 @@ def bulk_insert_solutions(case_id: str, combined_results: list, conn):
     finally:
         if my_cursor:
             my_cursor.close()
+
+def insert_batch(cursor, solutions_to_insert, case_to_solution_to_insert):
+    # Bulk insert into solutions table
+    if solutions_to_insert:
+        insert_solutions_query = """
+        INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
+        VALUES (%s, %s, NOW(), %s, %s, %s)
+        """
+        cursor.executemany(insert_solutions_query, solutions_to_insert)
+
+    # Bulk insert into case_to_solution table
+    if case_to_solution_to_insert:
+        insert_case_to_solution_query = """
+        INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
+        VALUES (%s, %s, %s, NOW())
+        """
+        cursor.executemany(insert_case_to_solution_query, case_to_solution_to_insert)
+
+    print(f"Batch inserted: {len(solutions_to_insert)} solutions and {len(case_to_solution_to_insert)} case-to-solution relationships.")
 
 # class Industry_Category(TypedDict):
 #     category_name: str
