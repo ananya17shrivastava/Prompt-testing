@@ -176,11 +176,25 @@ def create_db_connection(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
 
 #     return industries
 
-def insert_solutions(case_id: str, name: str, url: str,conn):
-    # conn = None
+def extract_name_from_url(url):
+    parsed_url = urlparse(url)
+    domain = parsed_url.netloc
+    
+    # Remove 'www.' if present
+    if domain.startswith('www.'):
+        domain = domain[4:]
+    
+    # Split by '.' and take all parts except the last if there are more than 2 parts
+    parts = domain.split('.')
+    if len(parts) > 2:
+        name = '.'.join(parts[:-1])
+    else:
+        name = domain
+    return name
+
+def insert_solutions(case_id: str, name: str, url: str, conn):
     my_cursor = None
     try:
-        # conn = create_db_connection()
         my_cursor = conn.cursor()
 
         check_query = """
@@ -188,9 +202,9 @@ def insert_solutions(case_id: str, name: str, url: str,conn):
         WHERE name = %s
         """
         my_cursor.execute(check_query, (name,))
-        existing_record = my_cursor.fetchall()
+        existing_records = my_cursor.fetchall()
 
-        if not existing_record:
+        if not existing_records:
             # Insert new record
             insert_query = """
             INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
@@ -201,11 +215,11 @@ def insert_solutions(case_id: str, name: str, url: str,conn):
             my_cursor.execute(insert_query, (new_id, name, organization_creator_id, url, 1))
             conn.commit()
             print(f"New solution inserted with id: {new_id}")
-            insert_in_case_to_solution(case_id, solution_id=new_id,conn=conn)
+            insert_in_case_to_solution(case_id, solution_id=new_id, conn=conn)
         else:
-            existing_id = existing_record[0]
+            existing_id = existing_records[0][0]  # Extract the ID from the first tuple in the list
             print(f"Solution already exists by name {name} with id: {existing_id}")
-            insert_in_case_to_solution(case_id, solution_id=existing_id,conn=conn)
+            insert_in_case_to_solution(case_id, solution_id=existing_id, conn=conn)
 
     except Error as e:
         print(f"An error occurred while inserting solutions: {str(e)}")
@@ -216,24 +230,20 @@ def insert_solutions(case_id: str, name: str, url: str,conn):
     finally:
         if my_cursor:
             my_cursor.close()
-        # if conn:
-        #     conn.close()
 
-def insert_in_case_to_solution(case_id: str, solution_id: str,conn):
-    # conn = None
+def insert_in_case_to_solution(case_id: str, solution_id: str, conn):
     my_cursor = None
     try:
-        # conn = create_db_connection()
         my_cursor = conn.cursor()
 
         check_query = """
         SELECT id FROM case_to_solution
         WHERE case_id = %s AND solution_id = %s
         """
-        my_cursor.execute(check_query, (case_id, solution_id))  # Changed new_id to solution_id
-        existing_record = my_cursor.fetchall()
+        my_cursor.execute(check_query, (case_id, solution_id))
+        existing_records = my_cursor.fetchall()
 
-        if not existing_record:
+        if not existing_records:
             insert_query = """
             INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
             VALUES (%s, %s, %s, NOW())
@@ -254,103 +264,87 @@ def insert_in_case_to_solution(case_id: str, solution_id: str,conn):
     finally:
         if my_cursor:
             my_cursor.close()
-        # if conn:
-        #     conn.close()
 
 
-def extract_name_from_url(url):
-    parsed_url = urlparse(url)
-    domain = parsed_url.netloc
-    
-    # Remove 'www.' if present
-    if domain.startswith('www.'):
-        domain = domain[4:]
-    
-    # Split by '.' and take all parts except the last if there are more than 2 parts
-    parts = domain.split('.')
-    if len(parts) > 2:
-        name = '.'.join(parts[:-1])
-    else:
-        name = domain
-    return name
 
-def bulk_insert_solutions(case_id: str, combined_results: list, conn, batch_size=10):
-    my_cursor = None
-    try:
-        my_cursor = conn.cursor()
+
+# def bulk_insert_solutions(case_id: str, combined_results: list, conn, batch_size=10):
+#     my_cursor = None
+#     try:
+#         my_cursor = conn.cursor()
         
-        solutions_to_insert = []
-        case_to_solution_to_insert = []
-        organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+#         solutions_to_insert = []
+#         case_to_solution_to_insert = []
+#         organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
 
-        for solution in combined_results:
-            url = solution['urls']
-            name = extract_name_from_url(url)
+#         for solution in combined_results:
+#             url = solution['urls']
+#             name = extract_name_from_url(url)
 
-            # Check if solution already exists
-            check_query = "SELECT id FROM solutions WHERE name = %s"
-            my_cursor.execute(check_query, (name,))
-            existing_records = my_cursor.fetchall()
+#             # Check if solution already exists
+#             check_query = "SELECT id FROM solutions WHERE name = %s"
+#             my_cursor.execute(check_query, (name,))
+#             existing_records = my_cursor.fetchall()
 
-            if not existing_records:
-                new_id = str(uuid.uuid4())
-                solutions_to_insert.append((new_id, name, organization_creator_id, url, 1))
-                solution_id = new_id
-            else:
-                solution_id = existing_records[0][0]
+#             if not existing_records:
+#                 new_id = str(uuid.uuid4())
+#                 solutions_to_insert.append((new_id, name, organization_creator_id, url, 1))
+#                 solution_id = new_id
+#             else:
+#                 solution_id = existing_records[0][0]
 
-            # Check if case-to-solution relationship already exists
-            check_case_solution_query = """
-            SELECT id FROM case_to_solution
-            WHERE case_id = %s AND solution_id = %s
-            """
-            my_cursor.execute(check_case_solution_query, (case_id, solution_id))
-            existing_case_solutions = my_cursor.fetchall()
+#             # Check if case-to-solution relationship already exists
+#             check_case_solution_query = """
+#             SELECT id FROM case_to_solution
+#             WHERE case_id = %s AND solution_id = %s
+#             """
+#             my_cursor.execute(check_case_solution_query, (case_id, solution_id))
+#             existing_case_solutions = my_cursor.fetchall()
 
-            if not existing_case_solutions:
-                case_to_solution_to_insert.append((str(uuid.uuid4()), case_id, solution_id))
+#             if not existing_case_solutions:
+#                 case_to_solution_to_insert.append((str(uuid.uuid4()), case_id, solution_id))
 
-            # Insert in batches of 10
-            if len(solutions_to_insert) >= batch_size:
-                insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
-                solutions_to_insert = []
-                case_to_solution_to_insert = []
+#             # Insert in batches of 10
+#             if len(solutions_to_insert) >= batch_size:
+#                 insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
+#                 solutions_to_insert = []
+#                 case_to_solution_to_insert = []
 
-        # Insert any remaining records
-        if solutions_to_insert or case_to_solution_to_insert:
-            insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
+#         # Insert any remaining records
+#         if solutions_to_insert or case_to_solution_to_insert:
+#             insert_batch(my_cursor, solutions_to_insert, case_to_solution_to_insert)
 
-        conn.commit()
-        print(f"Bulk insertion completed in batches of {batch_size}.")
+#         conn.commit()
+#         print(f"Bulk insertion completed in batches of {batch_size}.")
 
-    except Error as e:
-        print(f"An error occurred during bulk insertion: {str(e)}")
-        if conn:
-            conn.rollback()
-        raise
+#     except Error as e:
+#         print(f"An error occurred during bulk insertion: {str(e)}")
+#         if conn:
+#             conn.rollback()
+#         raise
 
-    finally:
-        if my_cursor:
-            my_cursor.close()
+#     finally:
+#         if my_cursor:
+#             my_cursor.close()
 
-def insert_batch(cursor, solutions_to_insert, case_to_solution_to_insert):
-    # Bulk insert into solutions table
-    if solutions_to_insert:
-        insert_solutions_query = """
-        INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
-        VALUES (%s, %s, NOW(), %s, %s, %s)
-        """
-        cursor.executemany(insert_solutions_query, solutions_to_insert)
+# def insert_batch(cursor, solutions_to_insert, case_to_solution_to_insert):
+#     # Bulk insert into solutions table
+#     if solutions_to_insert:
+#         insert_solutions_query = """
+#         INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
+#         VALUES (%s, %s, NOW(), %s, %s, %s)
+#         """
+#         cursor.executemany(insert_solutions_query, solutions_to_insert)
 
-    # Bulk insert into case_to_solution table
-    if case_to_solution_to_insert:
-        insert_case_to_solution_query = """
-        INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
-        VALUES (%s, %s, %s, NOW())
-        """
-        cursor.executemany(insert_case_to_solution_query, case_to_solution_to_insert)
+#     # Bulk insert into case_to_solution table
+#     if case_to_solution_to_insert:
+#         insert_case_to_solution_query = """
+#         INSERT INTO case_to_solution (id, case_id, solution_id, created_at)
+#         VALUES (%s, %s, %s, NOW())
+#         """
+#         cursor.executemany(insert_case_to_solution_query, case_to_solution_to_insert)
 
-    print(f"Batch inserted: {len(solutions_to_insert)} solutions and {len(case_to_solution_to_insert)} case-to-solution relationships.")
+#     print(f"Batch inserted: {len(solutions_to_insert)} solutions and {len(case_to_solution_to_insert)} case-to-solution relationships.")
 
 # class Industry_Category(TypedDict):
 #     category_name: str

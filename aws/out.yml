@@ -66,7 +66,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3a43d4993263328f83aeeeb04e1cb248
+      CodeUri: s3://wapify-llm-stack/7445217c888fbe293f5c1be3d92c7645
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
