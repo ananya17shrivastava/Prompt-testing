@@ -56,15 +56,19 @@ secrets = get_secret()
 langfuse=connect_langfuse(secrets['LANGFUSE_SECRET_KEY'],secrets['LANGFUSE_PUBLIC_KEY'])
 
 
-conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+# conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
 
 
-if not conn.is_connected():
-    conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+# if not conn.is_connected():
+#     conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
 
 
-PERPLEXITY_API_KEY = get_api_key("PERPLEXITY_API_KEY",conn)
-ANTHROPIC_API_KEY=get_api_key("ANTHROPIC_API_KEY",conn)
+# PERPLEXITY_API_KEY = get_api_key("PERPLEXITY_API_KEY",conn)
+# ANTHROPIC_API_KEY=get_api_key("ANTHROPIC_API_KEY",conn)
+
+
+PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY']
+ANTHROPIC_API_KEY=secrets['ANTHROPIC_API_KEY']
 
 def extract_name_from_url(url):
     parsed_url = urlparse(url)
@@ -93,9 +97,6 @@ def check_db(case_id: str, conn):
         """
         my_cursor.execute(check_query, (case_id,))
         existing_records = my_cursor.fetchall()
-        
-        # Fetch all results to ensure no unread result remains
-        my_cursor.fetchall()
 
         return len(existing_records) > 0
     finally:
@@ -106,8 +107,8 @@ def lambda_handler(event, context):
 
 
     
-    conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-    print(conn.is_connected())
+    # conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+    # print(conn.is_connected())
     logger.info('## ENVIRONMENT VARIABLES\r' + jsonpickle.encode(dict(**os.environ)))
     # print("--- %s seconds ---" % (time.time() - start_time))
     print(event)
@@ -127,11 +128,15 @@ def lambda_handler(event, context):
         usecase_description=parsed_message.get('use_case_description', 'N/A')
         industry_name=parsed_message.get('industry_name', 'N/A')
         industry_category_name=parsed_message.get('industry_category_name', 'N/A')
-        conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-        validation_id=check_db(case_id,conn)
-        if validation_id:
-            print("solution already exists !")
-            continue
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        try:
+            validation_id = check_db(case_id, conn)
+            if validation_id:
+                print("solution already exists !")
+                continue
+        finally:
+            if conn:
+                conn.close()
         
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
@@ -203,14 +208,26 @@ def lambda_handler(event, context):
         print("COMBINED _ RESULTS ARE ::")
         print(combined_results)
 
-        start_time_db = time.time()
-        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-        print("--- %s Time for db connection ---" % (time.time() - start_time_db))
+        for solution in combined_results:
+            url=solution['urls']
+            name = extract_name_from_url(url)
+            start_time_db = time.time()
+            conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+            print("--- %s Time for db connection ---" % (time.time() - start_time_db))
+            start_time_insert = time.time()
+            insert_solutions(case_id,name,url,conn)
+            conn.close()
+            print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
 
-        start_time_insert = time.time()
-        bulk_insert_solutions(case_id, combined_results, conn, batch_size=1)
-        print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
-        conn.close()
+
+        # start_time_db = time.time()
+        # conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        # print("--- %s Time for db connection ---" % (time.time() - start_time_db))
+
+        # start_time_insert = time.time()
+        # bulk_insert_solutions(case_id, combined_results, conn, batch_size=1)
+        # print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
+        # conn.close()
 
         print("--- %s Time for ONE ITERATION ---" % (time.time() - start_time_whole))
                 
@@ -225,7 +242,7 @@ def lambda_handler(event, context):
         #         print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
 
         
-    conn.close()
+    # conn.close()
 
 
 
