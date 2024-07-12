@@ -215,6 +215,7 @@ def lambda_handler(event, context):
             conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
             print("--- %s Time for db connection ---" % (time.time() - start_time_db))
             start_time_insert = time.time()
+            print(f"Inserting solution: {solution}")
             insert_solutions(case_id,name,url,conn)
             conn.close()
             print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
