@@ -58,6 +58,29 @@ Resources:
           MetricName: "MessageCount"
           MetricValue: "1"
 
+
+  TasksLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_tasks.lambda_handler
+      Runtime: python3.8
+      CodeUri: function/.
+      Description: Lambda for tasks
+      Timeout: 100
+      MemorySize: 180
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+        - !Ref libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
+          SECRET_NAME: llmapp
+
   SolutionsLambda:
     Type: AWS::Serverless::Function
     Properties:
@@ -128,19 +151,48 @@ Resources:
       Principal: sqs.amazonaws.com
       SourceArn: !GetAtt MySQSQueue.Arn
 
+  TasksLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref TasksLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn: !GetAtt MySQSQueue.Arn
+
+  TasksLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn: !GetAtt MySQSQueue.Arn
+      FunctionName: !Ref TasksLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+      FilterCriteria: 
+        Filters:
+          - Pattern: '{"body": {"type": ["tasks"]}}'
+
   SQSLambdaTrigger:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
       EventSourceArn: !GetAtt MySQSQueue.Arn
       FunctionName: !Ref SolutionsLambda
-      BatchSize: 10
+      BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+      FilterCriteria: 
+        Filters:
+          - Pattern: '{"body": {"type": ["solutions"]}}'
         
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName: !Sub "/aws/lambda/${SolutionsLambda}"
+      RetentionInDays: 7
+
+  TasksLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${TasksLambda}"
       RetentionInDays: 7
 
 Outputs:
@@ -156,3 +208,6 @@ Outputs:
   SQSLogGroupARN:
     Description: ARN of the CloudWatch Log Group for SQS
     Value: !GetAtt SQSLogGroup.Arn
+  TasksLambdaFunctionARN:
+    Description: ARN of the Tasks Lambda Function
+    Value: !GetAtt TasksLambda.Arn

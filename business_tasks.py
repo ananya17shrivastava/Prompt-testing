@@ -8,7 +8,7 @@ from db.mysql import find_usecases
 from prompts.business_task_prompt import get_business_task_prompt,get_xmlprompt, business_task_parser
 import json
 import os
-from db.mysql import feed_task_result
+# from db.mysql import insert_tasks
 from urllib.parse import urlparse
 import time
 
@@ -47,12 +47,12 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
 
-            prompts=await get_business_task_prompt(industry_name, industry_category_name, usecase_name,business_area_name)
+            prompts= get_business_task_prompt(industry_name, industry_category_name, usecase_name,business_area_name)
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
             print(system_prompt)
 
-            description_result = await invoke_llm(provider, model, [{
+            description_result =  invoke_llm(provider, model, [{
                 "role": "user",
                 "content": user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="business_tasks",system_prompt=system_prompt)
@@ -62,7 +62,7 @@ async def main():
             model = CLAUDE_HAIKU_3
 
             xml_prompt=get_xmlprompt(description_result)
-            result= await invoke_llm(provider, model, [{
+            result= invoke_llm(provider, model, [{
                     "role": "user",
                     "content": xml_prompt,
             }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
@@ -70,11 +70,11 @@ async def main():
             result = result.replace("&", "&amp;")
             json_result = business_task_parser(result)
 
-            for task_result in json_result:
-                name=task_result['name']
-                description=task_result['description']
-                urls=task_result['urls']
-                feed_task_result(name,description,urls,case_id)
+            # for task_result in json_result:
+            #     name=task_result['name']
+            #     description=task_result['description']
+            #     urls=task_result['urls']
+            #     insert_tasks(name,description,urls,case_id)
                 
             json_result = json.dumps(json_result, indent='\t')
 

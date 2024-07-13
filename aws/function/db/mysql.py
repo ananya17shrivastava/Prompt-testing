@@ -15,7 +15,7 @@ def create_db_connection(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
         connection_timeout=1000,
     )
     if conn.is_connected():
-        print("Connection successful!")
+        # print("Connection successful!")
         return conn
 
 # class AISolution(TypedDict):
@@ -266,6 +266,60 @@ def insert_in_case_to_solution(case_id: str, solution_id: str, conn):
             my_cursor.close()
 
 
+
+
+
+
+
+
+
+def insert_tasks(name: str, description: str, urls: list, case_id: str, conn):
+    my_cursor = None
+    try:
+        my_cursor = conn.cursor()
+
+        check_query = """
+        SELECT id FROM tasks
+        WHERE name = %s AND case_id = %s
+        """
+        my_cursor.execute(check_query, (name, case_id))
+        existing_records = my_cursor.fetchall()
+
+        if not existing_records:
+
+            insert_query = """
+            INSERT INTO tasks (id, name, created_at, organization_creator_id, case_id, description)
+            VALUES (%s, %s, NOW(), %s, %s, %s)
+            """
+            new_id = str(uuid.uuid4())
+            organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2' 
+            my_cursor.execute(insert_query, (new_id, name, organization_creator_id , case_id, description))
+            
+            if urls:
+                url_insert_query = """
+                INSERT INTO research_sources (id, case_id, url, task_id)
+                VALUES (%s, %s, %s, %s)
+                """
+                url_data = [(str(uuid.uuid4()), case_id, url, new_id) for url in urls]
+                my_cursor.executemany(url_insert_query, url_data)
+
+            conn.commit()
+            print(f"New task inserted with id: {new_id}")
+            return new_id
+        else:
+            existing_id = existing_records[0][0] 
+            print(f"Task already exists with name '{name}' for case_id {case_id}. Existing task id: {existing_id}")
+            return existing_id
+
+    except Error as e:
+        print(f"An error occurred while inserting task: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
 
 
 # def bulk_insert_solutions(case_id: str, combined_results: list, conn, batch_size=10):

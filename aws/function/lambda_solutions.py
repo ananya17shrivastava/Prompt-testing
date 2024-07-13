@@ -14,7 +14,7 @@ import os
 
 from lllms.perplexity import call_llm_perplexity
 
-from db.mysql import get_api_key, create_db_connection, insert_solutions, bulk_insert_solutions
+from db.mysql import get_api_key, create_db_connection, insert_solutions
 from db.fetchprompts import fetch_prompt, connect_langfuse
 from Prompts.ai_solutions import get_aisolutions_prompt, get_xmlprompt, get_competitor_prompt, aisolutions_parser
 
@@ -207,18 +207,16 @@ def lambda_handler(event, context):
             combined_results.append(competitor)
         print("COMBINED _ RESULTS ARE ::")
         print(combined_results)
-
+        start_time_insert = time.time()
         for solution in combined_results:
             url=solution['urls']
             name = extract_name_from_url(url)
-            start_time_db = time.time()
             conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-            print("--- %s Time for db connection ---" % (time.time() - start_time_db))
-            start_time_insert = time.time()
+            
             print(f"Inserting solution: {solution}")
             insert_solutions(case_id,name,url,conn)
             conn.close()
-            print("--- %s Time for db insertion ---" % (time.time() - start_time_insert))
+        print("--- %s Time for one loop insertion ---" % (time.time() - start_time_insert))
 
 
         # start_time_db = time.time()
@@ -244,13 +242,6 @@ def lambda_handler(event, context):
 
         
     # conn.close()
-
-
-
-
-
-
-
 
 
 

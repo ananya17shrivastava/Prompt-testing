@@ -9,7 +9,7 @@ PERPLEXITY_MODEL = "llama-3-sonar-large-32k-chat"
 
 PERPLEXITY_API_KEY = get_api_key("PERPLEXITY_API_KEY")
 
-async def call_llm_perplexity(messages: List[Dict[str, str]], model: str = PERPLEXITY_MODEL, max_tokens: int = 150, temperature: float = 0, prompt_id: str = "", system_prompt: str = "") -> str:
+def call_llm_perplexity(messages: List[Dict[str, str]], model: str = PERPLEXITY_MODEL, max_tokens: int = 150, temperature: float = 0, prompt_id: str = "", system_prompt: str = "") -> str:
     client = OpenAI(api_key=PERPLEXITY_API_KEY, base_url="https://api.perplexity.ai")
     
     # Add system prompt to the messages list if provided

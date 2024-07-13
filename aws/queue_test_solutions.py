@@ -19,11 +19,6 @@ def create_db_connection():
     )
     if conn.is_connected():
         print("Connection successful!")
-        cursor = conn.cursor()
-        cursor.execute('SET GLOBAL connect_timeout=28800')
-        cursor.execute('SET GLOBAL interactive_timeout=28800')
-        cursor.execute('SET GLOBAL wait_timeout=28800')
-        cursor.close()
         return conn
     
 
@@ -66,7 +61,7 @@ def find_usecases() -> List[Usecase]:
 
         my_cursor.execute(query)
         results = my_cursor.fetchall()
-        print(results)
+        # print(results)
 #  message_dict = {
 #         "type": "solutions",
 #         "use_case_id":"00010fdf-26d0-4953-bcba-3044faf2b770",

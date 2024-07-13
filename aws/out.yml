@@ -61,12 +61,37 @@ Resources:
       - MetricNamespace: SQSMetrics
         MetricName: MessageCount
         MetricValue: '1'
+  TasksLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_tasks.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/987b108bd83455772d8a2a78e15f4609
+      Description: Lambda for tasks
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
   SolutionsLambda:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7445217c888fbe293f5c1be3d92c7645
+      CodeUri: s3://wapify-llm-stack/987b108bd83455772d8a2a78e15f4609
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -140,6 +165,32 @@ Resources:
         Fn::GetAtt:
         - MySQSQueue
         - Arn
+  TasksLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: TasksLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MySQSQueue
+        - Arn
+  TasksLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MySQSQueue
+        - Arn
+      FunctionName:
+        Ref: TasksLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+      FilterCriteria:
+        Filters:
+        - Pattern: '{"body": {"type": ["tasks"]}}'
   SQSLambdaTrigger:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
@@ -149,14 +200,23 @@ Resources:
         - Arn
       FunctionName:
         Ref: SolutionsLambda
-      BatchSize: 10
+      BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+      FilterCriteria:
+        Filters:
+        - Pattern: '{"body": {"type": ["solutions"]}}'
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName:
         Fn::Sub: /aws/lambda/${SolutionsLambda}
+      RetentionInDays: 7
+  TasksLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${TasksLambda}
       RetentionInDays: 7
 Outputs:
   QueueURL:
@@ -180,4 +240,10 @@ Outputs:
     Value:
       Fn::GetAtt:
       - SQSLogGroup
+      - Arn
+  TasksLambdaFunctionARN:
+    Description: ARN of the Tasks Lambda Function
+    Value:
+      Fn::GetAtt:
+      - TasksLambda
       - Arn
