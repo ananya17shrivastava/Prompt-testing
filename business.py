@@ -7,9 +7,9 @@ from pathlib import Path
 from db.mysql import find_industry_categories,insert_business_areas
 import json
 import os
-from prompts.business_areas import get_business_prompt
+from prompts.business_areas import get_business_prompt, get_xmlprompt
 from prompts.industry_category import business_parser 
-from prompts.business_area_xml import get_xmlprompt
+# from prompts.business_area_xml import get_xmlprompt
 def read_json_file(file_path):
     try:
         with open(file_path, 'r') as file:
@@ -46,7 +46,7 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
             
-            prompts = get_business_prompt(industry_name,industry_category_name)
+            prompts = await get_business_prompt(industry_name,industry_category_name)
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
 

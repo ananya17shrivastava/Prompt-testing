@@ -15,9 +15,9 @@ client = AsyncOpenAI(
 GPT4_MODEL = "gpt-4o"  # Specify the model you want to use
 
 
-async def call_openai(messages: List[Dict[str, str]], model: str = GPT4_MODEL, max_tokens: int = 2048, temperature: float = 0,prompt_id: str="",system_prompt: str="") -> str:
+def call_openai(messages: List[Dict[str, str]], model: str = GPT4_MODEL, max_tokens: int = 2048, temperature: float = 0,prompt_id: str="",system_prompt: str="") -> str:
 
-    response = await client.chat.completions.create(
+    response =  client.chat.completions.create(
         model=model,
         max_tokens=max_tokens,
         messages=messages,

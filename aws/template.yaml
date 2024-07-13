@@ -1,0 +1,213 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: "AWS::Serverless-2016-10-31"
+Description: Full LLM Stack
+
+Parameters:
+  QueueName:
+    Type: String
+    Description: Name of the SQS queue
+    Default: llm-queue
+
+Resources:
+  MyDLQ:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Sub "${QueueName}-dlq"
+      MessageRetentionPeriod: 1209600  # 14 days in seconds
+
+  MySQSQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Ref QueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600 # 4 days in seconds
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt MyDLQ.Arn
+        maxReceiveCount: 1  # Number of times a message is received before being sent to the DLQ
+
+  SQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref MySQSQueue
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: "cloudwatch.amazonaws.com"
+            Action:
+              - "sqs:SendMessage"
+            Resource: !GetAtt MySQSQueue.Arn
+
+  SQSLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/sqs/${QueueName}"
+      RetentionInDays: 7
+
+  SQSMetricFilter:
+    Type: AWS::Logs::MetricFilter
+    Properties:
+      LogGroupName: !Ref SQSLogGroup
+      FilterPattern: ""
+      MetricTransformations:
+        - MetricNamespace: "SQSMetrics"
+          MetricName: "MessageCount"
+          MetricValue: "1"
+
+
+  TasksLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_tasks.lambda_handler
+      Runtime: python3.8
+      CodeUri: function/.
+      Description: Lambda for tasks
+      Timeout: 100
+      MemorySize: 180
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+        - !Ref libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
+          SECRET_NAME: llmapp
+
+  SolutionsLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_solutions.lambda_handler
+      Runtime: python3.8
+      CodeUri: function/.
+      Description: lambda for solutions
+      Timeout: 100
+      MemorySize: 180
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+        - !Ref libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
+          SECRET_NAME: llmapp
+  libs:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: blank-python-lib
+      Description: Dependencies for the blank-python sample app.
+      ContentUri: function/package/.
+      CompatibleRuntimes:
+        - python3.8
+
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: SecretsManagerAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource: !Sub 'arn:aws:secretsmanager:${AWS::Region}:${AWS::AccountId}:secret:llmapp-*'
+        - PolicyName: SQSReceiveMessagePolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - sqs:ReceiveMessage
+                  - sqs:DeleteMessage
+                  - sqs:GetQueueAttributes
+                Resource: !GetAtt MySQSQueue.Arn
+
+  LambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref SolutionsLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn: !GetAtt MySQSQueue.Arn
+
+  TasksLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref TasksLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn: !GetAtt MySQSQueue.Arn
+
+  TasksLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn: !GetAtt MySQSQueue.Arn
+      FunctionName: !Ref TasksLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+      FilterCriteria: 
+        Filters:
+          - Pattern: '{"body": {"type": ["tasks"]}}'
+
+  SQSLambdaTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn: !GetAtt MySQSQueue.Arn
+      FunctionName: !Ref SolutionsLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+      FilterCriteria: 
+        Filters:
+          - Pattern: '{"body": {"type": ["solutions"]}}'
+        
+  LambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${SolutionsLambda}"
+      RetentionInDays: 7
+
+  TasksLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${TasksLambda}"
+      RetentionInDays: 7
+
+Outputs:
+  QueueURL:
+    Description: URL of the created SQS Queue
+    Value: !Ref MySQSQueue
+  QueueARN:
+    Description: ARN of the created SQS Queue
+    Value: !GetAtt MySQSQueue.Arn
+  LambdaFunctionARN:
+    Description: ARN of the Lambda Function
+    Value: !GetAtt SolutionsLambda.Arn
+  SQSLogGroupARN:
+    Description: ARN of the CloudWatch Log Group for SQS
+    Value: !GetAtt SQSLogGroup.Arn
+  TasksLambdaFunctionARN:
+    Description: ARN of the Tasks Lambda Function
+    Value: !GetAtt TasksLambda.Arn
