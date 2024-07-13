@@ -4,8 +4,12 @@ Description: Full LLM Stack
 Parameters:
   QueueName:
     Type: String
-    Description: Name of the SQS queue
+    Description: Name of the main SQS queue
     Default: llm-queue
+  TasksQueueName:
+    Type: String
+    Description: Name of the tasks SQS queue
+    Default: llm-queue-tasks
 Resources:
   MyDLQ:
     Type: AWS::SQS::Queue
@@ -18,6 +22,21 @@ Resources:
     Properties:
       QueueName:
         Ref: QueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyTasksQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: TasksQueueName
       VisibilityTimeout: 1000
       MessageRetentionPeriod: 345600
       DelaySeconds: 0
@@ -45,6 +64,23 @@ Resources:
             Fn::GetAtt:
             - MySQSQueue
             - Arn
+  TasksSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyTasksQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyTasksQueue
+            - Arn
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -66,7 +102,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/987b108bd83455772d8a2a78e15f4609
+      CodeUri: s3://wapify-llm-stack/4c7aabb0731e755e4cf1e9e6d4e233a6
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -91,7 +127,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/987b108bd83455772d8a2a78e15f4609
+      CodeUri: s3://wapify-llm-stack/4c7aabb0731e755e4cf1e9e6d4e233a6
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -151,8 +187,11 @@ Resources:
             - sqs:DeleteMessage
             - sqs:GetQueueAttributes
             Resource:
-              Fn::GetAtt:
+            - Fn::GetAtt:
               - MySQSQueue
+              - Arn
+            - Fn::GetAtt:
+              - MyTasksQueue
               - Arn
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
@@ -174,23 +213,20 @@ Resources:
       Principal: sqs.amazonaws.com
       SourceArn:
         Fn::GetAtt:
-        - MySQSQueue
+        - MyTasksQueue
         - Arn
   TasksLambdaSQSTrigger:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
       EventSourceArn:
         Fn::GetAtt:
-        - MySQSQueue
+        - MyTasksQueue
         - Arn
       FunctionName:
         Ref: TasksLambda
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
-      FilterCriteria:
-        Filters:
-        - Pattern: '{"body": {"type": ["tasks"]}}'
   SQSLambdaTrigger:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
@@ -203,9 +239,6 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
-      FilterCriteria:
-        Filters:
-        - Pattern: '{"body": {"type": ["solutions"]}}'
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -228,6 +261,16 @@ Outputs:
     Value:
       Fn::GetAtt:
       - MySQSQueue
+      - Arn
+  TasksQueueURL:
+    Description: URL of the created Tasks SQS Queue
+    Value:
+      Ref: MyTasksQueue
+  TasksQueueARN:
+    Description: ARN of the created Tasks SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyTasksQueue
       - Arn
   LambdaFunctionARN:
     Description: ARN of the Lambda Function

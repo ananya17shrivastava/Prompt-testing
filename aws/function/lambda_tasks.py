@@ -14,7 +14,7 @@ import os
 
 from db.mysql import  create_db_connection,insert_tasks
 from db.fetchprompts import connect_langfuse
-from Prompts.business_task_prompt import get_business_task_prompt, get_xmlprompt,business_task_parser
+from lambda_prompts.business_task_prompt import get_business_task_prompt, get_xmlprompt,business_task_parser
 
 
 logger = logging.getLogger()
@@ -54,11 +54,11 @@ secrets = get_secret()
 langfuse=connect_langfuse(secrets['LANGFUSE_SECRET_KEY'],secrets['LANGFUSE_PUBLIC_KEY'])
 
 
-PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY']
+PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY_2']
 ANTHROPIC_API_KEY=secrets['ANTHROPIC_API_KEY']
 
 
-def check_db(case_id: str, conn):
+def check_db_tasks(case_id: str, conn):
     my_cursor = None
     try:
         my_cursor = conn.cursor()
@@ -88,6 +88,7 @@ def lambda_handler(event, context):
         parsed_message=json.loads(message_body)
         message_type = parsed_message.get('type', '')
         if 'tasks' not in message_type.lower():
+            print("Not related to task lambda function!!")
             continue
 
         case_id=parsed_message.get('use_case_id', 'N/A')
@@ -97,8 +98,8 @@ def lambda_handler(event, context):
         industry_category_name=parsed_message.get('industry_category_name', 'N/A')
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
         try:
-            validation_id = check_db(case_id, conn)
-            if validation_id:
+            validation = check_db_tasks(case_id, conn)
+            if validation:
                 print("solution already exists !")
                 continue
         finally:
@@ -117,8 +118,8 @@ def lambda_handler(event, context):
             "content": user_prompt,
         }], max_tokens=4096, temperature=.2,prompt_id="business_tasks",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
         print("--- %s Time for PERPLEXITY  ---" % (time.time() - start_time_perplexity))
-        print("DESCRIPTION RESULT !!")
-        print(description_result)
+        # print("DESCRIPTION RESULT !!")
+        # print(description_result)
 
         provider=LLM_PROVIDER_CLAUDE
         model = CLAUDE_HAIKU_3

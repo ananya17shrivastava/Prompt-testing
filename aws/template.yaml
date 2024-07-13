@@ -5,8 +5,12 @@ Description: Full LLM Stack
 Parameters:
   QueueName:
     Type: String
-    Description: Name of the SQS queue
+    Description: Name of the main SQS queue
     Default: llm-queue
+  TasksQueueName:
+    Type: String
+    Description: Name of the tasks SQS queue
+    Default: llm-queue-tasks
 
 Resources:
   MyDLQ:
@@ -25,7 +29,19 @@ Resources:
       ReceiveMessageWaitTimeSeconds: 0
       RedrivePolicy:
         deadLetterTargetArn: !GetAtt MyDLQ.Arn
-        maxReceiveCount: 1  # Number of times a message is received before being sent to the DLQ
+        maxReceiveCount: 1
+
+  MyTasksQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Ref TasksQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600 # 4 days in seconds
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt MyDLQ.Arn
+        maxReceiveCount: 1
 
   SQSQueuePolicy:
     Type: AWS::SQS::QueuePolicy
@@ -42,6 +58,21 @@ Resources:
               - "sqs:SendMessage"
             Resource: !GetAtt MySQSQueue.Arn
 
+  TasksSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref MyTasksQueue
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: "cloudwatch.amazonaws.com"
+            Action:
+              - "sqs:SendMessage"
+            Resource: !GetAtt MyTasksQueue.Arn
+
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -57,7 +88,6 @@ Resources:
         - MetricNamespace: "SQSMetrics"
           MetricName: "MessageCount"
           MetricValue: "1"
-
 
   TasksLambda:
     Type: AWS::Serverless::Function
@@ -102,6 +132,7 @@ Resources:
         Variables:
           AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
           SECRET_NAME: llmapp
+
   libs:
     Type: AWS::Serverless::LayerVersion
     Properties:
@@ -141,7 +172,9 @@ Resources:
                   - sqs:ReceiveMessage
                   - sqs:DeleteMessage
                   - sqs:GetQueueAttributes
-                Resource: !GetAtt MySQSQueue.Arn
+                Resource: 
+                  - !GetAtt MySQSQueue.Arn
+                  - !GetAtt MyTasksQueue.Arn
 
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
@@ -157,19 +190,16 @@ Resources:
       FunctionName: !Ref TasksLambda
       Action: lambda:InvokeFunction
       Principal: sqs.amazonaws.com
-      SourceArn: !GetAtt MySQSQueue.Arn
+      SourceArn: !GetAtt MyTasksQueue.Arn
 
   TasksLambdaSQSTrigger:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
-      EventSourceArn: !GetAtt MySQSQueue.Arn
+      EventSourceArn: !GetAtt MyTasksQueue.Arn
       FunctionName: !Ref TasksLambda
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
-      FilterCriteria: 
-        Filters:
-          - Pattern: '{"body": {"type": ["tasks"]}}'
 
   SQSLambdaTrigger:
     Type: AWS::Lambda::EventSourceMapping
@@ -179,9 +209,6 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
-      FilterCriteria: 
-        Filters:
-          - Pattern: '{"body": {"type": ["solutions"]}}'
         
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
@@ -202,6 +229,12 @@ Outputs:
   QueueARN:
     Description: ARN of the created SQS Queue
     Value: !GetAtt MySQSQueue.Arn
+  TasksQueueURL:
+    Description: URL of the created Tasks SQS Queue
+    Value: !Ref MyTasksQueue
+  TasksQueueARN:
+    Description: ARN of the created Tasks SQS Queue
+    Value: !GetAtt MyTasksQueue.Arn
   LambdaFunctionARN:
     Description: ARN of the Lambda Function
     Value: !GetAtt SolutionsLambda.Arn

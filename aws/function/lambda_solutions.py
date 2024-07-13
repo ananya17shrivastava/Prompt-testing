@@ -16,7 +16,7 @@ from lllms.perplexity import call_llm_perplexity
 
 from db.mysql import get_api_key, create_db_connection, insert_solutions
 from db.fetchprompts import fetch_prompt, connect_langfuse
-from Prompts.ai_solutions import get_aisolutions_prompt, get_xmlprompt, get_competitor_prompt, aisolutions_parser
+from lambda_prompts.ai_solutions import get_aisolutions_prompt, get_xmlprompt, get_competitor_prompt, aisolutions_parser
 
 
 logger = logging.getLogger()
