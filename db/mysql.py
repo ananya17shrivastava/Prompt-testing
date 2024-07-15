@@ -28,6 +28,25 @@ def create_db_connection():
 
 
 
+
+def feed_response_to_sql(prompt_id: str, name: str, url: str):
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+
+    except Error as e:
+        print(f"An error occurred while inserting response: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
 # def get_industryid(industryname: str) -> str:
 #     conn = None
 #     my_cursor = None
@@ -160,10 +179,10 @@ def find_usecases() -> List[Usecase]:
                 industry_categories ic ON c.industry_category_id = ic.id
             JOIN 
                 industries i ON c.industry_id = i.id
-            JOIN  # Changed to INNER JOIN
+            JOIN 
                 business_areas ba ON c.business_area_id = ba.id
             WHERE 
-                i.id = '744bec80-9eda-4319-bfd6-51d50d407c3e'
+                c.id='00010fdf-26d0-4953-bcba-3044faf2b770'
             ORDER BY 
                 i.name, ic.name, c.name;
         """

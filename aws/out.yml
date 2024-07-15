@@ -10,6 +10,14 @@ Parameters:
     Type: String
     Description: Name of the tasks SQS queue
     Default: llm-queue-tasks
+  KPIQueueName:
+    Type: String
+    Description: Name of the KPI SQS queue
+    Default: llm-queue-kpi
+  UsecaseQueueName:
+    Type: String
+    Description: Name of the usecase SQS queue
+    Default: llm-queue-usecase
 Resources:
   MyDLQ:
     Type: AWS::SQS::Queue
@@ -37,6 +45,36 @@ Resources:
     Properties:
       QueueName:
         Ref: TasksQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyKPIQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: KPIQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyUsecaseQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: UsecaseQueueName
       VisibilityTimeout: 1000
       MessageRetentionPeriod: 345600
       DelaySeconds: 0
@@ -81,6 +119,40 @@ Resources:
             Fn::GetAtt:
             - MyTasksQueue
             - Arn
+  KPISQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyKPIQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyKPIQueue
+            - Arn
+  UsecaseSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyUsecaseQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyUsecaseQueue
+            - Arn
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -102,7 +174,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/4c7aabb0731e755e4cf1e9e6d4e233a6
+      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -127,8 +199,58 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/4c7aabb0731e755e4cf1e9e6d4e233a6
+      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
       Description: lambda for solutions
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
+  KPILambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_kpi.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      Description: Lambda for KPI processing
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
+  UsecaseLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_usecase.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      Description: Lambda for usecase processing
       Timeout: 100
       MemorySize: 180
       Role:
@@ -193,6 +315,12 @@ Resources:
             - Fn::GetAtt:
               - MyTasksQueue
               - Arn
+            - Fn::GetAtt:
+              - MyKPIQueue
+              - Arn
+            - Fn::GetAtt:
+              - MyUsecaseQueue
+              - Arn
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
     Properties:
@@ -214,6 +342,28 @@ Resources:
       SourceArn:
         Fn::GetAtt:
         - MyTasksQueue
+        - Arn
+  KPILambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: KPILambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MyKPIQueue
+        - Arn
+  UsecaseLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: UsecaseLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MyUsecaseQueue
         - Arn
   TasksLambdaSQSTrigger:
     Type: AWS::Lambda::EventSourceMapping
@@ -239,6 +389,30 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+  KPILambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MyKPIQueue
+        - Arn
+      FunctionName:
+        Ref: KPILambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+  UsecaseLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MyUsecaseQueue
+        - Arn
+      FunctionName:
+        Ref: UsecaseLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -250,6 +424,18 @@ Resources:
     Properties:
       LogGroupName:
         Fn::Sub: /aws/lambda/${TasksLambda}
+      RetentionInDays: 7
+  KPILambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${KPILambda}
+      RetentionInDays: 7
+  UsecaseLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${UsecaseLambda}
       RetentionInDays: 7
 Outputs:
   QueueURL:
@@ -289,4 +475,36 @@ Outputs:
     Value:
       Fn::GetAtt:
       - TasksLambda
+      - Arn
+  KPIQueueURL:
+    Description: URL of the created KPI SQS Queue
+    Value:
+      Ref: MyKPIQueue
+  KPIQueueARN:
+    Description: ARN of the created KPI SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyKPIQueue
+      - Arn
+  KPILambdaFunctionARN:
+    Description: ARN of the KPI Lambda Function
+    Value:
+      Fn::GetAtt:
+      - KPILambda
+      - Arn
+  UsecaseQueueURL:
+    Description: URL of the created Usecase SQS Queue
+    Value:
+      Ref: MyUsecaseQueue
+  UsecaseQueueARN:
+    Description: ARN of the created Usecase SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyUsecaseQueue
+      - Arn
+  UsecaseLambdaFunctionARN:
+    Description: ARN of the Usecase Lambda Function
+    Value:
+      Fn::GetAtt:
+      - UsecaseLambda
       - Arn

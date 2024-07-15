@@ -14,6 +14,7 @@ async def main():
     print(ai_solutions)
 
     for ai_solution in ai_solutions:
+
         solution_name=ai_solution['solution_name']
         solution_id=ai_solution['solution_id']
         case_id=ai_solution['case_id']
@@ -21,6 +22,7 @@ async def main():
         usecase_description=ai_solution['usecase_description']
         industry_category_name=ai_solution['industry_category_name']
         industry_name=ai_solution['industry_name']
+        
         provider=LLM_PROVIDER_PERPLEXITY
         file_path = f"dump/kpi/{provider}/{industry_name.replace(' ', '_').replace('/', '_')}/{industry_category_name.replace(' ', '_').replace('/', '_')}/{usecase_name.replace(' ', '_').replace('/', '_')}/{solution_name.replace(' ', '_').replace('/', '_')}.json"
         if not Path(file_path).is_file():

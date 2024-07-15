@@ -322,6 +322,81 @@ def insert_tasks(name: str, description: str, urls: list, case_id: str, conn):
             my_cursor.close()
 
 
+
+
+
+def insert_url_kpi(url: str, case_id: str,impact_kpi_id:str,conn):
+    try:
+        # conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        
+        id = str(uuid.uuid4())
+
+        query = "INSERT INTO research_sources (id, case_id, url,impact_kpi_id) VALUES (%s, %s, %s, %s)"
+        values = (id, case_id, url,impact_kpi_id)
+
+        my_cursor.execute(query, values)
+        conn.commit()
+
+        print(f"URL inserted successfully for kpi id {impact_kpi_id}")  
+
+    except Error as e:
+        print(f"Error: {e}")
+
+    finally:
+        if conn.is_connected(): 
+            my_cursor.close()
+            # conn.close()
+
+def feed_kpi(solution_id: str, case_id: str, name: str, description: str, effect: str, unit: str, expected_impact: str, urls: List[str], type: str,conn):
+    # conn = None
+    my_cursor = None
+    try:
+        # conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        check_query = """
+        SELECT id FROM impact_kpis
+        WHERE case_id = %s AND solution_id = %s AND name = %s
+        """
+        my_cursor.execute(check_query, (case_id, solution_id, name)) 
+        existing_record = my_cursor.fetchone()
+
+        if not existing_record:
+            insert_query = """
+            INSERT INTO impact_kpis 
+            (id, solution_id, case_id, name, effect, unit, organization_creator_id, ai_generated, description, expected_impact, type) 
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """
+
+            organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+            new_id = str(uuid.uuid4())  
+            ai_generated = 1  
+
+            data = (new_id, solution_id, case_id, name, effect, unit, organization_creator_id, ai_generated, description, expected_impact, type)
+            my_cursor.execute(insert_query, data)
+            
+            for url in urls:
+                insert_url_kpi(url,case_id, impact_kpi_id=new_id,conn=conn)
+            
+            conn.commit()
+            print(f"New KPI inserted with ID: {new_id}")
+        else:
+            print(f"KPI already exists for case_id {case_id}, solution_id {solution_id}, and name {name}")
+
+    except Error as e:
+        print(f"An error occurred while inserting in impact_kpis: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+
+
+
 # def bulk_insert_solutions(case_id: str, combined_results: list, conn, batch_size=10):
 #     my_cursor = None
 #     try:
@@ -621,67 +696,67 @@ def insert_tasks(name: str, description: str, urls: list, case_id: str, conn):
 #             conn.close()
 
 
-# def insert_usecase(name:str,description:str,business_area_id:str,industry_category_id:str,industry_id:str,urls: List[str]):
-#     conn=create_db_connection()
-#     my_cursor=conn.cursor()
-#     try:
-#         check_query = """
-#             SELECT id FROM cases
-#             WHERE business_area_id = %s and name = %s
-#         """
-#         my_cursor.execute(check_query, (business_area_id, name,))
-#         existing_record = my_cursor.fetchone()
+def insert_usecase(name:str,description:str,business_area_id:str,industry_category_id:str,industry_id:str,urls: List[str],conn):
+    # conn=create_db_connection()
+    my_cursor=conn.cursor()
+    try:
+        check_query = """
+            SELECT id FROM cases
+            WHERE business_area_id = %s and name = %s
+        """
+        my_cursor.execute(check_query, (business_area_id, name,))
+        existing_record = my_cursor.fetchone()
 
-#         if not existing_record:
-#             # category_id = str(uuid.uuid4())
-#             insert_query = """
-#                 INSERT INTO cases
-#                 (id, name,industry_id,created_at,organization_creator_id,description,industry_category_id,business_area_id)
-#                 VALUES (%s, %s, %s, NOW(), %s, %s, %s, %s)
-#             """
-#             usecase_id = str(uuid.uuid4())
-#             organization_creator_id='user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+        if not existing_record:
+            # category_id = str(uuid.uuid4())
+            insert_query = """
+                INSERT INTO cases
+                (id, name,industry_id,created_at,organization_creator_id,description,industry_category_id,business_area_id)
+                VALUES (%s, %s, %s, NOW(), %s, %s, %s, %s)
+            """
+            usecase_id = str(uuid.uuid4())
+            organization_creator_id='user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
 
-#             my_cursor.execute(insert_query, (usecase_id, name, industry_id,organization_creator_id,description,industry_category_id,business_area_id))
-#             print(f"Inserted Name: {name}, Industry ID: {industry_id}, Industry_category_id:{industry_category_id}, business_area_id: {business_area_id}")
-#             for url in urls:
-#                 insert_url(url,usecase_id)
+            my_cursor.execute(insert_query, (usecase_id, name, industry_id,organization_creator_id,description,industry_category_id,business_area_id))
+            print(f"Inserted Name: {name}, Industry ID: {industry_id}, Industry_category_id:{industry_category_id}, business_area_id: {business_area_id}")
+            for url in urls:
+                insert_url(url,usecase_id,conn)
 
-#         conn.commit()
-#         print("Operation completed successfully.")
+        conn.commit()
+        print("Operation completed successfully.")
 
-#     except Exception as e:
-#         conn.rollback()
-#         print(f"An error occurred: {str(e)}")
-#         raise e
+    except Exception as e:
+        conn.rollback()
+        print(f"An error occurred: {str(e)}")
+        raise e
 
-#     finally:
-#         my_cursor.close()
-#         conn.close()
+    finally:
+        my_cursor.close()
+        # conn.close()
 
-# def insert_url(url: str, usecase_id: str):
-#     try:
-#         conn = create_db_connection()
-#         my_cursor = conn.cursor()
+def insert_url(url: str, usecase_id: str,conn):
+    try:
+        # conn = create_db_connection()
+        my_cursor = conn.cursor()
 
 
-#         id = str(uuid.uuid4())
+        id = str(uuid.uuid4())
 
-#         query = "INSERT INTO research_sources (id, case_id, url) VALUES (%s, %s, %s)"
-#         values = (id, usecase_id, url)
+        query = "INSERT INTO research_sources (id, case_id, url) VALUES (%s, %s, %s)"
+        values = (id, usecase_id, url)
 
-#         my_cursor.execute(query, values)
-#         conn.commit()
+        my_cursor.execute(query, values)
+        conn.commit()
 
-#         print(f"URL inserted successfully for {usecase_id}")
+        print(f"URL inserted successfully for {usecase_id}")
 
-#     except Error as e:
-#         print(f"Error: {e}")
+    except Error as e:
+        print(f"Error: {e}")
 
-#     finally:
-#         if conn.is_connected():
-#             my_cursor.close()
-#             conn.close()
+    finally:
+        if conn.is_connected():
+            my_cursor.close()
+            # conn.close()
 
 
 # def delete_all_industry_category(industry_id: str):

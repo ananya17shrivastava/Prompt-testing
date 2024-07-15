@@ -16,7 +16,7 @@ class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-async def fetch_prompt(prompt_name:str)-> Prompt:
+def fetch_prompt(prompt_name:str)-> Prompt:
     prompt_client =langfuse.get_prompt(prompt_name)
     prompt_content = prompt_client.prompt
 

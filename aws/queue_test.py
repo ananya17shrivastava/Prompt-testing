@@ -59,7 +59,7 @@ try:
 
     entries = []
     usecases = find_usecases()
-    print(usecases)
+    print(len(usecases))
 
     for usecase in usecases:
         # Create a JSON message

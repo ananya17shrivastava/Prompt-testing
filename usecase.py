@@ -53,7 +53,7 @@ async def main():
                 model = PERPLEXITY_MODEL
 
 
-            prompts=await get_usecase_prompt(industry_name,industry_category_name,business_area_name)
+            prompts=get_usecase_prompt(industry_name,industry_category_name,business_area_name)
             # user_prompt=prompts[0]
             # system_prompt=prompts[1]
             user_prompt = prompts['user_prompt']
@@ -61,7 +61,7 @@ async def main():
             # print(user_prompt)
             # print(system_prompt)
             # user_prompt, system_prompt = get_usecase_prompt(industry_name, industry_category_name, business_area_name)
-            description_result = await invoke_llm(provider, model, [{
+            description_result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt)
@@ -72,7 +72,7 @@ async def main():
             
             xml_prompt=get_xmlprompt(description_result)
 
-            result = await invoke_llm(provider, model, [{
+            result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
             }], max_tokens=4096, temperature=0,prompt_id="business_area_xml")

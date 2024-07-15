@@ -24,7 +24,7 @@ def read_json_file(file_path):
 
 async def main():
     industry_categories=find_industry_categories()
-    print(industry_categories)
+    print(len(industry_categories))
     # process.exit(0)
 
     for industry_category_obj in industry_categories:
@@ -46,11 +46,11 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
             
-            prompts = await get_business_prompt(industry_name,industry_category_name)
+            prompts = get_business_prompt(industry_name,industry_category_name)
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
 
-            description_result = await invoke_llm(provider, model, [{
+            description_result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt)
@@ -58,7 +58,7 @@ async def main():
 
             xml_prompt=get_xmlprompt(description_result)
 
-            result = await invoke_llm(provider, model, [{
+            result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="business_area_xml")
