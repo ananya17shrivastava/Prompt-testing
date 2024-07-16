@@ -12,10 +12,9 @@ from mysql.connector import Error
 from urllib.parse import urlparse
 import os
 
-from lllms.perplexity import call_llm_perplexity
 
-from db.mysql import get_api_key, create_db_connection, insert_solutions
-from db.fetchprompts import fetch_prompt, connect_langfuse
+from db.mysql import create_db_connection, insert_solutions
+from db.fetchprompts import connect_langfuse
 from lambda_prompts.ai_solutions import get_aisolutions_prompt, get_xmlprompt, get_competitor_prompt, aisolutions_parser
 
 
@@ -140,14 +139,16 @@ def lambda_handler(event, context):
         
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
-        prompts=get_aisolutions_prompt(usecase_name,usecase_description,industry_name,industry_category_name)
+        prompts=get_aisolutions_prompt(usecase_name,usecase_description,industry_name,industry_category_name,langfuse)
         user_prompt = prompts['user_prompt']
         system_prompt = prompts['system_prompt']
         start_time_perplexity = time.time()
-        description_result=invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        description_result=invoke_llm(conn,provider, model, [{
             "role": "user",
             "content": user_prompt,
-        }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        }], max_tokens=4096, temperature=.2,prompt_id="ai_solutions",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        conn.close()
         print("--- %s Time for PERPLEXITY 1 ---" % (time.time() - start_time_perplexity))
 
         provider=LLM_PROVIDER_CLAUDE
@@ -155,10 +156,12 @@ def lambda_handler(event, context):
         
         xml_prompt=get_xmlprompt(description_result)
         start_time_claude = time.time()
-        result= invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        result= invoke_llm(conn,provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions",API_KEY=ANTHROPIC_API_KEY)
+        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions_xml",API_KEY=ANTHROPIC_API_KEY)
+        conn.close()
         print("--- %s Time for CLAUDE 1 ---" % (time.time() - start_time_claude))
         result = result.replace("&", "&amp;")
         json_result = aisolutions_parser(result)
@@ -169,24 +172,28 @@ def lambda_handler(event, context):
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
         
-        competitor_prompt=get_competitor_prompt(description_result)
+        competitor_prompt=get_competitor_prompt(description_result,langfuse)
         competitor_user_prompt=competitor_prompt['user_prompt']
         competitor_system_prompt=competitor_prompt['system_prompt']
         start_time_perplexity_2 = time.time()
-        competitor_result=invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        competitor_result=invoke_llm(conn,provider, model, [{
             "role": "user",
             "content": competitor_user_prompt,
-        }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=competitor_system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        }], max_tokens=4096, temperature=.2,prompt_id="ai_solutions_competitor",system_prompt=competitor_system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        conn.close()
         print("--- %s Time for PERPLEXITY 2  ---" % (time.time() - start_time_perplexity_2))
 
         provider=LLM_PROVIDER_CLAUDE
         model = CLAUDE_HAIKU_3
         competitor_xml_prompt=get_xmlprompt(competitor_result)
         start_time_claude_2 = time.time()
-        result2=invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        result2=invoke_llm(conn,provider, model, [{
                 "role": "user",
                 "content": competitor_xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions",API_KEY=ANTHROPIC_API_KEY)
+        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions_competitor_xml",API_KEY=ANTHROPIC_API_KEY)
+        conn.close()
         print("--- %s Time for CLAUDE 2 ---" % (time.time() - start_time_claude_2))
         result2 = result2.replace("&", "&amp;")
         competitor_json_result = aisolutions_parser(result2)

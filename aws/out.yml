@@ -18,6 +18,14 @@ Parameters:
     Type: String
     Description: Name of the usecase SQS queue
     Default: llm-queue-usecase
+  BusinessAreasQueueName:
+    Type: String
+    Description: Name of the business areas SQS queue
+    Default: llm-queue-businessareas
+  IndustryQueueName:
+    Type: String
+    Description: Name of the industry SQS queue
+    Default: llm-queue-industry
 Resources:
   MyDLQ:
     Type: AWS::SQS::Queue
@@ -75,6 +83,36 @@ Resources:
     Properties:
       QueueName:
         Ref: UsecaseQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyBusinessAreasQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: BusinessAreasQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyIndustryQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: IndustryQueueName
       VisibilityTimeout: 1000
       MessageRetentionPeriod: 345600
       DelaySeconds: 0
@@ -153,6 +191,40 @@ Resources:
             Fn::GetAtt:
             - MyUsecaseQueue
             - Arn
+  BusinessAreasSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyBusinessAreasQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyBusinessAreasQueue
+            - Arn
+  IndustrySQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyIndustryQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyIndustryQueue
+            - Arn
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -174,7 +246,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      CodeUri: s3://wapify-llm-stack/911165415896af9474b3e2e81e457c59
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -199,7 +271,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -224,7 +296,7 @@ Resources:
     Properties:
       Handler: lambda_kpi.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
       Description: Lambda for KPI processing
       Timeout: 100
       MemorySize: 180
@@ -249,8 +321,58 @@ Resources:
     Properties:
       Handler: lambda_usecase.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/028f3948c207ad6829c5bd87a82f88fa
+      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
       Description: Lambda for usecase processing
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
+  BusinessAreaLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_business_areas.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      Description: Lambda for business areas processing
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
+  IndustriesLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_industry_category.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      Description: Lambda for industry processing
       Timeout: 100
       MemorySize: 180
       Role:
@@ -321,6 +443,12 @@ Resources:
             - Fn::GetAtt:
               - MyUsecaseQueue
               - Arn
+            - Fn::GetAtt:
+              - MyBusinessAreasQueue
+              - Arn
+            - Fn::GetAtt:
+              - MyIndustryQueue
+              - Arn
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
     Properties:
@@ -364,6 +492,28 @@ Resources:
       SourceArn:
         Fn::GetAtt:
         - MyUsecaseQueue
+        - Arn
+  BusinessAreaLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: BusinessAreaLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MyBusinessAreasQueue
+        - Arn
+  IndustriesLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: IndustriesLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MyIndustryQueue
         - Arn
   TasksLambdaSQSTrigger:
     Type: AWS::Lambda::EventSourceMapping
@@ -413,6 +563,30 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+  BusinessAreaLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MyBusinessAreasQueue
+        - Arn
+      FunctionName:
+        Ref: BusinessAreaLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
+  IndustriesLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MyIndustryQueue
+        - Arn
+      FunctionName:
+        Ref: IndustriesLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 5
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -436,6 +610,18 @@ Resources:
     Properties:
       LogGroupName:
         Fn::Sub: /aws/lambda/${UsecaseLambda}
+      RetentionInDays: 7
+  BusinessAreaLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${BusinessAreaLambda}
+      RetentionInDays: 7
+  IndustriesLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${IndustriesLambda}
       RetentionInDays: 7
 Outputs:
   QueueURL:
@@ -507,4 +693,36 @@ Outputs:
     Value:
       Fn::GetAtt:
       - UsecaseLambda
+      - Arn
+  BusinessAreasQueueURL:
+    Description: URL of the created Business Areas SQS Queue
+    Value:
+      Ref: MyBusinessAreasQueue
+  BusinessAreasQueueARN:
+    Description: ARN of the created Business Areas SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyBusinessAreasQueue
+      - Arn
+  BusinessAreaLambdaFunctionARN:
+    Description: ARN of the Business Area Lambda Function
+    Value:
+      Fn::GetAtt:
+      - BusinessAreaLambda
+      - Arn
+  IndustryQueueURL:
+    Description: URL of the created Industry SQS Queue
+    Value:
+      Ref: MyIndustryQueue
+  IndustryQueueARN:
+    Description: ARN of the created Industry SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyIndustryQueue
+      - Arn
+  IndustriesLambdaFunctionARN:
+    Description: ARN of the Industries Lambda Function
+    Value:
+      Fn::GetAtt:
+      - IndustriesLambda
       - Arn

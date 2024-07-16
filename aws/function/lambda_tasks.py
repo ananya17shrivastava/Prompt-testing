@@ -108,15 +108,17 @@ def lambda_handler(event, context):
         
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
-        prompts=get_business_task_prompt(industry_name, industry_category_name, usecase_name,business_area_name)
+        prompts=get_business_task_prompt(industry_name, industry_category_name, usecase_name,business_area_name,langfuse)
         user_prompt = prompts['user_prompt']
         system_prompt = prompts['system_prompt']
         # print(system_prompt)
         start_time_perplexity = time.time()
-        description_result=invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        description_result=invoke_llm(conn,provider, model, [{
             "role": "user",
             "content": user_prompt,
         }], max_tokens=4096, temperature=.2,prompt_id="business_tasks",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        conn.close()
         print("--- %s Time for PERPLEXITY  ---" % (time.time() - start_time_perplexity))
         # print("DESCRIPTION RESULT !!")
         # print(description_result)
@@ -125,10 +127,12 @@ def lambda_handler(event, context):
         model = CLAUDE_HAIKU_3
         xml_prompt=get_xmlprompt(description_result)
         start_time_claude = time.time()
-        result= invoke_llm(provider, model, [{
+        conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+        result= invoke_llm(conn,provider, model, [{
                 "role": "user",
                 "content": xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="ai_solutions",API_KEY=ANTHROPIC_API_KEY)
+        }], max_tokens=4096, temperature=0,prompt_id="business_tasks_xml",API_KEY=ANTHROPIC_API_KEY)
+        conn.close()
         print("--- %s Time for CLAUDE  ---" % (time.time() - start_time_claude))
         result = result.replace("&", "&amp;")
         json_result = business_task_parser(result)

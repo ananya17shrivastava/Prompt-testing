@@ -1,56 +1,18 @@
 from typing import List, Dict,TypedDict, Union
 import xml.etree.ElementTree as ET
+from db.fetchprompts import fetch_prompt
 
 class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-def get_business_task_prompt(industry_name:str,industry_category_name:str,usecase_name:str,business_area_name:str):
-    system_prompt = f"""You are an Expert AI Use Case Analyst tasked with identifying where AI can be applied to improve or automate processes 
-    within the {industry_name} industry, under the {industry_category_name} category, specifically for the use case {usecase_name} within the 
-    {business_area_name} business area. Your goal is to generate a comprehensive list of the business tasks currently executed without AI that are enhanced or automated in this use case. 
-    This is not about providing a long list of tasks but about being very accurate naming and describing the main task or tasks impacted. 
-    Flag the main task impacted as main when you find several and give a maximum of 3 main tasks only.
-    Use only public and accessible resources, avoiding copyright infringement.
-
-    Motivation: Identifying these tasks is important for businesses to know where AI can help them to optimise their business.
-    """
-
-    user_prompt=f"""
-    Structure and Participants: Provide the results as a structured list in language suitable for C-level and middle management. Each tasks for the use case should be summarized in a clear, concise and detailed sentence. Format the list with structured fields for task name, description, and URLs that supported your research. Ensure each use case has at least two specific supporting URLs from reputable sources.
-
-    Example Format: 
-    Task 1:
-        Task Name: Follow up CRM events
-        Task Description: Create manually personalized mails for customers
-
-        URLs:
-            Supporting Resource 1
-            Supporting Resource 2
-
-    Data Extraction Steps: 
-    Primary Source Identification:
-    Industry Publications: Verify tasks by checking use cases in industry publications, whitepapers, and analyst reports for additional examples.
-    Scientific Research: Search open access scientific databases like PubMed and ArXiv for relevant AI use cases and the tasks that they impact.
-    High Tech Publishers: Explore leading tech publishers for articles and reports on AI applications in business.
-
-    Secondary Source Verification:
-    Case Studies and Resources: Visit sections like Case Studies or Resources on relevant company websites.
-    Tech Blogs and User Forums: Cross-reference data with credible tech blogs and user forums to gather insights and validate tasks for use cases.
-    Consulting Websites: Review consulting firms websites for published use cases and the tasks they impact and expert analysis.NER and Data Analysis:
-    Named Entity Recognition (NER): Implement NER techniques to identify and extract relevant AI use cases from text corpora.
-    Analysis and Filtering: Ensure the accuracy and relevance of the extracted data by filtering out irrelevant or redundant information.
-
-    Incentive: For thoroughness and creativity in identifying valuable tasks impacted by the mentioned AI use case, an incentive of $1000K is offered for the best solution.
-
-    By following this structured approach, you will efficiently gather high-quality tasks data, ensuring accuracy and reliability for strategic decision-making and customer engagement."""
-
-    prompts = Prompt(
-        user_prompt=user_prompt,
-        system_prompt=system_prompt
-    )
-
-    return prompts
+def get_business_task_prompt(industry_name:str,industry_category_name:str,usecase_name:str,business_area_name:str,langfuse):
+    prompt =fetch_prompt("business_task",langfuse)
+    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
+    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
+    prompt['system_prompt'] = prompt['system_prompt'].replace("{{usecase_name}}", usecase_name)
+    prompt['system_prompt'] = prompt['system_prompt'].replace("{{business_area_name}}", business_area_name)
+    return prompt
 
 def get_xmlprompt(test_result:str)->str:
 
@@ -93,3 +55,16 @@ def business_task_parser(llm_response: str) -> List[Dict[str, Union[str, List[st
         })
 
     return result
+
+
+
+
+
+# You are an Expert AI Use Case Analyst tasked with identifying where AI can be applied to improve or automate processes 
+#     within the {{industry_name}} industry, under the {{industry_category_name}} category, specifically for the use case {{usecase_name}} within the 
+#     {{business_area_name}} business area. Your goal is to generate a comprehensive list of the business tasks currently executed without AI that are enhanced or automated in this use case. 
+#     This is not about providing a long list of tasks but about being very accurate naming and describing the main task or tasks impacted. 
+#     Flag the main task impacted as main when you find several and give a maximum of 3 main tasks only.
+#     Use only public and accessible resources, avoiding copyright infringement.
+
+#     Motivation: Identifying these tasks is important for businesses to know where AI can help them to optimise their business.

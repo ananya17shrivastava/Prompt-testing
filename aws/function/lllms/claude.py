@@ -2,13 +2,15 @@ import os
 import anthropic
 from typing import List, Dict
 import xml.etree.ElementTree as ET
+import json
+from db.mysql import feed_response_to_sql
 
 
 CLAUDE_SONNET_35 = "claude-3-5-sonnet-20240620"
 CLAUDE_HAIKU_3 = "claude-3-haiku-20240307"
 
 
-def call_llm_claude(API_KEY:str,messages: List[Dict[str, str]], model: str, max_tokens: int, temperature: float = 0,prompt_id:str="",system_prompt: str="") -> str:
+def call_llm_claude(conn,API_KEY:str,messages: List[Dict[str, str]], model: str, max_tokens: int, temperature: float = 0,prompt_id:str="",system_prompt: str="",ai_machine_id:str="") -> str:
     client = anthropic.Anthropic(
         api_key=API_KEY
     )
@@ -20,6 +22,31 @@ def call_llm_claude(API_KEY:str,messages: List[Dict[str, str]], model: str, max_
         messages=messages,
         temperature=temperature
     )
+    # print(response)
+
+    response_dict = {
+        "id": response.id,
+        "content": [
+            {
+                "text": content.text,
+                "type": content.type
+            } for content in response.content
+        ],
+        "model": response.model,
+        "role": response.role,
+        "stop_reason": response.stop_reason,
+        "stop_sequence": response.stop_sequence,
+        "type": response.type,
+        "usage": {
+            "input_tokens": response.usage.input_tokens,
+            "output_tokens": response.usage.output_tokens
+        }
+    }
+    
+    # Convert the dictionary to a JSON string
+    response_data = json.dumps(response_dict, indent='\t')
+    # print(response_data)
+    feed_response_to_sql(prompt_id,ai_machine_id,response_data,conn)
     text_block = response.content[0]
     xml_string = text_block.text
     # feed_data_to_mongodb(prompt_id,xml_string,model=CLAUDE_SONNET_35)

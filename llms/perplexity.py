@@ -2,7 +2,7 @@ from openai import OpenAI
 # from db.mongo import feed_data_to_mongodb
 import os
 from typing import List, Dict
-from db.mysql import get_api_key
+from db.mysql import get_api_key, feed_response_to_sql
 import json
 
 # PERPLEXITY_API_KEY = os.environ.get("PERPLEXITY_API_KEY")
@@ -49,8 +49,8 @@ def call_llm_perplexity(messages: List[Dict[str, str]], model: str = PERPLEXITY_
 
     feed_response_to_sql(prompt_id,ai_machine_id,response_data)
 
-    print(response_data)
-    print("PERPLEXITY PROMPT !")
-    print(prompt_id)
+    # print(response_data)
+    # print("PERPLEXITY PROMPT !")
+    # print(prompt_id)
     # feed_data_to_mongodb(prompt,response,model=PERPLEXITY_MODEL)
     return response.choices[0].message.content.strip()

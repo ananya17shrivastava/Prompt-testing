@@ -29,19 +29,22 @@ def create_db_connection():
 
 
 
-def feed_response_to_sql(prompt_id: str, name: str, url: str):
+def feed_response_to_sql(prompt_id: str, ai_machine_id: str, response_data: str):
     conn = None
     my_cursor = None
     try:
         conn = create_db_connection()
         my_cursor = conn.cursor()
-
+        new_id = str(uuid.uuid4())
+        sql = "INSERT INTO completions (id, trigger_prompt_id, ai_machine_id, response) VALUES (%s, %s, %s, %s)"
+        my_cursor.execute(sql, (new_id, prompt_id, ai_machine_id, response_data))
+        print(f"LLM response fed to the database with id {new_id}!")
+        conn.commit()
     except Error as e:
         print(f"An error occurred while inserting response: {str(e)}")
         if conn:
             conn.rollback()
         raise
-
     finally:
         if my_cursor:
             my_cursor.close()

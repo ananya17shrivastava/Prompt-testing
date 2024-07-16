@@ -65,14 +65,14 @@ async def main():
 
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
-            print(system_prompt)
+            # print(system_prompt)
             description_result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": user_prompt,
-            }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt)
-            print(description_result)
+            }], max_tokens=4096, temperature=.2,prompt_id="ai_solutions",system_prompt=system_prompt)
+            # print(description_result)
 
-            process.exit(0)
+            # process.exit(0)
 
             provider=LLM_PROVIDER_CLAUDE
             model = CLAUDE_HAIKU_3
@@ -82,7 +82,7 @@ async def main():
                     "role": "user",
                     "content": xml_prompt,
             }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
-
+            # process.exit(0)
             result = result.replace("&", "&amp;")
             json_result = aisolutions_parser(result)
             json_result = json.dumps(json_result, indent='\t')

@@ -6,13 +6,12 @@ from lllms.index import invoke_llm, LLM_PROVIDER_CLAUDE, LLM_PROVIDER_PERPLEXITY
 from lllms.claude import CLAUDE_HAIKU_3
 from lllms.perplexity import PERPLEXITY_MODEL
 import time
+from typing import List
 import json
 import os
-
-
-from db.mysql import  create_db_connection,insert_usecase
+from lambda_prompts.industry_category import get_prompt, get_xmlprompt, parser as industry_parser
+from db.mysql import  create_db_connection,insert_industry_category
 from db.fetchprompts import connect_langfuse
-from lambda_prompts.business_usecase import get_usecase_prompt, get_xmlprompt,usecase_parser
 
 
 logger = logging.getLogger()
@@ -56,16 +55,16 @@ PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY_2']
 ANTHROPIC_API_KEY=secrets['ANTHROPIC_API_KEY']
 
 
-def check_db_usecases(business_area_id: str, conn):
+def check_db_industry_category(industry_id: str, conn):
     my_cursor = None
     try:
         my_cursor = conn.cursor()
         
         check_query = """
-        SELECT id FROM cases
-        WHERE business_area_id = %s 
+        SELECT id FROM industry_categories
+        WHERE industry_id = %s 
         """
-        my_cursor.execute(check_query, (business_area_id,))
+        my_cursor.execute(check_query, (industry_id,))
         existing_records = my_cursor.fetchall()
 
         return len(existing_records) > 0
@@ -82,25 +81,22 @@ def lambda_handler(event, context):
         start_time_whole = time.time()
         
         message_body = record['body']
-        
         parsed_message=json.loads(message_body) 
         message_type = parsed_message.get('type', '')
-        if 'usecases' not in message_type.lower():
-            print("Not related to task lambda function!!")
+
+        if 'industry' not in message_type.lower():
+            print("Not related to industry category lambda function!!")
             continue
 
-        business_area_id=parsed_message.get('business_area_id', 'N/A')
-        business_area_name=parsed_message.get('business_area_name', 'N/A')
-        industry_id=parsed_message.get('industry_id', 'N/A')
         industry_name=parsed_message.get('industry_name', 'N/A')
-        industry_category_name=parsed_message.get('industry_category_name', 'N/A')
-        industry_category_id=parsed_message.get('industry_category_id', 'N/A')
+        industry_id=parsed_message.get('industry_id', 'N/A')
+
 
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
         try:
-            validation = check_db_usecases(business_area_id, conn)
+            validation = check_db_industry_category(industry_id, conn)
             if validation:
-                print("usecases already exists !")
+                print("industry category already exists !")
                 continue
         finally:
             if conn:
@@ -109,10 +105,10 @@ def lambda_handler(event, context):
         provider=LLM_PROVIDER_PERPLEXITY
         model = PERPLEXITY_MODEL
 
-        prompts=get_usecase_prompt(industry_name,industry_category_name,business_area_name,langfuse)
+        prompts=get_prompt(industry_name,langfuse)
+            
         user_prompt = prompts['user_prompt']
         system_prompt = prompts['system_prompt']
-
 
         # print(system_prompt)
         start_time_perplexity = time.time()
@@ -120,11 +116,11 @@ def lambda_handler(event, context):
         description_result = invoke_llm(conn,provider, model, [{
             "role": "user",
             "content": user_prompt,
-        }], max_tokens=4096, temperature=.2,prompt_id="business_usecase",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
+        }], max_tokens=4096, temperature=.2,prompt_id="industry_category",system_prompt=system_prompt,API_KEY=PERPLEXITY_API_KEY)
+
         conn.close()
         print("--- %s Time for PERPLEXITY  ---" % (time.time() - start_time_perplexity))
-        # print("DESCRIPTION RESULT !!")
-        # print(description_result)
+
 
         provider=LLM_PROVIDER_CLAUDE
         model = CLAUDE_HAIKU_3
@@ -132,25 +128,27 @@ def lambda_handler(event, context):
 
         xml_prompt=get_xmlprompt(description_result)
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-        result = invoke_llm(conn,provider, model, [{
+        start_time_claude = time.time()
+        xml_result= invoke_llm(conn,provider, model, [{
             "role": "user",
             "content": xml_prompt,
-        }], max_tokens=4096, temperature=0,prompt_id="business_usecase_xml",API_KEY=ANTHROPIC_API_KEY)
+        }], max_tokens=4096, temperature=.2,prompt_id="industry_category_xml",API_KEY=ANTHROPIC_API_KEY)
+        print("--- %s Time for CLAUDE ---" % (time.time() - start_time_claude))
         conn.close()
-        print(result)
-        
-        result = result.replace("&", "&amp;")
-        json_result = usecase_parser(result)
 
-        for usecases_result in json_result:
-            name=usecases_result['name']
-            description=usecases_result['description']
-            urls=usecases_result['urls']
+        xml_result = xml_result.replace("&", "&amp;")
+        json_result = industry_parser(xml_result)
 
-            if len(business_area_id)>0:
-                conn=create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
-                insert_usecase(name,description,business_area_id,industry_category_id,industry_id,urls,conn)
+        # print(json_result)
+
+        for industry_result in json_result:
+            name = industry_result["name"]
+            product_services = industry_result["description"]
+            if len(industry_id) > 0:
+                conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
+                insert_industry_category(industry_id, name, product_services,conn)
                 conn.close()
+
 
         print("--- %s Time for ONE ITERATION ---" % (time.time() - start_time_whole))
         
