@@ -91,11 +91,11 @@ def lambda_handler(event, context):
             print("Not related to task lambda function!!")
             continue
 
-        case_id=parsed_message.get('use_case_id', 'N/A')
-        usecase_name=parsed_message.get('use_case_name', 'N/A')
-        business_area_name=parsed_message.get('business_area_name', 'N/A')
-        industry_name=parsed_message.get('industry_name', 'N/A')
-        industry_category_name=parsed_message.get('industry_category_name', 'N/A')
+        case_id=parsed_message.get('use_case_id',None)
+        usecase_name=parsed_message.get('use_case_name', None)
+        business_area_name=parsed_message.get('business_area_name', None)
+        industry_name=parsed_message.get('industry_name', None)
+        industry_category_name=parsed_message.get('industry_category_name', None)
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
         try:
             validation = check_db_tasks(case_id, conn)

@@ -8,14 +8,26 @@ class Prompt(TypedDict):
     system_prompt: str
 
 def get_aisolutions_prompt(usecase_name: str, usecase_description: str, industry_name: str, industry_category_name: str,langfuse):
-    
-    prompts =fetch_prompt("ai_solutions",langfuse)
+
+    # prompts
+    # if industry_name is None :
+    prompts =fetch_prompt("ai_solutions_null",langfuse)
     prompts['system_prompt']=prompts['system_prompt'].replace("{{usecase_name}}",usecase_name)
     prompts['system_prompt']=prompts['system_prompt'].replace("{{usecase_description}}",usecase_description)
-    prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_name}}",industry_name)
-    prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_category_name}}",industry_category_name)
+        
     
+    # else:
+    #     prompts =fetch_prompt("ai_solutions",langfuse)
+    #     prompts['system_prompt']=prompts['system_prompt'].replace("{{usecase_name}}",usecase_name)
+    #     prompts['system_prompt']=prompts['system_prompt'].replace("{{usecase_description}}",usecase_description)
+    #     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_name}}",industry_name)
+    #     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_category_name}}",industry_category_name)
+
     return prompts
+
+
+
+    
 
 
 def get_competitor_prompt(description_result:str,langfuse):

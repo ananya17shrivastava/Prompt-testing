@@ -1,6 +1,6 @@
 import boto3
 import json
-from queue_test_solutions import find_business_areas
+from queue_test_solutions import find_business_areas, find_null_business_areas
 import uuid
 
 # Create an SQS client
@@ -15,26 +15,32 @@ try:
     queue_url = response['QueueUrl']
 
     entries = []
-    business_areas = find_business_areas()
+    business_areas = find_null_business_areas()
     print(len(business_areas))
-
+    # i=0
     for business_area in business_areas:
         # Create a JSON message
         message_dict = {
             "type": "usecases",
             "business_area_id": business_area["business_area_id"],
             "business_area_name": business_area["business_area_name"],
-            "industry_id": business_area["industry_id"],
-            "industry_name": business_area["industry_name"],
-            "industry_category_id": business_area["industry_category_id"],
-            "industry_category_name": business_area["industry_category_name"],
+            # "industry_id": business_area["industry_id"],
+            # "industry_name": business_area["industry_name"],
+            # "industry_category_id": business_area["industry_category_id"],
+            # "industry_category_name": business_area["industry_category_name"],
         }
+        print(message_dict)
+        # process.exit(0)
         message_body = json.dumps(message_dict)
 
         entries.append({
             'Id': str(uuid.uuid4()),
             'MessageBody': message_body
         })
+        # if(i==2):
+        #     break
+            
+        # i+=1
 
 
         if len(entries) == 10:

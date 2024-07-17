@@ -82,13 +82,13 @@ async def main():
             print(json_result)
 
 
-            process.exit(0)
+            # process.exit(0)
 
 
 
             
                 
-        i+=1
+        # i+=1
 
 
 

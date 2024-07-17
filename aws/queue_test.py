@@ -43,7 +43,7 @@
 
 import boto3
 import json
-from queue_test_solutions import find_usecases
+from queue_test_solutions import find_usecases,find_usecases_null
 import uuid
 
 # Create an SQS client
@@ -58,18 +58,19 @@ try:
     queue_url = response['QueueUrl']
 
     entries = []
-    usecases = find_usecases()
+    usecases = find_usecases_null()
     print(len(usecases))
-
+    # process.exit(0)
+    # i=0
     for usecase in usecases:
         # Create a JSON message
         message_dict = {
             "type": "solutions",
-            "use_case_id": usecase["case_id"],
-            "use_case_name": usecase["name"],
-            "use_case_description": usecase["description"],
-            "industry_name": usecase["industry_name"],
-            "industry_category_name": usecase["industry_category_name"],
+            "use_case_id": usecase.get("case_id", None),
+            "use_case_name": usecase.get("name", None),
+            "use_case_description": usecase.get("description", None),
+            "industry_name": usecase.get("industry_name", None),
+            "industry_category_name": usecase.get("industry_category_name", None)
         }
 
         # Convert the dictionary to a JSON string
@@ -79,6 +80,7 @@ try:
             'Id': str(uuid.uuid4()),  # Generate a unique ID
             'MessageBody': message_body
         })
+
 
         # Send the JSON message to the queue in batches of 10
         if len(entries) == 10:

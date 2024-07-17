@@ -16,11 +16,11 @@ class Prompt(TypedDict):
     system_prompt: str
 
 def get_usecase_prompt(industry_name: str, industry_category_name: str, business_area_name: str,langfuse) -> Prompt:
-    prompt =fetch_prompt("business_usecase",langfuse)
+    prompt =fetch_prompt("business_usecase_null",langfuse)
     # asyncio.run(getprompt(prompt_name))
     
-    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
-    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
+    # prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
+    # prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
     prompt['system_prompt'] = prompt['system_prompt'].replace("{{business_area_name}}", business_area_name)
     
     return prompt

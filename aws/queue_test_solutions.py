@@ -242,8 +242,8 @@ def find_aisolutions() -> List[AISolution]:
     finally:
         if my_cursor:
             my_cursor.close()
-        # if conn:
-        #     conn.close()
+        if conn:
+            conn.close()
 
     return ai_solutions
 
@@ -328,3 +328,95 @@ def find_business_areas() -> List[BusinessArea]:
             conn.close()
 
     return business_areas
+
+
+class NullBusinessArea(TypedDict):
+    business_area_id: str
+    business_area_name: str
+
+def find_null_business_areas() -> List[NullBusinessArea]:
+    conn = None
+    my_cursor = None
+    business_areas: List[NullBusinessArea] = []
+
+    query = """
+        SELECT 
+            id,name
+        FROM 
+            business_areas 
+        WHERE industry_id is NULL AND industry_category_id is NULL;
+    """
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+       
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+
+        for (business_area_id, business_area_name) in results:
+            business_areas.append({
+                "business_area_id": business_area_id,
+                "business_area_name": business_area_name.replace('_', ' ') if business_area_name else None
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching null business areas: {str(e)}")
+        raise
+
+    return business_areas
+
+
+
+
+class NullUsecase(TypedDict):
+    case_id: str
+    name: str
+    description: str
+    business_area_name: str
+
+def find_usecases_null() -> List[NullUsecase]:
+    conn = None
+    my_cursor = None
+    null_usecases: List[NullUsecase] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+        SELECT 
+            c.id AS case_id,
+            c.name AS name,
+            c.description AS description,
+            ba.name AS business_area_name
+        FROM 
+            cases c
+        JOIN
+            business_areas ba ON c.business_area_id = ba.id
+        WHERE 
+            c.industry_id IS NULL AND c.industry_category_id IS NULL
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+    
+        for row in results:
+            null_usecases.append({
+                "case_id": row['case_id'],
+                "name": row['name'].replace('_', ' ') if row['name'] else None,
+                "description": row['description'],
+                "business_area_name": row['business_area_name'].replace('_', ' ') if row['business_area_name'] else None
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching null usecases: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return null_usecases

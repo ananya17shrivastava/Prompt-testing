@@ -246,7 +246,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/911165415896af9474b3e2e81e457c59
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -271,7 +271,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -296,7 +296,7 @@ Resources:
     Properties:
       Handler: lambda_kpi.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: Lambda for KPI processing
       Timeout: 100
       MemorySize: 180
@@ -321,7 +321,7 @@ Resources:
     Properties:
       Handler: lambda_usecase.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: Lambda for usecase processing
       Timeout: 100
       MemorySize: 180
@@ -346,7 +346,7 @@ Resources:
     Properties:
       Handler: lambda_business_areas.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: Lambda for business areas processing
       Timeout: 100
       MemorySize: 180
@@ -371,7 +371,7 @@ Resources:
     Properties:
       Handler: lambda_industry_category.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/7de36cfdfdc0e49a742c1811e153c8a4
+      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
       Description: Lambda for industry processing
       Timeout: 100
       MemorySize: 180

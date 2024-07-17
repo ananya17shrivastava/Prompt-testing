@@ -66,7 +66,7 @@ langfuse=connect_langfuse(secrets['LANGFUSE_SECRET_KEY'],secrets['LANGFUSE_PUBLI
 # ANTHROPIC_API_KEY=get_api_key("ANTHROPIC_API_KEY",conn)
 
 
-PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY']
+PERPLEXITY_API_KEY = secrets['PERPLEXITY_API_KEY_2']
 ANTHROPIC_API_KEY=secrets['ANTHROPIC_API_KEY']
 
 def extract_name_from_url(url):
@@ -122,11 +122,11 @@ def lambda_handler(event, context):
         if 'solutions' not in message_type.lower():
             continue
 
-        case_id=parsed_message.get('use_case_id', 'N/A')
-        usecase_name=parsed_message.get('use_case_name', 'N/A')
-        usecase_description=parsed_message.get('use_case_description', 'N/A')
-        industry_name=parsed_message.get('industry_name', 'N/A')
-        industry_category_name=parsed_message.get('industry_category_name', 'N/A')
+        case_id=parsed_message.get('use_case_id', None)
+        usecase_name=parsed_message.get('use_case_name',  None)
+        usecase_description=parsed_message.get('use_case_description',  None)
+        industry_name=parsed_message.get('industry_name',  None)
+        industry_category_name=parsed_message.get('industry_category_name', None)
         conn = create_db_connection(secrets["MYSQL_HOST"], secrets["MYSQL_USER"], secrets['MYSQL_PASSWORD'], secrets["MYSQL_DATABASE"])
         try:
             validation_id = check_db(case_id, conn)

@@ -8,8 +8,8 @@ class Prompt(TypedDict):
 
 def get_business_task_prompt(industry_name:str,industry_category_name:str,usecase_name:str,business_area_name:str,langfuse):
     prompt =fetch_prompt("business_task",langfuse)
-    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
-    prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
+    # prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_name}}", industry_name)
+    # prompt['system_prompt'] = prompt['system_prompt'].replace("{{industry_category_name}}", industry_category_name)
     prompt['system_prompt'] = prompt['system_prompt'].replace("{{usecase_name}}", usecase_name)
     prompt['system_prompt'] = prompt['system_prompt'].replace("{{business_area_name}}", business_area_name)
     return prompt

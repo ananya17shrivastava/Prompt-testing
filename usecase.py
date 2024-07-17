@@ -133,11 +133,11 @@ async def main():
 #     asyncio.run(main())
 
 if __name__ == "__main__":
-    for _ in range(1000):
-        try:
-            asyncio.run(main())
-            break
-        except Exception as e:
-            print(e)
-            print('Restarting...')
-            time.sleep(15)
+    # for _ in range(1000):
+    #     try:
+    asyncio.run(main())
+        #     break
+        # except Exception as e:
+        #     print(e)
+        #     print('Restarting...')
+        #     time.sleep(15)

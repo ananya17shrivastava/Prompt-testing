@@ -70,9 +70,6 @@ async def main():
                 "role": "user",
                 "content": user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="ai_solutions",system_prompt=system_prompt)
-            # print(description_result)
-
-            # process.exit(0)
 
             provider=LLM_PROVIDER_CLAUDE
             model = CLAUDE_HAIKU_3
@@ -153,7 +150,7 @@ async def main():
             with open(file_path, "w") as file:
                 file.write(json_result)
                 
-        i+=1
+        # i+=1
 
 
 
