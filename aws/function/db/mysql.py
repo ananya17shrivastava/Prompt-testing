@@ -34,6 +34,8 @@ def extract_name_from_url(url):
         name = domain
     return name
 
+
+
 def feed_response_to_sql(prompt_id: str, ai_machine_id: str, response_data: str,conn):
     my_cursor = None
     try:
@@ -95,7 +97,7 @@ def insert_industry_category(industry_id: str, name: str, product_services: str,
         my_cursor.close()
         # conn.close()
 
-def insert_solutions(case_id: str, name: str, url: str, conn):
+def insert_solutions(case_id: str, name: str, url: str,logo_url:str,is_url_valid, conn):
     my_cursor = None
     try:
         my_cursor = conn.cursor()
@@ -110,12 +112,15 @@ def insert_solutions(case_id: str, name: str, url: str, conn):
         if not existing_records:
             # Insert new record
             insert_query = """
-            INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated)
-            VALUES (%s, %s, NOW(), %s, %s, %s)
+            INSERT INTO solutions (id, name, created_at, organization_creator_id, documentation_url, ai_generated,logo_url,is_url_valid)
+            VALUES (%s, %s, NOW(), %s, %s, %s,%s,%s)
             """
             new_id = str(uuid.uuid4())
             organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
-            my_cursor.execute(insert_query, (new_id, name, organization_creator_id, url, 1))
+            
+            
+            my_cursor.execute(insert_query, (new_id, name, organization_creator_id, url, 1,logo_url,is_url_valid))
+
             conn.commit()
             print(f"New solution inserted with id: {new_id}")
             insert_in_case_to_solution(case_id, solution_id=new_id, conn=conn)
@@ -214,6 +219,34 @@ def insert_business_areas(name: str, description: str, industry_category_id: str
 
 
 
+def feed_logo_to_db(solution_id: str, url: str, documentation_url: str, conn):
+    my_cursor = None
+    try:
+        my_cursor = conn.cursor()
+        
+        update_query = """
+        UPDATE solutions
+        SET logo_url = %s, is_url_valid = 1, documentation_url = %s
+        WHERE id = %s
+        """
+        my_cursor.execute(update_query, (url, documentation_url, solution_id))
+        
+        conn.commit()
+        
+        rows_affected = my_cursor.rowcount
+        if rows_affected > 0:
+            print(f"Successfully updated logo_url, is_url_valid, and documentation_url for solution_id: {solution_id}")
+            return True
+        else:
+            print(f"No solution found with id: {solution_id}")
+            return False
+    except Exception as e:
+        print(f"Error updating logo_url, is_url_valid, and documentation_url: {str(e)}")
+        conn.rollback()  
+        return False
+    finally:
+        if my_cursor:
+            my_cursor.close()
 
 
 def insert_tasks(name: str, description: str, urls: list, case_id: str, conn):

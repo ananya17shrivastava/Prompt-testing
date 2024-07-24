@@ -58,7 +58,7 @@ try:
     queue_url = response['QueueUrl']
 
     entries = []
-    usecases = find_usecases_null()
+    usecases = find_usecases()
     print(len(usecases))
     # process.exit(0)
     # i=0
@@ -81,6 +81,10 @@ try:
             'MessageBody': message_body
         })
 
+        # if i==20:
+        #     break
+
+        # i+=1
 
         # Send the JSON message to the queue in batches of 10
         if len(entries) == 10:
@@ -115,4 +119,6 @@ try:
 except Exception as e:
     print(e)
     print(f"An error occurred: {str(e)}")
+
+
 

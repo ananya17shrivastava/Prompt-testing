@@ -26,6 +26,10 @@ Parameters:
     Type: String
     Description: Name of the industry SQS queue
     Default: llm-queue-industry
+  LogoQueueName:
+    Type: String
+    Description: Name of the logo SQS queue
+    Default: llm-queue-logo
 Resources:
   MyDLQ:
     Type: AWS::SQS::Queue
@@ -113,6 +117,21 @@ Resources:
     Properties:
       QueueName:
         Ref: IndustryQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+          - MyDLQ
+          - Arn
+        maxReceiveCount: 1
+  MyLogoQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName:
+        Ref: LogoQueueName
       VisibilityTimeout: 1000
       MessageRetentionPeriod: 345600
       DelaySeconds: 0
@@ -225,6 +244,23 @@ Resources:
             Fn::GetAtt:
             - MyIndustryQueue
             - Arn
+  LogoSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+      - Ref: MyLogoQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: cloudwatch.amazonaws.com
+          Action:
+          - sqs:SendMessage
+          Resource:
+            Fn::GetAtt:
+            - MyLogoQueue
+            - Arn
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -246,7 +282,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -271,7 +307,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -296,7 +332,7 @@ Resources:
     Properties:
       Handler: lambda_kpi.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: Lambda for KPI processing
       Timeout: 100
       MemorySize: 180
@@ -321,7 +357,7 @@ Resources:
     Properties:
       Handler: lambda_usecase.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: Lambda for usecase processing
       Timeout: 100
       MemorySize: 180
@@ -346,7 +382,7 @@ Resources:
     Properties:
       Handler: lambda_business_areas.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: Lambda for business areas processing
       Timeout: 100
       MemorySize: 180
@@ -371,8 +407,33 @@ Resources:
     Properties:
       Handler: lambda_industry_category.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/3bb13d6e2c7f7936bee30b5406f2f4db
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
       Description: Lambda for industry processing
+      Timeout: 100
+      MemorySize: 180
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AWSLambda_ReadOnlyAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME:
+            Ref: AWS::StackName
+          SECRET_NAME: llmapp
+  LogoLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_logo.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      Description: Lambda for logo processing
       Timeout: 100
       MemorySize: 180
       Role:
@@ -396,7 +457,7 @@ Resources:
     Properties:
       LayerName: blank-python-lib
       Description: Dependencies for the blank-python sample app.
-      ContentUri: s3://wapify-llm-stack/68ae853140fe8ffb66f8af075a087d75
+      ContentUri: s3://wapify-llm-stack/649edeb63a5f35cfff260e5b6a93f07c
       CompatibleRuntimes:
       - python3.8
   LambdaExecutionRole:
@@ -448,6 +509,9 @@ Resources:
               - Arn
             - Fn::GetAtt:
               - MyIndustryQueue
+              - Arn
+            - Fn::GetAtt:
+              - MyLogoQueue
               - Arn
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
@@ -514,6 +578,17 @@ Resources:
       SourceArn:
         Fn::GetAtt:
         - MyIndustryQueue
+        - Arn
+  LogoLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Ref: LogoLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+        - MyLogoQueue
         - Arn
   TasksLambdaSQSTrigger:
     Type: AWS::Lambda::EventSourceMapping
@@ -587,6 +662,18 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+  LogoLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn:
+        Fn::GetAtt:
+        - MyLogoQueue
+        - Arn
+      FunctionName:
+        Ref: LogoLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 10
   LambdaLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
@@ -622,6 +709,12 @@ Resources:
     Properties:
       LogGroupName:
         Fn::Sub: /aws/lambda/${IndustriesLambda}
+      RetentionInDays: 7
+  LogoLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName:
+        Fn::Sub: /aws/lambda/${LogoLambda}
       RetentionInDays: 7
 Outputs:
   QueueURL:
@@ -725,4 +818,20 @@ Outputs:
     Value:
       Fn::GetAtt:
       - IndustriesLambda
+      - Arn
+  LogoQueueURL:
+    Description: URL of the created Logo SQS Queue
+    Value:
+      Ref: MyLogoQueue
+  LogoQueueARN:
+    Description: ARN of the created Logo SQS Queue
+    Value:
+      Fn::GetAtt:
+      - MyLogoQueue
+      - Arn
+  LogoLambdaFunctionARN:
+    Description: ARN of the Logo Lambda Function
+    Value:
+      Fn::GetAtt:
+      - LogoLambda
       - Arn

@@ -82,6 +82,153 @@ def feed_response_to_sql(prompt_id: str, ai_machine_id: str, response_data: str)
 
 #     return industry_id
 
+
+from mysql.connector import Error
+import logging
+
+def get_business_description(id: str) -> str:
+    conn = None
+    cursor = None
+    description = None
+    try:
+        conn = create_db_connection()
+        cursor = conn.cursor(dictionary=True)
+        query = """
+            SELECT 
+            description as business_description
+            FROM business_areas
+            WHERE id=%s
+        """
+        cursor.execute(query, (id,))
+        result = cursor.fetchone()
+        if result:
+            description = result['business_description']
+        else:
+            logging.warning(f"No business description found for id: {id}")
+    
+    except Error as e:
+        logging.error(f"An error occurred while fetching business area description: {str(e)}")
+        raise
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
+
+    return description if description is not None else ""
+
+
+
+def get_usecase_description(id: str) -> str:
+    conn = None
+    cursor = None
+    description = None
+    try:
+        conn = create_db_connection()
+        cursor = conn.cursor(dictionary=True)
+        query = """
+            SELECT 
+            description as usecase_description
+            FROM cases
+            WHERE id=%s
+        """
+        cursor.execute(query, (id,))
+        result = cursor.fetchone()
+        if result:
+            description = result['usecase_description']
+        else:
+            logging.warning(f"No usecase description found for id: {id}")
+    
+    except Error as e:
+        logging.error(f"An error occurred while fetching usecase description: {str(e)}")
+        raise
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
+
+    return description if description is not None else ""
+
+
+
+def get_kpi_description(id: str) -> str:
+    conn = None
+    cursor = None
+    description = None
+    try:
+        conn = create_db_connection()
+        cursor = conn.cursor(dictionary=True)
+        query = """
+            SELECT 
+            description as kpi_description
+            FROM impact_kpis
+            WHERE id=%s
+        """
+        cursor.execute(query, (id,))
+        result = cursor.fetchone()
+        if result:
+            description = result['kpi_description']
+        else:
+            logging.warning(f"No kpi description found for id: {id}")
+    
+    except Error as e:
+        logging.error(f"An error occurred while fetching usecase description: {str(e)}")
+        raise
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
+
+    return description if description is not None else ""
+
+
+class Kpi(TypedDict):
+    id: str
+    kpi_name: str
+   
+
+def get_kpi()-> List[Kpi]:
+    conn = None
+    my_cursor = None
+    kpis: List[Kpi] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+            SELECT 
+                id as id,
+                name as kpi_name 
+            FROM 
+                impact_kpis
+            WHERE ai_generated=1
+            LIMIT 5000
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+
+        for row in results:
+            kpis.append({
+                "id": row['id'],
+                "kpi_name": row['kpi_name'].replace('_', ' ')
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching AI solutions: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return kpis
+
 class AISolution(TypedDict):
     solution_id: str
     solution_name: str
@@ -184,15 +331,13 @@ def find_usecases() -> List[Usecase]:
                 industries i ON c.industry_id = i.id
             JOIN 
                 business_areas ba ON c.business_area_id = ba.id
-            WHERE 
-                c.id='00010fdf-26d0-4953-bcba-3044faf2b770'
             ORDER BY 
                 i.name, ic.name, c.name;
         """
 
         my_cursor.execute(query)
         results = my_cursor.fetchall()
-        print(results)
+        # print(results)
 
         for row in results:
             usecases.append({
@@ -789,6 +934,122 @@ def fetch_prompt(prompt_name: str) -> Prompt:
         raise ValueError(f"Prompt not found for prompt_name {prompt_name}")
 
 
+class Opportunity(TypedDict):
+    usecase_id: str
+    usecase_name: str
+    industry_id: str
+    industry_category_id: str
+    business_area_id: str
+    task_id: str
+    solution_id: str
+
+def find_opportunities() -> List[Opportunity]:
+    conn = None
+    my_cursor = None
+    opportunities: List[Opportunity] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+            SELECT 
+                c.id AS usecase_id,
+                c.name AS usecase_name,
+                c.industry_id,
+                c.industry_category_id,
+                c.business_area_id,
+                MIN(t.id) AS task_id,
+                MIN(cts.solution_id) AS solution_id
+            FROM 
+                cases c
+            JOIN tasks t ON c.id = t.case_id
+            JOIN case_to_solution cts ON c.id = cts.case_id
+            WHERE 
+                c.industry_id = '744bec80-9eda-4319-bfd6-51d50d407c3e'
+            GROUP BY 
+                c.id, c.name, c.industry_id, c.industry_category_id, c.business_area_id
+        """
+        
+        my_cursor.execute(query)
+        
+        for row in my_cursor:
+            opportunity: Opportunity = {
+                'usecase_id': row['usecase_id'],
+                'usecase_name': row['usecase_name'],
+                'industry_id': row['industry_id'],
+                'industry_category_id': row['industry_category_id'],
+                'business_area_id': row['business_area_id'],
+                'task_id': row['task_id'],
+                'solution_id': row['solution_id']
+            }
+            opportunities.append(opportunity)
+
+    except Error as e:
+        print(f"An error occurred: {str(e)}")
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return opportunities
+
+
+def insert_opportunity(usecase_id: str, usecase_name: str, industry_id: str, 
+                       industry_category_id: str, business_area_id: str, 
+                       task_id: str, solution_id: str):
+    
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        new_id = str(uuid.uuid4())
+        organization_creator_id = 'user_2iNQ8GoBBlyG8NODy4DtUcAIXR2'
+        report_id = 'ef790c29-65ac-4e7c-b486-6d2524c0d430'  
+        is_draft = 0 
+        ai_generated = 1  
+
+        check_query = """
+            SELECT id FROM entries 
+            WHERE case_id = %s
+        """
+        my_cursor.execute(check_query, (usecase_id,))
+        existing_record = my_cursor.fetchall() 
+
+        if existing_record:
+            print(f"Opportunity already exists for usecase_id: {usecase_id}. Skipping insertion.")
+        else:
+            sql = """
+                INSERT INTO entries (
+                    id, case_id, name, task_id, winner_solution_id, 
+                    created_at, creator_organization_id, report_id, business_area_id, 
+                    industry_id, industry_category_id, is_draft, ai_generated
+                ) VALUES (
+                    %s, %s, %s, %s, %s, 
+                    CURRENT_TIMESTAMP, %s, %s, %s, 
+                    %s, %s, %s, %s
+                )
+                """
+            my_cursor.execute(sql, (
+                new_id, usecase_id, usecase_name, task_id, solution_id,
+                organization_creator_id, report_id, business_area_id, 
+                industry_id, industry_category_id, is_draft, ai_generated
+            ))
+            print(f"Opportunity inserted into the database with id {new_id}!")
+            conn.commit()
+    except Error as e:
+        print(f"An error occurred while inserting opportunity: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
 
 # class Prompt(TypedDict):
 #     user_prompt: str
@@ -835,6 +1096,171 @@ def fetch_prompt(prompt_name: str) -> Prompt:
 #     return prompts
 
 
+
+def find_all_business_areas() -> List[BusinessArea]:
+    conn = None
+    my_cursor = None
+    business_areas: List[BusinessArea] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        query = """
+            SELECT 
+                ba.id AS business_area_id,
+                ba.name AS business_area_name,
+                ic.id AS industry_category_id,
+                ic.name AS industry_category_name,
+                i.id AS industry_id,
+                i.name AS industry_name
+            FROM 
+                business_areas ba
+            LEFT JOIN 
+                industry_categories ic ON ba.industry_category_id = ic.id COLLATE utf8mb4_unicode_ci
+            JOIN 
+                industries i ON ba.industry_id = i.id COLLATE utf8mb4_unicode_ci
+            WHERE 
+                ba.industry_id IS NOT NULL 
+                AND ba.industry_category_id IS NOT NULL
+                AND ba.industry_id = '89d96d3e-baef-4bd4-8649-5249857c7964'
+            ORDER BY 
+                i.name, ic.name, ba.name;
+        """
+
+        my_cursor.execute(query)
+
+        results = my_cursor.fetchall()
+        print(results)
+
+        for (business_area_id, business_area_name, industry_category_id, 
+             industry_category_name, industry_id, industry_name) in results:
+            business_areas.append({
+                "business_area_id": business_area_id,
+                "business_area_name": business_area_name.replace('_', ' '),
+                "industry_category_id": industry_category_id,
+                "industry_category_name": industry_category_name,
+                "industry_id": industry_id,
+                "industry_name": industry_name.replace('_', ' ')
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching business areas: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return business_areas
+
+
+
+class Duplicatetokeep(TypedDict):
+    solution_id:str
+    solution_name:str
+
+def fetch_duplicate_to_keep() -> List[Duplicatetokeep]:
+    conn = None
+    my_cursor = None
+    duplicate_to_keep: List[Duplicatetokeep] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        query = """
+            SELECT s.id, s.name
+            FROM solutions s
+            INNER JOIN (
+                SELECT name, MIN(id) as min_id
+                FROM solutions
+                WHERE ai_generated = 1
+                GROUP BY name
+                HAVING COUNT(*) > 1
+            ) as duplicates ON s.name = duplicates.name AND s.id = duplicates.min_id
+            WHERE s.ai_generated = 1
+            ORDER BY s.name
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+
+        for row in results:
+            duplicate_to_keep.append({
+                "solution_id": str(row['id']),
+                "solution_name": row['name']
+            })
+
+    except Error as e:
+        print(f"An error occurred while fetching duplicate solutions to keep: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return duplicate_to_keep
+
+def fix_solutions(solution_id: str, solution_name: str) -> None:
+    conn = None
+    cursor = None
+    duplicate_count = 0
+    deleted_count = 0
+    updated_count = 0
+
+    try:
+        conn = create_db_connection()
+        cursor = conn.cursor(prepared=True)
+
+        query = """
+            SELECT s.id, s.name
+            FROM solutions s
+            WHERE s.id != %s AND s.name = %s AND s.ai_generated = 1
+        """
+        cursor.execute(query, (solution_id, solution_name))
+        duplicates = cursor.fetchall()
+        duplicate_count = len(duplicates)
+
+        update_query = """
+            UPDATE case_to_solution
+            SET solution_id = %s
+            WHERE solution_id = %s
+        """
+        
+        delete_query = """
+            DELETE FROM solutions
+            WHERE id = %s
+        """
+
+        for duplicate in duplicates:
+            cursor.execute(update_query, (solution_id, duplicate[0]))
+            updated_count += cursor.rowcount
+            print(f"Updated {cursor.rowcount} rows in case_to_solution table for duplicate {duplicate[0]}")
+
+            cursor.execute(delete_query, (duplicate[0],))
+            deleted_count += 1
+
+        conn.commit()
+
+        print(f"Found and processed {duplicate_count} duplicates for solution '{solution_name}'.")
+        print(f"Updated a total of {updated_count} rows in case_to_solution table.")
+        print(f"Deleted {deleted_count} duplicate solutions from solutions table.")
+
+    except Error as e:
+        print(f"An error occurred while fixing solutions: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
 
 
 

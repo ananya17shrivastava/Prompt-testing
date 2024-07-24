@@ -139,23 +139,19 @@ def find_usecases() -> List[Usecase]:
         JOIN
             business_areas ba ON c.business_area_id = ba.id
         WHERE 
-            i.id = 'be4f80ec-3678-4bf2-b6b6-f5e69301a95c'
+            i.id NOT IN (
+                'be4f80ec-3678-4bf2-b6b6-f5e69301a95c',
+                '744bec80-9eda-4319-bfd6-51d50d407c3e',
+                '6b278ac5-8a12-4ecc-a448-05beaec6ae9b',
+                '53a07e49-d224-4c67-ae1e-8d8410630b92'
+            )
         ORDER BY 
             i.name, ic.name, c.name;
     """
 
         my_cursor.execute(query)
         results = my_cursor.fetchall()
-        # print(results)
-#  message_dict = {
-#         "type": "solutions",
-#         "use_case_id":"00010fdf-26d0-4953-bcba-3044faf2b770",
-#         "use_case_name" : "AI-facilitated Focus Groups",
-#         "use_case_description" : "Employ AI-powered tools to facilitate and analyze focus groups, providing insights into employee perceptions and sentiments.",
-#         "industry_name" : "consulting_strategy",
-#         "industry_category_name" : "Crisis Management & Turnaround",
-#         "timestamp": "2023-05-24T10:30:00Z"
-#     }
+       
         for row in results:
             usecases.append({
                 "case_id": row['case_id'],
@@ -420,3 +416,48 @@ def find_usecases_null() -> List[NullUsecase]:
             conn.close()
 
     return null_usecases
+
+
+
+class AISolutionLogo(TypedDict):
+    solution_id: str
+    documentation_url: str
+
+def find_aisolutions_logo() -> List[AISolutionLogo]:
+    conn = None
+    my_cursor = None
+    ai_solutions: List[AISolutionLogo] = []
+    
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor(dictionary=True)
+        
+        query = """
+            SELECT 
+                id AS solution_id,
+                documentation_url
+            FROM
+                solutions
+            WHERE ai_generated = 1 AND logo_url is NULL;
+        """
+        
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+        
+        for row in results:
+            ai_solutions.append({
+                "solution_id": row['solution_id'],
+                "documentation_url": row['documentation_url']
+            })
+    
+    except Error as e:
+        print(f"An error occurred while fetching AI solutions: {str(e)}")
+        raise
+    
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+    
+    return ai_solutions

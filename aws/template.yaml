@@ -27,6 +27,10 @@ Parameters:
     Type: String
     Description: Name of the industry SQS queue
     Default: llm-queue-industry
+  LogoQueueName:
+    Type: String
+    Description: Name of the logo SQS queue
+    Default: llm-queue-logo
 
 Resources:
   MyDLQ:
@@ -99,6 +103,18 @@ Resources:
     Type: AWS::SQS::Queue
     Properties:
       QueueName: !Ref IndustryQueueName
+      VisibilityTimeout: 1000
+      MessageRetentionPeriod: 345600 # 4 days in seconds
+      DelaySeconds: 0
+      ReceiveMessageWaitTimeSeconds: 0
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt MyDLQ.Arn
+        maxReceiveCount: 1
+
+  MyLogoQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Ref LogoQueueName
       VisibilityTimeout: 1000
       MessageRetentionPeriod: 345600 # 4 days in seconds
       DelaySeconds: 0
@@ -196,6 +212,21 @@ Resources:
             Action:
               - "sqs:SendMessage"
             Resource: !GetAtt MyIndustryQueue.Arn
+
+  LogoSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref MyLogoQueue
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: "cloudwatch.amazonaws.com"
+            Action:
+              - "sqs:SendMessage"
+            Resource: !GetAtt MyLogoQueue.Arn
 
   SQSLogGroup:
     Type: AWS::Logs::LogGroup
@@ -344,6 +375,28 @@ Resources:
           AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
           SECRET_NAME: llmapp
 
+  LogoLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_logo.lambda_handler
+      Runtime: python3.8
+      CodeUri: function/.
+      Description: Lambda for logo processing
+      Timeout: 100
+      MemorySize: 180
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+        - !Ref libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
+          SECRET_NAME: llmapp
+
   libs:
     Type: AWS::Serverless::LayerVersion
     Properties:
@@ -390,6 +443,7 @@ Resources:
                   - !GetAtt MyUsecaseQueue.Arn
                   - !GetAtt MyBusinessAreasQueue.Arn
                   - !GetAtt MyIndustryQueue.Arn
+                  - !GetAtt MyLogoQueue.Arn
 
   LambdaSQSPermission:
     Type: AWS::Lambda::Permission
@@ -438,6 +492,14 @@ Resources:
       Action: lambda:InvokeFunction
       Principal: sqs.amazonaws.com
       SourceArn: !GetAtt MyIndustryQueue.Arn
+
+  LogoLambdaSQSPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref LogoLambda
+      Action: lambda:InvokeFunction
+      Principal: sqs.amazonaws.com
+      SourceArn: !GetAtt MyLogoQueue.Arn
 
 
   TasksLambdaSQSTrigger:
@@ -493,6 +555,15 @@ Resources:
       BatchSize: 1
       ScalingConfig:
         MaximumConcurrency: 5
+  
+  LogoLambdaSQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      EventSourceArn: !GetAtt MyLogoQueue.Arn
+      FunctionName: !Ref LogoLambda
+      BatchSize: 1
+      ScalingConfig:
+        MaximumConcurrency: 10
 
 
         
@@ -530,6 +601,12 @@ Resources:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName: !Sub "/aws/lambda/${IndustriesLambda}"
+      RetentionInDays: 7
+
+  LogoLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${LogoLambda}"
       RetentionInDays: 7
 
 
@@ -591,3 +668,12 @@ Outputs:
   IndustriesLambdaFunctionARN:
     Description: ARN of the Industries Lambda Function
     Value: !GetAtt IndustriesLambda.Arn
+  LogoQueueURL:
+    Description: URL of the created Logo SQS Queue
+    Value: !Ref MyLogoQueue
+  LogoQueueARN:
+    Description: ARN of the created Logo SQS Queue
+    Value: !GetAtt MyLogoQueue.Arn
+  LogoLambdaFunctionARN:
+    Description: ARN of the Logo Lambda Function
+    Value: !GetAtt LogoLambda.Arn

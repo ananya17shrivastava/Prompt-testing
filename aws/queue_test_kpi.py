@@ -69,3 +69,20 @@ try:
 except Exception as e:
     print(e)
     print(f"An error occurred: {str(e)}")
+
+
+
+
+
+
+# id->unique_id
+# name-> name of usecase
+# case_id-> usecase id
+# task_id-> yet to confirm
+# winner_solution_id-> id of first solution
+# creator_organization_id->user_2iNQ8GoBBlyG8NODy4DtUcAIXR2
+# business_area_id-> 
+# industry_id->
+# industry_category_id->
+# opportunity_id->yet to confirm
+
