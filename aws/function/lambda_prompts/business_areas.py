@@ -1,5 +1,7 @@
 from db.fetchprompts import fetch_prompt
-from typing import TypedDict
+from typing import TypedDict,List, Dict
+import xml.etree.ElementTree as ET
+
 
 
 
@@ -7,8 +9,8 @@ class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-def get_business_prompt(industry_name:str,industry_category_name:str)->Prompt:
-    prompts=fetch_prompt("business_areas")
+def get_business_prompt(industry_name:str,industry_category_name:str,langfuse)->Prompt:
+    prompts=fetch_prompt("business_areas",langfuse)
     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_category_name}}",industry_category_name)
     prompts['system_prompt']=prompts['system_prompt'].replace("{{industry_name}}",industry_name)
     return prompts
@@ -41,6 +43,18 @@ def get_xmlprompt(test_result:str)->str:
     CRITICAL: Do not use any unescaped ampersand (&amp;) character in the file or any other character that makes parsing of xml document difficult"""
 
     return prompt
+
+def business_parser(llm_response: str) -> List[Dict[str, str]]:
+    root = ET.fromstring(llm_response)
+    result = []
+
+    for category in root.findall("BUSINESS_AREA_NAME"):
+        name = category.find('NAME').text
+        value = category.find('DESCRIPTION').text
+        # print(f"Name: {name}, Value: {value}")
+        result.append({"name": name, "description": value})
+
+    return result
 
 
 

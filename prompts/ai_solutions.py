@@ -6,7 +6,7 @@ class Prompt(TypedDict):
     user_prompt: str
     system_prompt: str
 
-async def get_aisolutions_prompt(usecase_name: str, usecase_description: str, industry_name: str, industry_category_name: str):
+def get_aisolutions_prompt(usecase_name: str, usecase_description: str, industry_name: str, industry_category_name: str):
     system_prompt = f"""You are an Expert Software Analyst tasked with identifying what are the best software solutions for the following use case:
     {usecase_name}
     {usecase_description}
@@ -59,7 +59,7 @@ async def get_aisolutions_prompt(usecase_name: str, usecase_description: str, in
     return prompts
 
 
-async def get_competitor_prompt(description_result:str):
+def get_competitor_prompt(description_result:str):
     system_prompt=f"""Please, provide a list of competitors software solutions to {description_result}"""
 
     user_prompt=f"""

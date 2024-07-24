@@ -21,7 +21,7 @@ async def main():
         provider = LLM_PROVIDER_CLAUDE
         file_path = f"dump/industry_business/{provider}/{industry_name.replace(' ', '_')}.json"
         if not Path(file_path).is_file():
-            prompts=await get_industry_business_area(industry_name)
+            prompts=get_industry_business_area(industry_name)
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
 

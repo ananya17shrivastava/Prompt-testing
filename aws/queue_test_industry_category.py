@@ -1,13 +1,13 @@
 import boto3
 import json
-from queue_test_solutions import find_usecases
+from queue_test_solutions import find_industries
 import uuid
 
 # Create an SQS client
 sqs = boto3.client('sqs')
 
 # Specify the queue name
-queue_name = 'llm-queue-tasks'
+queue_name = 'llm-queue-industry'
 
 try:
     # Get the queue URL
@@ -15,33 +15,25 @@ try:
     queue_url = response['QueueUrl']
 
     entries = []
-    usecases = find_usecases()
-    print(len(usecases))
-    # process.exit(0)
-    # i=0
-    for usecase in usecases:
-        # Create a JSON message
-        message_dict = {
-            "type": "tasks",
-            "use_case_id": usecase.get("case_id", None),
-            "use_case_name": usecase.get("name", None),
-            "business_area_name": usecase.get("business_area_name",None),
-            "industry_name": usecase.get("industry_name", None),
-            "industry_category_name": usecase.get("industry_category_name", None)
-        }
+    industries = find_industries()
+    print(len(industries))
 
-        # Convert the dictionary to a JSON string
+    for industry in industries:
+        
+        message_dict = {
+            "type": "industry",
+
+            "industry_id": industry["industry_id"],
+            "industry_name": industry["industry_name"],
+        }
         message_body = json.dumps(message_dict)
 
         entries.append({
-            'Id': str(uuid.uuid4()),  # Generate a unique ID
+            'Id': str(uuid.uuid4()),
             'MessageBody': message_body
         })
-        # if i==1:
-        #     break
-        # i+=1
 
-        # Send the JSON message to the queue in batches of 10
+
         if len(entries) == 10:
             response = sqs.send_message_batch(
                 QueueUrl=queue_url,
@@ -55,9 +47,9 @@ try:
                 for failure in response['Failed']:
                     print(f"Failed to send message. Code: {failure['Code']}, Message: {failure['Message']}")
 
-            entries = []  # Reset entries for the next batch
+            entries = []  
 
-    # Send any remaining messages
+ 
     if entries:
         response = sqs.send_message_batch(
             QueueUrl=queue_url,

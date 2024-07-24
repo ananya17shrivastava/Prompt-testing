@@ -61,26 +61,25 @@ async def main():
             elif (provider == LLM_PROVIDER_PERPLEXITY):
                 model = PERPLEXITY_MODEL
 
-            prompts=await get_aisolutions_prompt(usecase_name,usecase_description,industry_name,industry_category_name)
+            prompts=get_aisolutions_prompt(usecase_name,usecase_description,industry_name,industry_category_name)
 
             user_prompt = prompts['user_prompt']
             system_prompt = prompts['system_prompt']
-            print(system_prompt)
-            description_result = await invoke_llm(provider, model, [{
+            # print(system_prompt)
+            description_result = invoke_llm(provider, model, [{
                 "role": "user",
                 "content": user_prompt,
-            }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=system_prompt)
-            print(description_result)
+            }], max_tokens=4096, temperature=.2,prompt_id="ai_solutions",system_prompt=system_prompt)
 
             provider=LLM_PROVIDER_CLAUDE
             model = CLAUDE_HAIKU_3
 
             xml_prompt=get_xmlprompt(description_result)
-            result= await invoke_llm(provider, model, [{
+            result= invoke_llm(provider, model, [{
                     "role": "user",
                     "content": xml_prompt,
             }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
-
+            # process.exit(0)
             result = result.replace("&", "&amp;")
             json_result = aisolutions_parser(result)
             json_result = json.dumps(json_result, indent='\t')
@@ -89,11 +88,11 @@ async def main():
             provider=LLM_PROVIDER_PERPLEXITY
             model = PERPLEXITY_MODEL
 
-            competitor_prompt=await get_competitor_prompt(description_result)
+            competitor_prompt=get_competitor_prompt(description_result)
             competitor_user_prompt=competitor_prompt['user_prompt']
             competitor_system_prompt=competitor_prompt['system_prompt']
 
-            competitor_result=await invoke_llm(provider, model, [{
+            competitor_result=invoke_llm(provider, model, [{
                 "role": "user",
                 "content": competitor_user_prompt,
             }], max_tokens=4096, temperature=.2,prompt_id="business_area",system_prompt=competitor_system_prompt)
@@ -105,7 +104,7 @@ async def main():
             model = CLAUDE_HAIKU_3
 
             competitor_xml_prompt=get_xmlprompt(competitor_result)
-            result2= await invoke_llm(provider, model, [{
+            result2= invoke_llm(provider, model, [{
                     "role": "user",
                     "content": competitor_xml_prompt,
             }], max_tokens=4096, temperature=0,prompt_id="ai_solutions")
@@ -120,21 +119,18 @@ async def main():
             solutions = json.loads(json_result)
             competitors = json.loads(competitor_json_result)
 
-            # Combine the lists
             combined_results = []
 
-            # Iterate over solutions and append to combined_results
             for solution in solutions:
                 combined_results.append(solution)
 
-            # Iterate over competitors and append to combined_results
             for competitor in competitors:
                 combined_results.append(competitor)
+            
+            combined_json = json.dumps(combined_results, indent='\t')
 
-            # Convert the combined list to a JSON string
-            # combined_json = json.dumps(combined_results, indent='\t')
-            # print("combined_result ::")
-            # print(combined_results)
+            print(combined_json)
+            # process.exit(0)
 
             for solution in combined_results:
                 url=solution['urls']
@@ -145,7 +141,7 @@ async def main():
             model = PERPLEXITY_MODEL
 
             combined_json = json.dumps(combined_results, indent='\t')
-            print(combined_json)
+            
 
             if not os.path.exists(f'dump/solutions/{provider}/{industry_name.replace(' ', '_').replace('/', '_')}/{industry_category_name.replace(' ', '_').replace('/', '_')}'):
                     os.makedirs(f'dump/solutions/{provider}/{industry_name.replace(' ', '_').replace('/', '_')}/{industry_category_name.replace(' ', '_').replace('/', '_')}')
@@ -154,7 +150,7 @@ async def main():
             with open(file_path, "w") as file:
                 file.write(json_result)
                 
-        i+=1
+        # i+=1
 
 
 
@@ -166,11 +162,11 @@ async def main():
 #     asyncio.run(main())
 
 if __name__ == "__main__":
-    for i in range(1000):
-        try:
-            asyncio.run(main())
-            break
-        except Exception as e:
-            print(e)
-            print(f"""Restarting...{i}""")
-            time.sleep(15)
+    # for i in range(1000):
+    #     try:
+    asyncio.run(main())
+        #     break
+        # except Exception as e:
+        #     print(e)
+        #     print(f"""Restarting...{i}""")
+        #     time.sleep(15)
