@@ -1,13 +1,13 @@
 from typing import List, TypedDict
-from db.mysql import find_usecases
+from db.mysql import find_pinecone_usecases
 from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone, ServerlessSpec
 import os
 
 
 # Fetch usecases
-usecases= find_usecases()
-# print(len(usecases))
+usecases = find_pinecone_usecases()
+print(len(usecases))
 
 # Initialize the embedding model
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -44,13 +44,13 @@ for i in range(0, len(usecases), batch_size):
     batch = usecases[i:i+batch_size]
     
     # Generate embeddings for this batch
-    embeddings = [model.encode(usecase['name']) for usecase in batch]
+    embeddings = [model.encode(usecase['usecase_name']) for usecase in batch]
     
     # Prepare vectors for this batch
     vectors_to_upsert = [
         (usecase['case_id'], 
          embedding.tolist(), 
-         {"usecase_name": usecase['name']})
+         {"usecase_name": usecase['usecase_name'], "entry_id": usecase['entry_id']})
         for usecase, embedding in zip(batch, embeddings)
     ]
     

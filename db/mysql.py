@@ -27,6 +27,90 @@ def create_db_connection():
     
 
 
+class Opportunity(TypedDict):
+    opp_id: str
+    case_id: str
+    case_name: str
+    case_description: str
+    business_area_id: str
+    impacted_kpis: List[str]
+
+def get_opportunity(entry_id: str) -> Opportunity | None:
+    conn = None
+    my_cursor = None
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+
+        # SQL query to fetch the required fields from entries table
+        entry_query = """
+        SELECT id, case_id, winner_solution_id, business_area_id
+        FROM entries
+        WHERE id = %s
+        """
+        
+        my_cursor.execute(entry_query, (entry_id,))
+        entry_result = my_cursor.fetchone()
+
+        if entry_result:
+            opp_id = entry_result[0]
+            case_id = entry_result[1]
+            winner_solution_id = entry_result[2]
+            business_area_id = entry_result[3]
+
+            case_query = """
+            SELECT name, description
+            FROM cases
+            WHERE id = %s
+            """
+
+            my_cursor.execute(case_query, (case_id,))
+            case_result = my_cursor.fetchone()
+
+            if case_result:
+                case_name = case_result[0]
+                case_description = case_result[1]
+            else:
+                case_name = None
+                case_description = None
+
+            kpi_query = """
+            SELECT name
+            FROM impact_kpis
+            WHERE solution_id = %s
+            LIMIT 3
+            """
+
+            my_cursor.execute(kpi_query, (winner_solution_id,))
+            kpi_results = my_cursor.fetchall()
+
+            impacted_kpis = [kpi[0] for kpi in kpi_results]
+
+            opportunity: Opportunity = {
+                "opp_id": opp_id,
+                "case_id": case_id,
+                "case_name": case_name,
+                "case_description": case_description,
+                "business_area_id": business_area_id,
+                "impacted_kpis": impacted_kpis
+            }
+
+            return opportunity
+        else:
+            return None
+
+    except Error as e:
+        print(f"An error occurred while fetching details: {str(e)}")
+        if conn:
+            conn.rollback()
+        raise
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+
 
 
 def feed_response_to_sql(prompt_id: str, ai_machine_id: str, response_data: str):
@@ -187,38 +271,43 @@ def get_kpi_description(id: str) -> str:
 class Kpi(TypedDict):
     id: str
     kpi_name: str
-   
+    entry_id: str
 
-def get_kpi()-> List[Kpi]:
+def get_kpi() -> List[Kpi]:
     conn = None
     my_cursor = None
     kpis: List[Kpi] = []
 
     try:
         conn = create_db_connection()
-        my_cursor = conn.cursor(dictionary=True)
+        my_cursor = conn.cursor()
         
         query = """
-            SELECT 
-                id as id,
-                name as kpi_name 
+            SELECT DISTINCT
+                ik.id as id,
+                ik.name as kpi_name,
+                e.id as entry_id
             FROM 
-                impact_kpis
-            WHERE ai_generated=1
-            LIMIT 5000
+                impact_kpis ik
+            JOIN
+                entries e ON ik.solution_id = e.winner_solution_id
+            WHERE 
+                ik.name IS NOT NULL
+                AND ik.name != '';
         """
 
         my_cursor.execute(query)
         results = my_cursor.fetchall()
 
         for row in results:
-            kpis.append({
-                "id": row['id'],
-                "kpi_name": row['kpi_name'].replace('_', ' ')
-            })
+            kpis.append(Kpi(
+                id=row['id'],
+                kpi_name=row['kpi_name'].replace('_', ' '),
+                entry_id=row['entry_id']
+            ))
 
     except Error as e:
-        print(f"An error occurred while fetching AI solutions: {str(e)}")
+        print(f"An error occurred while fetching KPIs: {str(e)}")
         raise
 
     finally:
@@ -348,6 +437,60 @@ def find_usecases() -> List[Usecase]:
                 "industry_name": row['industry_name'].replace('_', ' '),
                 "business_area_name": row['business_area_name'].replace('_', ' ')
             })
+
+    except Error as e:
+        print(f"An error occurred while fetching usecases: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return usecases
+
+
+class PineconeUsecase(TypedDict):
+    case_id: str
+    usecase_name: str
+    entry_id:str
+
+def find_pinecone_usecases() -> List[PineconeUsecase]:
+    conn = None
+    my_cursor = None
+    usecases: List[PineconeUsecase] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        query = """
+            SELECT DISTINCT
+                c.id AS case_id,
+                c.name AS usecase_name,
+                e.id as entry_id
+            FROM 
+                entries e
+            JOIN 
+                cases c ON e.case_id = c.id
+            WHERE
+                c.name IS NOT NULL
+                AND c.name != ''
+                AND e.ai_generated=1
+            ORDER BY 
+                c.name;
+        """
+
+        my_cursor.execute(query)
+        results = my_cursor.fetchall()
+
+        for case_id, usecase_name,entry_id in results:
+            usecases.append(PineconeUsecase(
+                case_id=case_id,
+                usecase_name=usecase_name.replace('_', ' '),
+                entry_id=entry_id
+            ))
 
     except Error as e:
         print(f"An error occurred while fetching usecases: {str(e)}")
@@ -684,6 +827,61 @@ def find_business_areas() -> List[BusinessArea]:
 
     return business_areas
 
+
+class PineconeBusinesArea(TypedDict):
+    business_area_id: str
+    business_area_name: str
+    entry_id:str
+
+def find_pinecone_business_areas() -> List[PineconeBusinesArea]:
+    conn = None
+    my_cursor = None
+    business_areas: List[PineconeBusinesArea] = []
+
+    try:
+        conn = create_db_connection()
+        my_cursor = conn.cursor()
+        
+        query = """
+            SELECT DISTINCT
+                ba.id AS business_area_id,
+                ba.name AS business_area_name,
+                e.id as entry_id
+            FROM 
+                entries e
+            JOIN 
+                business_areas ba ON e.business_area_id = ba.id
+            WHERE
+                ba.name IS NOT NULL
+                AND ba.name != ''
+                AND e.ai_generated=1
+            ORDER BY 
+                ba.name;
+        """
+
+        my_cursor.execute(query)
+
+        results = my_cursor.fetchall()
+
+        for business_area_id, business_area_name, entry_id in results:
+            business_areas.append(PineconeBusinesArea(
+                business_area_id=business_area_id,
+                business_area_name=business_area_name.replace('_', ' '),
+                entry_id=entry_id
+            ))
+
+    except Error as e:
+        print(f"An error occurred while fetching business areas: {str(e)}")
+        raise
+
+    finally:
+        if my_cursor:
+            my_cursor.close()
+        if conn:
+            conn.close()
+
+    return business_areas
+
 def insert_business_areas(name: str, description: str, industry_category_id: str, industry_id: str):
     conn = None
     my_cursor = None
@@ -943,14 +1141,23 @@ class Opportunity(TypedDict):
     task_id: str
     solution_id: str
 
+class Opportunity(TypedDict):
+    usecase_id: str
+    usecase_name: str
+    industry_id: str
+    industry_category_id: str
+    business_area_id: str
+    task_id: str
+    solution_id: str
+
 def find_opportunities() -> List[Opportunity]:
     conn = None
-    my_cursor = None
+    cursor = None
     opportunities: List[Opportunity] = []
 
     try:
         conn = create_db_connection()
-        my_cursor = conn.cursor(dictionary=True)
+        cursor = conn.cursor(dictionary=True)
         
         query = """
             SELECT 
@@ -960,20 +1167,23 @@ def find_opportunities() -> List[Opportunity]:
                 c.industry_category_id,
                 c.business_area_id,
                 MIN(t.id) AS task_id,
-                MIN(cts.solution_id) AS solution_id
+                MIN(cts.solution_id) AS solution_id,
+                (SELECT COUNT(*) FROM impact_kpis WHERE solution_id = MIN(cts.solution_id)) AS kpi_count
             FROM 
                 cases c
             JOIN tasks t ON c.id = t.case_id
             JOIN case_to_solution cts ON c.id = cts.case_id
             WHERE 
-                c.industry_id = '744bec80-9eda-4319-bfd6-51d50d407c3e'
+                c.industry_id = 'be4f80ec-3678-4bf2-b6b6-f5e69301a95c'
             GROUP BY 
                 c.id, c.name, c.industry_id, c.industry_category_id, c.business_area_id
+            HAVING 
+                kpi_count > 0
         """
         
-        my_cursor.execute(query)
+        cursor.execute(query)
         
-        for row in my_cursor:
+        for row in cursor:
             opportunity: Opportunity = {
                 'usecase_id': row['usecase_id'],
                 'usecase_name': row['usecase_name'],
@@ -988,8 +1198,8 @@ def find_opportunities() -> List[Opportunity]:
     except Error as e:
         print(f"An error occurred: {str(e)}")
     finally:
-        if my_cursor:
-            my_cursor.close()
+        if cursor:
+            cursor.close()
         if conn:
             conn.close()
 

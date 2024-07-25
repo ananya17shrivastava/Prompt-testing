@@ -29,7 +29,7 @@ def call_llm_claude(messages: List[Dict[str, str]], model: str, max_tokens: int,
         messages=messages,
         temperature=temperature
     )
-    print(response)
+    # print(response)
 
     response_dict = {
         "id": response.id,
@@ -52,7 +52,7 @@ def call_llm_claude(messages: List[Dict[str, str]], model: str, max_tokens: int,
     
     # Convert the dictionary to a JSON string
     response_data = json.dumps(response_dict, indent='\t')
-    print(response_data)
+    # print(response_data)
     feed_response_to_sql(prompt_id,ai_machine_id,response_data)
     text_block = response.content[0]
     xml_string = text_block.text

@@ -396,6 +396,28 @@ Resources:
         Variables:
           AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
           SECRET_NAME: llmapp
+  PineconeLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_filter_data.lambda_handler
+      Runtime: python3.8
+      CodeUri: function/.
+      Description: Lambda for Pinecone data filtering
+      Timeout: 100
+      MemorySize: 180
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+        - !Ref libs
+      Environment:
+        Variables:
+          AWS_CLOUDFORMATION_STACK_NAME: !Ref AWS::StackName
+          SECRET_NAME: llmapp
+  
 
   libs:
     Type: AWS::Serverless::LayerVersion
@@ -608,6 +630,12 @@ Resources:
     Properties:
       LogGroupName: !Sub "/aws/lambda/${LogoLambda}"
       RetentionInDays: 7
+  PineconeLambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${PineconeLambda}"
+      RetentionInDays: 7
+
 
 
 Outputs:
@@ -677,3 +705,6 @@ Outputs:
   LogoLambdaFunctionARN:
     Description: ARN of the Logo Lambda Function
     Value: !GetAtt LogoLambda.Arn
+  PineconeLambdaFunctionARN:
+    Description: ARN of the Pinecone Lambda Function
+    Value: !GetAtt PineconeLambda.Arn
