@@ -24,7 +24,7 @@ def call_openai(messages: List[Dict[str, str]], model: str = GPT4_MODEL, max_tok
         temperature=temperature
     )
     # print(response.choices[0].message.content)
-    print("GPT PROMPT !")
-    print(prompt_id)
+    # print("GPT PROMPT !")
+    # print(prompt_id)
     # feed_data_to_mongodb(prompt,response,model=GPT4_MODEL)
     return response.choices[0].message.content.strip()

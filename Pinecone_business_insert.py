@@ -1,10 +1,11 @@
-from db.mysql import find_business_areas
+from db.mysql import find_pinecone_business_areas
 from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone, ServerlessSpec
 import os
 
 # Fetch business areas
-business_areas = find_business_areas()
+business_areas = find_pinecone_business_areas()
+print(len(business_areas))
 
 # Initialize the embedding model
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -47,7 +48,7 @@ for i in range(0, len(business_areas), batch_size):
     vectors_to_upsert = [
         (area['business_area_id'], 
          embedding.tolist(), 
-         {"business_area_name": area['business_area_name']})
+         {"business_area_name": area['business_area_name'], "entry_id": area['entry_id']})
         for area, embedding in zip(batch, embeddings)
     ]
     

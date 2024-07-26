@@ -282,7 +282,7 @@ Resources:
     Properties:
       Handler: lambda_tasks.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for tasks
       Timeout: 100
       MemorySize: 180
@@ -307,7 +307,7 @@ Resources:
     Properties:
       Handler: lambda_solutions.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: lambda for solutions
       Timeout: 100
       MemorySize: 180
@@ -332,7 +332,7 @@ Resources:
     Properties:
       Handler: lambda_kpi.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for KPI processing
       Timeout: 100
       MemorySize: 180
@@ -357,7 +357,7 @@ Resources:
     Properties:
       Handler: lambda_usecase.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for usecase processing
       Timeout: 100
       MemorySize: 180
@@ -382,7 +382,7 @@ Resources:
     Properties:
       Handler: lambda_business_areas.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for business areas processing
       Timeout: 100
       MemorySize: 180
@@ -407,7 +407,7 @@ Resources:
     Properties:
       Handler: lambda_industry_category.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for industry processing
       Timeout: 100
       MemorySize: 180
@@ -432,7 +432,7 @@ Resources:
     Properties:
       Handler: lambda_logo.lambda_handler
       Runtime: python3.8
-      CodeUri: s3://wapify-llm-stack/ea19000b7ffa2e00bb71cebff7a72b0f
+      CodeUri: s3://wapify-llm-stack/55796e8e65ebe70317b87db1d2b77cec
       Description: Lambda for logo processing
       Timeout: 100
       MemorySize: 180

@@ -12,7 +12,7 @@ async def main():
     i=0
     total_len=len(opportunities)
     print(total_len)
-    process.exit(0)
+    # process.exit(0)
     for opportunity in opportunities:
         print(f"Inserting data {i+1} of {total_len}")
 

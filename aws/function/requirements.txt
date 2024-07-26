@@ -7,3 +7,6 @@ anthropic
 requests
 beautifulsoup4
 tldextract
+sentence-transformers
+pinecone-client
+pinecone
