@@ -13,6 +13,7 @@ from prompts.industry_category import business_parser
 def read_json_file(file_path):
     try:
         with open(file_path, 'r') as file:
+            
             data = json.load(file)
             return data
     except FileNotFoundError:
